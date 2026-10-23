@@ -1,0 +1,240 @@
+{
+  "language": "fr",
+  "copy": {
+    "introduction": "Introduction",
+    "overview": "Vue d’ensemble",
+    "quick_start": "Démarrage rapide",
+    "menu": "Sommaire",
+    "case": "Cas",
+    "category": "Catégorie",
+    "type": "Type",
+    "date": "Date",
+    "by": "par",
+    "video": "Voir la vidéo originale",
+    "comparison_video": "Voir la comparaison originale des modèles",
+    "image": "Ouvrir l’image originale",
+    "related": "Dépôts associés",
+    "acknowledge": "Remerciements",
+    "categories": {
+      "mechanical": "Objets mécaniques et 3D",
+      "svg": "SVG et graphismes interactifs",
+      "games": "Jeux et scènes animées",
+      "comparison": "Comparaison de modèles",
+      "worlds": "Mondes et paysages",
+      "web": "Interfaces web"
+    },
+    "intro": "Démonstrations et évaluations informelles attribuées par leurs auteurs à Kimi K3.1, dont le modèle anonyme Kibitz.",
+    "purpose": "Explorez des tâches concrètes, des résultats visibles et des limites pratiques à partir des sources originales.",
+    "stats": "40 cas indépendants répartis en 6 catégories. Republications et comparaisons d’une même œuvre sont regroupées.",
+    "evidence": "La correspondance entre Kibitz et Kimi K3.1 n’est pas confirmée. Noms, durées, coûts et jugements viennent des sources. Les enregistrements ne prouvent ni code exécutable, ni interaction complète, ni réussite reproductible.",
+    "steps": "1. Choisissez une tâche dans le sommaire.\n2. Ouvrez sa vidéo ou son image, puis suivez le titre vers la publication originale.\n3. Comparez le résultat visible à la tâche et à ses limites.",
+    "thanks": "Merci aux personnes qui ont publié ces démonstrations :",
+    "corrections": "L’attribution suit les sources liées et peut nécessiter des corrections. Ouvrez une issue pour signaler un crédit manquant, un doublon, une affirmation incorrecte ou demander un retrait. Les médias tiers restent la propriété de leurs ayants droit.",
+    "collection": "Cas d’usage",
+    "official": "Ouvrir le site officiel de Kimi",
+    "additional": "Autres vues et comparaisons :",
+    "open_related": "Ouvrir le dépôt de cas d’usage de {model}"
+  },
+  "cases": [
+    [
+      "Comparaison d’imprimantes 3D",
+      "Comparez une scène d’imprimante mécanique dans deux vidéos.",
+      "L’auteur montre une imprimante à cadre vert puis la compare à Carbon. Le classement est subjectif."
+    ],
+    [
+      "Scène mécanique Eden Ark",
+      "Examinez la géométrie et la présentation de scènes mécaniques.",
+      "La vidéo désigne Kibitz comme Kimi K3.1 présumé et le compare à Kalmia. L’auteur préfère Kibitz."
+    ],
+    [
+      "Montre détaillée",
+      "Examinez matériaux, éclairage et détails du cadran.",
+      "La vidéo montre une montre détaillée présentée comme un résultat Three.js. Aucune comparaison contrôlée n’est fournie."
+    ],
+    [
+      "Configurateur BMW M5",
+      "Explorez un prototype avec couleurs, portes et caméras.",
+      "L’auteur annonce couleurs, portes, feux, vues et régime moteur obtenus avec une seule consigne ; il estime Kibitz probablement Kimi K3.1."
+    ],
+    [
+      "Roue solaire de Konark",
+      "Distinguez les détails décoratifs de la fonction horaire.",
+      "L’auteur préfère les sculptures de Gemini et la lecture horaire d’Opus ; il juge la roue de Kimi plus simple. Ce sont ses appréciations."
+    ],
+    [
+      "Manette Xbox interactive",
+      "Examinez le prototype de manette et ses commandes à l’écran.",
+      "L’auteur attribue la manette de style Xbox à Kibitz sur Arena. La vidéo montre la manette et l’interface."
+    ],
+    [
+      "Train à vapeur interactif",
+      "Explorez vitesse, vues éclatées et représentation filaire.",
+      "La source annonce curseur de vitesse, assemblage, filaire et statistiques. Une republication reprend la même vidéo."
+    ],
+    [
+      "Hélicoptère : montage et vol",
+      "Comparez décollage, atterrissage et vues éclatées.",
+      "Les sources annoncent environ 15–20 minutes par modèle. L’auteur de la comparaison trouve Qwen plus réaliste ; les deux résultats restent visibles."
+    ],
+    [
+      "Phénix chimérique",
+      "Examinez une créature élaborée et sa présentation.",
+      "La vidéo montre la créature colorée The Chimera Phoenix. L’auteur rapporte des résultats variables dans d’autres tests."
+    ],
+    [
+      "Maison mécanique face à Fable",
+      "Comparez une petite maison mécanique au résultat de Fable.",
+      "L’auteur compare Kibitz à Fable 5.1 et rapporte une génération plus rapide ici. Le classement général reste subjectif."
+    ],
+    [
+      "Colline herbeuse et arbre",
+      "Examinez une scène présentée comme un exercice de rétro-ingénierie.",
+      "La vidéo montre colline, arbre et réglages horaires. Les prévisions de lancement et de prix ne sont pas traitées comme des faits."
+    ],
+    [
+      "Temple japonais pour jeu vidéo",
+      "Examinez un temple entouré de cerisiers et sa géométrie étagée.",
+      "L’auteur présente le temple comme un objet de jeu 3D créé par Kibitz. Une image de sa publication précédente ajoute une autre vue."
+    ],
+    [
+      "Cuisine avec réfrigérateur interactif",
+      "Explorez une cuisine avec réfrigérateur ouvrable.",
+      "L’auteur estime la tâche salle à manger et réfrigérateur à environ une heure. Une autre image montre l’intérieur de l’appareil."
+    ],
+    [
+      "Évaluation d’une cuisine",
+      "Examinez l’agencement en séparant visuel et fonctionnalité.",
+      "L’auteur considère ce résultat parmi ses meilleurs tests de cuisine, derrière Fable 5.5. La collection n’a pas exécuté la scène."
+    ],
+    [
+      "Gare japonaise low-poly",
+      "Examinez une gare générée par code et son paysage stylisé.",
+      "L’auteur demande une gare japonaise low-poly sans modèles ni images. L’attribution du modèle reste provisoire."
+    ],
+    [
+      "Vallée voxel de cerisiers",
+      "Comparez deux résultats pour une même scène de vallée.",
+      "L’auteur compare Qwen 4 à un résultat attribué à Kimi K3.1. Une vidéo antérieure de Kibitz apporte une autre vue."
+    ],
+    [
+      "Château au-dessus des nuages",
+      "Examinez un château flottant et son atmosphère.",
+      "L’auteur dit l’avoir créé avec Kibitz sur Arena. La vidéo montre château, nuages et ciel au clair de lune."
+    ],
+    [
+      "Château médiéval voxel",
+      "Examinez un château stylisé et son paysage en voxels.",
+      "La vidéo montre un château médiéval. La ressemblance avec d’autres modèles est une opinion, pas une preuve d’entraînement partagé."
+    ],
+    [
+      "Comparaison de dioramas mécaniques",
+      "Examinez deux environnements complexes d’un essai Arena.",
+      "La source documente un essai personnel avec deux environnements mécaniques. La consigne complète et les tests fonctionnels ne sont pas divulgués."
+    ],
+    [
+      "Château avec dragons et moulin",
+      "Examinez un château aux multiples éléments animés.",
+      "L’auteur annonce dragons, moulin, animaux, douves et pont-levis générés en environ 20 minutes. Les republications sont regroupées ici."
+    ],
+    [
+      "Pagode voxel entre modèles",
+      "Comparez une pagode à plusieurs modèles de pointe.",
+      "La pagode initiale et sa comparaison ultérieure restent ensemble. La ressemblance visuelle ne prouve ni identité ni distillation."
+    ],
+    [
+      "Pagode au couchant et comparaisons",
+      "Comparez une même pagode aux exemples Qwen et Opus.",
+      "La vidéo de la pagode et deux comparaisons relèvent d’une seule œuvre, pas de trois cas indépendants."
+    ],
+    [
+      "Pagode aux couleurs douces",
+      "Examinez une pagode pastel créée avec Kibitz.",
+      "La source indique explicitement que Kibitz serait seulement Kimi K3.1. L’auto-identification du modèle dans la vidéo n’est pas fiable."
+    ],
+    [
+      "Composition de pélicans empilés",
+      "Comparez une scène de manettes, vélos et pélicans superposés.",
+      "L’auteur étiquette les résultats Kimi K3.1 Pro et Fable 5.5. Ces noms de source ne confirment pas une édition Pro."
+    ],
+    [
+      "Manette et pélicans empilés",
+      "Examinez une consigne d’empilement et ses relations spatiales.",
+      "La source décrit manettes, vélos et pélicans. Des captures ultérieures comparent avec GPT-6 Sol ; une republication est regroupée ici."
+    ],
+    [
+      "Pélican cycliste animé",
+      "Examinez l’animation d’un pélican cycliste et son interface.",
+      "L’auteur enregistre un GIF d’un test Kibitz. Cette composition à interface chinoise diffère des autres pélicans."
+    ],
+    [
+      "Comparaison de pélicans cyclistes",
+      "Comparez deux réponses à la demande d’un pélican à vélo.",
+      "L’auteur juxtapose des résultats attribués à Kimi K3.1 et Qwen 4 et invite le public à les juger."
+    ],
+    [
+      "Lune et champ d’étoiles",
+      "Examinez un dessin céleste présenté comme généré en une fois.",
+      "L’auteur le décrit comme un dessin JavaScript. La vidéo montre lune et étoiles ; la rapidité reste une affirmation de la source."
+    ],
+    [
+      "Pélican SVG interactif",
+      "Examinez cadence, annotations et exportation SVG.",
+      "Le créateur publie une demande SVG. Les republications décrivent cadence, lumière et export ; aucune consigne n’est reconstruite ici."
+    ],
+    [
+      "Portrait SVG d’Ana de Armas",
+      "Examinez le portrait en conservant l’effort de génération visible.",
+      "L’auteur annonce environ 49k tokens, 22 minutes, effort max et zero-shot. Un message ultérieur répète le portrait Kimi et ajoute GPT-6 Astra en TiKZ."
+    ],
+    [
+      "Comparaison de portraits SVG",
+      "Comparez des portraits avec leurs étiquettes anonymes.",
+      "La capture indique Kibitz à gauche et Kalmia à droite. La source parle de SVG ; aucune correspondance officielle n’est confirmée."
+    ],
+    [
+      "Comparaison du jeu Backrooms",
+      "Comparez les résultats sans cacher l’expérience négative du créateur.",
+      "L’auteur annonce 40 minutes pour Kimi et 1 heure 1 minute pour Opus, et se dit déçu du jeu de Kimi."
+    ],
+    [
+      "Village RPG et attaque de dragons",
+      "Comparez un village avec météo et cycle jour–nuit.",
+      "L’auteur rapporte attaques, orages et cycles diurnes fonctionnels dans les deux résultats, pour environ 15 minutes de génération chacun."
+    ],
+    [
+      "Avion : décollage et atterrissage",
+      "Examinez un prototype de jeu de vol avec piste.",
+      "La source annonce un jeu jouable généré en une fois en environ 10 minutes, avec décollage et atterrissage. La collection n’a pas testé sa jouabilité."
+    ],
+    [
+      "Menu de café chai et paratha",
+      "Examinez le menu d’un café sur une seule page.",
+      "L’auteur demande au présumé Kimi K3.1 un menu pakistanais de chai et paratha. Les spéculations sur l’entraînement ne sont pas reprises."
+    ],
+    [
+      "Comparaison de girafes",
+      "Comparez quatre girafes selon les noms de modèle affichés.",
+      "L’auteur compare Opus 5.5, Carbon, Kibitz et Kalmia, et préfère Gemini. Ce sont des essais informels Arena, pas un benchmark contrôlé."
+    ],
+    [
+      "Comparaison de chevaux",
+      "Examinez trois réponses au même sujet visible.",
+      "La vidéo compare des chevaux étiquetés Carbon, Opus 5.5 et Kimi K3.1. Le classement concerne l’avis de l’auteur sur cet exemple."
+    ],
+    [
+      "Vélo et vache : test spatial",
+      "Vérifiez si les rôles inhabituels de la consigne sont conservés.",
+      "La demande est un vélo chevauchant une vache. L’auteur remarque que Kimi semble corriger la consigne ; un résultat ultérieur de Carbon est joint."
+    ],
+    [
+      "Animaux et vélos comparés",
+      "Comparez deux scènes en gardant les étiquettes anonymes.",
+      "La source compare Kalmia et Kibitz en proposant des identités Kimi contradictoires. Ces hypothèses ne deviennent pas des faits."
+    ],
+    [
+      "Autoportrait dans Minecraft",
+      "Comparez les autoportraits et vérifiez les coûts séparément.",
+      "La source annonce 13,707 blocs et $0.38 contre 5,738 blocs et $5.31. Facturation, périmètre des tokens et coûts des relances ne sont pas vérifiés indépendamment."
+    ]
+  ]
+}

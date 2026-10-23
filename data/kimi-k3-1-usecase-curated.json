@@ -1,0 +1,2029 @@
+{
+  "schema_version": 1,
+  "model": "Kimi K3.1",
+  "case_count": 40,
+  "source_count": 140,
+  "category_counts": {
+    "mechanical": 10,
+    "worlds": 13,
+    "svg": 8,
+    "games": 3,
+    "web": 1,
+    "comparison": 5
+  },
+  "attribution_policy": "Names and timings follow linked sources; anonymous Kibitz mapping remains unconfirmed.",
+  "cases": [
+    {
+      "id": "case-1",
+      "number": 1,
+      "kind": "comparison",
+      "category": "mechanical",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113109486965539137",
+      "source_url": "https://x.com/i/status/2113109486965539137",
+      "author_handle": "SPAC89",
+      "author_url": "https://x.com/SPAC89",
+      "title": "3D printer comparison",
+      "takeaway": "Compare a mechanical printer scene across two model recordings.",
+      "body_notes": "The creator shows a green-frame 3D printer; a later Carbon comparison revisits this work. The ranking is the creator's judgment.",
+      "related_sources": [
+        {
+          "source_id": "x:2113408447777522140",
+          "source_url": "https://x.com/i/status/2113408447777522140",
+          "author_handle": "SPAC89",
+          "source_text": "🚨 Gemini 4 Carbon vs Kimi K3.1, after my first tests I feel like both models could easily compete with Opus 5.5 Medium when it comes to 3D, and I'm really liking what I'm seeing from both of them! The quality is impressive and they're both very fast, but I think Kimi K3.1 is going to surprise a lot of people, myself included. If they manage to release it at prices similar to DeepSeek, it could be game over for a lot of closed source coding models from US labs, especially when you consider how good the quality already looks in these early tests.\n\nNow I'm just hoping they finally release the model along with its open weights so we can run a quantized version locally! I can't wait to see how it performs outside Arena and how much we can push it with more demanding projects. What a great week we have ahead of us!"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113109016024850432",
+          "source_id": "x:2113109486965539137",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113109016024850432/vid/avc1/1920x1080/KD8qRWesx4EYcJLU.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113109016024850432/img/XUcsSkZeIFtvWqKT.jpg",
+          "original_post_media_url": "https://x.com/SPAC89/status/2113109486965539137/video/1",
+          "source_claimed_duration_ms": 30080,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113109016024850432-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113109016024850432.mp4"
+        },
+        {
+          "id": "2113407519875887104",
+          "source_id": "x:2113408447777522140",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113407519875887104/vid/avc1/1920x2160/7T_uaCmX56xWsl7q.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113407519875887104/img/-CCQhktOYnH-zsmS.jpg",
+          "original_post_media_url": "https://x.com/SPAC89/status/2113408447777522140/video/1",
+          "source_claimed_duration_ms": 15000,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113407519875887104-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113407519875887104.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113109486965539137",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 is now available on Arena under the name Kibitz , and the first results have completely blown me away! The quality is amazing, and I'm starting to wonder if we could be looking at another frontier model. It's been more than 3 months since Kimi K3 was released, so this could end up being one of the biggest upgrades of the year. I've already run 3 more tests with Kibitz and I'm comparing the results against other models, but this particular test is easily in my personal top 3 so far. I keep looking at the results because I still can't believe how good they are, really excited to share the rest of my comparisons soon!",
+      "source_metrics": {
+        "like_count": 213,
+        "view_count": 18379,
+        "retweet_count": 8,
+        "reply_count": 12,
+        "quote_count": 1,
+        "bookmark_count": 37
+      }
+    },
+    {
+      "id": "case-2",
+      "number": 2,
+      "kind": "comparison",
+      "category": "mechanical",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113330869478019457",
+      "source_url": "https://x.com/i/status/2113330869478019457",
+      "author_handle": "beyondwudan",
+      "author_url": "https://x.com/beyondwudan",
+      "title": "Eden Ark mechanical scene",
+      "takeaway": "Inspect geometry and presentation in a mechanical scene comparison.",
+      "body_notes": "The recording labels Kibitz as rumored Kimi K3.1 and compares it with Kalmia. The creator prefers the Kibitz result.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113329769102401537",
+          "source_id": "x:2113330869478019457",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113329769102401537/vid/avc1/1920x1080/hNOkroxgvlGxsILX.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113329769102401537/img/s2MEaKQtmpWdIAHx.jpg",
+          "original_post_media_url": "https://x.com/beyondwudan/status/2113330869478019457/video/1",
+          "source_claimed_duration_ms": 48000,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113329769102401537-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113329769102401537.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113330869478019457",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 mogged Qwen 4 on my Eden Ark run. \n\nIf Kalmia is Qwen 4, it's not ready yet :( https://t.co/ErvqxSMWun",
+      "source_metrics": {
+        "like_count": 32,
+        "view_count": 4975,
+        "retweet_count": 1,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 6
+      }
+    },
+    {
+      "id": "case-3",
+      "number": 3,
+      "kind": "usecase",
+      "category": "mechanical",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113323680940130668",
+      "source_url": "https://x.com/i/status/2113323680940130668",
+      "author_handle": "ash_twtz",
+      "author_url": "https://x.com/ash_twtz",
+      "title": "Detailed wristwatch",
+      "takeaway": "Inspect a watch model's materials, lighting and dial details.",
+      "body_notes": "The attached recording shows a detailed watch. The creator describes it as a Three.js result; no controlled comparison is provided.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113323616771469312",
+          "source_id": "x:2113323680940130668",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113323616771469312/vid/avc1/1920x1080/DzGk4hU_rxkyQmQW.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113323616771469312/img/l7DSyI9K_gCT8KmI.jpg",
+          "original_post_media_url": "https://x.com/ash_twtz/status/2113323680940130668/video/1",
+          "source_claimed_duration_ms": 11466,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113323616771469312-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113323616771469312.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113323680940130668",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 is seriously impressive. It’s getting really close to GPT-6 Astra and Claude Opus 5.5 in terms of output quality.\n\nThe way it handles Three JS and creates realistic 3D models with stunning details is insane. https://t.co/STericYOvo",
+      "source_metrics": {
+        "like_count": 48,
+        "view_count": 1622,
+        "retweet_count": 1,
+        "reply_count": 31,
+        "quote_count": 1,
+        "bookmark_count": 2
+      }
+    },
+    {
+      "id": "case-4",
+      "number": 4,
+      "kind": "usecase",
+      "category": "mechanical",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113283390548164986",
+      "source_url": "https://x.com/i/status/2113283390548164986",
+      "author_handle": "k2sbhai",
+      "author_url": "https://x.com/k2sbhai",
+      "title": "BMW M5 configurator",
+      "takeaway": "Explore a car prototype with color, door and camera controls.",
+      "body_notes": "The author reports colors, doors, lights, camera views and live rev mode from one prompt, calling Kibitz most likely Kimi K3.1.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113282612626341888",
+          "source_id": "x:2113283390548164986",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113282612626341888/vid/avc1/2940x1652/bRnfEoNvJmRPmaZv.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113282612626341888/img/zNRlDhjTJICa2LjM.jpg",
+          "original_post_media_url": "https://x.com/k2sbhai/status/2113283390548164986/video/1",
+          "source_claimed_duration_ms": 49633,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113282612626341888-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113282612626341888.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113283390548164986",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Tested Kibitz on Arena, most likely Kimi K3.1\n\nprompt build a 3D BMW M5 using Three.js\n\n- Full configurator with colors, doors and lights\n- Camera views and a live rev mode\n\n&gt; All from one simple prompt https://t.co/YuGlrefG4m",
+      "source_metrics": {
+        "like_count": 32,
+        "view_count": 1950,
+        "retweet_count": 1,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 5
+      }
+    },
+    {
+      "id": "case-5",
+      "number": 5,
+      "kind": "comparison",
+      "category": "mechanical",
+      "type": "Limit",
+      "date": "2026-10-22",
+      "source_id": "x:2113276208716866019",
+      "source_url": "https://x.com/i/status/2113276208716866019",
+      "author_handle": "srikanthvaluri",
+      "author_url": "https://x.com/srikanthvaluri",
+      "title": "Konark sundial wheel",
+      "takeaway": "Compare decorative detail with the functional requirement of telling time.",
+      "body_notes": "The creator favors Gemini's carvings and Opus's timekeeping, describing Kimi's wheel as simpler. These are source-reported judgments.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113275652384378880",
+          "source_id": "x:2113276208716866019",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113275652384378880/vid/avc1/2160x3056/BaA-t0SkGnfNwEmi.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113275652384378880/img/9pxA29vPcnr0PE1y.jpg",
+          "original_post_media_url": "https://x.com/srikanthvaluri/status/2113276208716866019/video/1",
+          "source_claimed_duration_ms": 18773,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113275652384378880-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113275652384378880.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113276208716866019",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "This 800-year-old wheel in India is a clock.\n\nThe Konark Sun Temple wheel tells time with its shadow.\n\nI asked 3 AI models to rebuild it in 3D.\nGemini 4 Argon → Most beautiful carvings 🔥\nOpus 5.5 → Best at telling the time\nKimi K3.1 → Good design, but simple wheel\n\nGemini 4 Argon has the richest carvings",
+      "source_metrics": {
+        "like_count": 62,
+        "view_count": 10325,
+        "retweet_count": 1,
+        "reply_count": 4,
+        "quote_count": 4,
+        "bookmark_count": 10
+      }
+    },
+    {
+      "id": "case-6",
+      "number": 6,
+      "kind": "usecase",
+      "category": "mechanical",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113262900328710564",
+      "source_url": "https://x.com/i/status/2113262900328710564",
+      "author_handle": "karanC_12",
+      "author_url": "https://x.com/karanC_12",
+      "title": "Interactive Xbox controller",
+      "takeaway": "Inspect a controller prototype and its on-screen controls.",
+      "body_notes": "The creator attributes the interactive Xbox-style controller to Kibitz on Arena. The recording shows the controller and interface.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113262854157774848",
+          "source_id": "x:2113262900328710564",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113262854157774848/vid/avc1/1920x1080/8j5TNlofojr0CV5p.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/media/HVPRZoDaAAARLYI.jpg",
+          "original_post_media_url": "https://x.com/karanC_12/status/2113262900328710564/video/1",
+          "source_claimed_duration_ms": 21873,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113262854157774848-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113262854157774848.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113262900328710564",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 built an interactive Xbox controller on Arena.\n\nIt's been hiding under the codename \"kibitz\" for a while.\n\nIs this a serious upgrade in 3D rendering? https://t.co/3AoJgsiKqu",
+      "source_metrics": {
+        "like_count": 46,
+        "view_count": 2791,
+        "retweet_count": 1,
+        "reply_count": 14,
+        "quote_count": 1,
+        "bookmark_count": 4
+      }
+    },
+    {
+      "id": "case-7",
+      "number": 7,
+      "kind": "usecase",
+      "category": "mechanical",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113218159603859914",
+      "source_url": "https://x.com/i/status/2113218159603859914",
+      "author_handle": "LuminaBench",
+      "author_url": "https://x.com/LuminaBench",
+      "title": "Interactive steam train",
+      "takeaway": "Explore speed controls, exploded views and wireframe presentation.",
+      "body_notes": "The source reports a working train with a speed slider, assembly views, wireframe and statistics. A repost uses the same video.",
+      "related_sources": [
+        {
+          "source_id": "x:2113236282357015033",
+          "source_url": "https://x.com/i/status/2113236282357015033",
+          "author_handle": "NFT_Chen",
+          "source_text": "🔥卧槽！Kimi K3.1 这3D构造有点离谱了……\n\n一句话，直接甩出一整列能跑的蒸汽火车：\n🔹速度滑块实时调\n🔹组装 / 爆炸拆解视图\n🔹线框模式无缝切换\n🔹数据面板全程跟踪\n\n不是“生成个模型”，是直接交付一套能交互的完整3D体验。\n\n细节、结构、动效一次到位，中国模型这波有点东西啊。\n\n#KimiK31 #Kimi #AI #3D #AIGC #Moonshot #月之暗面 #杨植麟\n\nhttps://t.co/GfWpdqGjAw https://t.co/UheCUi64oa"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113217183153082368",
+          "source_id": "x:2113218159603859914",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113217183153082368/vid/avc1/1880x1280/beO3UYa3i6jUhkzt.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113217183153082368/img/hjbXXBupOmQg3fZb.jpg",
+          "original_post_media_url": "https://x.com/LuminaBench/status/2113218159603859914/video/1",
+          "source_claimed_duration_ms": 59093,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113217183153082368-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113217183153082368.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113218159603859914",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Oh my GOD Kimi K3.1 is Broken\n\nOne shot fully working 3D Train with speed slider, assembly / exploded views, wireframe and stat tracking\n\nWtf is going on with these Chinese models, this feels design wise similar to a GPT model but just has that something extra like Anthropic models on top",
+      "source_metrics": {
+        "like_count": 444,
+        "view_count": 32003,
+        "retweet_count": 7,
+        "reply_count": 32,
+        "quote_count": 4,
+        "bookmark_count": 51
+      }
+    },
+    {
+      "id": "case-8",
+      "number": 8,
+      "kind": "comparison",
+      "category": "mechanical",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113186973363929470",
+      "source_url": "https://x.com/i/status/2113186973363929470",
+      "author_handle": "LuminaBench",
+      "author_url": "https://x.com/LuminaBench",
+      "title": "Helicopter assembly and flight",
+      "takeaway": "Compare takeoff, landing and exploded views in helicopter prototypes.",
+      "body_notes": "The sources report roughly 15–20 minutes per model. The comparison author finds Qwen more realistic; both outputs remain visible.",
+      "related_sources": [
+        {
+          "source_id": "x:2113217029675085963",
+          "source_url": "https://x.com/i/status/2113217029675085963",
+          "author_handle": "LuminaBench",
+          "source_text": "Kimi K3.1 vs Qwen 4: 3D helicopter\n\nSame prompt, takeoff/land, 3D assembly and exploded views, very similar gen time at around 15-20 minutes for both\n\nChina are not playing games anymore, these are very strong https://t.co/IwhiBN5ya7"
+        },
+        {
+          "source_id": "x:2113219785131757778",
+          "source_url": "https://x.com/i/status/2113219785131757778",
+          "author_handle": "leo114119",
+          "source_text": "Kimi K3.1 vs Qwen 4：3D 直升机  \n\n相同的提示，起飞/降落，3D 装配和分解视图，两者生成时间非常相似，大约 15-20 分钟\n\n从真实感上来说，我觉得 Qwen 4 好像更强大一点。。\n\n https://t.co/UVjaRD48bh"
+        },
+        {
+          "source_id": "x:2113203977873661954",
+          "source_url": "https://x.com/i/status/2113203977873661954",
+          "author_handle": "xueyu1125",
+          "source_text": "🚀突发，Kimi k3.1 会在下周二之前发布\n\n目前在Arena 上的匿名模型 Kibitz 应该就是Kimi k3.1\n\n目前看Kimi k3.1 通过Three.js做的直升机3D建模效果非常炸裂\n\nhttps://t.co/xUAEoNO20i"
+        },
+        {
+          "source_id": "x:2113189630745157665",
+          "source_url": "https://x.com/i/status/2113189630745157665",
+          "author_handle": "loveAIwang",
+          "source_text": "国产模型又给我整不会了\nKimi K3.1随手做了个3D直升机\n他能飞能降落还能拆成零件，还带X光和线框模式\n前后用了才不到15分钟\n我上次让AI画个按钮都改了三轮😭\n这已经不是在写网页了，是在造飞机\n我把视频转给做3D的朋友\n他回了我一串省略号。。。然后就没再说话了😂 https://t.co/kXyfThpJu0"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113186104266399745",
+          "source_id": "x:2113186973363929470",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113186104266399745/vid/avc1/1880x1280/8pcEsEPZ8706ZrcG.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113186104266399745/img/Siz955_x1xtaqEqS.jpg",
+          "original_post_media_url": "https://x.com/LuminaBench/status/2113186973363929470/video/1",
+          "source_claimed_duration_ms": 70016,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745.mp4"
+        },
+        {
+          "id": "2113216103165972480",
+          "source_id": "x:2113217029675085963",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113216103165972480/vid/avc1/1920x900/W41QV_aQ5QD3_iEe.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113216103165972480/img/IZ3jsUezyXkcjhQG.jpg",
+          "original_post_media_url": "https://x.com/LuminaBench/status/2113217029675085963/video/1",
+          "source_claimed_duration_ms": 56000,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113186973363929470",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 looks incredibly strong\n\nThis is a 3D helicopter with takeoff land, 3D assembly and exploded views, X-ray and wireframe modes and a ton of detail\n\nThis was made in under 15 minutes too https://t.co/QF5n9VjYkj",
+      "source_metrics": {
+        "like_count": 367,
+        "view_count": 107901,
+        "retweet_count": 16,
+        "reply_count": 25,
+        "quote_count": 10,
+        "bookmark_count": 44
+      }
+    },
+    {
+      "id": "case-9",
+      "number": 9,
+      "kind": "usecase",
+      "category": "mechanical",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113187567222804679",
+      "source_url": "https://x.com/i/status/2113187567222804679",
+      "author_handle": "SPAC89",
+      "author_url": "https://x.com/SPAC89",
+      "title": "Chimera phoenix",
+      "takeaway": "Inspect an elaborate creature model and its presentation.",
+      "body_notes": "The recording shows a colorful creature titled The Chimera Phoenix. The author reports mixed results across other tests.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113185081783095296",
+          "source_id": "x:2113187567222804679",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113185081783095296/vid/avc1/1920x1080/ZU30miqtgIR_K3t3.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113185081783095296/img/1zkN_O9STOjT_zeU.jpg",
+          "original_post_media_url": "https://x.com/SPAC89/status/2113187567222804679/video/1",
+          "source_claimed_duration_ms": 30140,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113185081783095296-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113185081783095296.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113187567222804679",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 Kibitz is now confirmed to be a very affordable model, similar to GLM 5.3, I just got this new test on Arena and so far my results have been pretty mixed, in some tests Kibitz performs at the level of GPT 6 Astra Medium or Opus 5.5 Medium, while in others the quality drops quite a bit. But considering how good some of these results are and how affordable the model is expected to be, I'm really looking forward to seeing what Kimi has been working on these past few months\n\nMy prediction is that Kimi K3.1 could become the best open weight AI model we've seen so far, and if it really delivers this level of performance at such a low price, it could put some serious pressure on Zhipu's upcoming GLM 5.4 and GLM 5.5 models, which are expected next month. The competition between these Chinese AI labs is getting more interesting with every release, and the best part is that we're the ones who benefit from all of this, getting better models, faster performance and lower prices",
+      "source_metrics": {
+        "like_count": 75,
+        "view_count": 9428,
+        "retweet_count": 1,
+        "reply_count": 8,
+        "quote_count": 0,
+        "bookmark_count": 8
+      }
+    },
+    {
+      "id": "case-10",
+      "number": 10,
+      "kind": "comparison",
+      "category": "mechanical",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113136432936083808",
+      "source_url": "https://x.com/i/status/2113136432936083808",
+      "author_handle": "SPAC89",
+      "author_url": "https://x.com/SPAC89",
+      "title": "Clockwork house comparison",
+      "takeaway": "Compare a small mechanical house with Fable's result.",
+      "body_notes": "The creator compares Kibitz with Fable 5.1 and reports faster generation in this test. The broader quality ranking is subjective.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113135980739743744",
+          "source_id": "x:2113136432936083808",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113135980739743744/vid/avc1/1920x2160/zkG3QIXJu6NVCRfX.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113135980739743744/img/6Rb1r6kutFzozSFt.jpg",
+          "original_post_media_url": "https://x.com/SPAC89/status/2113136432936083808/video/1",
+          "source_claimed_duration_ms": 29466,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113135980739743744-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113135980739743744.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113136432936083808",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kibitz (Kimi K3.1) vs Fable 5.1 on Arena, and I'm really impressed with what I'm seeing in this test! I'm guessing the new Kimi model might be using its highest reasoning setting by default because that's the only explanation I can think of for how good the 3D quality looks throughout the entire video. I'd actually put it pretty close to Opus 5.5 Medium, which is a huge achievement considering how good that model already is at 3D. Kimi models have always been pretty expensive, so I'm really hoping this one can be as efficient and affordable as DeepSeek, because if they manage to deliver this level of quality at a similar price, we could be looking at the best open weight AI model of the year. The Kimi team has done an amazing job here, and another thing worth mentioning is that Kibitz was noticeably faster than Fable in this particular test! I can't wait to see how it performs in my other comparisons.",
+      "source_metrics": {
+        "like_count": 83,
+        "view_count": 8663,
+        "retweet_count": 2,
+        "reply_count": 7,
+        "quote_count": 1,
+        "bookmark_count": 13
+      }
+    },
+    {
+      "id": "case-11",
+      "number": 11,
+      "kind": "usecase",
+      "category": "worlds",
+      "type": "Demo",
+      "date": "2026-10-23",
+      "source_id": "x:2113458401309020202",
+      "source_url": "https://x.com/i/status/2113458401309020202",
+      "author_handle": "ChrisGPT",
+      "author_url": "https://x.com/ChrisGPT",
+      "title": "Grassy hill and tree",
+      "takeaway": "Inspect a scene the creator presents as reverse engineering.",
+      "body_notes": "The attached recording shows a grassy hill, a tree and time-of-day controls. Release-date and price predictions are not treated as facts.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113458381625110528",
+          "source_id": "x:2113458401309020202",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113458381625110528/vid/avc1/640x312/3F0Y16DGEp4KQWom.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113458381625110528/img/32PMEGxOxw_IUUUb.jpg",
+          "original_post_media_url": "https://x.com/ChrisGPT/status/2113458401309020202/video/1",
+          "source_claimed_duration_ms": 14335,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113458381625110528-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113458381625110528.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113458401309020202",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "🚨 Kimi K3.1 is expected tomorrow, possibly Monday.\n\nThe best part is it’s CHEAPER than Kimi K3 while being more token-efficient.\n\nI’ve been using it frequently over the past week, and it’s been good at Three.js.\n\nThis demo tests its reverse-engineering capabilities. https://t.co/S0rOkgDE6u",
+      "source_metrics": {
+        "like_count": 292,
+        "view_count": 15643,
+        "retweet_count": 7,
+        "reply_count": 19,
+        "quote_count": 0,
+        "bookmark_count": 25
+      }
+    },
+    {
+      "id": "case-12",
+      "number": 12,
+      "kind": "usecase",
+      "category": "worlds",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113349968295788751",
+      "source_url": "https://x.com/i/status/2113349968295788751",
+      "author_handle": "notjazii",
+      "author_url": "https://x.com/notjazii",
+      "title": "Japanese temple game asset",
+      "takeaway": "Inspect a temple asset with cherry blossoms and layered geometry.",
+      "body_notes": "The creator presents the temple as a 3D game asset from Kibitz. A separate still from their earlier post shows another view.",
+      "related_sources": [
+        {
+          "source_id": "x:2113272272903610467",
+          "source_url": "https://x.com/i/status/2113272272903610467",
+          "author_handle": "notjazii",
+          "source_text": "kimi team cooked harder with k3.1\n\nmodel is being tested in arena right now under the name kibitz\n\nbeen running some tests myself and here's what it made after 30 mins of cooking. it's still working\n\nsuper excited for the official release as arena models versions are usually early checkpoints\n\nso expecting the final model to be way better then this"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113348767332352000",
+          "source_id": "x:2113349968295788751",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113348767332352000/vid/avc1/1920x1080/R9VAgHGrdz_Fh5dP.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113348767332352000/img/keETyJyli07wTElE.jpg",
+          "original_post_media_url": "https://x.com/notjazii/status/2113349968295788751/video/1",
+          "source_claimed_duration_ms": 28500,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113348767332352000-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113348767332352000.mp4"
+        },
+        {
+          "id": "2113269608115531776",
+          "source_id": "x:2113272272903610467",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVPXgxJa8AAh1tJ.jpg",
+          "source_preview_url": "https://pbs.twimg.com/media/HVPXgxJa8AAh1tJ.jpg",
+          "original_post_media_url": "https://x.com/notjazii/status/2113272272903610467/photo/1",
+          "source_claimed_duration_ms": null,
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113269608115531776.jpg"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113349968295788751",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "3d game asset made by kimi k3.1\n\nbeen enjoying this stealth model (kibitz) in arena and it's such a beast at 3d work\n\nteam really cooked harder with this model. it's gonna be another k3 moment when this one gets released https://t.co/Rxmgdo3X5g",
+      "source_metrics": {
+        "like_count": 116,
+        "view_count": 3630,
+        "retweet_count": 1,
+        "reply_count": 12,
+        "quote_count": 1,
+        "bookmark_count": 6
+      }
+    },
+    {
+      "id": "case-13",
+      "number": 13,
+      "kind": "usecase",
+      "category": "worlds",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113341964297064753",
+      "source_url": "https://x.com/i/status/2113341964297064753",
+      "author_handle": "notjazii",
+      "author_url": "https://x.com/notjazii",
+      "title": "Kitchen with interactive refrigerator",
+      "takeaway": "Explore a kitchen prototype with an opening refrigerator.",
+      "body_notes": "The creator says the dining-room and refrigerator task took about an hour. A separate still shows the refrigerator interior.",
+      "related_sources": [
+        {
+          "source_id": "x:2113272272903610467",
+          "source_url": "https://x.com/i/status/2113272272903610467",
+          "author_handle": "notjazii",
+          "source_text": "kimi team cooked harder with k3.1\n\nmodel is being tested in arena right now under the name kibitz\n\nbeen running some tests myself and here's what it made after 30 mins of cooking. it's still working\n\nsuper excited for the official release as arena models versions are usually early checkpoints\n\nso expecting the final model to be way better then this"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113339731325104128",
+          "source_id": "x:2113341964297064753",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113339731325104128/vid/avc1/1920x1080/I70S0sCxAb_OOoMX.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113339731325104128/img/YPaDC_hRTxdJtHyx.jpg",
+          "original_post_media_url": "https://x.com/notjazii/status/2113341964297064753/video/1",
+          "source_claimed_duration_ms": 57833,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113339731325104128-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113339731325104128.mp4"
+        },
+        {
+          "id": "2113269956569931777",
+          "source_id": "x:2113272272903610467",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVPX1DPbIAEGA6K.jpg",
+          "source_preview_url": "https://pbs.twimg.com/media/HVPX1DPbIAEGA6K.jpg",
+          "original_post_media_url": "https://x.com/notjazii/status/2113272272903610467/photo/1",
+          "source_claimed_duration_ms": null,
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113269956569931777.jpg"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113341964297064753",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "kimi k3.1 is a beast at 3d work\n\nasked model to make me 3d dining room with an interactive refrigerator and after about an hour of cooking it came back with this, looks crazy good\n\nat this point i just want model to be released asap so i can try it properly\n\ncuz if it's this good in arena, imagine how good it'll be when released officially",
+      "source_metrics": {
+        "like_count": 168,
+        "view_count": 9284,
+        "retweet_count": 4,
+        "reply_count": 23,
+        "quote_count": 2,
+        "bookmark_count": 20
+      }
+    },
+    {
+      "id": "case-14",
+      "number": 14,
+      "kind": "comparison",
+      "category": "worlds",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113310120209961002",
+      "source_url": "https://x.com/i/status/2113310120209961002",
+      "author_handle": "mirochill",
+      "author_url": "https://x.com/mirochill",
+      "title": "Kitchen scene evaluation",
+      "takeaway": "Inspect a kitchen layout while separating visuals from functionality.",
+      "body_notes": "The creator calls this one of their strongest kitchen-test results, behind Fable 5.5. This collection has not run the scene.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113309501474349056",
+          "source_id": "x:2113310120209961002",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113309501474349056/vid/avc1/1920x1080/S-pgsBjAUBBdnLUK.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113309501474349056/img/PynD9XFQWkpFbXA1.jpg",
+          "original_post_media_url": "https://x.com/mirochill/status/2113310120209961002/video/1",
+          "source_claimed_duration_ms": 44816,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113309501474349056-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113309501474349056.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113310120209961002",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Leak de Kimi K3.1 sur mon test de la cuisine 👀\n\nLe résultat est excellent : visuellement très réussi, avec quasiment aucune erreur !\n\nPour moi, c'est probablement le deuxième meilleur résultat obtenu sur ce test, juste derrière Fable 5.5. https://t.co/7gv1oXGL2O",
+      "source_metrics": {
+        "like_count": 41,
+        "view_count": 2007,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 5
+      }
+    },
+    {
+      "id": "case-15",
+      "number": 15,
+      "kind": "usecase",
+      "category": "worlds",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113300768790872194",
+      "source_url": "https://x.com/i/status/2113300768790872194",
+      "author_handle": "painn_x",
+      "author_url": "https://x.com/painn_x",
+      "title": "Low-poly Japanese train station",
+      "takeaway": "Inspect a code-generated station with stylized landscaping.",
+      "body_notes": "The creator requests a low-poly Japanese train station and says no models or images were used. The model attribution remains tentative.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113300622858416128",
+          "source_id": "x:2113300768790872194",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113300622858416128/vid/avc1/1920x994/wEPPWdaenivbzznU.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113300622858416128/img/JdugtpqJEyoVf_Zh.jpg",
+          "original_post_media_url": "https://x.com/painn_x/status/2113300768790872194/video/1",
+          "source_claimed_duration_ms": 33833,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113300622858416128-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113300622858416128.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113300768790872194",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "chinese labs are cooking\n\nkimi k3.1 might be hiding on arena under the name kibitz\n\nasked it to make me a low poly japanese train station\n\nno models, no images, all code\n\ncooked?? https://t.co/vmZsusRQtW",
+      "source_metrics": {
+        "like_count": 44,
+        "view_count": 1650,
+        "retweet_count": 1,
+        "reply_count": 9,
+        "quote_count": 0,
+        "bookmark_count": 9
+      }
+    },
+    {
+      "id": "case-16",
+      "number": 16,
+      "kind": "comparison",
+      "category": "worlds",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113285539998872040",
+      "source_url": "https://x.com/i/status/2113285539998872040",
+      "author_handle": "abhinavflac",
+      "author_url": "https://x.com/abhinavflac",
+      "title": "Voxel cherry-blossom valley",
+      "takeaway": "Compare two voxel valley outputs from the same requested scene.",
+      "body_notes": "The author compares Qwen 4 with source-attributed Kimi K3.1. Their earlier Kibitz recording supplies a separate view of the valley.",
+      "related_sources": [
+        {
+          "source_id": "x:2113137026078044637",
+          "source_url": "https://x.com/i/status/2113137026078044637",
+          "author_handle": "abhinavflac",
+          "source_text": "Mystery model named \"kibitz\" on arena\n\nProbably the upcoming Kimi K3.1 https://t.co/iK7BidtGrp"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113284981061779458",
+          "source_id": "x:2113285539998872040",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113284981061779458/vid/avc1/1080x1208/l9DMp3vTCs9WvScI.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113284981061779458/img/a2YgoTkDKhk_AT1E.jpg",
+          "original_post_media_url": "https://x.com/abhinavflac/status/2113285539998872040/video/1",
+          "source_claimed_duration_ms": 38266,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113284981061779458-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113284981061779458.mp4"
+        },
+        {
+          "id": "2113136676486922240",
+          "source_id": "x:2113137026078044637",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113136676486922240/vid/avc1/1920x1080/FqQktWO398mNkO4F.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113136676486922240/img/PskH3TywylPAhnK3.jpg",
+          "original_post_media_url": "https://x.com/abhinavflac/status/2113137026078044637/video/1",
+          "source_claimed_duration_ms": 33033,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113136676486922240-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113136676486922240.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113285539998872040",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Qwen 4 vs Kimi-K3.1\n\n\"3D voxel cherry blossom valley\"\n\nwhich one did it better?\n\n&gt; drop more tests in the comments if you want to see them tested H2H! https://t.co/fGfb4zSIUQ",
+      "source_metrics": {
+        "like_count": 137,
+        "view_count": 9639,
+        "retweet_count": 6,
+        "reply_count": 13,
+        "quote_count": 1,
+        "bookmark_count": 27
+      }
+    },
+    {
+      "id": "case-17",
+      "number": 17,
+      "kind": "usecase",
+      "category": "worlds",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113279019005460816",
+      "source_url": "https://x.com/i/status/2113279019005460816",
+      "author_handle": "alannnfx",
+      "author_url": "https://x.com/alannnfx",
+      "title": "Castle above the clouds",
+      "takeaway": "Inspect a floating castle scene and its atmosphere.",
+      "body_notes": "The creator says they built the castle with Kibitz on Arena. The recording shows the castle, clouds and a moonlit sky.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113278551525142528",
+          "source_id": "x:2113279019005460816",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113278551525142528/vid/avc1/2560x1440/B76DkVwyOlFwtrTK.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113278551525142528/img/jbidQNh259-Foo4o.jpg",
+          "original_post_media_url": "https://x.com/alannnfx/status/2113279019005460816/video/1",
+          "source_claimed_duration_ms": 30097,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113278551525142528-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113278551525142528.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113279019005460816",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi k3.1 cooked harder\n\nyou can use this model in arena which is under the name kibitz \n\nI build this castle above clouds in arena and genuinely I love it\n\nnow, i am excited for their official launch https://t.co/NMN71yS69Y",
+      "source_metrics": {
+        "like_count": 32,
+        "view_count": 3267,
+        "retweet_count": 1,
+        "reply_count": 11,
+        "quote_count": 0,
+        "bookmark_count": 3
+      }
+    },
+    {
+      "id": "case-18",
+      "number": 18,
+      "kind": "usecase",
+      "category": "worlds",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113248472291852327",
+      "source_url": "https://x.com/i/status/2113248472291852327",
+      "author_handle": "LuminaBench",
+      "author_url": "https://x.com/LuminaBench",
+      "title": "Medieval voxel castle",
+      "takeaway": "Inspect a stylized castle and surrounding voxel landscape.",
+      "body_notes": "The attached recording shows a medieval voxel castle. Similarity to other models is an opinion, not evidence of shared training.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113247530632855552",
+          "source_id": "x:2113248472291852327",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113247530632855552/vid/avc1/1880x1280/BvNh2Qp_VqHwT0q5.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113247530632855552/img/5LtJdIrAqDgiGY1o.jpg",
+          "original_post_media_url": "https://x.com/LuminaBench/status/2113248472291852327/video/1",
+          "source_claimed_duration_ms": 41988,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113247530632855552-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113247530632855552.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113248472291852327",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 Medieval Voxel Castle\n\nThis is in arena under \"Kibitz\" and feels identical to GPT-6.1 Sol Max with a sprinkle of Sonnet's design taste\n\nWe all know what they have done and are in for a treat, they also fixed the speed problems https://t.co/x4jowVjlI5",
+      "source_metrics": {
+        "like_count": 174,
+        "view_count": 12457,
+        "retweet_count": 8,
+        "reply_count": 18,
+        "quote_count": 3,
+        "bookmark_count": 22
+      }
+    },
+    {
+      "id": "case-19",
+      "number": 19,
+      "kind": "comparison",
+      "category": "worlds",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113242793057587578",
+      "source_url": "https://x.com/i/status/2113242793057587578",
+      "author_handle": "MingTian685474",
+      "author_url": "https://x.com/MingTian685474",
+      "title": "Mechanical diorama comparison",
+      "takeaway": "Inspect two intricate scenes from an Arena trial.",
+      "body_notes": "The source records a personal Arena trial and shows paired mechanical environments. The full prompt and functional checks are not disclosed.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113242601336029184",
+          "source_id": "x:2113242793057587578",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113242601336029184/vid/avc1/1280x1440/voqFqh9Guonpwxcs.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113242601336029184/img/Fys9MJ-Awde5TCEh.jpg",
+          "original_post_media_url": "https://x.com/MingTian685474/status/2113242793057587578/video/1",
+          "source_claimed_duration_ms": 19700,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113242601336029184-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113242601336029184.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113242793057587578",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "都说竞技场 kibitz 是 kimi 3.1，查了一下，这确实符合 kimi 一贯的命名规律：k2.5 叫 kiwido，k2.6 叫 kiwire，k3 叫 kivine\n\n另外其 tokenizer 也有人测出与 k3 一致（真是一有匿名模型，个个化身福尔摩斯、列文虎克）\n\n立马就去竞技场抽卡试试，第一次就抽中了:)，简单测试一下，看着还不错，期待一下正式版的发布\n\n再去抽抽看能不能抽到 kalmia，据说是 Qwen 4，应该不久后也会发了吧",
+      "source_metrics": {
+        "like_count": 33,
+        "view_count": 5592,
+        "retweet_count": 1,
+        "reply_count": 5,
+        "quote_count": 1,
+        "bookmark_count": 7
+      }
+    },
+    {
+      "id": "case-20",
+      "number": 20,
+      "kind": "usecase",
+      "category": "worlds",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113220079789748434",
+      "source_url": "https://x.com/i/status/2113220079789748434",
+      "author_handle": "marcthecreatorr",
+      "author_url": "https://x.com/marcthecreatorr",
+      "title": "Castle with dragons and windmill",
+      "takeaway": "Inspect a castle scene with several animated elements.",
+      "body_notes": "The author reports dragons, a windmill, roaming animals, a moat and drawbridge, generated in about 20 minutes. Reposts are grouped here.",
+      "related_sources": [
+        {
+          "source_id": "x:2113223010274697726",
+          "source_url": "https://x.com/i/status/2113223010274697726",
+          "author_handle": "karanC_12",
+          "source_text": "🚨Kimi K3.1 (Kibitz) just built a medieval castle in Arena.\n\n•Dragons flying overhead\n•Working windmill\n•Animals roaming freely\n•Moat + drawbridge\n\n20 minutes to generate. Already winning battles. https://t.co/Ka0rBpC9la"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113219937418240000",
+          "source_id": "x:2113220079789748434",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113219937418240000/vid/avc1/1920x1080/kWB7XZkzdjczoPrP.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113219937418240000/img/nWsLe3zLUakNxI_u.jpg",
+          "original_post_media_url": "https://x.com/marcthecreatorr/status/2113220079789748434/video/1",
+          "source_claimed_duration_ms": 30741,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113219937418240000-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113219937418240000.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113220079789748434",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 (Kibitz) on a Medival Castle \n\n&gt; packed with detail: dragons flying overhead, a working windmill, animals roaming, and a moat with a drawbridge\n\ntook about 20 minutes to generate on Arena but it's been winning some of my battles so far https://t.co/b5yVHqrii4",
+      "source_metrics": {
+        "like_count": 54,
+        "view_count": 6657,
+        "retweet_count": 0,
+        "reply_count": 14,
+        "quote_count": 1,
+        "bookmark_count": 6
+      }
+    },
+    {
+      "id": "case-21",
+      "number": 21,
+      "kind": "comparison",
+      "category": "worlds",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113213063834853518",
+      "source_url": "https://x.com/i/status/2113213063834853518",
+      "author_handle": "LuminaBench",
+      "author_url": "https://x.com/LuminaBench",
+      "title": "Voxel pagoda across models",
+      "takeaway": "Compare a pagoda scene with several frontier-model outputs.",
+      "body_notes": "The original pagoda and a later comparison are kept together. Visual similarity does not establish model identity or distillation.",
+      "related_sources": [
+        {
+          "source_id": "x:2113215436409950406",
+          "source_url": "https://x.com/i/status/2113215436409950406",
+          "author_handle": "LuminaBench",
+          "source_text": "This is Kimi K3.1's voxel pagoda vs frontier models\n\nI also did GPT-6 Astra so you can see what I mean about it having similar design style, I attached carbon too from checkpoint 1 i'm redoing it now with the new checkpoint\n\nThe actual tower is near identical in design to Astra, and you know what that means 🙏"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113211071041327104",
+          "source_id": "x:2113213063834853518",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113211071041327104/vid/avc1/1880x1280/wTrTfa4yCEPBDxwu.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113211071041327104/img/uubpIPvwQCKiMaac.jpg",
+          "original_post_media_url": "https://x.com/LuminaBench/status/2113213063834853518/video/1",
+          "source_claimed_duration_ms": 47811,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113211071041327104-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113211071041327104.mp4"
+        },
+        {
+          "id": "2113214936348241921",
+          "source_id": "x:2113215436409950406",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113214936348241921/vid/avc1/1920x1500/CXeoUYtgUhaavXVu.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113214936348241921/img/4c674c6MSjpZvQly.jpg",
+          "original_post_media_url": "https://x.com/LuminaBench/status/2113215436409950406/video/1",
+          "source_claimed_duration_ms": 27083,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113214936348241921-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113214936348241921.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113213063834853518",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 Voxel Pagoda\n\nMy immediate thought is that this has a similar design style to ChatGPT models but has some differences\n\nOverall very strong though and they seem to have fixed the problems with it being sluggish https://t.co/CTQf8rxljb",
+      "source_metrics": {
+        "like_count": 102,
+        "view_count": 20837,
+        "retweet_count": 3,
+        "reply_count": 9,
+        "quote_count": 2,
+        "bookmark_count": 11
+      }
+    },
+    {
+      "id": "case-22",
+      "number": 22,
+      "kind": "comparison",
+      "category": "worlds",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113185478178447455",
+      "source_url": "https://x.com/i/status/2113185478178447455",
+      "author_handle": "Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "title": "Sunset pagoda and comparisons",
+      "takeaway": "Compare one pagoda work with Qwen and Opus examples.",
+      "body_notes": "The author's pagoda recording and two comparison recordings belong to one work. They are not three independent case studies.",
+      "related_sources": [
+        {
+          "source_id": "x:2113251880738410889",
+          "source_url": "https://x.com/i/status/2113251880738410889",
+          "author_handle": "Mr_Salio",
+          "source_text": "Qwen 4 vs Kimi-K3.1 \n\nThe quality of these models is getting ridiculous Both are showing serious potential\n\nAnd they will be a lot cheaper than Openai and anthropic models https://t.co/98u5iFGbMC"
+        },
+        {
+          "source_id": "x:2113229529208525057",
+          "source_url": "https://x.com/i/status/2113229529208525057",
+          "author_handle": "Mr_Salio",
+          "source_text": "🚨 Kimi-K3.1 vs Opus 5.5\n\nSame prompt, and honestly, the results are surprisingly close\n\nKimi and DeepSeek are becoming serious contenders in the frontier model race The quality coming out of these models is getting harder to ignore\n\nMoonshot is cooking https://t.co/xZ3bpfFgpJ"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113185412759871489",
+          "source_id": "x:2113185478178447455",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113185412759871489/vid/avc1/1920x892/V6alNLSIcTJjEz2r.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113185412759871489/img/kUGxdzSjzwRUJ0na.jpg",
+          "original_post_media_url": "https://x.com/Mr_Salio/status/2113185478178447455/video/1",
+          "source_claimed_duration_ms": 27900,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113185412759871489-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113185412759871489.mp4"
+        },
+        {
+          "id": "2113251798739775488",
+          "source_id": "x:2113251880738410889",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113251798739775488/vid/avc1/1920x1080/pDkBatWozsqf4Hs2.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113251798739775488/img/GSm0axbespFWi0aa.jpg",
+          "original_post_media_url": "https://x.com/Mr_Salio/status/2113251880738410889/video/1",
+          "source_claimed_duration_ms": 38966,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113251798739775488-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113251798739775488.mp4"
+        },
+        {
+          "id": "2113229444672266240",
+          "source_id": "x:2113229529208525057",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113229444672266240/vid/avc1/1920x1080/ttfn_oUK30JSpayX.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113229444672266240/img/-8-h7bCaa1ZTSKjX.jpg",
+          "original_post_media_url": "https://x.com/Mr_Salio/status/2113229529208525057/video/1",
+          "source_claimed_duration_ms": 49466,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113229444672266240-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113229444672266240.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113185478178447455",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "🚨 Kimi-k3.1 ( voxel pagoda )\n\nIt's now in Arena under the name (Kibitz) you can test \n\nThe quality of this model is really good it feels like GPT Models \n\nIt's coming next week https://t.co/c6C3Z9lkOP",
+      "source_metrics": {
+        "like_count": 87,
+        "view_count": 11968,
+        "retweet_count": 3,
+        "reply_count": 21,
+        "quote_count": 1,
+        "bookmark_count": 9
+      }
+    },
+    {
+      "id": "case-23",
+      "number": 23,
+      "kind": "usecase",
+      "category": "worlds",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113065109039812905",
+      "source_url": "https://x.com/i/status/2113065109039812905",
+      "author_handle": "leo114119",
+      "author_url": "https://x.com/leo114119",
+      "title": "Pastel pagoda",
+      "takeaway": "Inspect a softly colored pagoda scene from Kibitz.",
+      "body_notes": "The source explicitly says Kibitz is only suspected to be Kimi K3.1. The recording also includes a model self-identification, which is unreliable.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113015500867338240",
+          "source_id": "x:2113065109039812905",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113015500867338240/vid/avc1/1920x1080/oz35tbhpv1ffoZuc.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113015500867338240/img/Qkued05tkKDOEOYf.jpg",
+          "original_post_media_url": "https://x.com/AiBattle_/status/2113019198381154407/video/1",
+          "source_claimed_duration_ms": 16299,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113015500867338240-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113015500867338240.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113065109039812905",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Arena 中出现的Kibitz 模型（疑似Kimi k3.1）生成的宝塔测试\n\n这风格，真的很像 Gemini 4 Argon\n\n不过至今还没有确认这是不是就是 Kimi K3.1 https://t.co/B4rw8W4ts8",
+      "source_metrics": {
+        "like_count": 31,
+        "view_count": 4153,
+        "retweet_count": 0,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 3
+      }
+    },
+    {
+      "id": "case-24",
+      "number": 24,
+      "kind": "comparison",
+      "category": "svg",
+      "type": "Evaluation",
+      "date": "2026-10-23",
+      "source_id": "x:2113503273361777086",
+      "source_url": "https://x.com/i/status/2113503273361777086",
+      "author_handle": "chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "title": "Stacked pelican composition",
+      "takeaway": "Compare a layered controller, bicycle and pelican scene.",
+      "body_notes": "The creator labels the outputs Kimi K3.1 Pro and Fable 5.5. Those are source labels; this does not confirm a Pro edition.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113502609416036352",
+          "source_id": "x:2113503273361777086",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113502609416036352/vid/avc1/848x480/BgL8fXrUzL96hdQz.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113502609416036352/img/MUThQ9sDBq3vYYcd.jpg",
+          "original_post_media_url": "https://x.com/chetaslua/status/2113503273361777086/video/1",
+          "source_claimed_duration_ms": 10000,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113502609416036352-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113502609416036352.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113503273361777086",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 Pro vs Fable 5.5\n\nwe are eating well this week https://t.co/70I3j3rv1u",
+      "source_metrics": {
+        "like_count": 133,
+        "view_count": 6175,
+        "retweet_count": 3,
+        "reply_count": 14,
+        "quote_count": 0,
+        "bookmark_count": 13
+      }
+    },
+    {
+      "id": "case-25",
+      "number": 25,
+      "kind": "comparison",
+      "category": "svg",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113297542372798938",
+      "source_url": "https://x.com/i/status/2113297542372798938",
+      "author_handle": "dummerspast39",
+      "author_url": "https://x.com/dummerspast39",
+      "title": "Controller and pelican stack",
+      "takeaway": "Inspect a complex stacking instruction and its spatial relationships.",
+      "body_notes": "The source describes a controller, bicycle and pelican stack. Later screenshots compare it with GPT-6 Sol; a repost is grouped here.",
+      "related_sources": [
+        {
+          "source_id": "x:2113315840149831861",
+          "source_url": "https://x.com/i/status/2113315840149831861",
+          "author_handle": "dummerspast39",
+          "source_text": "Kimi K3.1 vs GPT-6 Sol.\n\nIm sure the similarities are purely coincidental. https://t.co/KdsnwncijD"
+        },
+        {
+          "source_id": "x:2113490614402924843",
+          "source_url": "https://x.com/i/status/2113490614402924843",
+          "author_handle": "NFT_Chen",
+          "source_text": "💥我靠！Kimi K3.1 自行车骑鹈鹕实测炸了，效果直接比肩 Opus 5.5！\n\n这波不是普通的鹈鹕骑车，而是自行车骑鹈鹕的荒诞堆叠，画面完成度、配色和设计感直接拉满，前端/视觉生成能力已进入第一梯队。\n\n细节满满：\n🔹夜空：新月+星点+远处山丘轮廓，右侧暖橙落日余晖与海平线呼应。\n🔹左侧灯塔：红白条纹+发光灯室，光束射出，背景小屋有窗户亮灯。\n🔹核心主体：白色鹈鹕戴红围巾、喙含鱼，身体与自行车深度融合，上青下红双车架。\n🔹顶部：Xbox风格白色手柄直接“骑”在自行车上，按键细节清晰。\n🔹底部：灰白鳄鱼/短吻鳄头戴锅/碗，眼神呆萌，站在木栈道上。\n🔹环境：海浪、木码头、小蟹、帆船剪影，整体童话感+轻微赛博荒诞。\n\n这种堆叠构图+光影层次+物体关系理解，已经不是简单SVG能随便糊弄的水平。\n\n国产模型在视觉/前端这块继续追平甚至局部反超闭源旗舰，后续正式发布后值得重点盯。\n\n#Kimi #KimiK31 #鹈鹕骑车 #自行车骑鹈鹕 #AI #Opus55 #MoonshotAI #前端生成 #SVG #Kibitz\n\nhttps://t.co/m58MXDfzYB"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113297515898429440",
+          "source_id": "x:2113297542372798938",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113297515898429440/vid/avc1/1080x1440/gd2I_uUXwq3uqCt7.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113297515898429440/img/tXmfnxT0OZtgv05k.jpg",
+          "original_post_media_url": "https://x.com/dummerspast39/status/2113297542372798938/video/1",
+          "source_claimed_duration_ms": 11563,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113297515898429440-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113297515898429440.mp4"
+        },
+        {
+          "id": "2113315831626993664",
+          "source_id": "x:2113315840149831861",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVQBjVJWEAAhqRl.jpg",
+          "source_preview_url": "https://pbs.twimg.com/media/HVQBjVJWEAAhqRl.jpg",
+          "original_post_media_url": "https://x.com/dummerspast39/status/2113315840149831861/photo/1",
+          "source_claimed_duration_ms": null,
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113315831626993664.jpg"
+        },
+        {
+          "id": "2113315836064681985",
+          "source_id": "x:2113315840149831861",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVQBjlrX0AEUktm.jpg",
+          "source_preview_url": "https://pbs.twimg.com/media/HVQBjlrX0AEUktm.jpg",
+          "original_post_media_url": "https://x.com/dummerspast39/status/2113315840149831861/photo/1",
+          "source_claimed_duration_ms": null,
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113315836064681985.jpg"
+        },
+        {
+          "id": "2113490171635302400",
+          "source_id": "x:2113490614402924843",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113490171635302400/vid/avc1/1200x1200/wrDIZKXSH0qHD1iu.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113490171635302400/img/bRKRS1k1yrNXZhb4.jpg",
+          "original_post_media_url": "https://x.com/NFT_Chen/status/2113490614402924843/video/1",
+          "source_claimed_duration_ms": 11626,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113490171635302400-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113490171635302400.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113297542372798938",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 (kibitz): controller riding bycicle riding pelican riding bycicle riding pelican https://t.co/CGX4aC1ZWU",
+      "source_metrics": {
+        "like_count": 86,
+        "view_count": 12842,
+        "retweet_count": 5,
+        "reply_count": 8,
+        "quote_count": 3,
+        "bookmark_count": 13
+      }
+    },
+    {
+      "id": "case-26",
+      "number": 26,
+      "kind": "usecase",
+      "category": "svg",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113228446398877911",
+      "source_url": "https://x.com/i/status/2113228446398877911",
+      "author_handle": "leo114119",
+      "author_url": "https://x.com/leo114119",
+      "title": "Pelican bicycle animation",
+      "takeaway": "Inspect a cycling pelican animation and its interface.",
+      "body_notes": "The creator records a GIF from a Kibitz test. The Chinese-interface composition is a distinct work from the other pelican cases.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113228186460831744",
+          "source_id": "x:2113228446398877911",
+          "source_type": "animated_gif",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/tweet_video/HVOx1tdXQAAf2vj.mp4",
+          "source_preview_url": "https://pbs.twimg.com/tweet_video_thumb/HVOx1tdXQAAf2vj.jpg",
+          "original_post_media_url": "https://x.com/leo114119/status/2113228446398877911/photo/1",
+          "source_claimed_duration_ms": null,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113228186460831744-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113228186460831744.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113228446398877911",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 （kibitz）测试中生成的鹈鹕骑车\n\n录了一个gif，大家看看，水平如何\n\nDS 的评价是：设计感极强（排版、配色、动效、甚至右下角的控制面板），说明它的前端代码生成能力处于目前的第一梯队 https://t.co/v2Pa1y1B49",
+      "source_metrics": {
+        "like_count": 36,
+        "view_count": 7657,
+        "retweet_count": 0,
+        "reply_count": 20,
+        "quote_count": 0,
+        "bookmark_count": 3
+      }
+    },
+    {
+      "id": "case-27",
+      "number": 27,
+      "kind": "comparison",
+      "category": "svg",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113218148837257546",
+      "source_url": "https://x.com/i/status/2113218148837257546",
+      "author_handle": "abhinavflac",
+      "author_url": "https://x.com/abhinavflac",
+      "title": "Pelican bicycle comparison",
+      "takeaway": "Compare two responses to a pelican-riding-a-bicycle request.",
+      "body_notes": "The author presents source-attributed Kimi K3.1 and Qwen 4 outputs side by side. The post asks readers to judge the result.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113218040074850304",
+          "source_id": "x:2113218148837257546",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113218040074850304/vid/avc1/1080x1208/PJn2hSECRUcsA9M9.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113218040074850304/img/kyeZA9HUezLTHmYE.jpg",
+          "original_post_media_url": "https://x.com/abhinavflac/status/2113218148837257546/video/1",
+          "source_claimed_duration_ms": 7700,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113218040074850304-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113218040074850304.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113218148837257546",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi-K3.1 vs Qwen 4\n\n\"Pelican Riding a Bicycle\"\n\nwhich one is better? https://t.co/0kCk1U8T8z",
+      "source_metrics": {
+        "like_count": 214,
+        "view_count": 25941,
+        "retweet_count": 3,
+        "reply_count": 39,
+        "quote_count": 1,
+        "bookmark_count": 23
+      }
+    },
+    {
+      "id": "case-28",
+      "number": 28,
+      "kind": "usecase",
+      "category": "svg",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113184816044949916",
+      "source_url": "https://x.com/i/status/2113184816044949916",
+      "author_handle": "chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "title": "Moon and star field",
+      "takeaway": "Inspect an animated celestial drawing from a reported one-shot test.",
+      "body_notes": "The creator describes the result as JavaScript drawing. The recording shows a moon and star field; speed claims remain source-reported.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113184291815632896",
+          "source_id": "x:2113184816044949916",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113184291815632896/vid/avc1/1668x1652/lawx7PyBKVUEYtcN.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113184291815632896/img/2oxPPDY3zf-nJmds.jpg",
+          "original_post_media_url": "https://x.com/chetaslua/status/2113184816044949916/video/1",
+          "source_claimed_duration_ms": 58898,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113184291815632896-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113184291815632896.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113184816044949916",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "🚨 Kimi Kibitz JS Drawing ABilities is Top Notch \n\nIts one shot obviously as on arena you can not ask same ai model twice in battle mode\n\nThis is so fast , and i heard this will be going to very efficient model from my friends inside Kimi https://t.co/NSb1wzir2G",
+      "source_metrics": {
+        "like_count": 203,
+        "view_count": 10992,
+        "retweet_count": 8,
+        "reply_count": 11,
+        "quote_count": 1,
+        "bookmark_count": 28
+      }
+    },
+    {
+      "id": "case-29",
+      "number": 29,
+      "kind": "usecase",
+      "category": "svg",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113121227762278725",
+      "source_url": "https://x.com/i/status/2113121227762278725",
+      "author_handle": "chetaslua",
+      "author_url": "https://x.com/chetaslua",
+      "title": "Interactive pelican SVG",
+      "takeaway": "Inspect cycling controls, annotations and SVG export in a vector scene.",
+      "body_notes": "The original creator provides a public SVG request. Reposts add descriptions of cadence, lighting and export controls; no prompt is reconstructed here.",
+      "related_sources": [
+        {
+          "source_id": "x:2113211078343848228",
+          "source_url": "https://x.com/i/status/2113211078343848228",
+          "author_handle": "NFT_Chen",
+          "source_text": "💥哇塞！Arena 上匿名模型 Kibitz 疑似 Kimi K3.1！经典「鹈鹕骑车」SVG 被直接做成互动矢量作品！\n\n鹈鹕骑车测试细节： 🔹分层羽毛 + 巨型橙色喙囊 + 骑行帽 + 红围巾\n 🔹红色自行车完整机械（链条、32辐条、蹼足踩踏板）\n 🔹可互动：实时调踏频、日/黄昏切换、注释标注、一键导出 SVG\n 🔹带完整 UI 的「A pelican with places to be.」场景\n\n前端生成与空间理解直接拉满，Kimi 这波要放大招了？\n\n#Kibitz #Kimi #KimiK31 #AI #SVG #鹈鹕骑车 #CodeArena #MoonshotAI #杨植麟\n\nhttps://t.co/bThP6RV9En https://t.co/R60VfjsuSk"
+        },
+        {
+          "source_id": "x:2113142291204628746",
+          "source_url": "https://x.com/i/status/2113142291204628746",
+          "author_handle": "karanC_12",
+          "source_text": "🚨A mystery model called \"kibitz\" just appeared on Arena.\n\nMy guess: Kimi K3.1.\n\nKimi K3 was tested under \"kivine\" before launch.👀\n\nCould history be repeating itself? https://t.co/LFLZEFWu5V"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113120721278992385",
+          "source_id": "x:2113121227762278725",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113120721278992385/vid/avc1/3024x1650/hhw6rA5Vv4EIrvQF.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113120721278992385/img/qsCyMiGxbWM5Slbo.jpg",
+          "original_post_media_url": "https://x.com/chetaslua/status/2113121227762278725/video/1",
+          "source_claimed_duration_ms": 12823,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113120721278992385-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113120721278992385.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113121227762278725",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kibitz a new mysterious model on code arena\n\nHigh chances it can be a new kimi model \n\nPrompt : code an svg of pelican riding bike as detailed as you can https://t.co/4tnIp7GRia",
+      "source_metrics": {
+        "like_count": 325,
+        "view_count": 59367,
+        "retweet_count": 8,
+        "reply_count": 37,
+        "quote_count": 7,
+        "bookmark_count": 39
+      }
+    },
+    {
+      "id": "case-30",
+      "number": 30,
+      "kind": "comparison",
+      "category": "svg",
+      "type": "Evaluation",
+      "date": "2026-10-21",
+      "source_id": "x:2112927257794887689",
+      "source_url": "https://x.com/i/status/2112927257794887689",
+      "author_handle": "lyraxana",
+      "author_url": "https://x.com/lyraxana",
+      "title": "Ana de Armas SVG portrait",
+      "takeaway": "Inspect a portrait while keeping generation effort visible.",
+      "body_notes": "The author reports about 49k tokens, 22 minutes, max effort and zero-shot generation. The later post repeats the Kimi portrait and adds a GPT-6 Astra TiKZ comparison.",
+      "related_sources": [
+        {
+          "source_id": "x:2112935319678984445",
+          "source_url": "https://x.com/i/status/2112935319678984445",
+          "author_handle": "leo114119",
+          "source_text": "据说这是 Kimi K3.1 的 SVG 绘画效果。。。\n\n图 2 是 Gpt 6 astra TiKZ 绘制。。。\n\n不会是真的吧。。。 https://t.co/36ZcEVg8d2"
+        }
+      ],
+      "media": [
+        {
+          "id": "2112927241076154368",
+          "source_id": "x:2112927257794887689",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVKgIYiXIAAyKm-.jpg",
+          "source_preview_url": "https://pbs.twimg.com/media/HVKgIYiXIAAyKm-.jpg",
+          "original_post_media_url": "https://x.com/lyraxana/status/2112927257794887689/photo/1",
+          "source_claimed_duration_ms": null,
+          "display_label": "Kimi K3.1",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2112927241076154368.jpg"
+        },
+        {
+          "id": "2112934958201245696",
+          "source_id": "x:2112935319678984445",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVKnJlEXEAADhWA.png",
+          "source_preview_url": "https://pbs.twimg.com/media/HVKnJlEXEAADhWA.png",
+          "original_post_media_url": "https://x.com/leo114119/status/2112935319678984445/photo/1",
+          "source_claimed_duration_ms": null,
+          "display_label": "Kimi K3.1",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2112934958201245696.jpg"
+        },
+        {
+          "id": "2112935157673996288",
+          "source_id": "x:2112935319678984445",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVKnVMKXsAAO21H.png",
+          "source_preview_url": "https://pbs.twimg.com/media/HVKnVMKXsAAO21H.png",
+          "original_post_media_url": "https://x.com/leo114119/status/2112935319678984445/photo/1",
+          "source_claimed_duration_ms": null,
+          "display_label": "GPT-6 Astra · TiKZ",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2112935157673996288.jpg"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2112927257794887689",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "[Kimi K3.1] Ana de Armas SVG\n~49k tokens; ~22 minutes; effort: max; zero-shot https://t.co/8e9UccMBv4",
+      "source_metrics": {
+        "like_count": 223,
+        "view_count": 41500,
+        "retweet_count": 0,
+        "reply_count": 50,
+        "quote_count": 7,
+        "bookmark_count": 19
+      }
+    },
+    {
+      "id": "case-31",
+      "number": 31,
+      "kind": "comparison",
+      "category": "svg",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113064293956497823",
+      "source_url": "https://x.com/i/status/2113064293956497823",
+      "author_handle": "leo114119",
+      "author_url": "https://x.com/leo114119",
+      "title": "Portrait SVG comparison",
+      "takeaway": "Compare portrait drawings with their anonymous checkpoint labels visible.",
+      "body_notes": "The screenshot labels the left result Kibitz and the right Kalmia. The source discusses SVG drawing; neither official model mapping is confirmed.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113064255222087682",
+          "source_id": "x:2113064293956497823",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVMcvqAWgAIpNST.png",
+          "source_preview_url": "https://pbs.twimg.com/media/HVMcvqAWgAIpNST.png",
+          "original_post_media_url": "https://x.com/leo114119/status/2113064293956497823/photo/1",
+          "source_claimed_duration_ms": null,
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113064255222087682.jpg"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113064293956497823",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Arena 测试中的新模型 Kibitz 疑似 为 Kimi K3.1\n\n今天（10/22）凌晨在 Arena 出现两个新模型，Kibitz 和 Kalmia\n前者的命名遵循 Kimi 新模型匿名代号的习惯（K2.5：Kiwido；K2.6：Kiwire；K3：Kivine）\n而且 K3 也是在发布前 30 小时左右以匿名方式进入竞技场，如果 Kibitz 是新 Kimi 模型的话，大概率在本周五夜间发布\n凌晨 Kibitz 的测试结果比昨天帖子中的看起来好不少，比如 SVG 绘制",
+      "source_metrics": {
+        "like_count": 36,
+        "view_count": 8198,
+        "retweet_count": 0,
+        "reply_count": 13,
+        "quote_count": 4,
+        "bookmark_count": 6
+      }
+    },
+    {
+      "id": "case-32",
+      "number": 32,
+      "kind": "comparison",
+      "category": "games",
+      "type": "Limit",
+      "date": "2026-10-22",
+      "source_id": "x:2113296124576764239",
+      "source_url": "https://x.com/i/status/2113296124576764239",
+      "author_handle": "kepochnik",
+      "author_url": "https://x.com/kepochnik",
+      "title": "Backrooms game comparison",
+      "takeaway": "Compare game outputs while retaining the creator's negative experience.",
+      "body_notes": "The author reports 40 minutes for Kimi and 1 hour 1 minute for Opus, and says they are disappointed with the Kimi game result.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113295866358386688",
+          "source_id": "x:2113296124576764239",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113295866358386688/vid/avc1/3840x2160/84KtG8tWU6slx6Fa.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113295866358386688/img/Klx1vt4outmj8B9D.jpg",
+          "original_post_media_url": "https://x.com/kepochnik/status/2113296124576764239/video/1",
+          "source_claimed_duration_ms": 175104,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113295866358386688-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113295866358386688.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113296124576764239",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 vs Opus 5.5\n\nI decided to create the legendary horror game Backrooms and show how the AI models coped with it\n\nI'm a little upset with the result of the Kimi k3.1 game model itself, but there is something there\n\nKimi k3.1 - 40 minutes\nOpus 5.5 - 1 hour 1 minutes\n\nwhich model did it better?",
+      "source_metrics": {
+        "like_count": 129,
+        "view_count": 12096,
+        "retweet_count": 5,
+        "reply_count": 30,
+        "quote_count": 0,
+        "bookmark_count": 18
+      }
+    },
+    {
+      "id": "case-33",
+      "number": 33,
+      "kind": "comparison",
+      "category": "games",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113278219210113095",
+      "source_url": "https://x.com/i/status/2113278219210113095",
+      "author_handle": "marcthecreatorr",
+      "author_url": "https://x.com/marcthecreatorr",
+      "title": "RPG village and dragon raid",
+      "takeaway": "Compare a village scene with weather and day–night behavior.",
+      "body_notes": "The author reports working dragon raids, thunderstorms and day–night cycles in both outputs, with roughly 15 minutes generation each.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113278088175923201",
+          "source_id": "x:2113278219210113095",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113278088175923201/vid/avc1/1920x1080/OvByZZ1PN6bkbi6f.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113278088175923201/img/8etF1GZF1gQGxkkl.jpg",
+          "original_post_media_url": "https://x.com/marcthecreatorr/status/2113278219210113095/video/1",
+          "source_claimed_duration_ms": 33806,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113278088175923201-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113278088175923201.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113278219210113095",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi K3.1 vs Haiku 5.5 (2D RPG village) \n\ngave both models the same prompt, and both got the dragon raid, thunderstorm, and day/night cycle working \n\nboth models took roughly 15 minutes to generate. \n\n> k3.1 is still under the codename “kibitz” on Arena and future checkpoints could get a lot better than this. \n\nchina keeps cooking a lot, which one looks better to you?",
+      "source_metrics": {
+        "like_count": 42,
+        "view_count": 3227,
+        "retweet_count": 0,
+        "reply_count": 8,
+        "quote_count": 0,
+        "bookmark_count": 9
+      }
+    },
+    {
+      "id": "case-34",
+      "number": 34,
+      "kind": "usecase",
+      "category": "games",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113274970881044853",
+      "source_url": "https://x.com/i/status/2113274970881044853",
+      "author_handle": "Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "title": "Airplane takeoff and landing",
+      "takeaway": "Inspect a flight-game prototype with a runway.",
+      "body_notes": "The source reports a playable one-shot airplane game with takeoff and landing in about 10 minutes. This collection has not tested playability.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113274542198079488",
+          "source_id": "x:2113274970881044853",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113274542198079488/vid/avc1/1920x1080/L3nhC8tLJ3Gym8DN.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113274542198079488/img/V4DjLyn75HAhRvbd.jpg",
+          "original_post_media_url": "https://x.com/Mr_Salio/status/2113274970881044853/video/1",
+          "source_claimed_duration_ms": 49200,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113274542198079488-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113274542198079488.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113274970881044853",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "🚨 Kimi-K3.1 is built DIFFERENT\n\nIt created a playable 3D airplane game in a single shot, complete with takeoff and landing and a runway \n\nIt took around 10 minutes \n\nplay in the first comment :) https://t.co/lRBuWKwpfM",
+      "source_metrics": {
+        "like_count": 58,
+        "view_count": 4522,
+        "retweet_count": 3,
+        "reply_count": 9,
+        "quote_count": 1,
+        "bookmark_count": 7
+      }
+    },
+    {
+      "id": "case-35",
+      "number": 35,
+      "kind": "usecase",
+      "category": "web",
+      "type": "Demo",
+      "date": "2026-10-22",
+      "source_id": "x:2113244133339058450",
+      "source_url": "https://x.com/i/status/2113244133339058450",
+      "author_handle": "thegenioo",
+      "author_url": "https://x.com/thegenioo",
+      "title": "Chai and paratha cafe menu",
+      "takeaway": "Inspect a single-page menu for a local cafe.",
+      "body_notes": "The author asks allegedly Kimi K3.1 to build a Pakistani chai and paratha cafe menu. Training-origin speculation is excluded from the takeaway.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113242472016998401",
+          "source_id": "x:2113244133339058450",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113242472016998401/vid/avc1/3576x2134/wJdW2EdvcdNuljx5.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113242472016998401/img/PKKL0nC7LqlTo1mO.jpg",
+          "original_post_media_url": "https://x.com/thegenioo/status/2113244133339058450/video/1",
+          "source_claimed_duration_ms": 45648,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113242472016998401-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113242472016998401.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113244133339058450",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "I asked allegedly Kimi K3.1 (Kibitz in @arena ) to build a single-page menu for a Pakistani local chai and paratha cafe \n\nWell no offense to the team but looks like they have literally distilled Astra/GPT-6 for this one, I mean it is so obvious https://t.co/NjToTwqVDj",
+      "source_metrics": {
+        "like_count": 37,
+        "view_count": 4419,
+        "retweet_count": 1,
+        "reply_count": 3,
+        "quote_count": 0,
+        "bookmark_count": 8
+      }
+    },
+    {
+      "id": "case-36",
+      "number": 36,
+      "kind": "comparison",
+      "category": "comparison",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113360370811470100",
+      "source_url": "https://x.com/i/status/2113360370811470100",
+      "author_handle": "Haleeeemahh",
+      "author_url": "https://x.com/Haleeeemahh",
+      "title": "Giraffe model comparison",
+      "takeaway": "Compare four giraffe outputs with their displayed model labels.",
+      "body_notes": "The author compares Opus 5.5, Carbon, Kibitz and Kalmia, preferring Gemini. These are informal Arena results, not a controlled benchmark.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113360316046135296",
+          "source_id": "x:2113360370811470100",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113360316046135296/vid/avc1/1280x788/vDTkqkMum5UARjdv.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113360316046135296/img/_lZkHSfDhpVF1sib.jpg",
+          "original_post_media_url": "https://x.com/Haleeeemahh/status/2113360370811470100/video/1",
+          "source_claimed_duration_ms": 12000,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113360316046135296-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113360316046135296.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113360370811470100",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "tested 3 models against opus 5.5 \n\ngemini 4 carbon (updated checkpoint gemini 4 argon \n\nKimi k3.1 (kibitz)\n\nQwen 4 (kalmia)\n\nall tested in arena, my bet is on gemini\n\nwhich of them came close to opus 5.5 ? https://t.co/a6FCIrXusl",
+      "source_metrics": {
+        "like_count": 158,
+        "view_count": 27674,
+        "retweet_count": 3,
+        "reply_count": 31,
+        "quote_count": 2,
+        "bookmark_count": 29
+      }
+    },
+    {
+      "id": "case-37",
+      "number": 37,
+      "kind": "comparison",
+      "category": "comparison",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113321010913292308",
+      "source_url": "https://x.com/i/status/2113321010913292308",
+      "author_handle": "AI_Screening",
+      "author_url": "https://x.com/AI_Screening",
+      "title": "Horse model comparison",
+      "takeaway": "Inspect how three outputs handle the same visible subject.",
+      "body_notes": "The recording compares horse scenes labeled Carbon, Opus 5.5 and Kimi K3.1. The author's ranking is an opinion about this sample.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113320560168185857",
+          "source_id": "x:2113321010913292308",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113320560168185857/vid/avc1/2160x3152/dzSHQe-vTYJVHW1F.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113320560168185857/img/No8sqhymrRlktf1L.jpg",
+          "original_post_media_url": "https://x.com/AI_Screening/status/2113321010913292308/video/1",
+          "source_claimed_duration_ms": 14933,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113320560168185857-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113320560168185857.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113321010913292308",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Gemini 4 Argon 2nd checkpoint in Arena vs. Opus 5.5 vs. Kimi K3.1 in Arena\n\n&gt;Carbon &gt;~ Opus 5.5\n&gt;Kimi K3.1 is good in its own league https://t.co/PEsFksRix9",
+      "source_metrics": {
+        "like_count": 96,
+        "view_count": 7231,
+        "retweet_count": 4,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 17
+      }
+    },
+    {
+      "id": "case-38",
+      "number": 38,
+      "kind": "comparison",
+      "category": "comparison",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113277551980482975",
+      "source_url": "https://x.com/i/status/2113277551980482975",
+      "author_handle": "TimJayas",
+      "author_url": "https://x.com/TimJayas",
+      "title": "Bicycle and cow spatial test",
+      "takeaway": "Check whether the output preserves an unusual subject–object instruction.",
+      "body_notes": "The request asks for a bicycle riding a cow. The creator notes that Kimi appears to correct the instruction; a later Carbon result is attached.",
+      "related_sources": [
+        {
+          "source_id": "x:2113322179303821765",
+          "source_url": "https://x.com/i/status/2113322179303821765",
+          "author_handle": "TimJayas",
+          "source_text": "surprisingly gemini-4-carbon checkpoint in arena performed better than both kimi-k3.1 and qwen-4\n\nthis is the latest updated checkpoint of gemini-4-carbon and for comparison you can check out the post below where i've compared kimi-k3.1 and qwen-4\n\nso far google has been delivering really great models since gemini 4 argon"
+        }
+      ],
+      "media": [
+        {
+          "id": "2113275706201485313",
+          "source_id": "x:2113277551980482975",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113275706201485313/vid/avc1/1920x1000/NYVAeMJV_Uj7CZ_k.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113275706201485313/img/qN5S_9keHeUcQaNd.jpg",
+          "original_post_media_url": "https://x.com/TimJayas/status/2113277551980482975/video/1",
+          "source_claimed_duration_ms": 50240,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113275706201485313-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113275706201485313.mp4"
+        },
+        {
+          "id": "2113321185002033152",
+          "source_id": "x:2113322179303821765",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113321185002033152/vid/avc1/1920x1500/rso3d4zBw5AOp8ZR.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113321185002033152/img/fmwgjo_UxQRrMdBl.jpg",
+          "original_post_media_url": "https://x.com/TimJayas/status/2113322179303821765/video/1",
+          "source_claimed_duration_ms": 50240,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113321185002033152-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113321185002033152.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113277551980482975",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kimi-k3.1 vs Qwen 4\n\nbuild a 3d cycle riding a cow using three.js\n\nseems like kimi-k3.1 self corrected the prompt lmao\n\nwho do you think did it better? https://t.co/z5o4aFy95y",
+      "source_metrics": {
+        "like_count": 219,
+        "view_count": 35326,
+        "retweet_count": 5,
+        "reply_count": 25,
+        "quote_count": 7,
+        "bookmark_count": 35
+      }
+    },
+    {
+      "id": "case-39",
+      "number": 39,
+      "kind": "comparison",
+      "category": "comparison",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113152639839936603",
+      "source_url": "https://x.com/i/status/2113152639839936603",
+      "author_handle": "dummerspast39",
+      "author_url": "https://x.com/dummerspast39",
+      "title": "Animal bicycle scene comparison",
+      "takeaway": "Compare two animal-and-bicycle scenes with anonymous labels.",
+      "body_notes": "The source compares Kalmia and Kibitz while making conflicting guesses about their Kimi identities. Those guesses are not adopted as facts.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113152514820308992",
+          "source_id": "x:2113152639839936603",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113152514820308992/vid/avc1/1440x960/ecXqpZWTI4cfjbh7.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113152514820308992/img/OkvW6DnGf-E1QH9I.jpg",
+          "original_post_media_url": "https://x.com/dummerspast39/status/2113152639839936603/video/1",
+          "source_claimed_duration_ms": 32000,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113152514820308992-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113152514820308992.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113152639839936603",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "Kalmia &gt; kibitz\nKalmia = Kimi K3.1 mini\nKibitz = Kimi K3.1 https://t.co/0IRLGlHA2N",
+      "source_metrics": {
+        "like_count": 53,
+        "view_count": 7919,
+        "retweet_count": 1,
+        "reply_count": 6,
+        "quote_count": 0,
+        "bookmark_count": 5
+      }
+    },
+    {
+      "id": "case-40",
+      "number": 40,
+      "kind": "comparison",
+      "category": "comparison",
+      "type": "Evaluation",
+      "date": "2026-10-22",
+      "source_id": "x:2113180444858667485",
+      "source_url": "https://x.com/i/status/2113180444858667485",
+      "author_handle": "ChrisGPT",
+      "author_url": "https://x.com/ChrisGPT",
+      "title": "Minecraft self-portrait",
+      "takeaway": "Compare Minecraft-style self-portraits while checking cost evidence separately.",
+      "body_notes": "The source reports 13,707 blocks and $0.38 versus 5,738 blocks and $5.31. Billing, token scope and retry costs were not independently verified.",
+      "related_sources": [],
+      "media": [
+        {
+          "id": "2113180409877950464",
+          "source_id": "x:2113180444858667485",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113180409877950464/vid/avc1/2160x1066/Ywl8p-a6gKgBkPrP.mp4?tag=29",
+          "source_preview_url": "https://pbs.twimg.com/amplify_video_thumb/2113180409877950464/img/b-a4pAd1FFeVMX5Z.jpg",
+          "original_post_media_url": "https://x.com/ChrisGPT/status/2113180444858667485/video/1",
+          "source_claimed_duration_ms": 9333,
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113180409877950464-poster.jpg",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113180409877950464.mp4"
+        }
+      ],
+      "dedup_key": "https://x.com/i/status/2113180444858667485",
+      "attribution_status": "source-attributed; anonymous Kibitz mapping unverified",
+      "prompt_status": "not-required",
+      "prompt_boundary": "Usecase collection; full source text retained externally; no reconstructed prompts.",
+      "source_text": "🚨Kimi k3.1 (Kibitz on Arena) will release before Tuesday next week.\n\nIt will be a state of the art Open Source model at low cost. \n\n“build what you think you look like in Minecraft”\n\nGPT6 ASTRA\n5,738 BLOCKS • $5.31\n\nKIMI K3.1\n13,707 BLOCKS • $0.38 https://t.co/z3p1aCv4VX",
+      "source_metrics": {
+        "like_count": 572,
+        "view_count": 78413,
+        "retweet_count": 26,
+        "reply_count": 57,
+        "quote_count": 16,
+        "bookmark_count": 78
+      }
+    }
+  ],
+  "banner_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/cover/banner.png",
+  "banner_policy": "shared-r2; owner-supplied original shared across all 11 languages"
+}

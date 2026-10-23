@@ -1,0 +1,240 @@
+{
+  "language": "tr",
+  "copy": {
+    "introduction": "Giriş",
+    "overview": "Genel bakış",
+    "quick_start": "Hızlı başlangıç",
+    "menu": "İçindekiler",
+    "case": "Örnek",
+    "category": "Kategori",
+    "type": "Tür",
+    "date": "Tarih",
+    "by": "paylaşan",
+    "video": "Kaynak videoyu izle",
+    "comparison_video": "Özgün model karşılaştırmasını izle",
+    "image": "Kaynak görseli aç",
+    "related": "İlgili depolar",
+    "acknowledge": "Teşekkür",
+    "categories": {
+      "mechanical": "Mekanik ve 3B nesneler",
+      "svg": "SVG ve etkileşimli grafikler",
+      "games": "Oyunlar ve animasyon sahneleri",
+      "comparison": "Model karşılaştırması",
+      "worlds": "Dünyalar ve manzaralar",
+      "web": "Web arayüzleri"
+    },
+    "intro": "Paylaşanların Kimi K3.1 ile ilişkilendirdiği topluluk gösterimleri ve gayriresmî değerlendirmeler; anonim Kibitz sürümü de dahildir.",
+    "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
+    "stats": "6 kategoride 40 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.",
+    "evidence": "Kibitz ile Kimi K3.1 eşleşmesi doğrulanmamıştır. Model adları, süreler, maliyetler ve kalite yorumları kaynakların beyanıdır. Kayıtlar, çalıştırılabilir kodu, eksiksiz etkileşimi veya tekrarlanabilir başarıyı kanıtlamaz.",
+    "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
+    "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
+    "corrections": "Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.",
+    "collection": "Kullanım örnekleri",
+    "official": "Resmî Kimi sitesini aç",
+    "additional": "Diğer görünümler ve karşılaştırmalar:",
+    "open_related": "{model} kullanım senaryosu deposunu aç"
+  },
+  "cases": [
+    [
+      "3B yazıcı karşılaştırması",
+      "İki kayıttaki mekanik yazıcı sahnesini karşılaştırın.",
+      "Yazar yeşil çerçeveli yazıcıyı gösterir ve daha sonra Carbon ile karşılaştırır. Sıralama öznel bir değerlendirmedir."
+    ],
+    [
+      "Eden Ark mekanik sahnesi",
+      "Mekanik sahnelerin geometrisini ve sunumunu inceleyin.",
+      "Kayıt, Kibitz'i muhtemel Kimi K3.1 olarak etiketleyip Kalmia ile karşılaştırır. Yazar Kibitz'i tercih eder."
+    ],
+    [
+      "Ayrıntılı kol saati",
+      "Malzemeleri, aydınlatmayı ve kadran ayrıntılarını inceleyin.",
+      "Video ayrıntılı bir saat gösterir; yazar bunu Three.js çıktısı olarak sunar. Kontrollü karşılaştırma yoktur."
+    ],
+    [
+      "BMW M5 yapılandırıcısı",
+      "Renk, kapı ve kamera kontrollü otomobil prototipini keşfedin.",
+      "Yazar tek istemle renkler, kapılar, ışıklar, görüşler ve devir modu üretildiğini söyler; Kibitz'i muhtemel Kimi K3.1 sayar."
+    ],
+    [
+      "Konark güneş saati çarkı",
+      "Süsleme ayrıntılarıyla saat gösterme işlevini ayrı değerlendirin.",
+      "Yazar Gemini'nin oymalarını ve Opus'un zaman ölçümünü tercih eder; Kimi çarkını daha basit bulur. Bunlar kaynak yorumlarıdır."
+    ],
+    [
+      "Etkileşimli Xbox kumandası",
+      "Kumanda prototipini ve ekran kontrollerini inceleyin.",
+      "Yazar Xbox tarzı kumandayı Arena'daki Kibitz ile ilişkilendirir. Kayıt kumandayı ve arayüzü gösterir."
+    ],
+    [
+      "Etkileşimli buharlı tren",
+      "Hız ayarı, parçalı görünümler ve tel kafes sunumunu keşfedin.",
+      "Kaynak hız sürgüsü, montaj görünümleri, tel kafes ve istatistikler bildirir. Yeniden paylaşım aynı videoyu kullanır."
+    ],
+    [
+      "Helikopter montajı ve uçuşu",
+      "Kalkış, iniş ve parçalı görünümleri karşılaştırın.",
+      "Kaynaklar model başına yaklaşık 15–20 dakika bildirir. Karşılaştırmayı yapan Qwen'i daha gerçekçi bulur; iki çıktı da korunur."
+    ],
+    [
+      "Kimera anka kuşu",
+      "Ayrıntılı bir yaratık modelini ve sunumunu inceleyin.",
+      "Kayıt The Chimera Phoenix adlı renkli yaratığı gösterir. Yazar diğer testlerde sonuçların değişken olduğunu bildirir."
+    ],
+    [
+      "Mekanik ev ve Fable",
+      "Küçük mekanik evi Fable çıktısıyla karşılaştırın.",
+      "Yazar Kibitz'i Fable 5.1 ile karşılaştırır ve bu testte daha hızlı üretim bildirir. Genel kalite sıralaması özneldir."
+    ],
+    [
+      "Çimenli tepe ve ağaç",
+      "Yazarın tersine mühendislik olarak sunduğu sahneyi inceleyin.",
+      "Kayıt çimenli tepe, ağaç ve günün saati kontrollerini gösterir. Çıkış tarihi ve fiyat tahminleri olgu sayılmaz."
+    ],
+    [
+      "Japon tapınağı oyun varlığı",
+      "Kiraz çiçekleri ve katmanlı geometri içeren tapınağı inceleyin.",
+      "Yazar tapınağı Kibitz'in 3B oyun varlığı olarak sunar. Önceki paylaşımından bir görsel başka açı sağlar."
+    ],
+    [
+      "Etkileşimli buzdolaplı mutfak",
+      "Açılabilen buzdolabı içeren mutfak prototipini keşfedin.",
+      "Yazar yemek odası ve buzdolabı görevinin yaklaşık bir saat sürdüğünü söyler. Başka bir görsel dolabın içini gösterir."
+    ],
+    [
+      "Mutfak sahnesi değerlendirmesi",
+      "Görselliği işlevden ayırarak mutfak düzenini inceleyin.",
+      "Yazar bunu kendi mutfak testlerinin en iyilerinden, Fable 5.5'in ardından sayar. Koleksiyon sahneyi çalıştırmamıştır."
+    ],
+    [
+      "Düşük poligonlu Japon istasyonu",
+      "Kodla üretilen istasyonu ve stilize çevresini inceleyin.",
+      "Yazar model veya görsel kullanmadan düşük poligonlu Japon istasyonu istediğini söyler. Model ilişkilendirmesi geçicidir."
+    ],
+    [
+      "Voksel kiraz çiçeği vadisi",
+      "Aynı vadi isteğine verilen iki çıktıyı karşılaştırın.",
+      "Yazar Qwen 4 ile Kimi K3.1'e atfedilen sonucu karşılaştırır. Önceki Kibitz kaydı başka bir görünüm sağlar."
+    ],
+    [
+      "Bulutların üzerindeki kale",
+      "Yüzen kale sahnesini ve atmosferini inceleyin.",
+      "Yazar kaleyi Arena'da Kibitz ile yaptığını söyler. Kayıt kale, bulutlar ve ay ışıklı gökyüzünü gösterir."
+    ],
+    [
+      "Ortaçağ voksel kalesi",
+      "Stilize kaleyi ve çevresindeki voksel manzarayı inceleyin.",
+      "Video bir ortaçağ kalesi gösterir. Başka modellere benzerlik bir yorumdur, ortak eğitimin kanıtı değildir."
+    ],
+    [
+      "Mekanik diorama karşılaştırması",
+      "Arena denemesindeki iki ayrıntılı ortamı inceleyin.",
+      "Kaynak kişisel bir denemede eşleştirilmiş mekanik ortamlar gösterir. Tam istem ve işlev testleri açıklanmamıştır."
+    ],
+    [
+      "Ejderhalı ve yel değirmenli kale",
+      "Birden fazla hareketli öğe içeren kaleyi inceleyin.",
+      "Yazar ejderha, değirmen, hayvanlar, hendek ve asma köprünün yaklaşık 20 dakikada üretildiğini bildirir. Yeniden paylaşımlar burada birleştirilir."
+    ],
+    [
+      "Modeller arasında voksel pagoda",
+      "Pagodayı çeşitli üst düzey modellerin çıktılarıyla karşılaştırın.",
+      "Özgün pagoda ve sonraki karşılaştırma birlikte tutulur. Görsel benzerlik model kimliğini veya damıtmayı kanıtlamaz."
+    ],
+    [
+      "Gün batımı pagodası ve karşılaştırmalar",
+      "Aynı pagodayı Qwen ve Opus örnekleriyle karşılaştırın.",
+      "Pagoda kaydı ile iki karşılaştırma aynı çalışmaya aittir. Üç bağımsız örnek sayılmazlar."
+    ],
+    [
+      "Pastel renkli pagoda",
+      "Kibitz'in yumuşak renkli pagoda sahnesini inceleyin.",
+      "Kaynak Kibitz'in yalnızca Kimi K3.1 olabileceğini açıkça söyler. Videodaki modelin kendini tanıtması da güvenilir değildir."
+    ],
+    [
+      "Üst üste pelikan kompozisyonu",
+      "Kumanda, bisiklet ve pelikanların yığıldığı sahneyi karşılaştırın.",
+      "Yazar çıktıları Kimi K3.1 Pro ve Fable 5.5 diye etiketler. Kaynak etiketleri Pro sürümünü doğrulamaz."
+    ],
+    [
+      "Kumanda ve pelikan yığını",
+      "Karmaşık yığma isteğini ve mekânsal ilişkileri inceleyin.",
+      "Kaynak kumanda, bisiklet ve pelikanları anlatır. Sonraki ekran görüntüleri GPT-6 Sol ile karşılaştırır; yeniden paylaşım da burada tutulur."
+    ],
+    [
+      "Bisikletçi pelikan animasyonu",
+      "Bisikletçi pelikanın animasyonunu ve arayüzünü inceleyin.",
+      "Yazar Kibitz testinden bir GIF kaydeder. Çince arayüzlü bu çalışma diğer pelikan örneklerinden farklıdır."
+    ],
+    [
+      "Bisikletçi pelikan karşılaştırması",
+      "Bisiklete binen pelikan isteğine iki yanıtı karşılaştırın.",
+      "Yazar Kimi K3.1 ve Qwen 4'e atfedilen çıktıları yan yana sunarak okuyucunun görüşünü sorar."
+    ],
+    [
+      "Ay ve yıldız alanı",
+      "Tek denemede üretildiği bildirilen gökyüzü çizimini inceleyin.",
+      "Yazar bunu JavaScript çizimi diye tanımlar. Video ay ve yıldızları gösterir; hız iddiaları kaynağın beyanıdır."
+    ],
+    [
+      "Etkileşimli pelikan SVG",
+      "Pedal hızı, açıklamalar ve SVG dışa aktarmayı inceleyin.",
+      "Özgün yazar herkese açık bir SVG isteği sağlar. Yeniden paylaşımlar hız, ışık ve dışa aktarmayı anlatır; burada istem yeniden kurulmaz."
+    ],
+    [
+      "Ana de Armas SVG portresi",
+      "Üretim çabasını da görerek portreyi inceleyin.",
+      "Yazar yaklaşık 49k tokens, 22 dakika, max çaba ve zero-shot bildirir. Sonraki paylaşım Kimi portresini tekrarlar ve GPT-6 Astra TiKZ karşılaştırması ekler."
+    ],
+    [
+      "SVG portre karşılaştırması",
+      "Anonim sürüm etiketlerini koruyarak portreleri karşılaştırın.",
+      "Ekran görüntüsünde solda Kibitz, sağda Kalmia yazılıdır. Kaynak SVG çizimini ele alır; iki resmî model eşleşmesi de doğrulanmamıştır."
+    ],
+    [
+      "Backrooms oyunu karşılaştırması",
+      "Yazarın olumsuz deneyimini de koruyarak çıktıları karşılaştırın.",
+      "Yazar Kimi için 40 dakika, Opus için 1 saat 1 dakika bildirir ve Kimi oyunundan hayal kırıklığı duyduğunu söyler."
+    ],
+    [
+      "RPG köyü ve ejderha baskını",
+      "Hava durumu ve gece–gündüz döngüsü olan köyü karşılaştırın.",
+      "Yazar iki sonuçta da baskın, fırtına ve gece–gündüz döngüsünün çalıştığını, her birinin yaklaşık 15 dakikada üretildiğini bildirir."
+    ],
+    [
+      "Uçağın kalkışı ve inişi",
+      "Pist içeren bir uçuş oyunu prototipini inceleyin.",
+      "Kaynak tek istemle yaklaşık 10 dakikada kalkış ve inişli oynanabilir oyun üretildiğini söyler. Koleksiyon oynanabilirliği test etmemiştir."
+    ],
+    [
+      "Chai ve paratha kafe menüsü",
+      "Yerel bir kafenin tek sayfalık menüsünü inceleyin.",
+      "Yazar sözde Kimi K3.1'den Pakistan chai ve paratha menüsü ister. Eğitim kökeni söylentileri sonuç olarak benimsenmez."
+    ],
+    [
+      "Zürafa modeli karşılaştırması",
+      "Gösterilen model adlarıyla dört zürafa çıktısını karşılaştırın.",
+      "Yazar Opus 5.5, Carbon, Kibitz ve Kalmia'yı karşılaştırıp Gemini'yi tercih eder. Bunlar gayriresmî Arena sonuçlarıdır, kontrollü ölçüm değildir."
+    ],
+    [
+      "At modeli karşılaştırması",
+      "Aynı görünen konuya verilen üç çıktıyı inceleyin.",
+      "Kayıt Carbon, Opus 5.5 ve Kimi K3.1 etiketli at sahnelerini karşılaştırır. Sıralama bu örneğe ilişkin görüştür."
+    ],
+    [
+      "Bisiklet ve inek mekân testi",
+      "Alışılmadık özne–nesne rollerinin korunup korunmadığını kontrol edin.",
+      "İstek ineğe binen bir bisiklettir. Yazar Kimi'nin isteği düzeltmiş göründüğünü söyler; sonraki Carbon sonucu da eklenir."
+    ],
+    [
+      "Hayvan ve bisiklet sahneleri",
+      "Anonim etiketleri koruyarak iki sahneyi karşılaştırın.",
+      "Kaynak Kalmia ve Kibitz için çelişen Kimi kimliği tahminleri yapar. Bu tahminler gerçek sayılmaz."
+    ],
+    [
+      "Minecraft otoportresi",
+      "Otoportreleri karşılaştırın, maliyet kanıtlarını ayrı inceleyin.",
+      "Kaynak 13,707 blok ve $0.38 ile 5,738 blok ve $5.31 bildirir. Fatura, token kapsamı ve tekrar maliyetleri bağımsız doğrulanmamıştır."
+    ]
+  ]
+}

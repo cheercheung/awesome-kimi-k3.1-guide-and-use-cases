@@ -1,0 +1,240 @@
+{
+  "language": "es",
+  "copy": {
+    "introduction": "Introducción",
+    "overview": "Resumen",
+    "quick_start": "Inicio rápido",
+    "menu": "Índice",
+    "case": "Caso",
+    "category": "Categoría",
+    "type": "Tipo",
+    "date": "Fecha",
+    "by": "por",
+    "video": "Ver vídeo original",
+    "comparison_video": "Ver comparación original de modelos",
+    "image": "Abrir imagen original",
+    "related": "Repositorios relacionados",
+    "acknowledge": "Agradecimientos",
+    "categories": {
+      "mechanical": "Objetos mecánicos y 3D",
+      "svg": "SVG y gráficos interactivos",
+      "games": "Juegos y escenas animadas",
+      "comparison": "Comparación de modelos",
+      "worlds": "Mundos y escenarios",
+      "web": "Interfaces web"
+    },
+    "intro": "Demostraciones y evaluaciones informales atribuidas por sus autores a Kimi K3.1, incluido el modelo anónimo Kibitz.",
+    "purpose": "Explora tareas concretas, resultados visibles y límites prácticos a través de sus fuentes originales.",
+    "stats": "40 casos independientes en 6 categorías. Las republicaciones y comparaciones de una misma obra se agrupan.",
+    "evidence": "La correspondencia entre Kibitz y Kimi K3.1 no está confirmada. Nombres, tiempos, costes y valoraciones proceden de las fuentes. Las grabaciones no prueban código ejecutable, interacción completa ni éxito reproducible.",
+    "steps": "1. Elige una tarea en el índice.\n2. Abre el vídeo o la imagen y sigue el título hasta la publicación original.\n3. Contrasta el resultado visible con la tarea y sus limitaciones.",
+    "thanks": "Gracias a quienes publicaron estas demostraciones:",
+    "corrections": "La atribución sigue las fuentes enlazadas y puede necesitar correcciones. Abre un issue para indicar créditos omitidos, duplicados, afirmaciones incorrectas o solicitudes de retirada. Los medios de terceros conservan su titularidad original.",
+    "collection": "Casos de uso",
+    "official": "Abrir el sitio oficial de Kimi",
+    "additional": "Otras vistas y comparaciones:",
+    "open_related": "Abrir el repositorio de casos de uso de {model}"
+  },
+  "cases": [
+    [
+      "Comparación de impresoras 3D",
+      "Compara una escena mecánica de impresora en dos grabaciones.",
+      "El autor muestra una impresora de marco verde y la compara después con Carbon. La clasificación es subjetiva."
+    ],
+    [
+      "Escena mecánica Eden Ark",
+      "Examina la geometría y la presentación de dos escenas mecánicas.",
+      "El vídeo etiqueta Kibitz como supuesto Kimi K3.1 y lo compara con Kalmia. El autor prefiere Kibitz."
+    ],
+    [
+      "Reloj detallado",
+      "Examina materiales, iluminación y detalles de la esfera.",
+      "El vídeo muestra un reloj detallado que el autor presenta como resultado de Three.js, sin comparación controlada."
+    ],
+    [
+      "Configurador BMW M5",
+      "Explora un prototipo con controles de color, puertas y cámara.",
+      "El autor afirma obtener colores, puertas, luces, vistas y revoluciones con una instrucción; considera Kibitz probablemente Kimi K3.1."
+    ],
+    [
+      "Rueda solar de Konark",
+      "Separa el detalle decorativo del requisito de indicar la hora.",
+      "El autor prefiere los grabados de Gemini y la función horaria de Opus; considera más simple la rueda de Kimi. Son valoraciones de la fuente."
+    ],
+    [
+      "Mando Xbox interactivo",
+      "Examina el prototipo de mando y sus controles en pantalla.",
+      "El autor atribuye a Kibitz en Arena un mando de estilo Xbox. La grabación muestra el mando y la interfaz."
+    ],
+    [
+      "Tren de vapor interactivo",
+      "Explora velocidad, vistas desglosadas y representación alámbrica.",
+      "La fuente describe velocidad ajustable, ensamblaje, malla y estadísticas. Una republicación reutiliza el mismo vídeo."
+    ],
+    [
+      "Montaje y vuelo de helicópteros",
+      "Compara despegue, aterrizaje y vistas desglosadas.",
+      "Las fuentes indican unos 15–20 minutos por modelo. El autor de la comparación encuentra Qwen más realista; se conservan ambos resultados."
+    ],
+    [
+      "Fénix quimera",
+      "Examina un modelo complejo de criatura y su presentación.",
+      "La grabación muestra la criatura titulada The Chimera Phoenix. El autor comunica resultados desiguales en otras pruebas."
+    ],
+    [
+      "Casa mecánica frente a Fable",
+      "Compara una pequeña casa mecánica con el resultado de Fable.",
+      "El autor compara Kibitz con Fable 5.1 y comunica una generación más rápida en esta prueba. La clasificación general es subjetiva."
+    ],
+    [
+      "Colina de hierba y árbol",
+      "Examina una escena presentada como ejercicio de ingeniería inversa.",
+      "El vídeo muestra una colina, un árbol y controles horarios. Las predicciones de lanzamiento y precio no se consideran hechos."
+    ],
+    [
+      "Templo japonés para videojuegos",
+      "Examina un templo con cerezos y geometría por capas.",
+      "El autor presenta el templo como recurso 3D creado por Kibitz. Una imagen de su publicación anterior aporta otra vista."
+    ],
+    [
+      "Cocina con frigorífico interactivo",
+      "Explora un prototipo de cocina con frigorífico que se abre.",
+      "El autor estima una hora para el comedor y el frigorífico. Otra imagen muestra el interior del aparato."
+    ],
+    [
+      "Evaluación de una cocina",
+      "Examina la distribución separando aspecto visual y funcionalidad.",
+      "El autor considera este uno de sus mejores resultados de cocina, por detrás de Fable 5.5. La colección no ha ejecutado la escena."
+    ],
+    [
+      "Estación japonesa de baja poligonización",
+      "Examina una estación generada por código con paisaje estilizado.",
+      "El autor solicita una estación japonesa de baja poligonización y afirma no usar modelos ni imágenes. La atribución sigue siendo provisional."
+    ],
+    [
+      "Valle vóxel de cerezos",
+      "Compara dos resultados para una misma escena de valle.",
+      "El autor compara Qwen 4 con un resultado atribuido a Kimi K3.1. Una grabación anterior de Kibitz ofrece otra vista."
+    ],
+    [
+      "Castillo sobre las nubes",
+      "Examina un castillo flotante y su atmósfera.",
+      "El autor dice haberlo creado con Kibitz en Arena. El vídeo muestra el castillo, las nubes y un cielo nocturno."
+    ],
+    [
+      "Castillo medieval vóxel",
+      "Examina un castillo estilizado y su paisaje de vóxeles.",
+      "El vídeo muestra un castillo medieval. Parecerse a otros modelos es una opinión, no prueba de entrenamiento compartido."
+    ],
+    [
+      "Comparación de dioramas mecánicos",
+      "Examina dos entornos complejos de una prueba en Arena.",
+      "La fuente documenta una prueba personal con dos entornos mecánicos. No revela la instrucción completa ni comprobaciones funcionales."
+    ],
+    [
+      "Castillo con dragones y molino",
+      "Examina un castillo con varios elementos animados.",
+      "El autor comunica dragones, molino, animales, foso y puente levadizo, generados en unos 20 minutos. Las republicaciones se agrupan aquí."
+    ],
+    [
+      "Pagoda vóxel entre modelos",
+      "Compara una pagoda con varios modelos de frontera.",
+      "La pagoda original y su comparación posterior se agrupan. La semejanza visual no demuestra identidad ni destilación."
+    ],
+    [
+      "Pagoda al atardecer y comparaciones",
+      "Compara una misma pagoda con ejemplos de Qwen y Opus.",
+      "La grabación de la pagoda y dos comparaciones pertenecen a una obra; no cuentan como tres casos independientes."
+    ],
+    [
+      "Pagoda de tonos suaves",
+      "Examina una pagoda de colores suaves generada por Kibitz.",
+      "La fuente dice expresamente que Kibitz solo se sospecha que sea Kimi K3.1. La autoidentificación del modelo en el vídeo no es fiable."
+    ],
+    [
+      "Composición apilada de pelícanos",
+      "Compara una escena de mandos, bicicletas y pelícanos apilados.",
+      "El autor etiqueta los resultados Kimi K3.1 Pro y Fable 5.5. Son nombres de la fuente; no confirman una edición Pro."
+    ],
+    [
+      "Mando y pelícanos apilados",
+      "Examina una instrucción de apilamiento y sus relaciones espaciales.",
+      "La fuente describe mandos, bicicletas y pelícanos. Capturas posteriores comparan con GPT-6 Sol; una republicación se agrupa aquí."
+    ],
+    [
+      "Pelícano ciclista animado",
+      "Examina la animación de un pelícano ciclista y su interfaz.",
+      "El autor graba un GIF de una prueba con Kibitz. Esta composición con interfaz china es distinta de los otros pelícanos."
+    ],
+    [
+      "Comparación de pelícanos ciclistas",
+      "Compara dos respuestas a la petición de un pelícano en bicicleta.",
+      "El autor muestra juntos resultados atribuidos a Kimi K3.1 y Qwen 4, e invita al público a juzgarlos."
+    ],
+    [
+      "Luna y campo de estrellas",
+      "Examina un dibujo celeste presentado como resultado de una sola petición.",
+      "El autor lo describe como dibujo con JavaScript. El vídeo muestra luna y estrellas; la rapidez sigue siendo una afirmación de la fuente."
+    ],
+    [
+      "Pelícano SVG interactivo",
+      "Examina controles de pedaleo, anotaciones y exportación SVG.",
+      "El creador aporta una petición SVG pública. Las republicaciones describen cadencia, luz y exportación; aquí no se reconstruye la instrucción."
+    ],
+    [
+      "Retrato SVG de Ana de Armas",
+      "Examina el retrato manteniendo visible el esfuerzo de generación.",
+      "El autor comunica unos 49k tokens, 22 minutos, esfuerzo max y zero-shot. Una publicación posterior repite el retrato Kimi y añade GPT-6 Astra en TiKZ."
+    ],
+    [
+      "Comparación de retratos SVG",
+      "Compara retratos conservando sus etiquetas anónimas.",
+      "La captura identifica Kibitz a la izquierda y Kalmia a la derecha. La fuente habla de SVG; ninguna correspondencia oficial está confirmada."
+    ],
+    [
+      "Comparación del juego Backrooms",
+      "Compara resultados sin ocultar la experiencia negativa del creador.",
+      "El autor comunica 40 minutos para Kimi y 1 hora y 1 minuto para Opus, y decepción con el juego de Kimi."
+    ],
+    [
+      "Aldea RPG y ataque de dragones",
+      "Compara una aldea con clima y ciclo diurno.",
+      "El autor afirma que ambos resultados incluyen ataques, tormentas y ciclo día–noche, con unos 15 minutos de generación cada uno."
+    ],
+    [
+      "Avión: despegue y aterrizaje",
+      "Examina un prototipo de vuelo con pista.",
+      "La fuente afirma generar un juego jugable con despegue y aterrizaje en una petición y unos 10 minutos. La colección no ha probado su jugabilidad."
+    ],
+    [
+      "Menú de chai y paratha",
+      "Examina el menú de una cafetería en una sola página.",
+      "El autor pide al supuesto Kimi K3.1 un menú pakistaní de chai y paratha. La especulación sobre entrenamiento no se adopta como conclusión."
+    ],
+    [
+      "Comparación de jirafas",
+      "Compara cuatro jirafas con las etiquetas mostradas.",
+      "El autor compara Opus 5.5, Carbon, Kibitz y Kalmia y prefiere Gemini. Son resultados informales de Arena, no un benchmark controlado."
+    ],
+    [
+      "Comparación de caballos",
+      "Examina tres respuestas al mismo sujeto visible.",
+      "El vídeo compara escenas de caballos etiquetadas Carbon, Opus 5.5 y Kimi K3.1. La clasificación refleja la opinión sobre esta muestra."
+    ],
+    [
+      "Bicicleta y vaca: prueba espacial",
+      "Comprueba si el resultado mantiene una instrucción con roles inusuales.",
+      "Se pide una bicicleta montando una vaca. El autor observa que Kimi parece corregir la instrucción; se añade un resultado posterior de Carbon."
+    ],
+    [
+      "Animales y bicicletas comparados",
+      "Compara dos escenas conservando las etiquetas anónimas.",
+      "La fuente compara Kalmia y Kibitz y propone identidades Kimi contradictorias. Esas conjeturas no se adoptan como hechos."
+    ],
+    [
+      "Autorretrato en Minecraft",
+      "Compara autorretratos y revisa por separado las pruebas de coste.",
+      "La fuente indica 13,707 bloques y $0.38 frente a 5,738 bloques y $5.31. Facturación, alcance de tokens y reintentos no están verificados independientemente."
+    ]
+  ]
+}

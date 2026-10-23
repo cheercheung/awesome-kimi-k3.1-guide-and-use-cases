@@ -1,0 +1,240 @@
+{
+  "language": "en",
+  "copy": {
+    "introduction": "Introduction",
+    "overview": "Overview",
+    "quick_start": "Quick Start",
+    "menu": "Menu",
+    "case": "Case",
+    "category": "Category",
+    "type": "Type",
+    "date": "Date",
+    "by": "by",
+    "video": "Watch source video",
+    "comparison_video": "Watch the original model comparison",
+    "image": "Open source image",
+    "related": "Related Repositories",
+    "acknowledge": "Acknowledge",
+    "categories": {
+      "mechanical": "Mechanical and 3D Objects",
+      "svg": "SVG and Interactive Graphics",
+      "games": "Games and Animated Scenes",
+      "comparison": "Model Comparison",
+      "worlds": "Worlds and Scenery",
+      "web": "Web Interfaces"
+    },
+    "intro": "Community demos and informal evaluations attributed by their publishers to Kimi K3.1, including the anonymous Kibitz checkpoint.",
+    "purpose": "Explore concrete tasks, visible outputs and practical limits through their original sources.",
+    "stats": "40 independent usecases across 6 categories. Reposts and comparisons of the same work are grouped together.",
+    "evidence": "The Kibitz–Kimi K3.1 mapping is unconfirmed. Model names, timings, costs and quality judgments are source-reported. Recordings do not establish runnable code, complete interaction or repeatable success.",
+    "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
+    "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
+    "corrections": "Attribution follows the linked sources and may need correction. Please open an issue for missing credit, duplicate work, inaccurate claims or removal requests. Third-party media retains its original ownership.",
+    "collection": "Use Cases",
+    "official": "Open the official Kimi website",
+    "additional": "Additional views and comparisons:",
+    "open_related": "Open the {model} usecase repository"
+  },
+  "cases": [
+    [
+      "3D printer comparison",
+      "Compare a mechanical printer scene across two model recordings.",
+      "The creator shows a green-frame 3D printer; a later Carbon comparison revisits this work. The ranking is the creator's judgment."
+    ],
+    [
+      "Eden Ark mechanical scene",
+      "Inspect geometry and presentation in a mechanical scene comparison.",
+      "The recording labels Kibitz as rumored Kimi K3.1 and compares it with Kalmia. The creator prefers the Kibitz result."
+    ],
+    [
+      "Detailed wristwatch",
+      "Inspect a watch model's materials, lighting and dial details.",
+      "The attached recording shows a detailed watch. The creator describes it as a Three.js result; no controlled comparison is provided."
+    ],
+    [
+      "BMW M5 configurator",
+      "Explore a car prototype with color, door and camera controls.",
+      "The author reports colors, doors, lights, camera views and live rev mode from one prompt, calling Kibitz most likely Kimi K3.1."
+    ],
+    [
+      "Konark sundial wheel",
+      "Compare decorative detail with the functional requirement of telling time.",
+      "The creator favors Gemini's carvings and Opus's timekeeping, describing Kimi's wheel as simpler. These are source-reported judgments."
+    ],
+    [
+      "Interactive Xbox controller",
+      "Inspect a controller prototype and its on-screen controls.",
+      "The creator attributes the interactive Xbox-style controller to Kibitz on Arena. The recording shows the controller and interface."
+    ],
+    [
+      "Interactive steam train",
+      "Explore speed controls, exploded views and wireframe presentation.",
+      "The source reports a working train with a speed slider, assembly views, wireframe and statistics. A repost uses the same video."
+    ],
+    [
+      "Helicopter assembly and flight",
+      "Compare takeoff, landing and exploded views in helicopter prototypes.",
+      "The sources report roughly 15–20 minutes per model. The comparison author finds Qwen more realistic; both outputs remain visible."
+    ],
+    [
+      "Chimera phoenix",
+      "Inspect an elaborate creature model and its presentation.",
+      "The recording shows a colorful creature titled The Chimera Phoenix. The author reports mixed results across other tests."
+    ],
+    [
+      "Clockwork house comparison",
+      "Compare a small mechanical house with Fable's result.",
+      "The creator compares Kibitz with Fable 5.1 and reports faster generation in this test. The broader quality ranking is subjective."
+    ],
+    [
+      "Grassy hill and tree",
+      "Inspect a scene the creator presents as reverse engineering.",
+      "The attached recording shows a grassy hill, a tree and time-of-day controls. Release-date and price predictions are not treated as facts."
+    ],
+    [
+      "Japanese temple game asset",
+      "Inspect a temple asset with cherry blossoms and layered geometry.",
+      "The creator presents the temple as a 3D game asset from Kibitz. A separate still from their earlier post shows another view."
+    ],
+    [
+      "Kitchen with interactive refrigerator",
+      "Explore a kitchen prototype with an opening refrigerator.",
+      "The creator says the dining-room and refrigerator task took about an hour. A separate still shows the refrigerator interior."
+    ],
+    [
+      "Kitchen scene evaluation",
+      "Inspect a kitchen layout while separating visuals from functionality.",
+      "The creator calls this one of their strongest kitchen-test results, behind Fable 5.5. This collection has not run the scene."
+    ],
+    [
+      "Low-poly Japanese train station",
+      "Inspect a code-generated station with stylized landscaping.",
+      "The creator requests a low-poly Japanese train station and says no models or images were used. The model attribution remains tentative."
+    ],
+    [
+      "Voxel cherry-blossom valley",
+      "Compare two voxel valley outputs from the same requested scene.",
+      "The author compares Qwen 4 with source-attributed Kimi K3.1. Their earlier Kibitz recording supplies a separate view of the valley."
+    ],
+    [
+      "Castle above the clouds",
+      "Inspect a floating castle scene and its atmosphere.",
+      "The creator says they built the castle with Kibitz on Arena. The recording shows the castle, clouds and a moonlit sky."
+    ],
+    [
+      "Medieval voxel castle",
+      "Inspect a stylized castle and surrounding voxel landscape.",
+      "The attached recording shows a medieval voxel castle. Similarity to other models is an opinion, not evidence of shared training."
+    ],
+    [
+      "Mechanical diorama comparison",
+      "Inspect two intricate scenes from an Arena trial.",
+      "The source records a personal Arena trial and shows paired mechanical environments. The full prompt and functional checks are not disclosed."
+    ],
+    [
+      "Castle with dragons and windmill",
+      "Inspect a castle scene with several animated elements.",
+      "The author reports dragons, a windmill, roaming animals, a moat and drawbridge, generated in about 20 minutes. Reposts are grouped here."
+    ],
+    [
+      "Voxel pagoda across models",
+      "Compare a pagoda scene with several frontier-model outputs.",
+      "The original pagoda and a later comparison are kept together. Visual similarity does not establish model identity or distillation."
+    ],
+    [
+      "Sunset pagoda and comparisons",
+      "Compare one pagoda work with Qwen and Opus examples.",
+      "The author's pagoda recording and two comparison recordings belong to one work. They are not three independent case studies."
+    ],
+    [
+      "Pastel pagoda",
+      "Inspect a softly colored pagoda scene from Kibitz.",
+      "The source explicitly says Kibitz is only suspected to be Kimi K3.1. The recording also includes a model self-identification, which is unreliable."
+    ],
+    [
+      "Stacked pelican composition",
+      "Compare a layered controller, bicycle and pelican scene.",
+      "The creator labels the outputs Kimi K3.1 Pro and Fable 5.5. Those are source labels; this does not confirm a Pro edition."
+    ],
+    [
+      "Controller and pelican stack",
+      "Inspect a complex stacking instruction and its spatial relationships.",
+      "The source describes a controller, bicycle and pelican stack. Later screenshots compare it with GPT-6 Sol; a repost is grouped here."
+    ],
+    [
+      "Pelican bicycle animation",
+      "Inspect a cycling pelican animation and its interface.",
+      "The creator records a GIF from a Kibitz test. The Chinese-interface composition is a distinct work from the other pelican cases."
+    ],
+    [
+      "Pelican bicycle comparison",
+      "Compare two responses to a pelican-riding-a-bicycle request.",
+      "The author presents source-attributed Kimi K3.1 and Qwen 4 outputs side by side. The post asks readers to judge the result."
+    ],
+    [
+      "Moon and star field",
+      "Inspect an animated celestial drawing from a reported one-shot test.",
+      "The creator describes the result as JavaScript drawing. The recording shows a moon and star field; speed claims remain source-reported."
+    ],
+    [
+      "Interactive pelican SVG",
+      "Inspect cycling controls, annotations and SVG export in a vector scene.",
+      "The original creator provides a public SVG request. Reposts add descriptions of cadence, lighting and export controls; no prompt is reconstructed here."
+    ],
+    [
+      "Ana de Armas SVG portrait",
+      "Inspect a portrait while keeping generation effort visible.",
+      "The author reports about 49k tokens, 22 minutes, max effort and zero-shot generation. The later post repeats the Kimi portrait and adds a GPT-6 Astra TiKZ comparison."
+    ],
+    [
+      "Portrait SVG comparison",
+      "Compare portrait drawings with their anonymous checkpoint labels visible.",
+      "The screenshot labels the left result Kibitz and the right Kalmia. The source discusses SVG drawing; neither official model mapping is confirmed."
+    ],
+    [
+      "Backrooms game comparison",
+      "Compare game outputs while retaining the creator's negative experience.",
+      "The author reports 40 minutes for Kimi and 1 hour 1 minute for Opus, and says they are disappointed with the Kimi game result."
+    ],
+    [
+      "RPG village and dragon raid",
+      "Compare a village scene with weather and day–night behavior.",
+      "The author reports working dragon raids, thunderstorms and day–night cycles in both outputs, with roughly 15 minutes generation each."
+    ],
+    [
+      "Airplane takeoff and landing",
+      "Inspect a flight-game prototype with a runway.",
+      "The source reports a playable one-shot airplane game with takeoff and landing in about 10 minutes. This collection has not tested playability."
+    ],
+    [
+      "Chai and paratha cafe menu",
+      "Inspect a single-page menu for a local cafe.",
+      "The author asks allegedly Kimi K3.1 to build a Pakistani chai and paratha cafe menu. Training-origin speculation is excluded from the takeaway."
+    ],
+    [
+      "Giraffe model comparison",
+      "Compare four giraffe outputs with their displayed model labels.",
+      "The author compares Opus 5.5, Carbon, Kibitz and Kalmia, preferring Gemini. These are informal Arena results, not a controlled benchmark."
+    ],
+    [
+      "Horse model comparison",
+      "Inspect how three outputs handle the same visible subject.",
+      "The recording compares horse scenes labeled Carbon, Opus 5.5 and Kimi K3.1. The author's ranking is an opinion about this sample."
+    ],
+    [
+      "Bicycle and cow spatial test",
+      "Check whether the output preserves an unusual subject–object instruction.",
+      "The request asks for a bicycle riding a cow. The creator notes that Kimi appears to correct the instruction; a later Carbon result is attached."
+    ],
+    [
+      "Animal bicycle scene comparison",
+      "Compare two animal-and-bicycle scenes with anonymous labels.",
+      "The source compares Kalmia and Kibitz while making conflicting guesses about their Kimi identities. Those guesses are not adopted as facts."
+    ],
+    [
+      "Minecraft self-portrait",
+      "Compare Minecraft-style self-portraits while checking cost evidence separately.",
+      "The source reports 13,707 blocks and $0.38 versus 5,738 blocks and $5.31. Billing, token scope and retry costs were not independently verified."
+    ]
+  ]
+}

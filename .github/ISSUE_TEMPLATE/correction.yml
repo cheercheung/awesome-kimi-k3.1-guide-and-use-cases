@@ -1,0 +1,15 @@
+name: Credit or correction
+description: Correct attribution, a duplicate, an inaccurate claim or request removal
+body:
+  - type: input
+    id: case
+    attributes:
+      label: Case number or URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Requested correction and supporting source
+    validations:
+      required: true

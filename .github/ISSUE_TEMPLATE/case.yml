@@ -1,0 +1,22 @@
+name: Submit a usecase
+description: Share a concrete public task and visible result
+title: "Usecase: "
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Original source URL
+    validations:
+      required: true
+  - type: textarea
+    id: task
+    attributes:
+      label: Task, visible result and source-reported model
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Publisher, date, media and limitations
+    validations:
+      required: true
