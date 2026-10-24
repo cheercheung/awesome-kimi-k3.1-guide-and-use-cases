@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "model": "Kimi K3.1",
-  "case_count": 40,
-  "source_count": 140,
+  "case_count": 85,
+  "source_count": 1199,
   "category_counts": {
-    "mechanical": 10,
-    "worlds": 13,
-    "svg": 8,
-    "games": 3,
-    "web": 1,
-    "comparison": 5
+    "mechanical": 14,
+    "worlds": 32,
+    "svg": 13,
+    "games": 10,
+    "web": 5,
+    "comparison": 11
   },
   "attribution_policy": "Names and timings follow linked sources; anonymous Kibitz mapping remains unconfirmed.",
   "cases": [
@@ -2022,8 +2022,1953 @@
         "quote_count": 16,
         "bookmark_count": 78
       }
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Mechanical bee with inspection controls",
+      "takeaway": "Inspect a mechanical model in rendered and wireframe views.",
+      "body_notes": "The creator reports finishing the mechanical bee in 31 minutes and shows an annotated interface with rendered and wireframe views. They advise explicitly choosing the subagent model because it can inherit the primary model and reasoning setting. Time and tool behavior are source-reported.",
+      "source_id": "x:2113729972754116779",
+      "source_url": "https://x.com/thtbee_/status/2113729972754116779",
+      "author_handle": "thtbee_",
+      "author_url": "https://x.com/thtbee_",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro - Mechanical bee!\n\nDid my mechanical bee test with K3.1.. it actually did pretty good.. it felt a little short on some 3D tasks but overall very strong..\n\nThis was completed fully in just 31 minutes.. I have one more test that it's working on right now!\n\nAlso it loves spawning subagents which is good but make sure you set the subagent model yourself to save your usage as they inherit the primary agent & its reasoning by default!",
+      "source_metrics": {
+        "like_count": 98,
+        "view_count": 3371,
+        "retweet_count": 3,
+        "reply_count": 8,
+        "quote_count": 1,
+        "bookmark_count": 12
+      },
+      "related_sources": [],
+      "number": 41,
+      "id": "case-41",
+      "dedup_key": "https://x.com/thtbee_/status/2113729972754116779",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113727051341697024",
+          "source_id": "x:2113729972754116779",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113727051341697024/vid/avc1/1920x1080/zJeodxfCcz4axj3d.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727051341697024.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727051341697024-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Boeing 747 model inspection",
+      "takeaway": "Use multiple angles to inspect aircraft shape and components.",
+      "body_notes": "The publisher shares their first Kimi K3.1 Boeing test. The recording shows a labelled 747 from changing viewpoints, including landing gear. It is a visual modelling example; engineering accuracy, flight behavior and source-code execution are not independently established.",
+      "source_id": "x:2113729785386168807",
+      "source_url": "https://x.com/victormustar/status/2113729785386168807",
+      "author_handle": "victormustar",
+      "author_url": "https://x.com/victormustar",
+      "date": "2026-10-23",
+      "source_text": "First prompt with kimi k3.1 the boeing bench of course :) https://t.co/bKaJwZEWSZ",
+      "source_metrics": {
+        "like_count": 51,
+        "view_count": 1609,
+        "retweet_count": 1,
+        "reply_count": 5,
+        "quote_count": 1,
+        "bookmark_count": 5
+      },
+      "related_sources": [],
+      "number": 42,
+      "id": "case-42",
+      "dedup_key": "https://x.com/victormustar/status/2113729785386168807",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113729607681605632",
+          "source_id": "x:2113729785386168807",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113729607681605632/vid/avc1/1280x720/pDNQw5e1meBlokah.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113729607681605632.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113729607681605632-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Evaluation",
+      "title": "Roadster launch animation",
+      "takeaway": "Separate visible animation differences from conflicting cost labels.",
+      "body_notes": "The recording compares a roadster launch with Opus 5.5 and Kimi K3.1 Pro. Its labels show $10.15 and $1.39, whereas the post text says $15 and $2. The visual comparison is retained without resolving those conflicting amounts or claiming a verified savings ratio.",
+      "source_id": "x:2113716424887661034",
+      "source_url": "https://x.com/k1rallik/status/2113716424887661034",
+      "author_handle": "k1rallik",
+      "author_url": "https://x.com/k1rallik",
+      "date": "2026-10-23",
+      "source_text": "THIS IS F*CKING GOLD - KIMI K3.1 PRO JUST BUILT A ROADSTER\n\nKimi’s new model dropped today with ridiculous 3D animation capabilities. Kimi and Claude Opus 5.5 were asked to animate the Roadster Elon Musk just unveiled.\n\nOpus spent $15 and 600K tokens.\nKimi spent $2 and 160K tokens.\n\nLOOK AT THE DIFFERENCE.\n\nKimi built a detailed launch structure, sent the car up a vertical ramp, and fired the thrusters. Opus made the headlights bright enough to interrogate God.\n\nThe $2 animation looks better. This is embarrassing.\n\nVideo attached. Prompt below.",
+      "source_metrics": {
+        "like_count": 76,
+        "view_count": 4630,
+        "retweet_count": 5,
+        "reply_count": 8,
+        "quote_count": 2,
+        "bookmark_count": 27
+      },
+      "related_sources": [],
+      "number": 43,
+      "id": "case-43",
+      "dedup_key": "https://x.com/k1rallik/status/2113716424887661034",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113715488417058816",
+          "source_id": "x:2113716424887661034",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113715488417058816/vid/avc1/1920x1080/ZO8EMce33s6YlBdD.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113715488417058816.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113715488417058816-poster.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "x:2113699932020584770",
+      "source_url": "https://x.com/NFT_Chen/status/2113699932020584770",
+      "author_handle": "NFT_Chen",
+      "author_url": "https://x.com/NFT_Chen",
+      "date": "2026-10-23",
+      "title": "Foldable phone model and web configurator",
+      "takeaway": "Compare a 3D product prototype with its browser controls.",
+      "body_notes": "The publisher describes a Blender-built foldable phone and an interactive web presentation with opening motion, colors, wallpaper and app views. They report 90 minutes and $12.50. The recording supports the visible prototype; it does not verify every control, engineering accuracy or a real product specification.",
+      "category": "mechanical",
+      "type": "Demo",
+      "source_text": "💥惊了！Kimi K3.1 Pro直接在Blender里“捏”出最新款折叠iPhone Duo！还做成了可交互网页！\n\nKimi K3.1 Pro这次真的有点猛：\n🔹仅用1小时30分钟 + $12.5，就从零构建出高精度折叠机模型\n\n🔹折叠动画完全还原，开合过渡自然流畅，材质/灯光/倒角细节拉满\n\n🔹一键转成可玩网页：锁屏、壁纸切换、颜色定制、应用界面（编织工坊、视频、音乐播放器）全部可交互\n\n🔹左侧参数面板实时调整，整个流程像设计师在操作专业软件一样丝滑\n\nK3.1 Pro在Blender参数化建模+完整项目输出上的表现，已经接近专业级工作流。\n\n#KimiK3 #Kimi #AI3D #Blender #iPhoneDuo #AI生成 #AI设计 #MoonshotAI\n\nhttps://t.co/j6pXibMlAY https://t.co/fKJnrvhtbJ",
+      "source_metrics": {
+        "like_count": 64,
+        "view_count": 23256,
+        "retweet_count": 7,
+        "reply_count": 9,
+        "quote_count": 2,
+        "bookmark_count": 20
+      },
+      "related_sources": [],
+      "number": 44,
+      "id": "case-44",
+      "dedup_key": "https://x.com/NFT_Chen/status/2113699932020584770",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113693852905402368",
+          "source_id": "x:2113699932020584770",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113693852905402368/vid/avc1/1596x1080/xmDD4y1uJFdxJieH.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113693852905402368.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113693852905402368-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Stained-glass butterfly comparison",
+      "takeaway": "Compare glass, lighting and fine geometry in one scene.",
+      "body_notes": "The publisher says both models received the same stained-glass butterfly task. The recording compares Kimi K3.1 Pro and Opus 5.5 across changing angles. The preferred result is the publisher’s judgment; the full input and a controlled rerun are not supplied.",
+      "source_id": "x:2113775873786794218",
+      "source_url": "https://x.com/ivanainai/status/2113775873786794218",
+      "author_handle": "ivanainai",
+      "author_url": "https://x.com/ivanainai",
+      "date": "2026-10-23",
+      "source_text": "So Kimi K3.1 Pro is outperforming Opus 5.5 for LESS money now??\n\nGave both models the EXACT same prompt to build an interactive 3D stained-glass butterfly.\n\nKimi nailed the glass, lighting, and tiny gold details.\n\nOpus made me check if I'd accidentally switched to a cheaper model.",
+      "source_metrics": {
+        "like_count": 51,
+        "view_count": 4766,
+        "retweet_count": 4,
+        "reply_count": 9,
+        "quote_count": 0,
+        "bookmark_count": 5
+      },
+      "related_sources": [],
+      "number": 45,
+      "id": "case-45",
+      "dedup_key": "https://x.com/ivanainai/status/2113775873786794218",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113773195849326592",
+          "source_id": "x:2113775873786794218",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113773195849326592/vid/avc1/1920x1080/zava61l6lyq7QOGE.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113773195849326592.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113773195849326592-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Four-model Eiffel Tower comparison",
+      "takeaway": "Inspect the same landmark across four recorded outputs.",
+      "body_notes": "The publisher compares Kimi K3.1, Opus 5.5, Gemini 4 Argon and GPT-6 Astra on an Eiffel Tower scene. They report $2.04 and eight minutes for Kimi, with separate times and costs for the others. The accuracy preference and all timings are source-reported.",
+      "source_id": "x:2113749929395114129",
+      "source_url": "https://x.com/Bhavani_00007/status/2113749929395114129",
+      "author_handle": "Bhavani_00007",
+      "author_url": "https://x.com/Bhavani_00007",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 vs Opus 5.5 vs Argon vs Astra\n\nI asked all four to build the Eiffel Tower.\n\nKimi K3.1: $2.04 · 8mins\nOpus 5.5: $8.95 · 10 mins\nGemini 4 Argon: $6.10 · 9 mins\nGPT-6 Astra: $7.45 · 8 mins\n\nKimi's tower looks the most accurate.\n\nWhich one looks closest to the real thing? https://t.co/VPfVZbk2Pc",
+      "source_metrics": {
+        "like_count": 68,
+        "view_count": 5388,
+        "retweet_count": 2,
+        "reply_count": 14,
+        "quote_count": 1,
+        "bookmark_count": 12
+      },
+      "related_sources": [],
+      "number": 46,
+      "id": "case-46",
+      "dedup_key": "https://x.com/Bhavani_00007/status/2113749929395114129",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113748461871058944",
+          "source_id": "x:2113749929395114129",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113748461871058944/vid/avc1/1200x1600/CnTmYz0UYiGNQ6IR.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113748461871058944.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113748461871058944-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Pelican cycling beside a lake",
+      "takeaway": "Inspect a moving character and its surrounding scene.",
+      "body_notes": "ChrisGPT shares a pelican riding a bicycle through a lakeside landscape and reports roughly 45 minutes of work. The post questions the usefulness of the familiar pelican test; the recording is a visual example, not proof of broad coding superiority.",
+      "source_id": "x:2113749533410955458",
+      "source_url": "https://x.com/ChrisGPT/status/2113749533410955458",
+      "author_handle": "ChrisGPT",
+      "author_url": "https://x.com/ChrisGPT",
+      "date": "2026-10-23",
+      "source_text": "Kimi k3.1 pro - I think the pelican riding a bike test is saturated. \n\nThis took around 45 minutes. https://t.co/EXhHLRsi4d",
+      "source_metrics": {
+        "like_count": 361,
+        "view_count": 15825,
+        "retweet_count": 6,
+        "reply_count": 16,
+        "quote_count": 0,
+        "bookmark_count": 26
+      },
+      "related_sources": [],
+      "number": 47,
+      "id": "case-47",
+      "dedup_key": "https://x.com/ChrisGPT/status/2113749533410955458",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113749489630556160",
+          "source_id": "x:2113749533410955458",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113749489630556160/vid/avc1/1920x1080/q-9b2qZqXc0fNOjf.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113749489630556160.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113749489630556160-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Houdini flower-and-butterfly scene",
+      "takeaway": "Inspect the visible scene while separating reposts from original experiments.",
+      "body_notes": "The publisher shares a Houdini-related recording with flowers, vegetation and a butterfly, quoting the official launch post. This is a shared demonstration, with no independent timing, full prompt or source-code record; it does not establish that the publisher created the original scene.",
+      "source_id": "x:2113746017023602833",
+      "source_url": "https://x.com/bernirov/status/2113746017023602833",
+      "author_handle": "bernirov",
+      "author_url": "https://x.com/bernirov",
+      "date": "2026-10-23",
+      "source_text": "&gt; artista 3d se pasa un año aprendiendo houdini\n&gt; kimi k3.1 lo abre y monta la escena\n\nestamos acabados https://t.co/F44asXicLj",
+      "source_metrics": {
+        "like_count": 60,
+        "view_count": 778,
+        "retweet_count": 1,
+        "reply_count": 2,
+        "quote_count": 0,
+        "bookmark_count": 7
+      },
+      "related_sources": [],
+      "number": 48,
+      "id": "case-48",
+      "dedup_key": "https://x.com/bernirov/status/2113746017023602833",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113745956386516992",
+          "source_id": "x:2113746017023602833",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113745956386516992/vid/avc1/2560x1662/wgDoG14QcymTdBt5.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113745956386516992.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113745956386516992-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Sunset sailing ship comparison",
+      "takeaway": "Compare water, sails and camera motion in the same work.",
+      "body_notes": "Da7_Tech first shares the Kimi sailing ship, then adds an Opus comparison and a separate usage review. The creator reports that the ship consumed 11.6% of their monthly quota and criticizes speed and subscription limits. These are source-reported constraints, not independently checked billing.",
+      "source_id": "x:2113739589693460938",
+      "source_url": "https://x.com/Da7_Tech/status/2113739589693460938",
+      "author_handle": "Da7_Tech",
+      "author_url": "https://x.com/Da7_Tech",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro! https://t.co/kbtVeHQCIV",
+      "source_metrics": {
+        "like_count": 336,
+        "view_count": 7147,
+        "retweet_count": 15,
+        "reply_count": 37,
+        "quote_count": 4,
+        "bookmark_count": 30
+      },
+      "related_sources": [
+        {
+          "author_handle": "Da7_Tech",
+          "source_url": "https://x.com/Da7_Tech/status/2113751648719839252",
+          "source_id": "x:2113751648719839252",
+          "source_text": "Kimi K3.1 Pro vs Opus 5.5! https://t.co/nIrYcuEVvS",
+          "source_metrics": {
+            "like_count": 2240,
+            "view_count": 86240,
+            "retweet_count": 77,
+            "reply_count": 118,
+            "quote_count": 26,
+            "bookmark_count": 305
+          }
+        },
+        {
+          "author_handle": "Da7_Tech",
+          "source_url": "https://x.com/Da7_Tech/status/2113744913040842841",
+          "source_id": "x:2113744913040842841",
+          "source_text": "Kimi K3.1 Pro is the best open model in the world right now. No contest. But it's practically unusable on its own subscription.\n\nI was on the $39 plan. I built the ship test, easily the best result I've seen from an open model, but it ate 11.6% of my monthly quota. That means I can build something like this about 8 times a month, with zero fixes. That's insane.\n\nOn most $20 plans the same job doesn't even hit 10% of the weekly limit, and with some, like Claude, it doesn't even hit 10% of the 5-hour limit. Worst subscription out there, hands down. I regret the $39 and I know I'll get nothing out of it.\n\nThe bottleneck isn't quality. It's compute.\n\nWhat it does well:\nIt thinks through every possibility better than any model I've used. It beats DeepSeek V4 Pro, trades blows with Qwen3.8-Max and even pulls ahead in some areas, and it's miles ahead of GLM-5.3. Not even the same league. Computer use got a big upgrade too. It might be the best open model at it, alongside MiniMax.\n\nWhere it falls short:\nIt doesn't know when to go long and when to keep it short. It skimps when you need detail, then dumps bullet points on you like a model from two or three years ago. And it's slow. Painfully slow. We're talking 3-4x slower, which makes it rough as an executor. I'd use it to write or review a plan, then hand execution to another model.\n\nHow I'll actually use it:\nOutside Kimi, 100%. Mostly in Devin, maybe Droid too. Droid served a heavily quantized Kimi K3 last time and performance tanked, so I'm hoping Factory ships a better version this round. For now, Kimi in Devin looks like the sweet spot for price and quality.\n\nOver Astra? Every day. It's roughly 5x cheaper, so on Devin or API credits it's a no-brainer. Over Claude Opus 5.5? In a neutral harness or a subscription that offers both, there's real value at about half the price. But Kimi's subscription vs Claude's? There's no reason to pick Kimi.\n\nI can't recommend the direct subscription. Period.",
+          "source_metrics": {
+            "like_count": 286,
+            "view_count": 27590,
+            "retweet_count": 14,
+            "reply_count": 45,
+            "quote_count": 6,
+            "bookmark_count": 38
+          }
+        }
+      ],
+      "number": 49,
+      "id": "case-49",
+      "dedup_key": "https://x.com/Da7_Tech/status/2113739589693460938",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113738295104462848",
+          "source_id": "x:2113739589693460938",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113738295104462848/vid/avc1/1886x1080/kIP6YcEZpfiehUsH.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113738295104462848.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113738295104462848-poster.jpg"
+        },
+        {
+          "id": "2113749996042391552",
+          "source_id": "x:2113751648719839252",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113749996042391552/vid/avc1/1886x2160/o7yWyeOj424nkr7-.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113749996042391552.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113749996042391552-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Four-panel destructible wall scene",
+      "takeaway": "Read the model labels in the recording before comparing outputs.",
+      "body_notes": "The clip shows a launcher and block wall in four panels labelled Kimi K3.1 Pro, GPT-6 Astra, GPT-6.1 Sol and Gemini 4 Argon. The caption names a different comparison set. That version mismatch prevents treating it as a reconciled benchmark.",
+      "source_id": "x:2113737965704990914",
+      "source_url": "https://x.com/heliocosta/status/2113737965704990914",
+      "author_handle": "heliocosta",
+      "author_url": "https://x.com/heliocosta",
+      "date": "2026-10-23",
+      "source_text": "mesmo prompt pra kimi k3.1 pro, opus 5.5, fable 5.1 e gpt-6 astra\n\num modelo aberto acima dos três em vários benchmarks, custa metade do opus por token e é open source\n\nsei não em, mas me parece que esses labs fechados tão com os dias contados https://t.co/bwdjMX9lVj",
+      "source_metrics": {
+        "like_count": 102,
+        "view_count": 8291,
+        "retweet_count": 3,
+        "reply_count": 14,
+        "quote_count": 2,
+        "bookmark_count": 18
+      },
+      "related_sources": [],
+      "number": 50,
+      "id": "case-50",
+      "dedup_key": "https://x.com/heliocosta/status/2113737965704990914",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113737911753416705",
+          "source_id": "x:2113737965704990914",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113737911753416705/vid/avc1/1920x1044/c38IuKtxRDG9ekOj.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113737911753416705.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113737911753416705-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Three-model running horse scene",
+      "takeaway": "Compare gait and proportions across a shared animation task.",
+      "body_notes": "The publisher describes a single-file Three.js running-horse comparison. The clip labels Kimi K3.1, Opus 5.5 and GPT-6 Astra. The source’s ranking of gait quality remains subjective; frame inspection does not establish the hidden model checkpoint or runnable source code.",
+      "source_id": "x:2113733814799438003",
+      "source_url": "https://x.com/NFT_Chen/status/2113733814799438003",
+      "author_handle": "NFT_Chen",
+      "author_url": "https://x.com/NFT_Chen",
+      "date": "2026-10-23",
+      "source_text": "⚔️单文件Three.js跑马实测炸了！Kimi K3.1 Pro碾压Astra，Opus也差点被干穿！\n\n🐴 Kimi K3.1 Pro： 跑姿最自然流畅，鬃毛尾巴飘逸，动作真实感拉满，一看就是真·会跑的马\n\n🐴 Claude Opus 5.5： 整体协调，但动作偏僵硬，节奏和流畅度明还可以\n\n🐴 GPT-6 Astra： 跑姿最怪，比例和动画都崩，几乎像机器人在跳\n\nKimi K3.1 Pro从开源杀出来，3D创作直接把前排打穿，性价比太离谱了。\n\n#KimiK3 #KimiK31Pro #MoonshotAI #AI #ClaudeOpus #GPT6Astra #ThreeJS #开源模型 #杨植麟 #Dario #SamAltman\n\nhttps://t.co/NL4JEyWLDh https://t.co/o0rfPoXByT",
+      "source_metrics": {
+        "like_count": 88,
+        "view_count": 19075,
+        "retweet_count": 11,
+        "reply_count": 26,
+        "quote_count": 1,
+        "bookmark_count": 13
+      },
+      "related_sources": [],
+      "number": 51,
+      "id": "case-51",
+      "dedup_key": "https://x.com/NFT_Chen/status/2113733814799438003",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113687073962311680",
+          "source_id": "x:2113733814799438003",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113687073962311680/vid/avc1/2160x3066/Gz4GnNV39BforZzR.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113687073962311680.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113687073962311680-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Voxel kingdom against Carbon",
+      "takeaway": "Compare navigation and visible scene structure across two recordings.",
+      "body_notes": "The creator labels separate voxel-world recordings Kimi K3.1 Pro max and Gemini 4 Carbon high. Both show the Aetherwyn-style kingdom task from different viewpoints. These are source labels; the post does not independently verify the anonymous Carbon identity or prove a repeatable ranking.",
+      "source_id": "x:2113730402951278969",
+      "source_url": "https://x.com/lyraxana/status/2113730402951278969",
+      "author_handle": "lyraxana",
+      "author_url": "https://x.com/lyraxana",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro (max) vs Gemini 4 Carbon (high).\n\nGotta mention that K3.1 Pro output reminds me of Astra somehow. I wonder why. https://t.co/jDeHy56yE5",
+      "source_metrics": {
+        "like_count": 389,
+        "view_count": 17935,
+        "retweet_count": 17,
+        "reply_count": 41,
+        "quote_count": 3,
+        "bookmark_count": 44
+      },
+      "related_sources": [],
+      "number": 52,
+      "id": "case-52",
+      "dedup_key": "https://x.com/lyraxana/status/2113730402951278969",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113730005536587776",
+          "source_id": "x:2113730402951278969",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113730005536587776/vid/avc1/2400x1600/1To59RiT3zOzxoVi.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113730005536587776.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113730005536587776-poster.jpg"
+        },
+        {
+          "id": "2113730005628850176",
+          "source_id": "x:2113730402951278969",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113730005628850176/vid/avc1/2400x1600/dX_MBUn0kfBEWD0f.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113730005628850176.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113730005628850176-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Whale breach across four models",
+      "takeaway": "Compare motion, water and scene style separately from cost.",
+      "body_notes": "The publisher compares a whale breaching scene across Kimi, Opus 5.5, GPT-6 Astra and Gemini 4 Argon. They report Kimi at $0.75 versus $2.00–$3.01 for the others. Those are task-specific, source-reported costs, not verified general savings.",
+      "source_id": "x:2113727486580449755",
+      "source_url": "https://x.com/Bhavani_00007/status/2113727486580449755",
+      "author_handle": "Bhavani_00007",
+      "author_url": "https://x.com/Bhavani_00007",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 is basically the open-weight version of Opus 5.5 / GPT-6 Astra, but way cheaper\n\nI asked them to build a whale breaching scene.\n\nKimi: $0.75\nOpus 5.5: $3.01\nAstra: $2.00\nGemini 4 Argon: $2.30\n\nComparable quality at a fraction of the cost. https://t.co/8d7zCth6Qm",
+      "source_metrics": {
+        "like_count": 600,
+        "view_count": 45473,
+        "retweet_count": 34,
+        "reply_count": 50,
+        "quote_count": 10,
+        "bookmark_count": 117
+      },
+      "related_sources": [],
+      "number": 53,
+      "id": "case-53",
+      "dedup_key": "https://x.com/Bhavani_00007/status/2113727486580449755",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113727359480393728",
+          "source_id": "x:2113727486580449755",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113727359480393728/vid/avc1/1600x1600/nma9cGN7qevHHLwI.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727359480393728.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727359480393728-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Tutorial",
+      "title": "Blender clay renders for video workflows",
+      "takeaway": "Use a code-built 3D render as input to a separate video tool.",
+      "body_notes": "ChrisGPT describes producing Blender clay renders and feeding them into Seedance or another video model. They disclose early access and report three to four hours and $4 in output tokens. The comparison shows clay geometry and finished imagery; the downstream video is a separate tool stage.",
+      "source_id": "x:2113727019771179401",
+      "source_url": "https://x.com/ChrisGPT/status/2113727019771179401",
+      "author_handle": "ChrisGPT",
+      "author_url": "https://x.com/ChrisGPT",
+      "date": "2026-10-23",
+      "source_text": "For the past week, I’ve had early access to Kimi K3.1 Pro.\n\nIt’s surprisingly good at creating clay renders in Blender, which you can then feed into Seedance or virtually any other video generation model.\n\nThese renders took around 3–4 hours to generate and cost me just $4 in output tokens.",
+      "source_metrics": {
+        "like_count": 210,
+        "view_count": 11410,
+        "retweet_count": 4,
+        "reply_count": 19,
+        "quote_count": 0,
+        "bookmark_count": 55
+      },
+      "related_sources": [],
+      "number": 54,
+      "id": "case-54",
+      "dedup_key": "https://x.com/ChrisGPT/status/2113727019771179401",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113726931342352384",
+          "source_id": "x:2113727019771179401",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113726931342352384/vid/avc1/1280x1440/Mkx84og0oFIxUTpc.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113726931342352384.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113726931342352384-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Two-model rocket launch comparison",
+      "takeaway": "Compare launch staging and camera motion in the recorded outputs.",
+      "body_notes": "The publisher juxtaposes Kimi K3.1 and Opus 5.5 rocket-launch scenes. The video labels $1.95 and six minutes for Kimi versus $10.35 and 24 minutes for Opus. These labels describe this recording and are not independently verified cost or speed results.",
+      "source_id": "x:2113724497044136295",
+      "source_url": "https://x.com/k2sbhai/status/2113724497044136295",
+      "author_handle": "k2sbhai",
+      "author_url": "https://x.com/k2sbhai",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 vs Claude Opus 5.5\n\nWhich one did better at Rocket Launch https://t.co/8oyl5MH05Q",
+      "source_metrics": {
+        "like_count": 77,
+        "view_count": 3834,
+        "retweet_count": 1,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 5
+      },
+      "related_sources": [],
+      "number": 55,
+      "id": "case-55",
+      "dedup_key": "https://x.com/k2sbhai/status/2113724497044136295",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113699173245800448",
+          "source_id": "x:2113724497044136295",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113699173245800448/vid/avc1/1200x1200/Xtluu0Ii7CxW-b8b.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113699173245800448.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113699173245800448-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Glass goblets and caustic lighting",
+      "takeaway": "Inspect transparency and changing light patterns in a code scene.",
+      "body_notes": "The publisher attributes the Three.js scene to Kimi K3.1 Pro and reports $2.41. The recording shows glass goblets and moving colored light patterns. The source does not expose the complete prompt or code, so the visual result does not prove physical rendering accuracy.",
+      "source_id": "x:2113724051332194589",
+      "source_url": "https://x.com/liambraus/status/2113724051332194589",
+      "author_handle": "liambraus",
+      "author_url": "https://x.com/liambraus",
+      "date": "2026-10-23",
+      "source_text": "ESTA IA YA ESCRIBE SHADERS\n\nKimi K3.1 Pro acaba de construir esta escena entera en Three.js. Cada luz, cada textura, cada efecto es código.\n\nSin artista 3D. Sin motor. Solo un prompt.\n\nLos pesos abiertos salen el 4 de noviembre.\n\nCoste total: $2.41 https://t.co/kyWjb6jmI9",
+      "source_metrics": {
+        "like_count": 76,
+        "view_count": 2365,
+        "retweet_count": 2,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 8
+      },
+      "related_sources": [],
+      "number": 56,
+      "id": "case-56",
+      "dedup_key": "https://x.com/liambraus/status/2113724051332194589",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113723996214611968",
+          "source_id": "x:2113724051332194589",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113723996214611968/vid/avc1/1920x1080/B-cwFAeWfMwuKJB7.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113723996214611968.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113723996214611968-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Central Park four-model scene",
+      "takeaway": "Compare scene detail while checking the stated performance target separately.",
+      "body_notes": "The author describes a Three.js 0.170 Central Park scene, Bow Bridge close-ups, translucent leaves and moving people, targeting 30+ fps at 1280×720 without imported models or textures. The four-panel recording is retained; the requested frame-rate target is not an independently measured outcome.",
+      "source_id": "x:2113717949811032357",
+      "source_url": "https://x.com/yuhasbeentaken/status/2113717949811032357",
+      "author_handle": "yuhasbeentaken",
+      "author_url": "https://x.com/yuhasbeentaken",
+      "date": "2026-10-23",
+      "source_text": "Opus 5.5 vs Kimi K3.1 Pro vs DeepSeek V4 Flash vs GPT-6.1 Sol.\n\nwe tested all four with one long prompt: recreate Central Park on an autumn morning in Three.js 0.170. pure code, no imported 3D models or textures.\n\n>1 build a scene that holds up as the camera moves through it, including close-ups of Bow Bridge.\n\n>2 make the lighting and movement believable, down to translucent leaves and people walking.\n\n>3 keep it running at 30+ fps at 1280×720, with reflections and post-processing enabled.\n\nsame prompt, results side by side.\n\nwhich one came closest to completing the whole task?",
+      "source_metrics": {
+        "like_count": 64,
+        "view_count": 6934,
+        "retweet_count": 0,
+        "reply_count": 6,
+        "quote_count": 3,
+        "bookmark_count": 9
+      },
+      "related_sources": [],
+      "number": 57,
+      "id": "case-57",
+      "dedup_key": "https://x.com/yuhasbeentaken/status/2113717949811032357",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113717727156371456",
+          "source_id": "x:2113717949811032357",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113717727156371456/vid/avc1/1920x1080/4sjsY0ZL3uTqi6iE.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113717727156371456.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113717727156371456-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Voxel ship inside a bottle",
+      "takeaway": "Compare scene detail, controls and source-reported task cost.",
+      "body_notes": "The publisher compares Kimi K3.1 Pro with GPT-6.1 Sol on a voxel ship in a bottle, with waves, weather and camera controls. They report $0.21 versus $9.81 while acknowledging Sol’s extra detail. Functionality and bills have not been independently reproduced.",
+      "source_id": "x:2113716730057150479",
+      "source_url": "https://x.com/vib3coded/status/2113716730057150479",
+      "author_handle": "vib3coded",
+      "author_url": "https://x.com/vib3coded",
+      "date": "2026-10-23",
+      "source_text": "A ship in a bottle for $0.21 vs $9.81\n\nKimi K3.1 Pro vs ChatGPT-6.1 Sol - building an interactive voxel ship in a bottle with waves and physics\n\nBoth scenes run right in your browser: you can rotate the camera and change the weather\n\nSol has more detail, but Kimi did a damn good job for $0.21 - nearly 47 times cheaper, and the result still looks solid\n\nMy pick is Kimi. For this task, I wouldn’t pay that much more for the extra detail\n\nWhat’s your pick?",
+      "source_metrics": {
+        "like_count": 128,
+        "view_count": 4638,
+        "retweet_count": 13,
+        "reply_count": 28,
+        "quote_count": 2,
+        "bookmark_count": 27
+      },
+      "related_sources": [],
+      "number": 58,
+      "id": "case-58",
+      "dedup_key": "https://x.com/vib3coded/status/2113716730057150479",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113716593326723072",
+          "source_id": "x:2113716730057150479",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113716593326723072/vid/avc1/1280x1600/eElHKnfQrQsDxm4N.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113716593326723072.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113716593326723072-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Autumn hill with grass and tree",
+      "takeaway": "Compare visual results while keeping harness differences explicit.",
+      "body_notes": "The creator compares Kimi K3.1 Pro high in Kimi’s web harness with DeepSeek Flash max through DeepSeek’s harness. They prefer the DeepSeek result and report 1.3% Kimi usage. Different harnesses and reasoning modes prevent treating this as a controlled model-only comparison.",
+      "source_id": "x:2113710346527457608",
+      "source_url": "https://x.com/loktar00/status/2113710346527457608",
+      "author_handle": "loktar00",
+      "author_url": "https://x.com/loktar00",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro at High vs Deepseek Flash at Max\n\nKimi looks good, but Deepseek actually in my opinion did it better at a much lower parameter count and cost.\n\nI did this via Kimis web harness I have allegro, it used 1.3% of my usage.\n\nDeepseek was DSH. https://t.co/Bm7n9mpHb3",
+      "source_metrics": {
+        "like_count": 121,
+        "view_count": 5268,
+        "retweet_count": 3,
+        "reply_count": 12,
+        "quote_count": 0,
+        "bookmark_count": 11
+      },
+      "related_sources": [],
+      "number": 59,
+      "id": "case-59",
+      "dedup_key": "https://x.com/loktar00/status/2113710346527457608",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113709622288662528",
+          "source_id": "x:2113710346527457608",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113709622288662528/vid/avc1/1920x1080/U5yKwG--gw69IJI8.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709622288662528.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709622288662528-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Four-model rocket launch scene",
+      "takeaway": "Compare the same launch task across labelled scene recordings.",
+      "body_notes": "The publisher describes a launch platform, countdown, liftoff and tracking camera across four models. They report Kimi at $0.33, Sol at $1.15, Opus at $2.06 and Astra at $2.73. Those source-reported results do not prove every requested interaction or reproducible savings.",
+      "source_id": "x:2113708763719012400",
+      "source_url": "https://x.com/marcusyul/status/2113708763719012400",
+      "author_handle": "marcusyul",
+      "author_url": "https://x.com/marcusyul",
+      "date": "2026-10-23",
+      "source_text": "¿TE DAS CUENTA DE LO QUE KIMI LE ACABA DE HACER A OPENAI Y ANTHROPIC?\n\nA cuatro modelos de IA se les pidió crear la misma escena 3D del lanzamiento de un cohete. Plataforma de lanzamiento, cuenta atrás, despegue y cámara siguiendo al cohete.\n\nEsto es lo que costó cada uno:\n\n→ Kimi K3.1: $0.33\n→ GPT 6.1 Sol: $1.15\n→ Opus 5.5: $2.06\n→ GPT-6 Astra: $2.73\n\nLos cuatro consiguieron que el cohete despegara.\n\nKimi lo hizo unas 6 veces más barato que Opus y 8 veces más barato que GPT-6 Astra.\n\nY los pesos se publican el 4 de noviembre.\n\n🔖 Guárdate esto.",
+      "source_metrics": {
+        "like_count": 133,
+        "view_count": 40406,
+        "retweet_count": 4,
+        "reply_count": 12,
+        "quote_count": 0,
+        "bookmark_count": 16
+      },
+      "related_sources": [],
+      "number": 60,
+      "id": "case-60",
+      "dedup_key": "https://x.com/marcusyul/status/2113708763719012400",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113708735814422529",
+          "source_id": "x:2113708763719012400",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113708735814422529/vid/avc1/1920x1080/4c1ZJ7sAHQV5ARuU.mp4?tag=16",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113708735814422529.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113708735814422529-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Pagoda and flying dragon comparison",
+      "takeaway": "Use the scene comparison while flagging inconsistent cost claims.",
+      "body_notes": "The recording compares a floating pagoda and flying dragon, labelled Kimi K3.1 Pro and Opus 5.5. On-screen costs are $5.71 and $17.13, while the post text says $0.25 and $1.30. The amounts are inconsistent and are not presented as a verified cost comparison.",
+      "source_id": "x:2113708675017965807",
+      "source_url": "https://x.com/gelorria/status/2113708675017965807",
+      "author_handle": "gelorria",
+      "author_url": "https://x.com/gelorria",
+      "date": "2026-10-23",
+      "source_text": "PROGRAMACIÓN NIVEL OPUS 5.5 POR 5 VECES MENOS.\n\n$1.30 frente a $0.25.\n\nEsa es la diferencia entre Opus 5.5 y Kimi K3.1.\n\n→ #1 en SWE Marathon\n→ 1M de tokens de contexto\n→ Versión Highspeed 2-3x más rápida\n→ Pesos abiertos el 4 nov\n\nProgramar a nivel frontera ya es barato. https://t.co/JxP1tRgx2p",
+      "source_metrics": {
+        "like_count": 111,
+        "view_count": 31701,
+        "retweet_count": 2,
+        "reply_count": 6,
+        "quote_count": 0,
+        "bookmark_count": 3
+      },
+      "related_sources": [],
+      "number": 61,
+      "id": "case-61",
+      "dedup_key": "https://x.com/gelorria/status/2113708675017965807",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113708639013982208",
+          "source_id": "x:2113708675017965807",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113708639013982208/vid/avc1/1280x720/h4oVEGm12nyFuHMt.mp4?tag=14",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113708639013982208.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113708639013982208-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Eleven-second clay animation comparison",
+      "takeaway": "Compare repair effort and elapsed time independently from task cost.",
+      "body_notes": "The creator reports testing the same 11-second clip in Kilnframe: Opus 5.5 took 12.3 minutes, about $4.43 and two repairs; Kimi took 12.7 minutes, $1.48 and no repairs. They still prefer Opus’s scene richness. Kimi was cheaper in this report, but not faster.",
+      "source_id": "x:2113706764390547647",
+      "source_url": "https://x.com/erhanmeydan/status/2113706764390547647",
+      "author_handle": "erhanmeydan",
+      "author_url": "https://x.com/erhanmeydan",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro çıktı, 3D'de çok iyi olduğu söyleniyor. Kilnframe'de Claude Opus 5.5 ile yan yana denedim.\n\nAynı 11 saniyelik klip, Kil Lacivert stili. İki model de sahneleri planlayıp 3D animasyonu kodla yazdı.\n\nOpus 5.5: 12,3 dakika, API fiyatıyla yaklaşık 4,43 dolar, 2 onarım turu\nKimi K3.1 Pro: 12,7 dakika, 1,48 dolar, onarım yok\n\nOpus sahneyi hâlâ biraz daha zengin kuruyor. Ama Kimi, üçte bir fiyatına ve ilk denemede bu sonucu verdi. Bence API anahtarıyla çalışanlar için çok güçlü bir seçenek oldu.",
+      "source_metrics": {
+        "like_count": 63,
+        "view_count": 6792,
+        "retweet_count": 5,
+        "reply_count": 4,
+        "quote_count": 0,
+        "bookmark_count": 44
+      },
+      "related_sources": [],
+      "number": 62,
+      "id": "case-62",
+      "dedup_key": "https://x.com/erhanmeydan/status/2113706764390547647",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113706441278144512",
+          "source_id": "x:2113706764390547647",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113706441278144512/vid/avc1/1920x760/hE1Qyo264CtShseK.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113706441278144512.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113706441278144512-poster.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "x:2113693629713633435",
+      "source_url": "https://x.com/k1rallik/status/2113693629713633435",
+      "author_handle": "k1rallik",
+      "author_url": "https://x.com/k1rallik",
+      "date": "2026-10-23",
+      "title": "Blender cathedral interior",
+      "takeaway": "Inspect complex 3D geometry in an existing tool recording.",
+      "body_notes": "The publisher shares a Blender recording with a detailed cathedral interior and attributes the work to Kimi K3.1 Pro. The clip shows geometry and camera views. The post does not expose the complete source code, timing record or a reproducible construction process.",
+      "category": "worlds",
+      "type": "Demo",
+      "source_text": "dude, Kimi K3.1 Pro looks INSANE\n\nMoonshot just launched its most capable 3T-class model with native multimodality. The capabilities announced cover everything from building games to financial analysis.\n\n→ 1M-token context window, with 104B active parameters per token\n→ Full-project coding across Unreal Engine, Unity and Godot\n→ Parametric 3D modeling in Blender and CAD\n→ 64.4% on OfficeQA Pro v2, topping Moonshot’s launch comparison\n\nAttached a video of what Kimi K3.1 Pro built. This is wild.",
+      "source_metrics": {
+        "like_count": 59,
+        "view_count": 7188,
+        "retweet_count": 3,
+        "reply_count": 5,
+        "quote_count": 2,
+        "bookmark_count": 23
+      },
+      "related_sources": [],
+      "number": 63,
+      "id": "case-63",
+      "dedup_key": "https://x.com/k1rallik/status/2113693629713633435",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113693434183589890",
+          "source_id": "x:2113693629713633435",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113693434183589890/vid/avc1/1920x1080/7tu3yqi-nu-nX_Ne.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113693434183589890.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113693434183589890-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Evaluation",
+      "title": "Code-painted artwork comparison",
+      "takeaway": "Compare illustrated outputs without treating one sample as the whole test.",
+      "body_notes": "The creator says they compared Kimi K3.1 Pro, Opus 5.5 and Kimi K3 across 180 code-made paintings. The retained image shows one three-model example. The full 180-work protocol and score distribution are not present in this source.",
+      "source_id": "x:2113749569339322501",
+      "source_url": "https://x.com/kickingkeys/status/2113749569339322501",
+      "author_handle": "kickingkeys",
+      "author_url": "https://x.com/kickingkeys",
+      "date": "2026-10-23",
+      "source_text": "I compared the new Kimi K3.1 Pro with Claude Opus 5.5 and Kimi K3 across 180 paintings made in code.\n\nThe examples below tell an interesting story... https://t.co/YRrRLJSHxy",
+      "source_metrics": {
+        "like_count": 73,
+        "view_count": 6326,
+        "retweet_count": 6,
+        "reply_count": 6,
+        "quote_count": 1,
+        "bookmark_count": 24
+      },
+      "related_sources": [],
+      "number": 64,
+      "id": "case-64",
+      "dedup_key": "https://x.com/kickingkeys/status/2113749569339322501",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113741243469463552",
+          "source_id": "x:2113749569339322501",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVWEdjwXAAA81g7.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113741243469463552.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Evaluation",
+      "title": "Peacock SVG with an earlier Astra comparison",
+      "takeaway": "Inspect feather detail and motion in an SVG example.",
+      "body_notes": "The creator labels the new peacock SVG Kimi K3.1 Pro max and quotes an earlier GPT Astra peacock run. Both outputs are retained with separate model labels. The quoted 38k tokens and 14 minutes describe Astra, not Kimi; the posts do not establish a controlled rerun.",
+      "source_id": "x:2113734178852282422",
+      "source_url": "https://x.com/lyraxana/status/2113734178852282422",
+      "author_handle": "lyraxana",
+      "author_url": "https://x.com/lyraxana",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro (max) Peacock SVG https://t.co/RLPX7ri05u",
+      "source_metrics": {
+        "like_count": 82,
+        "view_count": 5340,
+        "retweet_count": 3,
+        "reply_count": 10,
+        "quote_count": 1,
+        "bookmark_count": 5
+      },
+      "related_sources": [
+        {
+          "source_id": "x:2094188486693618037",
+          "source_url": "https://x.com/lyraxana/status/2094188486693618037",
+          "author_handle": "lyraxana",
+          "author_url": "https://x.com/lyraxana",
+          "source_text": "[GPT Astra] Peacock SVG\n~38k tokens; ~14 minutes; effort: max https://t.co/A3m07VJadj",
+          "source_metrics": {
+            "like_count": 455,
+            "view_count": 45424,
+            "retweet_count": 10,
+            "reply_count": 13,
+            "quote_count": 4,
+            "bookmark_count": 64
+          }
+        }
+      ],
+      "number": 65,
+      "id": "case-65",
+      "dedup_key": "https://x.com/lyraxana/status/2113734178852282422",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113734059289346048",
+          "source_id": "x:2113734178852282422",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113734059289346048/vid/avc1/1120x1088/HLh9kiJ2quX2apUL.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113734059289346048.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113734059289346048-poster.jpg",
+          "display_label": "Kimi K3.1 Pro · max"
+        },
+        {
+          "id": "2094188452262649856",
+          "source_id": "x:2094188486693618037",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2094188452262649856/vid/avc1/1000x900/0-1-WriTF_3txGsi.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2094188452262649856.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2094188452262649856-poster.jpg",
+          "display_label": "GPT Astra · earlier quoted run"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Tutorial",
+      "title": "Layered holographic card shader",
+      "takeaway": "Build and validate one shader layer at a time.",
+      "body_notes": "The author describes a Three.js plane, view-dependent diffraction, independently tested foil patterns, adjustable controls, canvas export and a self-review fix. They report $2.10 and 38 minutes. This preserves the staged workflow rather than inventing an exact prompt; card artwork remains third-party material.",
+      "source_id": "x:2113725753489756521",
+      "source_url": "https://x.com/slash1sol/status/2113725753489756521",
+      "author_handle": "slash1sol",
+      "author_url": "https://x.com/slash1sol",
+      "date": "2026-10-23",
+      "source_text": "I turned a Pokémon card from my binder into a real holographic shader with Kimi K3.1 Pro and Three.js. \n\nDiffraction grating, 8 foil patterns, drag to tilt. $2.10 and 38 minutes.\n\nThe rule that made it work: never ask for \"A holo card shader\". Ask for one layer at a time.\n\nStep 1 -> One card texture from my own binder, a plane in Three.js, orbit controls. Nothing shiny yet.\n\nStep 2 -> The diffraction grating itself in a single prompt: a rainbow that moves with the view angle, not a static gradient.\n\nStep 3 -> Foil patterns as toggles: hairline, pillar beams, crosshatch, cracked ice, glitter, water ripple, cat eye. One prompt each, test each one before the next.\n\nStep 4 -> Sliders for foil exposure, star intensity, pattern scale. Auto-rotate on a Lissajous path so it never sits still.\n\nStep 5 -> Export PNG and WebM straight from the canvas, so the card can leave the browser.\n\nStep 6 -> K3.1 Pro reviews its own shader, finds the banding on the cat-eye pattern, fixes it before I even notice.\n\nThe split:\n\n> Three.js: the plane, the camera, the controls.\n> GLSL: every pattern, written by K3.1 Pro.\n> K3.1 Pro: the shader math, the UI, the fixes.\n> Me: tilt the card and decide which foil looks real.\n\nThe part that matters: the whole thing cost about half of what Opus 5.5 charges for the same session and roughly 5x less than GPT-6 Astra, and on the high-speed version the shader came back in seconds, not minutes.\n\nCommit after every pattern that works. A bad prompt costs seconds, not an evening.",
+      "source_metrics": {
+        "like_count": 68,
+        "view_count": 1352,
+        "retweet_count": 1,
+        "reply_count": 19,
+        "quote_count": 0,
+        "bookmark_count": 40
+      },
+      "related_sources": [],
+      "number": 66,
+      "id": "case-66",
+      "dedup_key": "https://x.com/slash1sol/status/2113725753489756521",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113690719353241600",
+          "source_id": "x:2113725753489756521",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113690719353241600/vid/avc1/2560x1662/nMpBG3fpdfYoJ_X7.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690719353241600.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690719353241600-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Demo",
+      "title": "Portrait painting inside a drawing app",
+      "takeaway": "Inspect the painting progression without inferring an unseen tool trace.",
+      "body_notes": "The publisher attributes a portrait-painting session inside a drawing application to Kimi K3.1 Pro, reporting 72 minutes and $4.92. The time-lapse shows successive color and brush changes. The clip does not independently establish the complete agent actions or measured task cost.",
+      "source_id": "x:2113708857642172814",
+      "source_url": "https://x.com/benyuls/status/2113708857642172814",
+      "author_handle": "benyuls",
+      "author_url": "https://x.com/benyuls",
+      "date": "2026-10-23",
+      "source_text": "vale, esto me ha roto la cabeza.\n\nkimi k3.1 pro ha pintado este retrato dentro de una app de dibujo. pincelada a pincelada, eligiendo cada color él solo.\n\nempieza con manchas borrosas y en 30 segundos de vídeo parece una foto.\n\nfíjate en el selector de color. está eligiendo cada tono, literalmente.\n\ntardó 1h12min y costó $4.92.",
+      "source_metrics": {
+        "like_count": 76,
+        "view_count": 34370,
+        "retweet_count": 3,
+        "reply_count": 9,
+        "quote_count": 0,
+        "bookmark_count": 14
+      },
+      "related_sources": [],
+      "number": 67,
+      "id": "case-67",
+      "dedup_key": "https://x.com/benyuls/status/2113708857642172814",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113708828219113472",
+          "source_id": "x:2113708857642172814",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113708828219113472/vid/avc1/1854x1080/eCZKKaaIBpvzwe_R.mp4?tag=16",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113708828219113472.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113708828219113472-poster.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "hn:50212552",
+      "source_url": "https://news.ycombinator.com/item?id=50212552",
+      "author_handle": "simonw",
+      "author_url": "https://news.ycombinator.com/user?id=simonw",
+      "date": "2026-10-23",
+      "title": "Pelican SVGs at three reasoning levels",
+      "takeaway": "Compare the same illustrated task at Low, High and Max reasoning.",
+      "body_notes": "Simon Willison publishes three K3.1 Pro SVG Response outputs for the pelican-on-a-bicycle task. All three outputs are retained with their original Low, High and Max labels. Linked Kimi K3 comparisons are separate, earlier-model work; the illustrations do not constitute an API or functional benchmark.",
+      "category": "svg",
+      "type": "Evaluation",
+      "source_text": "Pelicans are solid: https://tools.simonwillison.net/markdown-svg-renderer?url=ht... Here's Kimi K3 for comparison, though I didn't try that on different reasoning levels: https://tools.simonwillison.net/markdown-svg-renderer?url=ht... Update: I ran all three reasoning levels against K3 again: https://tools.simonwillison.net/markdown-svg-renderer?url=ht...",
+      "source_metrics": null,
+      "related_sources": [
+        {
+          "source_url": "https://gist.github.com/simonw/9b7181492209387da1d4f53002f26663",
+          "author_handle": "simonw",
+          "author_url": "https://github.com/simonw"
+        }
+      ],
+      "number": 68,
+      "id": "case-68",
+      "dedup_key": "https://news.ycombinator.com/item?id=50212552",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "hn-50212552-1",
+          "source_id": "hn:50212552",
+          "source_type": "svg",
+          "type": "image",
+          "source_media_url": "https://gist.githubusercontent.com/simonw/9b7181492209387da1d4f53002f26663/raw/4b3652a96545ab18daaec8209d3d962f7269ef73/Kimi.md",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/hn-50212552-1.png",
+          "display_label": "Low",
+          "source_svg_sha256": "3886e672a033c41e168f3e69c09fd889bb2311c7dc5e7f789b4567217c591226",
+          "render_policy": "Exact published SVG Response rasterized without content edits"
+        },
+        {
+          "id": "hn-50212552-2",
+          "source_id": "hn:50212552",
+          "source_type": "svg",
+          "type": "image",
+          "source_media_url": "https://gist.githubusercontent.com/simonw/9b7181492209387da1d4f53002f26663/raw/4b3652a96545ab18daaec8209d3d962f7269ef73/Kimi.md",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/hn-50212552-2.png",
+          "display_label": "High",
+          "source_svg_sha256": "f7e577a7a8ec31dd1afbb84e98fc8cb8cce6fe9c301a115a2320508dc214fbba",
+          "render_policy": "Exact published SVG Response rasterized without content edits"
+        },
+        {
+          "id": "hn-50212552-3",
+          "source_id": "hn:50212552",
+          "source_type": "svg",
+          "type": "image",
+          "source_media_url": "https://gist.githubusercontent.com/simonw/9b7181492209387da1d4f53002f26663/raw/4b3652a96545ab18daaec8209d3d962f7269ef73/Kimi.md",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/hn-50212552-3.png",
+          "display_label": "Max",
+          "source_svg_sha256": "e27516873cf9cb3169dc84fa9dbe41dd8680056d0fc009fff71ba8063a0db631",
+          "render_policy": "Exact published SVG Response rasterized without content edits"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Demo",
+      "title": "Claude Code motion trailer",
+      "takeaway": "Use a short trailer to inspect typography and motion.",
+      "body_notes": "The creator shares a Claude Code-themed trailer and prefers its visuals to their Opus 5.5 result, while still preferring Opus for general tasks. The post states “Not sponsored”; the broader early-access disclosure remains separate from sponsorship.",
+      "source_id": "x:2113796109722153067",
+      "source_url": "https://x.com/ChrisGPT/status/2113796109722153067",
+      "author_handle": "ChrisGPT",
+      "author_url": "https://x.com/ChrisGPT",
+      "date": "2026-10-24",
+      "source_text": "Kimi K3.1 Pro - Trailer for Claude Code!\n\nTLDR: Kimi is a good model, especially for visual work, but I still find Opus 5.5 more useful for general-purpose tasks and white-collar work.\n\nI had Kimi make this Claude Code trailer. The visuals looked a bit better than what I got from Opus 5.5 surprisingly, although it used a lot of the same sounds I keep hearing in outputs from frontier models.\n\n- Visual work: Kimi can deliver, and this was a good example.\n\n- Generality and white-collar work: I still prefer Opus 5.5. A better-looking trailer doesn’t make it a better model across the board.\n\nNot sponsored.",
+      "source_metrics": {
+        "like_count": 91,
+        "view_count": 6302,
+        "retweet_count": 4,
+        "reply_count": 25,
+        "quote_count": 0,
+        "bookmark_count": 14
+      },
+      "related_sources": [],
+      "number": 69,
+      "id": "case-69",
+      "dedup_key": "https://x.com/ChrisGPT/status/2113796109722153067",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113796061152104449",
+          "source_id": "x:2113796109722153067",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113796061152104449/vid/avc1/1920x1080/Pr91blIGBS9ne5wW.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113796061152104449.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113796061152104449-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Benchmark",
+      "title": "Mountain-bike descent on AA-3D",
+      "takeaway": "Separate a playable-looking scene from a final benchmark rank.",
+      "body_notes": "Artificial Analysis shows a 492 m descent with berms, roots, a rock garden, a drop and a jump, plus steering, pedaling and braking controls. Preference voting was still in progress in this snapshot; this is not a completed AA-3D Elo result.",
+      "source_id": "x:2113770240769442012",
+      "source_url": "https://x.com/ArtificialAnlys/status/2113770240769442012",
+      "author_handle": "ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro is among the leading models in agentic knowledge work and coding, but early signs suggest it will rank lower on AA-3D\n\nWe are still collecting the preference votes for its Elo on AA-3D, our benchmark for how well AI models build interactive 3D scenes. In agentic knowledge work and coding, it is among the leading models on GDPval-AA and Terminal-Bench 4.0. Its predecessor, Kimi K3, is 12th of 22 models on AA-3D.\n\nHere is one of its AA-3D scenes: a 492 m mountain-bike descent with berms, roots, a rock garden, a drop, and a jump. A demo run rides it from top to bottom, and you can take over the steering, pedaling, and braking at any point.\n\nCongratulations to @Kimi_Moonshot on the release!",
+      "source_metrics": {
+        "like_count": 188,
+        "view_count": 16273,
+        "retweet_count": 9,
+        "reply_count": 11,
+        "quote_count": 5,
+        "bookmark_count": 16
+      },
+      "related_sources": [],
+      "number": 70,
+      "id": "case-70",
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2113770240769442012",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113769605017788416",
+          "source_id": "x:2113770240769442012",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113769605017788416/vid/avc1/1200x1200/-sG2VCYkFUKylSTz.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113769605017788416.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113769605017788416-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Evaluation",
+      "title": "Game compilation and usage limits",
+      "takeaway": "Compare visible game behavior while keeping quota claims separate.",
+      "body_notes": "The video juxtaposes a rail-running scene and driving scenes from Kimi and Opus. The author reports spending $400 on subscriptions for four prompts and estimates $29 through the API. Those billing and quota claims are self-reported, not verified receipts or a general pricing comparison.",
+      "source_id": "x:2113750412507406751",
+      "source_url": "https://x.com/_MaxBlade/status/2113750412507406751",
+      "author_handle": "_MaxBlade",
+      "author_url": "https://x.com/_MaxBlade",
+      "date": "2026-10-23",
+      "source_text": "i spent $400 on kimi k3.1 pro subs today \n\nto send 4 prompts\n\nthe worst part is if i just paid via api it would have been $29 total. The 5 hour limit is completely broken. \n\nwow.. \n\nLets talk about the output quality though, here is kimi vs opus. which do you prefer? https://t.co/LN1vlnMsjK",
+      "source_metrics": {
+        "like_count": 155,
+        "view_count": 18872,
+        "retweet_count": 5,
+        "reply_count": 23,
+        "quote_count": 2,
+        "bookmark_count": 35
+      },
+      "related_sources": [],
+      "number": 71,
+      "id": "case-71",
+      "dedup_key": "https://x.com/_MaxBlade/status/2113750412507406751",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113750119677923329",
+          "source_id": "x:2113750412507406751",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113750119677923329/vid/avc1/1920x1080/uKZv9gprGkk6lAgB.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113750119677923329.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113750119677923329-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Evaluation",
+      "title": "Low-poly skiing game comparison",
+      "takeaway": "Inspect character movement and obstacle interaction in the recording.",
+      "body_notes": "The publisher compares Kimi K3.1 Pro with GPT-6.1 Sol and reports $5.28 versus $9.41. The clip shows low-poly skiing scenes and score displays. It does not establish a complete playable build, performance measurements or independently verified costs.",
+      "source_id": "x:2113714575795466446",
+      "source_url": "https://x.com/shiri_shh/status/2113714575795466446",
+      "author_handle": "shiri_shh",
+      "author_url": "https://x.com/shiri_shh",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro vs GPT 6.1 Sol\n\n$5.28 vs $9.41 https://t.co/4ygxbHNbFY",
+      "source_metrics": {
+        "like_count": 70,
+        "view_count": 4932,
+        "retweet_count": 0,
+        "reply_count": 4,
+        "quote_count": 0,
+        "bookmark_count": 9
+      },
+      "related_sources": [],
+      "number": 72,
+      "id": "case-72",
+      "dedup_key": "https://x.com/shiri_shh/status/2113714575795466446",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113705627658907648",
+          "source_id": "x:2113714575795466446",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113705627658907648/vid/avc1/2212x1080/21Z8MFLw1difZmjI.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Limit",
+      "title": "Zombie animation interrupted by quota",
+      "takeaway": "Include quota interruption in the outcome of a creative coding task.",
+      "body_notes": "The author reports attempting a code-made zombie-survival short on high reasoning. The screenshot shows a five-hour usage-limit error before completion and 6% monthly usage. This is a concrete source-reported interruption under one subscription, not a claim about every plan.",
+      "source_id": "x:2113711759794078162",
+      "source_url": "https://x.com/amaliometria/status/2113711759794078162",
+      "author_handle": "amaliometria",
+      "author_url": "https://x.com/amaliometria",
+      "date": "2026-10-23",
+      "source_text": "Esto es un chiste\n\nSuscripción de Kimi 20$ al mes.\n\n1 prompt para generar un video short con código del típico apocalipsis zombie survival que vemos en redes\n\nNi ha terminado y ha llegado al límite de 5h\n\nEncima, 6% del límite mensual\n\nEl razonamiento en high (no max) de Kimi 3.1 Pro\n\n@Kimi_Moonshot @Kimi_Moonshot  esto es normal?",
+      "source_metrics": {
+        "like_count": 62,
+        "view_count": 8667,
+        "retweet_count": 0,
+        "reply_count": 12,
+        "quote_count": 0,
+        "bookmark_count": 15
+      },
+      "related_sources": [],
+      "number": 73,
+      "id": "case-73",
+      "dedup_key": "https://x.com/amaliometria/status/2113711759794078162",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113711112801669120",
+          "source_id": "x:2113711759794078162",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVVpDuRW0AAFBjN.png",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113711112801669120.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Demo",
+      "title": "Rooftop parkour game recording",
+      "takeaway": "Inspect the visible game before accepting full-project claims.",
+      "body_notes": "The publisher calls this a complete Unreal open-world project. The retained clip shows a rooftop character game with a timer, objectives and touch-style controls. The recording alone does not verify the engine, full codebase, asset provenance or the broader project-completion claim.",
+      "source_id": "x:2113710554225504495",
+      "source_url": "https://x.com/nattcornelis/status/2113710554225504495",
+      "author_handle": "nattcornelis",
+      "author_url": "https://x.com/nattcornelis",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro JUST BUILT A FULL OPEN-WORLD GAME.\n\nNot a demo.\n\nA whole project in Unreal.\n\n→ Full codebase written\n→ Assets wired together\n→ Runs like a real game\n→ Unreal, Unity, Godot\n\nGame dev will never be the same. https://t.co/NgtBoJcChi",
+      "source_metrics": {
+        "like_count": 119,
+        "view_count": 32552,
+        "retweet_count": 3,
+        "reply_count": 11,
+        "quote_count": 0,
+        "bookmark_count": 7
+      },
+      "related_sources": [],
+      "number": 74,
+      "id": "case-74",
+      "dedup_key": "https://x.com/nattcornelis/status/2113710554225504495",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113710522545901568",
+          "source_id": "x:2113710554225504495",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113710522545901568/vid/avc1/1920x1080/0Kdk3dUIl-tfrtJh.mp4?tag=16",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113710522545901568.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113710522545901568-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Limit",
+      "title": "Rocket League-style game benchmark",
+      "takeaway": "Retain a useful result alongside the creator’s negative comparison.",
+      "body_notes": "The creator says this Rocket League-style test cost about $11 and is their best open-model result, but behind several proprietary models on this task. The recording shows car-football gameplay. The ranking is one creator’s test-specific assessment, not a general 3D capability conclusion.",
+      "source_id": "x:2113707413006143727",
+      "source_url": "https://x.com/LLMJunky/status/2113707413006143727",
+      "author_handle": "LLMJunky",
+      "author_url": "https://x.com/LLMJunky",
+      "date": "2026-10-23",
+      "source_text": "I tested Kimi K3.1 on Rocket League Bench, and yes! It's definitely the best open model that I've tested so far. \n\nBut it is easily a full generation behind the frontier on 3D modeling -- at least on this one single test. \n\nOpus 5\nGPT-6 Astra\nFable 5.1\nOpus 5.5\n\nAll provided significantly better results. \n\nThis test cost around $11 total, decent, but at only half the price of Opus (and probably less token efficient), I don't think I'd ever reach for this (for this type of task).\n\nIt is good, not excellent.",
+      "source_metrics": {
+        "like_count": 118,
+        "view_count": 8728,
+        "retweet_count": 5,
+        "reply_count": 23,
+        "quote_count": 2,
+        "bookmark_count": 19
+      },
+      "related_sources": [],
+      "number": 75,
+      "id": "case-75",
+      "dedup_key": "https://x.com/LLMJunky/status/2113707413006143727",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113706189594722304",
+          "source_id": "x:2113707413006143727",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113706189594722304/vid/avc1/2906x1692/j0g00Li1oVAyJY5R.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113706189594722304.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113706189594722304-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "type": "Evaluation",
+      "title": "Animated frontend explainer comparison",
+      "takeaway": "Compare a generated explainer’s layout and animated code visuals.",
+      "body_notes": "The recording places Kimi K3.1 Pro and DeepSeek Flash 1017 frontend outputs side by side, including an illustrated workflow and an animated code demonstration. The publisher says the prompt was the same. No downloadable implementation or controlled functional test is supplied.",
+      "source_id": "x:2113740284077175009",
+      "source_url": "https://x.com/NFT_Chen/status/2113740284077175009",
+      "author_handle": "NFT_Chen",
+      "author_url": "https://x.com/NFT_Chen",
+      "date": "2026-10-23",
+      "source_text": "🔥各有千秋！Kimi K3.1 Pro vs DeepSeek V4.1 Flash 1017 前端比拼来了！\n\n测试相同提示词下前端生成视频的效果\n\n怎么觉得DeepSeek V4.1 Flash 1017依旧很能打啊！\n\n#DeepSeek #KimiK31Pro #杨植鳞 #梁文峰\n\nhttps://t.co/UFtQ5vU9E5 https://t.co/JwG9tn7gXv",
+      "source_metrics": {
+        "like_count": 59,
+        "view_count": 15354,
+        "retweet_count": 9,
+        "reply_count": 18,
+        "quote_count": 1,
+        "bookmark_count": 18
+      },
+      "related_sources": [],
+      "number": 76,
+      "id": "case-76",
+      "dedup_key": "https://x.com/NFT_Chen/status/2113740284077175009",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113738835473707008",
+          "source_id": "x:2113740284077175009",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113738835473707008/vid/avc1/1920x2160/WmoZ-aV0_PvSb4Ap.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113738835473707008.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113738835473707008-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "type": "Demo",
+      "title": "Netflix-inspired motion reel",
+      "takeaway": "Inspect animated branding as a source-reported coding output.",
+      "body_notes": "The publisher describes a Netflix-inspired brand video with Python-written animation, reporting two hours and $3.58. The recording shows a motion-reel interface and animated effects. It does not establish the exact production workflow, asset rights or a replacement for professional motion software.",
+      "source_id": "x:2113710465797009464",
+      "source_url": "https://x.com/zentalksai/status/2113710465797009464",
+      "author_handle": "zentalksai",
+      "author_url": "https://x.com/zentalksai",
+      "date": "2026-10-23",
+      "source_text": "acabo de hacer un vídeo de marca para Netflix con Kimi K3.1\n\nR.I.P After Effects.\n\nle di 1 prompt y 2 horas después, esto es lo que obtuve:\n\nmotion designers pasándose 6 horas con los keyframes mientras kimi k3.1 escribe toda la animación en python\n\ncoste total: $3.58 https://t.co/hfK0GTJr40",
+      "source_metrics": {
+        "like_count": 113,
+        "view_count": 33642,
+        "retweet_count": 2,
+        "reply_count": 8,
+        "quote_count": 0,
+        "bookmark_count": 15
+      },
+      "related_sources": [],
+      "number": 77,
+      "id": "case-77",
+      "dedup_key": "https://x.com/zentalksai/status/2113710465797009464",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113710421182218240",
+          "source_id": "x:2113710465797009464",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113710421182218240/vid/avc1/1920x1080/X4ehdIExrFtO4DDv.mp4?tag=16",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113710421182218240.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113710421182218240-poster.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "x:2113211835797119376",
+      "source_url": "https://x.com/wonjder/status/2113211835797119376",
+      "author_handle": "wonjder",
+      "author_url": "https://x.com/wonjder",
+      "date": "2026-10-22",
+      "title": "Online Markdown editor comparison",
+      "takeaway": "Compare editing and preview panes from one website brief.",
+      "body_notes": "The author compares Opus 5.5 low with anonymous Kibitz on an online Markdown editor. Two source screenshots are retained without inferring an unlabelled model order. The author assigns missing math support to Opus, not Kibitz. The anonymous model identity and actual control behavior remain unverified.",
+      "category": "web",
+      "type": "Evaluation",
+      "source_text": "在arena 上对比测试了一下claude-opus-5.5-low和据说是K3.1的kibitz。\n用的提示词只有一句：帮我生成一个在线编辑查看markdown的网站，功能尽可能全面\n\n下面是opus 5.5和kibitz的成品对比\nopus 5.5几分钟就做完了，效果其实挺不错的。大部分我想要的功能都有。只是不支持数学公式有点扣分。",
+      "source_metrics": null,
+      "related_sources": [],
+      "number": 78,
+      "id": "case-78",
+      "dedup_key": "https://x.com/wonjder/status/2113211835797119376",
+      "kind": "comparison",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "x-2113211835797119376-1",
+          "source_id": "legacy-row:21",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVOgW9kagAADP4m?format=jpg&name=900x900",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113211835797119376-1.jpg"
+        },
+        {
+          "id": "x-2113211835797119376-2",
+          "source_id": "legacy-row:21",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVOgkyoasAASyiE?format=jpg&name=900x900",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113211835797119376-2.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "x:2113221661625356599",
+      "source_url": "https://x.com/QuiteBuoyant/status/2113221661625356599",
+      "author_handle": "QuiteBuoyant",
+      "author_url": "https://x.com/QuiteBuoyant",
+      "date": "2026-10-22",
+      "title": "Penguin intelligence bureau landing page",
+      "takeaway": "Inspect typography, imagery and calls to action in a landing-page concept.",
+      "body_notes": "The original post labels this an anonymous Kibitz frontend test and embeds a real preview of The Southern Bureau, a penguin-intelligence concept. The image supports the visible editorial layout. It does not establish deployed functionality or confirm the anonymous model’s official identity.",
+      "category": "web",
+      "type": "Demo",
+      "source_text": "on frontend test",
+      "source_metrics": null,
+      "related_sources": [],
+      "number": 79,
+      "id": "case-79",
+      "dedup_key": "https://x.com/QuiteBuoyant/status/2113221661625356599",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "x-2113221661625356599-1",
+          "source_id": "legacy-row:69",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/card_img/2113221176902242304/IDVVxpPW?format=jpg&name=900x900",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Limit",
+      "title": "Real-robot task failures",
+      "takeaway": "Check physical task results separately from coding demos.",
+      "body_notes": "Robocurve reports a 9% mean score on RoboDojo-RC Tier 1, versus 47–48% for the three compared models. The recording shows four manipulation attempts and failure labels. This is one robotics benchmark, not a general capability verdict.",
+      "source_id": "x:2113827780798697613",
+      "source_url": "https://x.com/robocurve/status/2113827780798697613",
+      "author_handle": "robocurve",
+      "author_url": "https://x.com/robocurve",
+      "date": "2026-10-24",
+      "source_text": "Kimi K3.1 Pro scores 9% on real-robot tasks, behind Opus 5.5, Gemini 4 Argon and GPT-6 Astra. https://t.co/ZLuerhjJDg",
+      "source_metrics": {
+        "like_count": 55,
+        "view_count": 7363,
+        "retweet_count": 3,
+        "reply_count": 10,
+        "quote_count": 2,
+        "bookmark_count": 10
+      },
+      "related_sources": [],
+      "number": 80,
+      "id": "case-80",
+      "dedup_key": "https://x.com/robocurve/status/2113827780798697613",
+      "kind": "usecase",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113827725521940480",
+          "source_id": "x:2113827780798697613",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113827725521940480/vid/avc1/1920x1080/MWr1oobqLW_SMAYF.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113827725521940480.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113827725521940480-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Benchmark",
+      "title": "Agentic cyber-defense evaluation",
+      "takeaway": "Evaluate defensive task success together with task cost.",
+      "body_notes": "Artificial Analysis reports 64% on its Cyber Index across CWE-Bench-AA, DeepsecBench-AA and CyberGym-E2E-AA. It reports $2.81 per task and higher total task cost than Kimi K3 despite lower token prices. These are evaluator-reported results under its harness, not a local rerun.",
+      "source_id": "x:2113765233462481276",
+      "source_url": "https://x.com/ArtificialAnlys/status/2113765233462481276",
+      "author_handle": "ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "date": "2026-10-23",
+      "source_text": "Kimi K3.1 Pro is the new #1 openly-available model for agentic cyber defense, behind only trusted-access model GPT-6 Sol (Daybreak Blue) on the Artificial Analysis Cyber Index\n\n@Kimi_Moonshot's Kimi K3.1 Pro scores 64% on the Artificial Analysis Cyber Index, 7 points ahead of the previous leading openly-available model, DeepSeek V4.1 Flash 1017 (57%), and 5 points behind GPT-6 Sol (Daybreak Blue, max, 69%), which is only available through OpenAI's trusted-access program. Once the weights for K3.1 Pro are released, K3.1 Pro will also be the leading open weights model for cyber defense.\n\nThe Artificial Analysis Cyber Index measures capability on agentic cyber defense tasks and is composed of three benchmarks: CWE-Bench-AA, DeepsecBench-AA and CyberGym-E2E-AA. The Index primarily evaluates models through their publicly accessible APIs, reflecting the cyber capabilities available to developers.\n\nProprietary models from OpenAI, Anthropic and Google may have stronger cyber capabilities but lose points to safety refusals: GPT-6 Sol (Daybreak Blue, max), available through OpenAI's trusted-access program, scores 32 points above its public counterpart. Kimi K3.1 Pro encounters no safety refusals.\n\nKey results:\n\n➤ #1 openly-available model and #2 overall: Kimi K3.1 Pro scores 64%, up 23 points from Kimi K3 (41%) and ahead of DeepSeek V4.1 Flash 1017 (57%). Only the trusted-access GPT-6 Sol (Daybreak Blue, max, 69%) scores higher\n\n➤ Highest CyberGym-E2E-AA score of any model: K3.1 Pro scores 95% on CyberGym-E2E-AA, placing it ahead of GPT-6 Sol (Daybreak Blue, 93%) and the next openly-available model, Mistral Large 4 (82%). On DeepsecBench-AA, K3.1 Pro scores 37%, behind GPT-6 Sol (Daybreak Blue, 48%) and GPT-6 Sol (46%). On CWE-Bench-AA it scores 61%, 4 points behind GPT-6 Sol (Daybreak Blue, 65%), with DeepSeek V4.1 Flash 1017 leading at 69%\n\n➤ 15% increase in Cost per Task despite lower token prices: K3.1 Pro has a Cost per Task of $2.81, higher than GPT-6 Sol (Daybreak Blue, max, $1.77) and DeepSeek V4.1 Flash 1017 ($0.42). Kimi K3.1 Pro is 33% cheaper per token than Kimi K3 ($2/$10 vs. $3/$15 per 1M input/output tokens), but uses ~2x more input tokens, resulting in a 15% higher Cost per Task ($2.81 vs. $2.45)",
+      "source_metrics": {
+        "like_count": 555,
+        "view_count": 33074,
+        "retweet_count": 45,
+        "reply_count": 31,
+        "quote_count": 19,
+        "bookmark_count": 60
+      },
+      "related_sources": [],
+      "number": 81,
+      "id": "case-81",
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2113765233462481276",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113762716410388480",
+          "source_id": "x:2113765233462481276",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVWX_csbIAADFFp.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113762716410388480.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Benchmark",
+      "title": "Bug Hunt across two repositories",
+      "takeaway": "Test finding and fixing bugs in existing codebases.",
+      "body_notes": "Pawel Huryn reports 105 replanted bugs across two repositories and a Kimi K3.1 Pro max score of 36, below DeepSeek Flash 1017 at 42.7 and Opus 5.5 at 41.7. The creator’s cost objection remains a judgment about this evaluation. A translated repost is retained as related commentary.",
+      "source_id": "x:2113747367409123623",
+      "source_url": "https://x.com/PawelHuryn/status/2113747367409123623",
+      "author_handle": "PawelHuryn",
+      "author_url": "https://x.com/PawelHuryn",
+      "date": "2026-10-23",
+      "source_text": "So I tested Kimi K3.1 Pro on real work. 2 repos. 105 replanted bugs. Find and fix what you can. The results:\n\nDeepSeek V4.1 Flash 1017 (max): 42.7\nMuse Wonder Full 1.0 (max): 42\nOpus 5.5 (max): 41.7\nKimi K3.1 Pro (max): 36\nMuse Spark 1.3 (max): 32.2\n\nI'm sorry. Considering the cost, I see no reason to use this model.",
+      "source_metrics": {
+        "like_count": 515,
+        "view_count": 66000,
+        "retweet_count": 30,
+        "reply_count": 76,
+        "quote_count": 21,
+        "bookmark_count": 93
+      },
+      "related_sources": [
+        {
+          "author_handle": "NFT_Chen",
+          "source_url": "https://x.com/NFT_Chen/status/2113823686130278548",
+          "source_id": "x:2113823686130278548",
+          "source_text": "😧惊了！实际工作实测打脸：DeepSeek V4.1 Flash 1017 仍大幅优于 Kimi K3.1 Pro！\n\n独立测试者 @PawelHuryn 在真实代码库上跑了 Bug Hunt 基准（2个生产级仓库 + 105个此前前沿模型漏掉的植入bug，要求找并修复）：\n1️⃣DeepSeek V4.1 Flash 1017 (max)：修复 42.7/105（DeepSeek harness）\n2️⃣Muse Wonder Full 1.0 (max)：42\n3️⃣Opus 5.5 (max)：41.7\n4️⃣Kimi K3.1 Pro (max)：仅 36/105\n5️⃣Muse Spark 1.3 (max)：32.2\n\n成本更夸张：DeepSeek 这次跑下来仅约 $1-2，Kimi 约 $14，其他模型动辄几十美元。\n\n测试者直接说：“考虑成本，我看不出用这个模型的理由。”\n\n实际修bug、读真实代码库场景，DeepSeek 依然性价比碾压。Kimi 还没打到这个点。\n\n完整榜单：https://t.co/feCaZezJB2\n\n#DeepSeek #Kimi #AICoding #LLM #BugHunt #开源AI #DeepSeekV4 #梁文峰 #杨植麟",
+          "source_metrics": {
+            "like_count": 62,
+            "view_count": 7746,
+            "retweet_count": 5,
+            "reply_count": 19,
+            "quote_count": 2,
+            "bookmark_count": 16
+          }
+        }
+      ],
+      "number": 82,
+      "id": "case-82",
+      "dedup_key": "https://x.com/PawelHuryn/status/2113747367409123623",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113747360740208640",
+          "source_id": "x:2113747367409123623",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVWKBoXW8AA7Y9N.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113747360740208640.jpg"
+        },
+        {
+          "id": "2113823675443290112",
+          "source_id": "x:2113823686130278548",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVXPbuyboAAif1Q.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113823675443290112.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "x:2113688083145314416",
+      "source_url": "https://x.com/ArtificialAnlys/status/2113688083145314416",
+      "author_handle": "ArtificialAnlys",
+      "author_url": "https://x.com/ArtificialAnlys",
+      "date": "2026-10-23",
+      "title": "Agentic work and terminal evaluation",
+      "takeaway": "Read evaluator-reported task results separately from an overall rank.",
+      "body_notes": "Artificial Analysis reports 67% on Terminal-Bench 4.0 and 73% on AutomationBench-AA for agentic SaaS workflows, up from 13% and 58% for Kimi K3. Its broader Index task cost is reported as $1.98. These are evaluator-specific snapshots, not a local rerun or proof of every workflow.",
+      "category": "comparison",
+      "type": "Benchmark",
+      "source_text": "Kimi K3.1 Pro launches at 4th on the Artificial Analysis Intelligence Index scoring 55, making large gains in agentic performance; it will be the leading open-weights model once its weights are published\n\n@Kimi_Moonshot's new reasoning model gains 11 points over Kimi K3 (max, 44). It trails only Claude Opus 5.5 (max with fallback, 58), Claude Sonnet 5.5 (max with fallback, 56), and Muse Wonder Full (max, 56) on the Intelligence Index.\n\nOnce the weights for K3.1 Pro are released it will be the highest-scoring open weights model and the gap between the leading open weights and proprietary models on the Intelligence Index will narrow from 12 points to 3.\n\nKey results:\n➤ Large gains in agentic performance: Kimi K3.1 Pro scores 3rd on GDPval-AA with 1,846 Elo, up 312 Elo from Kimi K3, behind only Claude Opus 5.5 (1,866 Elo) and Muse Wonder Full (1,857 Elo). Kimi K3.1 Pro also achieves the highest score of any model on Terminal-Bench 4.0. K3.1 Pro scores 67%, up from 13% for Kimi K3 and ahead of Claude Sonnet 5.5 (64%). AutomationBench-AA, which tests agentic SaaS workflows, rises from 58% to 73%.\n\n➤ Gains in other evals are more moderate: Humanity's Last Exam rises from 47% to 52%, CritPt from 23% to 25%, and SciCode from 59% to 61%. AA-Omniscience Index rises from 20 to 30, as the hallucination rate falls from 53% to 44% and accuracy rises from 48% to 51%.\n\n➤ Cost per Task roughly equal to Kimi K3 at $1.98 per Task: K3.1 Pro uses 55K output tokens per Intelligence Index task, 14% more than Kimi K3 at 48K, while its first-party token prices are 33% lower.\n\nAdditional model details:\n➤ Context window: 1M tokens.\n➤ Size: 2.8T total, 104B active parameters\n➤ Input modalities: Text and image\n➤ Weights and license: Weights currently not published, Moonshot is expected to release the weights soon after launch\n➤ Pricing: $2/$10/$0.20 per 1M input/output/cache hit tokens, 33% lower than Kimi K3 on all three rates.\n\nCongratulations to the team at @Kimi_Moonshot on the release!",
+      "source_metrics": {
+        "like_count": 4593,
+        "view_count": 406230,
+        "retweet_count": 404,
+        "reply_count": 169,
+        "quote_count": 293,
+        "bookmark_count": 552
+      },
+      "related_sources": [],
+      "number": 83,
+      "id": "case-83",
+      "dedup_key": "https://x.com/ArtificialAnlys/status/2113688083145314416",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113686980731207680",
+          "source_id": "x:2113688083145314416",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVVTHDTaAAAyAl-.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113686980731207680.jpg"
+        }
+      ]
+    },
+    {
+      "source_id": "hn:50213450",
+      "source_url": "https://news.ycombinator.com/item?id=50213450",
+      "author_handle": "yorwba",
+      "author_url": "https://news.ycombinator.com/user?id=yorwba",
+      "date": "2026-10-23",
+      "title": "Cyber-risk reduction benchmark conditions",
+      "takeaway": "Compare benchmark settings before interpreting aggregate scores.",
+      "body_notes": "The official xdev-bench-hard chart reports 81.0% problems solved at pass@3 for K3.1 Pro versus 90.5% for a model without cyber risk-reduction. Average success rates are separately 64.5% and 71.4%. These are vendor-reported benchmark conditions, not a local rerun or evidence about access to another model variant.",
+      "category": "comparison",
+      "type": "Benchmark",
+      "source_text": "They also show scores for a \"Kimi model w/o cyber risk-reduction\" https://statics.kimi.ai/kimi-blogs/kimi-k3-1/20261023/xdev-b... Presumably State Security will get access to that on request.",
+      "source_metrics": null,
+      "related_sources": [
+        {
+          "source_url": "https://statics.kimi.ai/kimi-blogs/kimi-k3-1/20261023/xdev-bench-hard-results.webp",
+          "author_handle": "Kimi_Moonshot",
+          "author_url": "https://x.com/Kimi_Moonshot"
+        }
+      ],
+      "number": 84,
+      "id": "case-84",
+      "dedup_key": "https://news.ycombinator.com/item?id=50213450",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "hn-50213450-1",
+          "source_id": "hn:50213450",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://statics.kimi.ai/kimi-blogs/kimi-k3-1/20261023/xdev-bench-hard-results.webp",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/hn-50213450-1.webp"
+        }
+      ]
+    },
+    {
+      "source_id": "hn:50217436",
+      "source_url": "https://news.ycombinator.com/item?id=50217436",
+      "author_handle": "chriddyp",
+      "author_url": "https://news.ycombinator.com/user?id=chriddyp",
+      "date": "2026-10-24",
+      "title": "Plotly data-analytics workflow benchmark",
+      "takeaway": "Check answer accuracy together with tool calls and runtime.",
+      "body_notes": "Plotly reports 42 of 43 tasks passed (98%), versus 81% for Kimi K3, in its data-analytics harness. It reports $13.47 for the full exam and roughly 2.5 minutes median per task. The HN author cites 73 queries on one data-issue task versus 18 for Sol. Results and costs remain source-reported.",
+      "category": "comparison",
+      "type": "Benchmark",
+      "source_text": "Big improvement over Kimi K3 in our data analytics benchmark: it scored a 98% vs a 81% in July. Quite slow in our exam. A lot of that was due to the number of tool calls that it's making. In one of our questions about finding data issues in a dataset, it made 73 queries. Other models like 6.1 Sol only made 18 for that question. Full deep dive here: https://plotly.com/blog/kimi-k3-1-pro-plotly-data-analytics-...",
+      "source_metrics": null,
+      "related_sources": [
+        {
+          "source_url": "https://plotly.com/blog/kimi-k3-1-pro-plotly-data-analytics-bench/",
+          "author_handle": "Plotly",
+          "author_url": "https://plotly.com/"
+        }
+      ],
+      "number": 85,
+      "id": "case-85",
+      "dedup_key": "https://news.ycombinator.com/item?id=50217436",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "hn-50217436-1",
+          "source_id": "hn:50217436",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://plotly.com/cms/img/BfiAcFKkdFyuMIbw_kimi-k3-1-pro-data-analytics-benchmark-v2.png?auto=compress&fm=webp",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/hn-50217436-1.webp"
+        },
+        {
+          "id": "hn-50217436-2",
+          "source_id": "hn:50217436",
+          "source_type": "image",
+          "type": "image",
+          "source_media_url": "https://plotly.com/cms/img/fsV-iOIv7ZmV8lWp_data-analytics-benchmark-accuracy-vs-speed-kimi-k3-1-pro.png?auto=compress&fm=webp",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/hn-50217436-2.webp"
+        }
+      ]
     }
   ],
   "banner_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/cover/banner.png",
-  "banner_policy": "shared-r2; owner-supplied original shared across all 11 languages"
+  "banner_policy": "shared-r2; owner-supplied original shared across all 11 languages",
+  "updated_at": "2026-10-24",
+  "batches": [
+    {
+      "date": "2026-10-23",
+      "start": 1,
+      "end": 40
+    },
+    {
+      "date": "2026-10-24",
+      "start": 41,
+      "end": 85
+    }
+  ],
+  "source_page_checks": {
+    "https://x.com/QuiteBuoyant/status/2113221661625356599": {
+      "checked_at": "2026-10-24",
+      "http_status": 404,
+      "preserved_source": "data/kimi-k3-1-usecase-curated.json",
+      "observation": "Source page returned HTTP 404 during redirected public GET checks; this does not establish why the page is unavailable.",
+      "source_text_status": "partial_local_export"
+    },
+    "https://x.com/i/status/2113189630745157665": {
+      "checked_at": "2026-10-24",
+      "http_status": 404,
+      "preserved_source": "data/kimi-k3-1-usecase-curated.json",
+      "observation": "Source page returned HTTP 404 during redirected public GET checks; this does not establish why the page is unavailable."
+    },
+    "https://x.com/shiri_shh/status/2113714575795466446": {
+      "checked_at": "2026-10-24",
+      "http_status": 404,
+      "preserved_source": "data/kimi-k3-1-usecase-curated.json",
+      "observation": "Source page returned HTTP 404 during redirected public GET checks; this does not establish why the page is unavailable."
+    }
+  }
 }

@@ -26,3 +26,7 @@ All 11 README versions use the same owner-supplied English brand banner, hosted 
 ## Case format
 
 Each work has one stable `case-N` anchor and one heading linking the title to the original source and the author to their profile. Follow it with a bold usage takeaway, source-content notes, every retained image or playable video poster, and `Type: … | Date: YYYY-MM-DD`. Allowed types are Demo, Tutorial, Evaluation, Integration, Benchmark and Limit. Keep the single Menu table and inline-comma creator acknowledgement consistent across all locales.
+
+## Stable dated batches
+
+Append new cases within a dated batch in the canonical JSON, keeping existing case IDs and their original order. Menu entries remain one global table. Repeated category headings within a later batch use date-prefixed anchors. Keep source uncertainty, comparator labels and conflicting cost claims explicit; related HN and original-artifact authors retain their actual profile URLs.

@@ -12,25 +12,31 @@ def render(data,locale):
  chunks=['<div align="center">\n\n<a href="https://evolink.ai?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=kimi-k3-1-usecases&amp;utm_content=readme_banner"><img src="'+data['banner_url']+'" alt="Awesome Kimi K3.1 Use Cases" width="760"></a>\n\n[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)\n\n'+BADGES+'\n\n</div>\n',f'## 🍌 {g["introduction"]}\n\n{g["intro"]}\n\n**{g["purpose"]}**\n',f'<a id="overview"></a>\n## 📊 {g["overview"]}\n\n{g["stats"]}\n\n> [!NOTE]\n> {g["evidence"]}\n',f'<a id="quick-start"></a>\n## ⚡ {g["quick_start"]}\n\n{g["steps"]}\n\n[{g["official"]}](https://www.kimi.com/)\n',f'<a id="menu"></a>\n## 📑 {g["menu"]}\n\n| {g["case"]} | {g["category"]} | {g["type"]} |\n|---|---|---|']
  for c,t in zip(cases,translations):chunks.append(f'| [{c["number"]}. {t[0]}](#case-{c["number"]}) | {g["categories"][c["category"]]} | {c["type"]} |')
  chunks.append(f'| [{g["overview"]}](#overview) | {g["overview"]} | |\n| [{g["quick_start"]}](#quick-start) | {g["quick_start"]} | |\n| [{g["related"]}](#related-repositories) | {g["related"]} | |\n| [{g["acknowledge"]}](#acknowledge) | {g["acknowledge"]} | |\n')
- for category,emoji in CATEGORIES:
-  group=[(c,t) for c,t in zip(cases,translations) if c['category']==category]
-  if not group:continue
-  chunks.append(f'<a id="{category}"></a>\n## {emoji} {g["categories"][category]}\n')
-  for c,t in group:
-   chunks.append(f'<a id="case-{c["number"]}"></a>\n### {g["case"]} {c["number"]}: [{t[0]}]({c["source_url"]}) ({g["by"]} [@{c["author_handle"]}]({c["author_url"]}))\n\n**{t[1]}**\n\n{t[2]}\n')
-   if c.get('related_sources'):
-    chunks.append(g['additional']+' '+', '.join(f'[@{s["author_handle"]}]({s["source_url"]})' for s in c['related_sources'])+'\n')
-   cells=[]
-   for i,m in enumerate(c['media'],1):
-    dest=m['playable_url'] if m['type']=='video' else m['image_url'];poster=m['poster_url'] if m['type']=='video' else m['image_url'];label=g['video'] if m['type']=='video' else g['image'];alt=html.escape(f'{t[0]} — {i}',quote=True)
-    cells.append(f'<td align="center"><a href="{html.escape(dest,quote=True)}"><img src="{html.escape(poster,quote=True)}" alt="{alt}" width="480"></a><br>{label}'+(f'<br>{html.escape(m["display_label"])}' if m.get('display_label') else '')+'</td>')
-   for start in range(0,len(cells),2):chunks.append('<table><tr>'+''.join(cells[start:start+2])+'</tr></table>\n')
-   chunks.append(f'{g["type"]}: {c["type"]} | {g["date"]}: {c["date"]}\n\n---\n')
+ for batch_index,batch in enumerate(data.get("batches",[{"date":"2026-10-23","start":1,"end":len(cases)}])):
+  anchor_prefix="" if batch_index==0 else "update-"+batch["date"]+"-"
+  if batch_index:chunks.append(f'<a id="updates-{batch["date"]}"></a>\n## 🆕 {g["update_heading"]} · {batch["date"]}\n')
+  for category,emoji in CATEGORIES:
+   group=[(c,t) for c,t in zip(cases,translations) if c['category']==category and batch['start']<=c['number']<=batch['end']]
+   if not group:continue
+   chunks.append(f'<a id="{anchor_prefix}{category}"></a>\n## {emoji} {g["categories"][category]}\n')
+   for c,t in group:
+    chunks.append(f'<a id="case-{c["number"]}"></a>\n### {g["case"]} {c["number"]}: [{t[0]}]({c["source_url"]}) ({g["by"]} [@{c["author_handle"]}]({c["author_url"]}))\n\n**{t[1]}**\n\n{t[2]}\n')
+    if c.get('related_sources'):
+     chunks.append(g['additional']+' '+', '.join(f'[@{s["author_handle"]}]({s["source_url"]})' for s in c['related_sources'])+'\n')
+    unavailable=[s for s in [c]+c.get('related_sources',[]) if data.get('source_page_checks',{}).get(s['source_url'],{}).get('http_status')==404]
+    if unavailable:chunks.append(g['source_archive_note'].format(handles=', '.join('@'+s['author_handle'] for s in unavailable))+'\n')
+    if any(data['source_page_checks'][s['source_url']].get('source_text_status')=='partial_local_export' for s in unavailable):chunks.append(g['partial_source_note']+'\n')
+    cells=[]
+    for i,m in enumerate(c['media'],1):
+     dest=m['playable_url'] if m['type']=='video' else m['image_url'];poster=m['poster_url'] if m['type']=='video' else m['image_url'];label=g['video'] if m['type']=='video' else g['image'];alt=html.escape(f'{t[0]} — {i}',quote=True)
+     cells.append(f'<td align="center"><a href="{html.escape(dest,quote=True)}"><img src="{html.escape(poster,quote=True)}" alt="{alt}" width="480"></a><br>{label}'+(f'<br>{html.escape(g.get("media_labels",{}).get(m["display_label"],m["display_label"]))}' if m.get('display_label') else '')+'</td>')
+    for start in range(0,len(cells),2):chunks.append('<table><tr>'+''.join(cells[start:start+2])+'</tr></table>\n')
+    chunks.append(f'{g["type"]}: {c["type"]} | {g["date"]}: {c["date"]}\n\n---\n')
  chunks.append(f'<a id="related-repositories"></a>\n## {g["related"]}\n\n- [{g["open_related"].format(model="Kimi K3")}](https://github.com/Evolink-AI/awesome-kimi-k3-usecases)\n- [{g["open_related"].format(model="Gemini 4 Carbon")}](https://github.com/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases)\n')
  authors=list(dict.fromkeys((c['author_handle'],c['author_url']) for c in cases))
  for c in cases:
   for s in c.get('related_sources',[]):
-   pair=(s['author_handle'],f'https://x.com/{s["author_handle"]}')
+   pair=(s['author_handle'],s.get('author_url') or f'https://x.com/{s["author_handle"]}')
    if pair not in authors:authors.append(pair)
  chunks.append(f'<a id="acknowledge"></a>\n## 🙏 {g["acknowledge"]}\n\n{g["thanks"]}\n\n'+', '.join(f'[@{handle}]({url})' for handle,url in authors)+f'\n\n{g["corrections"]}\n')
  return '\n'.join(chunks).rstrip()+'\n'
@@ -42,7 +48,8 @@ def main():
   if a.check:
    if not path.is_file() or path.read_text()!=out:errors.append(filename)
   else:path.write_text(out)
- catalog='# Update Log and Curated Case Register\n\n## 2026-10-23\n\n40 independent works across six categories; 54 retained media assets. Reposts and comparisons remain attached to their underlying work.\n\nThis generated Markdown register mirrors the canonical JSON. Dates use the UTC publication date of each primary source.\n\n| Case | Work | Creator | Category | Type | Date |\n|---|---|---|---|---|---|\n'
+ batch_history=' '.join(f"{b['date']}: {b['end']-b['start']+1} {'initial' if i==0 else 'additional'} cases." for i,b in enumerate(data.get('batches',[])))
+ catalog=f'# Update Log and Curated Case Register\n\n## {data.get("updated_at","2026-10-23")}\n\n{len(data["cases"])} independent works across six categories; {sum(len(c["media"]) for c in data["cases"])} retained media assets. Reposts and comparisons remain attached to their underlying work.\n\n{batch_history} Original case identifiers are preserved.\n\nThis generated Markdown register mirrors the canonical JSON. Dates use the UTC publication date of each primary source.\n\n| Case | Work | Creator | Category | Type | Date |\n|---|---|---|---|---|---|\n'
  for c in data['cases']:catalog+=f'| {c["number"]} | [{c["title"]}]({c["source_url"]}) | [@{c["author_handle"]}]({c["author_url"]}) | {c["category"]} | {c["type"]} | {c["date"]} |\n'
  catalog_path=ROOT/'docs/update-log.md'
  if a.check:

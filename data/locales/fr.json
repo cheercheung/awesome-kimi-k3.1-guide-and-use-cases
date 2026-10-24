@@ -23,17 +23,23 @@
       "worlds": "Mondes et paysages",
       "web": "Interfaces web"
     },
-    "intro": "Démonstrations et évaluations informelles attribuées par leurs auteurs à Kimi K3.1, dont le modèle anonyme Kibitz.",
+    "intro": "Démonstrations, workflows et évaluations communautaires attribués à leurs sources pour Kimi K3.1 et K3.1 Pro, dont d’anciennes vidéos du checkpoint anonyme Kibitz.",
     "purpose": "Explorez des tâches concrètes, des résultats visibles et des limites pratiques à partir des sources originales.",
-    "stats": "40 cas indépendants répartis en 6 catégories. Republications et comparaisons d’une même œuvre sont regroupées.",
-    "evidence": "La correspondance entre Kibitz et Kimi K3.1 n’est pas confirmée. Noms, durées, coûts et jugements viennent des sources. Les enregistrements ne prouvent ni code exécutable, ni interaction complète, ni réussite reproductible.",
+    "stats": "85 cas indépendants répartis en 6 catégories. Republications et comparaisons d’une même œuvre sont regroupées.",
+    "evidence": "La correspondance Kibitz–Kimi K3.1 Pro reste non confirmée. Noms de modèles, temps, coûts et jugements de qualité sont rapportés par les sources. Les vidéos ne prouvent ni code exécutable, ni interaction complète, ni réussite reproductible.",
     "steps": "1. Choisissez une tâche dans le sommaire.\n2. Ouvrez sa vidéo ou son image, puis suivez le titre vers la publication originale.\n3. Comparez le résultat visible à la tâche et à ses limites.",
     "thanks": "Merci aux personnes qui ont publié ces démonstrations :",
     "corrections": "L’attribution suit les sources liées et peut nécessiter des corrections. Ouvrez une issue pour signaler un crédit manquant, un doublon, une affirmation incorrecte ou demander un retrait. Les médias tiers restent la propriété de leurs ayants droit.",
     "collection": "Cas d’usage",
     "official": "Ouvrir le site officiel de Kimi",
     "additional": "Autres vues et comparaisons :",
-    "open_related": "Ouvrir le dépôt de cas d’usage de {model}"
+    "open_related": "Ouvrir le dépôt de cas d’usage de {model}",
+    "update_heading": "Nouveaux ajouts",
+    "media_labels": {
+      "GPT Astra · earlier quoted run": "GPT Astra · ancienne exécution citée"
+    },
+    "source_archive_note": "Vérification de la source (2026-10-24) : {handles} a renvoyé HTTP 404. [Lire le texte source conservé dans le registre](data/kimi-k3-1-usecase-curated.json) ; les médias conservés restent accessibles ci-dessous.",
+    "partial_source_note": "L’export local de cette source ne contient qu’un fragment du texte, pas une transcription complète de la publication."
   },
   "cases": [
     [
@@ -235,6 +241,231 @@
       "Autoportrait dans Minecraft",
       "Comparez les autoportraits et vérifiez les coûts séparément.",
       "La source annonce 13,707 blocs et $0.38 contre 5,738 blocs et $5.31. Facturation, périmètre des tokens et coûts des relances ne sont pas vérifiés indépendamment."
+    ],
+    [
+      "Abeille mécanique avec commandes d’inspection",
+      "Examinez un modèle mécanique en rendu et en vue filaire.",
+      "Le créateur déclare avoir terminé l’abeille mécanique en 31 minutes et montre une interface annotée avec vues rendues et filaires. Il recommande de choisir explicitement le modèle des sous-agents, qui peuvent hériter du modèle principal et de son réglage de raisonnement. Le temps et le comportement des outils sont rapportés par la source."
+    ],
+    [
+      "Inspection d’un modèle de Boeing 747",
+      "Examinez la forme et les composants de l’avion sous plusieurs angles.",
+      "L’auteur partage son premier essai de Boeing avec Kimi K3.1. La vidéo montre un 747 annoté sous différents angles, avec son train d’atterrissage. C’est un exemple de modélisation visuelle ; précision technique, comportement en vol et exécution du code ne sont pas établis indépendamment."
+    ],
+    [
+      "Animation de départ d’un roadster",
+      "Distinguez les différences d’animation visibles des coûts contradictoires.",
+      "La vidéo compare le départ d’un roadster avec Opus 5.5 et Kimi K3.1 Pro. Les étiquettes affichent $10.15 et $1.39, tandis que le texte du message indique $15 et $2. La comparaison visuelle est conservée sans résoudre cette contradiction ni annoncer un taux d’économie vérifié."
+    ],
+    [
+      "Téléphone pliable et configurateur web",
+      "Comparez un prototype de produit 3D avec ses commandes dans le navigateur.",
+      "L’auteur décrit un téléphone pliable réalisé dans Blender et une présentation web interactive avec ouverture, couleurs, fonds d’écran et vues d’applications. Il annonce 90 minutes et $12.50. La vidéo étaye le prototype visible, sans vérifier chaque commande, la précision technique ou les caractéristiques d’un produit réel."
+    ],
+    [
+      "Comparaison d’un papillon en vitrail",
+      "Comparez verre, éclairage et géométrie fine dans une même scène.",
+      "Selon l’auteur, les deux modèles ont reçu la même tâche de papillon en vitrail. La vidéo compare Kimi K3.1 Pro et Opus 5.5 sous plusieurs angles. La préférence reste son jugement ; ni l’entrée complète ni un nouvel essai contrôlé ne sont fournis."
+    ],
+    [
+      "Tour Eiffel avec quatre modèles",
+      "Examinez le même monument dans quatre résultats enregistrés.",
+      "L’auteur compare Kimi K3.1, Opus 5.5, Gemini 4 Argon et GPT-6 Astra sur une scène de Tour Eiffel. Il annonce $2.04 et huit minutes pour Kimi, avec des temps et coûts distincts pour les autres. La préférence de précision et tous les temps sont rapportés par la source."
+    ],
+    [
+      "Pélican à vélo au bord d’un lac",
+      "Examinez un personnage en mouvement et son environnement.",
+      "ChrisGPT partage un pélican à vélo dans un paysage lacustre et annonce environ 45 minutes de travail. Le message questionne l’utilité du classique test du pélican ; la vidéo est un exemple visuel, pas une preuve de supériorité générale en programmation."
+    ],
+    [
+      "Scène de fleurs et papillon dans Houdini",
+      "Examinez la scène visible en distinguant les republications des expériences originales.",
+      "L’auteur partage une vidéo liée à Houdini, avec fleurs, végétation et papillon, en citant l’annonce officielle. Il s’agit d’une démonstration partagée, sans temps indépendant, prompt complet ni trace du code ; elle n’établit pas que l’auteur du message a créé la scène originale."
+    ],
+    [
+      "Comparaison d’un voilier au coucher du soleil",
+      "Comparez eau, voiles et mouvements de caméra d’une même œuvre.",
+      "Da7_Tech partage d’abord le voilier Kimi, puis ajoute une comparaison Opus et un avis d’utilisation distinct. Le créateur déclare que le bateau a consommé 11.6% de son quota mensuel et critique la vitesse et les limites d’abonnement. Ce sont des contraintes rapportées par la source, pas une facturation vérifiée indépendamment."
+    ],
+    [
+      "Mur destructible en quatre panneaux",
+      "Lisez les étiquettes de modèle de la vidéo avant de comparer.",
+      "La vidéo montre un lanceur et un mur de blocs dans quatre panneaux étiquetés Kimi K3.1 Pro, GPT-6 Astra, GPT-6.1 Sol et Gemini 4 Argon. La légende cite une autre sélection de modèles. Cette divergence de versions empêche de traiter l’ensemble comme un benchmark aux données concordantes."
+    ],
+    [
+      "Cheval au galop avec trois modèles",
+      "Comparez allure et proportions sur une tâche d’animation commune.",
+      "L’auteur décrit une comparaison de chevaux en mouvement dans un fichier Three.js unique. La vidéo indique Kimi K3.1, Opus 5.5 et GPT-6 Astra. Le classement des allures reste subjectif ; les images ne confirment ni le checkpoint caché du modèle ni du code exécutable."
+    ],
+    [
+      "Royaume de voxels face à Carbon",
+      "Comparez navigation et structure visible dans deux vidéos.",
+      "Le créateur étiquette des vidéos distinctes de mondes en voxels Kimi K3.1 Pro max et Gemini 4 Carbon high. Toutes deux montrent la tâche de royaume de style Aetherwyn sous différents angles. Ce sont les étiquettes de la source ; le message ne vérifie pas indépendamment l’identité anonyme de Carbon ni un classement reproductible."
+    ],
+    [
+      "Saut de baleine avec quatre modèles",
+      "Comparez mouvement, eau et style de scène séparément du coût.",
+      "L’auteur compare un saut de baleine avec Kimi, Opus 5.5, GPT-6 Astra et Gemini 4 Argon. Il annonce $0.75 pour Kimi contre $2.00–$3.01 pour les autres. Ce sont des coûts propres à cette tâche rapportés par la source, pas des économies générales vérifiées."
+    ],
+    [
+      "Rendus argile Blender pour workflows vidéo",
+      "Utilisez un rendu 3D créé par code comme entrée d’un outil vidéo distinct.",
+      "ChrisGPT décrit la création de rendus argile dans Blender, ensuite fournis à Seedance ou à un autre modèle vidéo. Il déclare un accès anticipé, trois à quatre heures et $4 en tokens de sortie. La comparaison montre géométrie argile et images finales ; la vidéo ultérieure relève d’une étape avec un autre outil."
+    ],
+    [
+      "Lancement de fusée avec deux modèles",
+      "Comparez phases du lancement et mouvements de caméra enregistrés.",
+      "L’auteur juxtapose des lancements de fusée de Kimi K3.1 et Opus 5.5. La vidéo indique $1.95 et six minutes pour Kimi contre $10.35 et 24 minutes pour Opus. Ces étiquettes décrivent cet enregistrement, sans constituer des résultats de coût ou de vitesse vérifiés indépendamment."
+    ],
+    [
+      "Coupes en verre et éclairage caustique",
+      "Examinez transparence et motifs lumineux changeants d’une scène créée par code.",
+      "L’auteur attribue la scène Three.js à Kimi K3.1 Pro et annonce $2.41. La vidéo montre des coupes en verre et des motifs de lumière colorée en mouvement. Le prompt et le code complets ne sont pas révélés ; le résultat visuel ne prouve pas la justesse physique du rendu."
+    ],
+    [
+      "Central Park avec quatre modèles",
+      "Comparez les détails en examinant séparément l’objectif de performance.",
+      "L’auteur décrit une scène Central Park sous Three.js 0.170, des gros plans de Bow Bridge, des feuilles translucides et des passants, visant 30+ fps à 1280×720 sans modèles ni textures importés. La vidéo à quatre panneaux est conservée ; la cadence demandée n’est pas un résultat mesuré indépendamment."
+    ],
+    [
+      "Navire en voxels dans une bouteille",
+      "Comparez détails, commandes et coûts déclarés de la tâche.",
+      "L’auteur compare Kimi K3.1 Pro à GPT-6.1 Sol sur un navire en voxels dans une bouteille, avec vagues, météo et commandes de caméra. Il annonce $0.21 contre $9.81 tout en reconnaissant les détails supplémentaires de Sol. Fonctionnalités et factures n’ont pas été reproduites indépendamment."
+    ],
+    [
+      "Colline automnale avec herbe et arbre",
+      "Comparez les résultats en explicitant les différences d’environnement d’exécution.",
+      "Le créateur compare Kimi K3.1 Pro high dans l’environnement web de Kimi à DeepSeek Flash max dans celui de DeepSeek. Il préfère DeepSeek et annonce 1.3% d’utilisation Kimi. Des environnements et modes de raisonnement différents empêchent un comparatif contrôlé portant uniquement sur les modèles."
+    ],
+    [
+      "Scène de lancement de fusée avec quatre modèles",
+      "Comparez la même tâche de lancement dans des vidéos étiquetées.",
+      "L’auteur décrit plateforme, compte à rebours, décollage et caméra de suivi pour quatre modèles. Il annonce Kimi à $0.33, Sol à $1.15, Opus à $2.06 et Astra à $2.73. Ces résultats rapportés ne prouvent ni toutes les interactions demandées ni des économies reproductibles."
+    ],
+    [
+      "Pagode et dragon volant en comparaison",
+      "Utilisez la comparaison tout en signalant les coûts contradictoires.",
+      "La vidéo compare une pagode flottante et un dragon volant, étiquetés Kimi K3.1 Pro et Opus 5.5. Les coûts affichés sont $5.71 et $17.13, contre $0.25 et $1.30 dans le texte. Ces montants sont incompatibles et ne sont pas présentés comme un comparatif de coûts vérifié."
+    ],
+    [
+      "Animation argile de onze secondes",
+      "Comparez réparations et durée séparément du coût de la tâche.",
+      "Le créateur rapporte avoir testé le même clip de 11 secondes dans Kilnframe : Opus 5.5 a demandé 12.3 minutes, environ $4.43 et deux réparations ; Kimi, 12.7 minutes, $1.48 et aucune réparation. Il préfère encore la richesse de la scène Opus. D’après ce récit, Kimi était moins cher, mais pas plus rapide."
+    ],
+    [
+      "Intérieur de cathédrale dans Blender",
+      "Examinez une géométrie 3D complexe dans l’enregistrement d’un outil existant.",
+      "L’auteur partage une vidéo Blender d’un intérieur de cathédrale détaillé et attribue le travail à Kimi K3.1 Pro. Le clip montre géométrie et vues de caméra. Le message ne fournit ni code complet, ni relevé de temps, ni processus de construction reproductible."
+    ],
+    [
+      "Comparaison de peintures réalisées par code",
+      "Comparez des illustrations sans assimiler un échantillon au test complet.",
+      "Le créateur dit avoir comparé Kimi K3.1 Pro, Opus 5.5 et Kimi K3 sur 180 peintures réalisées par code. L’image conservée montre un exemple avec trois modèles. Le protocole complet des 180 œuvres et la répartition des scores ne figurent pas dans cette source."
+    ],
+    [
+      "Paon SVG avec un ancien comparatif Astra",
+      "Examinez les détails et le mouvement des plumes d’un exemple SVG.",
+      "Le créateur étiquette le nouveau paon SVG Kimi K3.1 Pro max et cite une ancienne exécution avec GPT Astra. Les deux résultats sont conservés avec des étiquettes de modèle distinctes. Les 38k tokens et 14 minutes cités concernent Astra, pas Kimi ; les messages n’établissent pas de nouvel essai contrôlé."
+    ],
+    [
+      "Shader de carte holographique en couches",
+      "Construisez et validez une couche du shader à la fois.",
+      "L’auteur décrit un plan Three.js, une diffraction dépendant de la vue, des motifs de feuille testés séparément, des commandes réglables, l’export du canvas et une correction après autoévaluation. Il annonce $2.10 et 38 minutes. Le workflow progressif est conservé sans inventer de prompt exact ; l’illustration de la carte reste un contenu tiers."
+    ],
+    [
+      "Portrait peint dans une application de dessin",
+      "Examinez la progression sans déduire une trace d’outils invisible.",
+      "L’auteur attribue une séance de portrait dans une application de dessin à Kimi K3.1 Pro, annonçant 72 minutes et $4.92. L’accéléré montre des changements successifs de couleurs et de pinceaux. Le clip ne confirme pas indépendamment l’ensemble des actions de l’agent ni un coût mesuré de la tâche."
+    ],
+    [
+      "Pélicans SVG à trois niveaux de raisonnement",
+      "Comparez la même illustration en raisonnement Low, High et Max.",
+      "Simon Willison publie trois résultats SVG Response de K3.1 Pro pour le pélican à vélo. Tous sont conservés avec leurs étiquettes originales Low, High et Max. Les comparaisons Kimi K3 liées sont des travaux distincts d’un modèle antérieur ; les illustrations ne constituent pas un benchmark d’API ou de fonctionnalités."
+    ],
+    [
+      "Bande-annonce animée sur Claude Code",
+      "Examinez typographie et mouvement dans une courte bande-annonce.",
+      "Le créateur partage une bande-annonce sur Claude Code et préfère ses visuels à son résultat Opus 5.5, tout en privilégiant encore Opus pour les tâches générales. Le message indique « Not sponsored » ; la déclaration plus générale d’accès anticipé reste distincte du parrainage."
+    ],
+    [
+      "Descente de VTT sur AA-3D",
+      "Distinguez une scène semblant jouable d’un classement final de benchmark.",
+      "Artificial Analysis montre une descente de 492 m avec virages relevés, racines, pierrier, marche et saut, ainsi que des commandes de direction, pédalage et freinage. Le vote de préférence était encore en cours à cette date ; ce n’est pas un résultat Elo final AA-3D."
+    ],
+    [
+      "Compilation de jeux et limites d’utilisation",
+      "Comparez le comportement visible en séparant les déclarations de quota.",
+      "La vidéo juxtapose une course sur rails et des scènes de conduite de Kimi et Opus. L’auteur dit avoir dépensé $400 en abonnements pour quatre prompts et estime $29 via l’API. Ces coûts et quotas sont autodéclarés, sans reçus vérifiés ni comparaison tarifaire générale."
+    ],
+    [
+      "Comparaison d’un jeu de ski low-poly",
+      "Examinez les déplacements et les interactions avec les obstacles dans la vidéo.",
+      "L’auteur compare Kimi K3.1 Pro à GPT-6.1 Sol et annonce $5.28 contre $9.41. Le clip montre des scènes de ski low-poly et des scores. Il n’établit ni version entièrement jouable, ni mesures de performance, ni coûts vérifiés indépendamment."
+    ],
+    [
+      "Animation de zombies interrompue par le quota",
+      "Incluez l’interruption par quota dans le résultat de la tâche créative.",
+      "L’auteur rapporte une tentative de court métrage de survie zombie réalisé par code en raisonnement high. La capture montre une erreur de limite d’utilisation de cinq heures avant la fin et 6% d’utilisation mensuelle. C’est une interruption précise rapportée pour un abonnement, pas une affirmation sur toutes les offres."
+    ],
+    [
+      "Vidéo d’un jeu de parkour sur les toits",
+      "Examinez le jeu visible avant d’accepter les affirmations sur le projet entier.",
+      "L’auteur parle d’un projet Unreal complet en monde ouvert. Le clip conservé montre un personnage sur les toits avec chronomètre, objectifs et commandes de type tactile. La vidéo seule ne vérifie ni moteur, ni code complet, ni provenance des ressources, ni l’affirmation plus large de projet achevé."
+    ],
+    [
+      "Benchmark d’un jeu de style Rocket League",
+      "Conservez un résultat utile avec le comparatif négatif du créateur.",
+      "Le créateur dit que ce test de style Rocket League a coûté environ $11 et constitue son meilleur résultat de modèle ouvert, derrière plusieurs modèles propriétaires sur cette tâche. La vidéo montre du football automobile. Le classement est l’avis d’un créateur pour ce test précis, pas un verdict général sur les capacités 3D."
+    ],
+    [
+      "Comparaison d’une explication frontend animée",
+      "Comparez disposition et visualisations de code animées d’une explication générée.",
+      "La vidéo présente côte à côte les résultats frontend de Kimi K3.1 Pro et DeepSeek Flash 1017, dont un workflow illustré et une démonstration de code animée. Selon l’auteur, le prompt était identique. Aucune implémentation téléchargeable ni test fonctionnel contrôlé n’est fourni."
+    ],
+    [
+      "Reel animé inspiré de Netflix",
+      "Examinez une animation de marque comme résultat de code attribué par la source.",
+      "L’auteur décrit une vidéo de marque inspirée de Netflix avec animation écrite en Python, annonçant deux heures et $3.58. La vidéo montre une interface de reel et des effets animés. Elle n’établit ni workflow exact, ni droits des ressources, ni remplacement d’un logiciel professionnel d’animation."
+    ],
+    [
+      "Comparaison d’éditeurs Markdown en ligne",
+      "Comparez les volets d’édition et d’aperçu issus d’un même brief de site.",
+      "L’auteur compare Opus 5.5 low à l’anonyme Kibitz sur un éditeur Markdown en ligne. Deux captures sont conservées sans déduire un ordre de modèles non étiqueté. L’auteur attribue l’absence de support mathématique à Opus, pas à Kibitz. Identité anonyme et comportement réel des commandes restent non vérifiés."
+    ],
+    [
+      "Page d’une agence de renseignement de manchots",
+      "Examinez typographie, images et appels à l’action d’un concept de page d’accueil.",
+      "Le message original étiquette ceci comme un test frontend de l’anonyme Kibitz et intègre un véritable aperçu de The Southern Bureau, un concept d’agence de renseignement de manchots. L’image étaye la disposition éditoriale visible. Elle n’établit ni fonctions déployées ni identité officielle du modèle anonyme."
+    ],
+    [
+      "Échecs de tâches avec un robot réel",
+      "Vérifiez les résultats physiques séparément des démonstrations de programmation.",
+      "Robocurve annonce une moyenne de 9% sur RoboDojo-RC Tier 1, contre 47–48% pour les trois modèles comparés. La vidéo montre quatre tentatives de manipulation et des étiquettes d’échec. C’est un benchmark de robotique, pas un verdict général de capacité."
+    ],
+    [
+      "Évaluation de cyberdéfense agentique",
+      "Évaluez la réussite des tâches défensives avec leur coût.",
+      "Artificial Analysis annonce 64% sur son Cyber Index, couvrant CWE-Bench-AA, DeepsecBench-AA et CyberGym-E2E-AA. L’évaluateur indique $2.81 par tâche et un coût total par tâche supérieur à Kimi K3 malgré des prix par token inférieurs. Ce sont ses résultats dans son environnement, pas un nouvel essai local."
+    ],
+    [
+      "Bug Hunt sur deux dépôts",
+      "Testez la détection et la correction de bugs dans des bases de code existantes.",
+      "Pawel Huryn rapporte 105 bugs réintroduits dans deux dépôts et un score de 36 pour Kimi K3.1 Pro max, inférieur à DeepSeek Flash 1017 à 42.7 et Opus 5.5 à 41.7. Son objection au coût reste un jugement sur cette évaluation. Une republication traduite est conservée comme commentaire associé."
+    ],
+    [
+      "Évaluation du travail agentique et du terminal",
+      "Lisez les résultats de tâches de l’évaluateur séparément du classement général.",
+      "Artificial Analysis annonce 67% sur Terminal-Bench 4.0 et 73% sur AutomationBench-AA pour les workflows SaaS agentiques, contre 13% et 58% pour Kimi K3. Le coût par tâche de son Index plus large est annoncé à $1.98. Ce sont des instantanés propres à l’évaluateur, pas un essai local ni une preuve pour tous les workflows."
+    ],
+    [
+      "Conditions du benchmark de réduction des risques cyber",
+      "Comparez les réglages avant d’interpréter les scores agrégés.",
+      "Le graphique officiel xdev-bench-hard annonce 81.0% de problèmes résolus à pass@3 pour K3.1 Pro contre 90.5% pour un modèle sans réduction des risques cyber. Les taux moyens de réussite sont indiqués séparément à 64.5% et 71.4%. Ce sont des conditions rapportées par le fournisseur, pas un essai local ni une preuve d’accès à une autre variante."
+    ],
+    [
+      "Benchmark de workflows d’analyse de données Plotly",
+      "Vérifiez la justesse des réponses avec les appels d’outils et la durée.",
+      "Plotly annonce 42 tâches réussies sur 43 (98%), contre 81% pour Kimi K3, dans son environnement d’analyse de données. Il indique $13.47 pour l’examen complet et environ 2.5 minutes médianes par tâche. L’auteur HN cite 73 requêtes sur une tâche de problème de données contre 18 pour Sol. Résultats et coûts restent rapportés par les sources."
     ]
   ]
 }
