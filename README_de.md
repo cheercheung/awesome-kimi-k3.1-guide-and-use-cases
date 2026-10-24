@@ -27,7 +27,7 @@ Quellengebundene Community-Demos, Workflows und Evaluationen für Kimi K3.1 und 
 <a id="overview"></a>
 ## 📊 Überblick
 
-85 eigenständige Anwendungsfälle in 6 Kategorien. Weiterveröffentlichungen und Vergleiche derselben Arbeit sind zusammengefasst.
+83 eigenständige Anwendungsfälle in 6 Kategorien. Weiterveröffentlichungen und Vergleiche derselben Arbeit sind zusammengefasst.
 
 > [!NOTE]
 > Die Zuordnung Kibitz–Kimi K3.1 Pro bleibt unbestätigt. Modellnamen, Zeiten, Kosten und Qualitätsurteile stammen aus den Quellen. Aufnahmen belegen weder ausführbaren Code noch vollständige Interaktion oder wiederholbaren Erfolg.
@@ -117,20 +117,18 @@ Quellengebundene Community-Demos, Workflows und Evaluationen für Kimi K3.1 und 
 | [69. Animierter Claude-Code-Trailer](#case-69) | Spiele und animierte Szenen | Demo |
 | [70. Mountainbike-Abfahrt auf AA-3D](#case-70) | Spiele und animierte Szenen | Benchmark |
 | [71. Spielsammlung und Nutzungslimits](#case-71) | Spiele und animierte Szenen | Evaluation |
-| [72. Low-Poly-Skispiel im Vergleich](#case-72) | Spiele und animierte Szenen | Evaluation |
-| [73. Zombieanimation durch Kontingent unterbrochen](#case-73) | Spiele und animierte Szenen | Limit |
-| [74. Aufnahme eines Dach-Parkourspiels](#case-74) | Spiele und animierte Szenen | Demo |
-| [75. Benchmark eines Spiels im Rocket-League-Stil](#case-75) | Spiele und animierte Szenen | Limit |
-| [76. Animierter Frontend-Erklärfilm im Vergleich](#case-76) | Weboberflächen | Evaluation |
-| [77. Motion-Reel im Netflix-Stil](#case-77) | Weboberflächen | Demo |
-| [78. Online-Markdown-Editoren im Vergleich](#case-78) | Weboberflächen | Evaluation |
-| [79. Landingpage einer Pinguin-Geheimdienstbehörde](#case-79) | Weboberflächen | Demo |
-| [80. Fehlschläge bei Aufgaben mit einem echten Roboter](#case-80) | Modellvergleich | Limit |
-| [81. Agentische Cyberabwehr im Test](#case-81) | Modellvergleich | Benchmark |
-| [82. Bug Hunt in zwei Repositories](#case-82) | Modellvergleich | Benchmark |
-| [83. Agentische Arbeit und Terminal im Test](#case-83) | Modellvergleich | Benchmark |
-| [84. Benchmarkbedingungen zur Verringerung von Cyberrisiken](#case-84) | Modellvergleich | Benchmark |
-| [85. Plotly-Benchmark für Datenanalyse-Workflows](#case-85) | Modellvergleich | Benchmark |
+| [72. Zombieanimation durch Kontingent unterbrochen](#case-72) | Spiele und animierte Szenen | Limit |
+| [73. Aufnahme eines Dach-Parkourspiels](#case-73) | Spiele und animierte Szenen | Demo |
+| [74. Benchmark eines Spiels im Rocket-League-Stil](#case-74) | Spiele und animierte Szenen | Limit |
+| [75. Animierter Frontend-Erklärfilm im Vergleich](#case-75) | Weboberflächen | Evaluation |
+| [76. Motion-Reel im Netflix-Stil](#case-76) | Weboberflächen | Demo |
+| [77. Online-Markdown-Editoren im Vergleich](#case-77) | Weboberflächen | Evaluation |
+| [78. Fehlschläge bei Aufgaben mit einem echten Roboter](#case-78) | Modellvergleich | Limit |
+| [79. Agentische Cyberabwehr im Test](#case-79) | Modellvergleich | Benchmark |
+| [80. Bug Hunt in zwei Repositories](#case-80) | Modellvergleich | Benchmark |
+| [81. Agentische Arbeit und Terminal im Test](#case-81) | Modellvergleich | Benchmark |
+| [82. Benchmarkbedingungen zur Verringerung von Cyberrisiken](#case-82) | Modellvergleich | Benchmark |
+| [83. Plotly-Benchmark für Datenanalyse-Workflows](#case-83) | Modellvergleich | Benchmark |
 | [Überblick](#overview) | Überblick | |
 | [Schnellstart](#quick-start) | Schnellstart | |
 | [Verwandte Repositories](#related-repositories) | Verwandte Repositories | |
@@ -241,9 +239,7 @@ Typ: Demo | Datum: 2026-10-22
 
 Die Quellen nennen etwa 15–20 Minuten je Modell. Der Vergleichsautor findet Qwen realistischer; beide Ausgaben bleiben sichtbar.
 
-Weitere Ansichten und Vergleiche: [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954), [@loveAIwang](https://x.com/i/status/2113189630745157665)
-
-Quellenprüfung (2026-10-24): @loveAIwang lieferte HTTP 404. [Den gesicherten Originaltext im Fallregister lesen](data/kimi-k3-1-usecase-curated.json); die gesicherten Medien sind unten weiterhin verfügbar.
+Weitere Ansichten und Vergleiche: [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954)
 
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745-poster.jpg" alt="Hubschrauber: Montage und Flug — 1" width="480"></a><br>Originalvideo ansehen</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480-poster.jpg" alt="Hubschrauber: Montage und Flug — 2" width="480"></a><br>Originalvideo ansehen</td></tr></table>
 
@@ -1135,22 +1131,7 @@ Typ: Evaluation | Datum: 2026-10-23
 ---
 
 <a id="case-72"></a>
-### Fall 72: [Low-Poly-Skispiel im Vergleich](https://x.com/shiri_shh/status/2113714575795466446) (von [@shiri_shh](https://x.com/shiri_shh))
-
-**Untersuche Figurenbewegung und Hindernisinteraktion in der Aufnahme.**
-
-Der Autor vergleicht Kimi K3.1 Pro mit GPT-6.1 Sol und nennt $5.28 gegenüber $9.41. Der Clip zeigt Low-Poly-Skiszenen und Punkteanzeigen. Ein vollständig spielbarer Build, Leistungsmessungen oder unabhängig bestätigte Kosten sind nicht belegt.
-
-Quellenprüfung (2026-10-24): @shiri_shh lieferte HTTP 404. [Den gesicherten Originaltext im Fallregister lesen](data/kimi-k3-1-usecase-curated.json); die gesicherten Medien sind unten weiterhin verfügbar.
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648-poster.jpg" alt="Low-Poly-Skispiel im Vergleich — 1" width="480"></a><br>Originalvideo ansehen</td></tr></table>
-
-Typ: Evaluation | Datum: 2026-10-23
-
----
-
-<a id="case-73"></a>
-### Fall 73: [Zombieanimation durch Kontingent unterbrochen](https://x.com/amaliometria/status/2113711759794078162) (von [@amaliometria](https://x.com/amaliometria))
+### Fall 72: [Zombieanimation durch Kontingent unterbrochen](https://x.com/amaliometria/status/2113711759794078162) (von [@amaliometria](https://x.com/amaliometria))
 
 **Beziehe den Kontingentabbruch in das Ergebnis der kreativen Programmieraufgabe ein.**
 
@@ -1162,8 +1143,8 @@ Typ: Limit | Datum: 2026-10-23
 
 ---
 
-<a id="case-74"></a>
-### Fall 74: [Aufnahme eines Dach-Parkourspiels](https://x.com/nattcornelis/status/2113710554225504495) (von [@nattcornelis](https://x.com/nattcornelis))
+<a id="case-73"></a>
+### Fall 73: [Aufnahme eines Dach-Parkourspiels](https://x.com/nattcornelis/status/2113710554225504495) (von [@nattcornelis](https://x.com/nattcornelis))
 
 **Prüfe das sichtbare Spiel, bevor du Behauptungen zum Gesamtprojekt übernimmst.**
 
@@ -1175,8 +1156,8 @@ Typ: Demo | Datum: 2026-10-23
 
 ---
 
-<a id="case-75"></a>
-### Fall 75: [Benchmark eines Spiels im Rocket-League-Stil](https://x.com/LLMJunky/status/2113707413006143727) (von [@LLMJunky](https://x.com/LLMJunky))
+<a id="case-74"></a>
+### Fall 74: [Benchmark eines Spiels im Rocket-League-Stil](https://x.com/LLMJunky/status/2113707413006143727) (von [@LLMJunky](https://x.com/LLMJunky))
 
 **Bewahre ein nützliches Ergebnis zusammen mit dem negativen Vergleich des Urhebers.**
 
@@ -1191,8 +1172,8 @@ Typ: Limit | Datum: 2026-10-23
 <a id="update-2026-10-24-web"></a>
 ## 🖥️ Weboberflächen
 
-<a id="case-76"></a>
-### Fall 76: [Animierter Frontend-Erklärfilm im Vergleich](https://x.com/NFT_Chen/status/2113740284077175009) (von [@NFT_Chen](https://x.com/NFT_Chen))
+<a id="case-75"></a>
+### Fall 75: [Animierter Frontend-Erklärfilm im Vergleich](https://x.com/NFT_Chen/status/2113740284077175009) (von [@NFT_Chen](https://x.com/NFT_Chen))
 
 **Vergleiche Layout und animierte Codeansichten einer generierten Erklärung.**
 
@@ -1204,8 +1185,8 @@ Typ: Evaluation | Datum: 2026-10-23
 
 ---
 
-<a id="case-77"></a>
-### Fall 77: [Motion-Reel im Netflix-Stil](https://x.com/zentalksai/status/2113710465797009464) (von [@zentalksai](https://x.com/zentalksai))
+<a id="case-76"></a>
+### Fall 76: [Motion-Reel im Netflix-Stil](https://x.com/zentalksai/status/2113710465797009464) (von [@zentalksai](https://x.com/zentalksai))
 
 **Untersuche Markenanimation als von der Quelle zugeschriebenes Programmierergebnis.**
 
@@ -1217,8 +1198,8 @@ Typ: Demo | Datum: 2026-10-23
 
 ---
 
-<a id="case-78"></a>
-### Fall 78: [Online-Markdown-Editoren im Vergleich](https://x.com/wonjder/status/2113211835797119376) (von [@wonjder](https://x.com/wonjder))
+<a id="case-77"></a>
+### Fall 77: [Online-Markdown-Editoren im Vergleich](https://x.com/wonjder/status/2113211835797119376) (von [@wonjder](https://x.com/wonjder))
 
 **Vergleiche Bearbeitungs- und Vorschaufenster desselben Website-Auftrags.**
 
@@ -1230,28 +1211,11 @@ Typ: Evaluation | Datum: 2026-10-22
 
 ---
 
-<a id="case-79"></a>
-### Fall 79: [Landingpage einer Pinguin-Geheimdienstbehörde](https://x.com/QuiteBuoyant/status/2113221661625356599) (von [@QuiteBuoyant](https://x.com/QuiteBuoyant))
-
-**Untersuche Typografie, Bilder und Handlungsaufrufe eines Landingpage-Konzepts.**
-
-Der Originalbeitrag bezeichnet dies als Frontend-Test des anonymen Kibitz und bettet eine echte Vorschau von The Southern Bureau ein, einem Pinguin-Geheimdienstkonzept. Das Bild belegt das sichtbare redaktionelle Layout. Bereitgestellte Funktionen oder die offizielle Identität des anonymen Modells sind damit nicht bestätigt.
-
-Quellenprüfung (2026-10-24): @QuiteBuoyant lieferte HTTP 404. [Den gesicherten Originaltext im Fallregister lesen](data/kimi-k3-1-usecase-curated.json); die gesicherten Medien sind unten weiterhin verfügbar.
-
-Der lokale Export dieser Quelle enthält nur ein Textfragment, keine vollständige Abschrift des Beitrags.
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg" alt="Landingpage einer Pinguin-Geheimdienstbehörde — 1" width="480"></a><br>Originalbild öffnen</td></tr></table>
-
-Typ: Demo | Datum: 2026-10-22
-
----
-
 <a id="update-2026-10-24-comparison"></a>
 ## 🔬 Modellvergleich
 
-<a id="case-80"></a>
-### Fall 80: [Fehlschläge bei Aufgaben mit einem echten Roboter](https://x.com/robocurve/status/2113827780798697613) (von [@robocurve](https://x.com/robocurve))
+<a id="case-78"></a>
+### Fall 78: [Fehlschläge bei Aufgaben mit einem echten Roboter](https://x.com/robocurve/status/2113827780798697613) (von [@robocurve](https://x.com/robocurve))
 
 **Prüfe physische Aufgabenergebnisse getrennt von Programmierdemos.**
 
@@ -1263,8 +1227,8 @@ Typ: Limit | Datum: 2026-10-24
 
 ---
 
-<a id="case-81"></a>
-### Fall 81: [Agentische Cyberabwehr im Test](https://x.com/ArtificialAnlys/status/2113765233462481276) (von [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-79"></a>
+### Fall 79: [Agentische Cyberabwehr im Test](https://x.com/ArtificialAnlys/status/2113765233462481276) (von [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Bewerte den Erfolg defensiver Aufgaben zusammen mit den Kosten.**
 
@@ -1276,8 +1240,8 @@ Typ: Benchmark | Datum: 2026-10-23
 
 ---
 
-<a id="case-82"></a>
-### Fall 82: [Bug Hunt in zwei Repositories](https://x.com/PawelHuryn/status/2113747367409123623) (von [@PawelHuryn](https://x.com/PawelHuryn))
+<a id="case-80"></a>
+### Fall 80: [Bug Hunt in zwei Repositories](https://x.com/PawelHuryn/status/2113747367409123623) (von [@PawelHuryn](https://x.com/PawelHuryn))
 
 **Teste das Finden und Beheben von Fehlern in vorhandenen Codebasen.**
 
@@ -1291,8 +1255,8 @@ Typ: Benchmark | Datum: 2026-10-23
 
 ---
 
-<a id="case-83"></a>
-### Fall 83: [Agentische Arbeit und Terminal im Test](https://x.com/ArtificialAnlys/status/2113688083145314416) (von [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-81"></a>
+### Fall 81: [Agentische Arbeit und Terminal im Test](https://x.com/ArtificialAnlys/status/2113688083145314416) (von [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Lies aufgabenbezogene Evaluatorergebnisse getrennt von einer Gesamtrangfolge.**
 
@@ -1304,8 +1268,8 @@ Typ: Benchmark | Datum: 2026-10-23
 
 ---
 
-<a id="case-84"></a>
-### Fall 84: [Benchmarkbedingungen zur Verringerung von Cyberrisiken](https://news.ycombinator.com/item?id=50213450) (von [@yorwba](https://news.ycombinator.com/user?id=yorwba))
+<a id="case-82"></a>
+### Fall 82: [Benchmarkbedingungen zur Verringerung von Cyberrisiken](https://news.ycombinator.com/item?id=50213450) (von [@yorwba](https://news.ycombinator.com/user?id=yorwba))
 
 **Vergleiche die Einstellungen, bevor du Gesamtwerte deutest.**
 
@@ -1319,8 +1283,8 @@ Typ: Benchmark | Datum: 2026-10-23
 
 ---
 
-<a id="case-85"></a>
-### Fall 85: [Plotly-Benchmark für Datenanalyse-Workflows](https://news.ycombinator.com/item?id=50217436) (von [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
+<a id="case-83"></a>
+### Fall 83: [Plotly-Benchmark für Datenanalyse-Workflows](https://news.ycombinator.com/item?id=50217436) (von [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
 
 **Prüfe Antwortgenauigkeit zusammen mit Werkzeugaufrufen und Laufzeit.**
 
@@ -1345,6 +1309,6 @@ Typ: Benchmark | Datum: 2026-10-24
 
 Danke an die folgenden Herausgeber der Demos:
 
-[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@shiri_shh](https://x.com/shiri_shh), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@QuiteBuoyant](https://x.com/QuiteBuoyant), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@loveAIwang](https://x.com/loveAIwang), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
+[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
 
 Die Zuschreibung folgt den verlinkten Quellen und kann Korrekturen erfordern. Bitte melde fehlende Urheberangaben, Duplikate, falsche Aussagen oder Löschwünsche per Issue. Medien Dritter behalten ihre ursprünglichen Rechte.

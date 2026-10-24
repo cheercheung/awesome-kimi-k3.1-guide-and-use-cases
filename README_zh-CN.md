@@ -27,7 +27,7 @@
 <a id="overview"></a>
 ## 📊 概览
 
-共 85 个独立使用案例，覆盖 6 类。同一作品的转载与对比合并呈现。
+共 83 个独立使用案例，覆盖 6 类。同一作品的转载与对比合并呈现。
 
 > [!NOTE]
 > Kibitz 与 Kimi K3.1 Pro 的对应关系仍未确认。型号、耗时、费用和质量判断均来自来源自述。录屏不能证明代码可运行、交互完整或结果可重复。
@@ -117,20 +117,18 @@
 | [69. Claude Code 动态预告片](#case-69) | 游戏与动画场景 | Demo |
 | [70. AA-3D 山地车下坡](#case-70) | 游戏与动画场景 | Benchmark |
 | [71. 游戏合集与使用限额](#case-71) | 游戏与动画场景 | Evaluation |
-| [72. 低多边形滑雪游戏对比](#case-72) | 游戏与动画场景 | Evaluation |
-| [73. 被配额中断的僵尸动画](#case-73) | 游戏与动画场景 | Limit |
-| [74. 屋顶跑酷游戏录屏](#case-74) | 游戏与动画场景 | Demo |
-| [75. 类 Rocket League 游戏测试](#case-75) | 游戏与动画场景 | Limit |
-| [76. 动态前端讲解页对比](#case-76) | 网页界面 | Evaluation |
-| [77. Netflix 风格动态短片](#case-77) | 网页界面 | Demo |
-| [78. 在线 Markdown 编辑器对比](#case-78) | 网页界面 | Evaluation |
-| [79. 企鹅情报局落地页](#case-79) | 网页界面 | Demo |
-| [80. 真实机器人任务失败](#case-80) | 模型对比 | Limit |
-| [81. 代理式网络防御评估](#case-81) | 模型对比 | Benchmark |
-| [82. 两个代码仓库的 Bug Hunt](#case-82) | 模型对比 | Benchmark |
-| [83. 代理工作与终端评估](#case-83) | 模型对比 | Benchmark |
-| [84. 网络风险降低基准条件](#case-84) | 模型对比 | Benchmark |
-| [85. Plotly 数据分析工作流基准](#case-85) | 模型对比 | Benchmark |
+| [72. 被配额中断的僵尸动画](#case-72) | 游戏与动画场景 | Limit |
+| [73. 屋顶跑酷游戏录屏](#case-73) | 游戏与动画场景 | Demo |
+| [74. 类 Rocket League 游戏测试](#case-74) | 游戏与动画场景 | Limit |
+| [75. 动态前端讲解页对比](#case-75) | 网页界面 | Evaluation |
+| [76. Netflix 风格动态短片](#case-76) | 网页界面 | Demo |
+| [77. 在线 Markdown 编辑器对比](#case-77) | 网页界面 | Evaluation |
+| [78. 真实机器人任务失败](#case-78) | 模型对比 | Limit |
+| [79. 代理式网络防御评估](#case-79) | 模型对比 | Benchmark |
+| [80. 两个代码仓库的 Bug Hunt](#case-80) | 模型对比 | Benchmark |
+| [81. 代理工作与终端评估](#case-81) | 模型对比 | Benchmark |
+| [82. 网络风险降低基准条件](#case-82) | 模型对比 | Benchmark |
+| [83. Plotly 数据分析工作流基准](#case-83) | 模型对比 | Benchmark |
 | [概览](#overview) | 概览 | |
 | [快速开始](#quick-start) | 快速开始 | |
 | [相关仓库](#related-repositories) | 相关仓库 | |
@@ -241,9 +239,7 @@
 
 来源称两个模型各耗时约 15–20 分钟。对比帖作者认为 Qwen 更写实，两侧结果均保留。
 
-其他视角与对比： [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954), [@loveAIwang](https://x.com/i/status/2113189630745157665)
-
-来源页面检查（2026-10-24）：@loveAIwang 返回 HTTP 404。[查看案例数据中保留的来源原文](data/kimi-k3-1-usecase-curated.json)；已保存的图片和视频仍可在下方打开。
+其他视角与对比： [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954)
 
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745-poster.jpg" alt="直升机组装与飞行 — 1" width="480"></a><br>观看来源视频</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480-poster.jpg" alt="直升机组装与飞行 — 2" width="480"></a><br>观看来源视频</td></tr></table>
 
@@ -1135,22 +1131,7 @@ Artificial Analysis 展示 492 m 下坡，包含弯墙、树根、乱石区、�
 ---
 
 <a id="case-72"></a>
-### 案例 72: [低多边形滑雪游戏对比](https://x.com/shiri_shh/status/2113714575795466446) (作者 [@shiri_shh](https://x.com/shiri_shh))
-
-**检查录屏中的角色运动和障碍物互动。**
-
-发布者对比 Kimi K3.1 Pro 与 GPT-6.1 Sol，自述费用 $5.28 与 $9.41。片段展示低多边形滑雪场景和分数显示，不能确认完整可玩版本、性能测量或独立验证的费用。
-
-来源页面检查（2026-10-24）：@shiri_shh 返回 HTTP 404。[查看案例数据中保留的来源原文](data/kimi-k3-1-usecase-curated.json)；已保存的图片和视频仍可在下方打开。
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648-poster.jpg" alt="低多边形滑雪游戏对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
-
-类型: Evaluation | 日期: 2026-10-23
-
----
-
-<a id="case-73"></a>
-### 案例 73: [被配额中断的僵尸动画](https://x.com/amaliometria/status/2113711759794078162) (作者 [@amaliometria](https://x.com/amaliometria))
+### 案例 72: [被配额中断的僵尸动画](https://x.com/amaliometria/status/2113711759794078162) (作者 [@amaliometria](https://x.com/amaliometria))
 
 **将配额中断计入创意编程任务的结果。**
 
@@ -1162,8 +1143,8 @@ Artificial Analysis 展示 492 m 下坡，包含弯墙、树根、乱石区、�
 
 ---
 
-<a id="case-74"></a>
-### 案例 74: [屋顶跑酷游戏录屏](https://x.com/nattcornelis/status/2113710554225504495) (作者 [@nattcornelis](https://x.com/nattcornelis))
+<a id="case-73"></a>
+### 案例 73: [屋顶跑酷游戏录屏](https://x.com/nattcornelis/status/2113710554225504495) (作者 [@nattcornelis](https://x.com/nattcornelis))
 
 **先检查可见游戏，再判断完整项目说法。**
 
@@ -1175,8 +1156,8 @@ Artificial Analysis 展示 492 m 下坡，包含弯墙、树根、乱石区、�
 
 ---
 
-<a id="case-75"></a>
-### 案例 75: [类 Rocket League 游戏测试](https://x.com/LLMJunky/status/2113707413006143727) (作者 [@LLMJunky](https://x.com/LLMJunky))
+<a id="case-74"></a>
+### 案例 74: [类 Rocket League 游戏测试](https://x.com/LLMJunky/status/2113707413006143727) (作者 [@LLMJunky](https://x.com/LLMJunky))
 
 **在保留实用结果的同时保留创作者的负面对比。**
 
@@ -1191,8 +1172,8 @@ Artificial Analysis 展示 492 m 下坡，包含弯墙、树根、乱石区、�
 <a id="update-2026-10-24-web"></a>
 ## 🖥️ 网页界面
 
-<a id="case-76"></a>
-### 案例 76: [动态前端讲解页对比](https://x.com/NFT_Chen/status/2113740284077175009) (作者 [@NFT_Chen](https://x.com/NFT_Chen))
+<a id="case-75"></a>
+### 案例 75: [动态前端讲解页对比](https://x.com/NFT_Chen/status/2113740284077175009) (作者 [@NFT_Chen](https://x.com/NFT_Chen))
 
 **比较生成讲解页的布局与动态代码视觉。**
 
@@ -1204,8 +1185,8 @@ Artificial Analysis 展示 492 m 下坡，包含弯墙、树根、乱石区、�
 
 ---
 
-<a id="case-77"></a>
-### 案例 77: [Netflix 风格动态短片](https://x.com/zentalksai/status/2113710465797009464) (作者 [@zentalksai](https://x.com/zentalksai))
+<a id="case-76"></a>
+### 案例 76: [Netflix 风格动态短片](https://x.com/zentalksai/status/2113710465797009464) (作者 [@zentalksai](https://x.com/zentalksai))
 
 **检查来源称由编程生成的品牌动画。**
 
@@ -1217,8 +1198,8 @@ Artificial Analysis 展示 492 m 下坡，包含弯墙、树根、乱石区、�
 
 ---
 
-<a id="case-78"></a>
-### 案例 78: [在线 Markdown 编辑器对比](https://x.com/wonjder/status/2113211835797119376) (作者 [@wonjder](https://x.com/wonjder))
+<a id="case-77"></a>
+### 案例 77: [在线 Markdown 编辑器对比](https://x.com/wonjder/status/2113211835797119376) (作者 [@wonjder](https://x.com/wonjder))
 
 **通过同一网站需求比较编辑与预览面板。**
 
@@ -1230,28 +1211,11 @@ Artificial Analysis 展示 492 m 下坡，包含弯墙、树根、乱石区、�
 
 ---
 
-<a id="case-79"></a>
-### 案例 79: [企鹅情报局落地页](https://x.com/QuiteBuoyant/status/2113221661625356599) (作者 [@QuiteBuoyant](https://x.com/QuiteBuoyant))
-
-**检查落地页概念中的排版、图像和行动入口。**
-
-原帖将其标为匿名 Kibitz 前端测试，嵌入企鹅情报概念 The Southern Bureau 的真实预览。图片支持可见的编辑式布局，不能证明部署功能或确认匿名模型的官方身份。
-
-来源页面检查（2026-10-24）：@QuiteBuoyant 返回 HTTP 404。[查看案例数据中保留的来源原文](data/kimi-k3-1-usecase-curated.json)；已保存的图片和视频仍可在下方打开。
-
-此来源的本地导出仅保留文字片段，并非完整帖子原文。
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg" alt="企鹅情报局落地页 — 1" width="480"></a><br>查看来源图片</td></tr></table>
-
-类型: Demo | 日期: 2026-10-22
-
----
-
 <a id="update-2026-10-24-comparison"></a>
 ## 🔬 模型对比
 
-<a id="case-80"></a>
-### 案例 80: [真实机器人任务失败](https://x.com/robocurve/status/2113827780798697613) (作者 [@robocurve](https://x.com/robocurve))
+<a id="case-78"></a>
+### 案例 78: [真实机器人任务失败](https://x.com/robocurve/status/2113827780798697613) (作者 [@robocurve](https://x.com/robocurve))
 
 **将物理任务结果与编程演示分开检查。**
 
@@ -1263,8 +1227,8 @@ Robocurve 报告 RoboDojo-RC Tier 1 平均得分 9%，对比的三个模型为 4
 
 ---
 
-<a id="case-81"></a>
-### 案例 81: [代理式网络防御评估](https://x.com/ArtificialAnlys/status/2113765233462481276) (作者 [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-79"></a>
+### 案例 79: [代理式网络防御评估](https://x.com/ArtificialAnlys/status/2113765233462481276) (作者 [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **同时评估防御任务成功率与任务费用。**
 
@@ -1276,8 +1240,8 @@ Artificial Analysis 报告 Cyber Index 得分 64%，涵盖 CWE-Bench-AA、Deepse
 
 ---
 
-<a id="case-82"></a>
-### 案例 82: [两个代码仓库的 Bug Hunt](https://x.com/PawelHuryn/status/2113747367409123623) (作者 [@PawelHuryn](https://x.com/PawelHuryn))
+<a id="case-80"></a>
+### 案例 80: [两个代码仓库的 Bug Hunt](https://x.com/PawelHuryn/status/2113747367409123623) (作者 [@PawelHuryn](https://x.com/PawelHuryn))
 
 **测试在现有代码库中发现并修复缺陷。**
 
@@ -1291,8 +1255,8 @@ Pawel Huryn 报告两个仓库中重新植入 105 个缺陷，Kimi K3.1 Pro max 
 
 ---
 
-<a id="case-83"></a>
-### 案例 83: [代理工作与终端评估](https://x.com/ArtificialAnlys/status/2113688083145314416) (作者 [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-81"></a>
+### 案例 81: [代理工作与终端评估](https://x.com/ArtificialAnlys/status/2113688083145314416) (作者 [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **将评估方报告的任务结果与综合排名分开阅读。**
 
@@ -1304,8 +1268,8 @@ Artificial Analysis 报告 Terminal-Bench 4.0 得分 67%，代理式 SaaS 工作
 
 ---
 
-<a id="case-84"></a>
-### 案例 84: [网络风险降低基准条件](https://news.ycombinator.com/item?id=50213450) (作者 [@yorwba](https://news.ycombinator.com/user?id=yorwba))
+<a id="case-82"></a>
+### 案例 82: [网络风险降低基准条件](https://news.ycombinator.com/item?id=50213450) (作者 [@yorwba](https://news.ycombinator.com/user?id=yorwba))
 
 **解释汇总分数前先比较基准设置。**
 
@@ -1319,8 +1283,8 @@ Artificial Analysis 报告 Terminal-Bench 4.0 得分 67%，代理式 SaaS 工作
 
 ---
 
-<a id="case-85"></a>
-### 案例 85: [Plotly 数据分析工作流基准](https://news.ycombinator.com/item?id=50217436) (作者 [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
+<a id="case-83"></a>
+### 案例 83: [Plotly 数据分析工作流基准](https://news.ycombinator.com/item?id=50217436) (作者 [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
 
 **结合工具调用与运行时间检查答案准确性。**
 
@@ -1345,6 +1309,6 @@ Plotly 报告在其数据分析框架中通过 43 项任务中的 42 项（98%�
 
 感谢以下公开分享演示的发布者：
 
-[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@shiri_shh](https://x.com/shiri_shh), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@QuiteBuoyant](https://x.com/QuiteBuoyant), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@loveAIwang](https://x.com/loveAIwang), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
+[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
 
 署名依据所链接来源，可能需要更正。若有遗漏署名、重复作品、表述错误或移除需求，请提交 issue。第三方媒体权利归原权利人。

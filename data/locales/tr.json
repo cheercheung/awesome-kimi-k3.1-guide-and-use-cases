@@ -25,7 +25,7 @@
     },
     "intro": "Anonim Kibitz kontrol noktasının önceki kayıtları da dahil, Kimi K3.1 ve K3.1 Pro için kaynaklarına atfedilmiş topluluk gösterimleri, iş akışları ve değerlendirmeleri.",
     "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
-    "stats": "6 kategoride 85 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.",
+    "stats": "6 kategoride 83 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.",
     "evidence": "Kibitz–Kimi K3.1 Pro eşleşmesi doğrulanmamış kalıyor. Model adları, süreler, maliyetler ve kalite yargıları kaynak tarafından bildiriliyor. Kayıtlar çalıştırılabilir kodu, eksiksiz etkileşimi veya tekrarlanabilir başarıyı kanıtlamaz.",
     "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
     "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
@@ -37,9 +37,7 @@
     "update_heading": "Yeni eklenenler",
     "media_labels": {
       "GPT Astra · earlier quoted run": "GPT Astra · alıntılanan önceki çalışma"
-    },
-    "source_archive_note": "Kaynak sayfası kontrolü (2026-10-24): {handles} HTTP 404 döndürdü. [Örnek kaydında korunan kaynak metnini okuyun](data/kimi-k3-1-usecase-curated.json); korunan görsel ve videolar aşağıda erişilebilir durumdadır.",
-    "partial_source_note": "Bu kaynağın yerel dışa aktarımında yalnızca bir metin parçası bulunur; gönderinin tam dökümü değildir."
+    }
   },
   "cases": [
     [
@@ -398,11 +396,6 @@
       "Video Kimi ve Opus’un ray üzerinde koşma ve araç sürme sahnelerini yan yana koyuyor. Yazar dört prompt için aboneliklere $400 harcadığını ve API üzerinden $29 olacağını tahmin ettiğini bildiriyor. Bu fatura ve kota iddiaları kişisel bildirimdir; doğrulanmış makbuz veya genel fiyat karşılaştırması değildir."
     ],
     [
-      "Low-poly kayak oyunu karşılaştırması",
-      "Kayıttaki karakter hareketini ve engel etkileşimini inceleyin.",
-      "Yayıncı Kimi K3.1 Pro’yu GPT-6.1 Sol ile karşılaştırıyor ve $5.28 ile $9.41 bildiriyor. Klip low-poly kayak sahneleri ve puan ekranları gösteriyor. Eksiksiz oynanabilir sürümü, performans ölçümlerini veya bağımsız doğrulanmış maliyetleri kanıtlamıyor."
-    ],
-    [
       "Kota nedeniyle kesilen zombi animasyonu",
       "Kota kesintisini yaratıcı kodlama görevinin sonucuna dahil edin.",
       "Yazar high akıl yürütmeyle kod yapımı bir zombi hayatta kalma kısa filmi denediğini bildiriyor. Ekran görüntüsü tamamlanmadan önce beş saatlik kullanım sınırı hatasını ve 6% aylık kullanımı gösteriyor. Bu tek bir abonelikte kaynak tarafından bildirilen somut kesintidir; tüm planlar hakkında iddia değildir."
@@ -431,11 +424,6 @@
       "Çevrimiçi Markdown editörü karşılaştırması",
       "Aynı web sitesi talebinin düzenleme ve önizleme panellerini karşılaştırın.",
       "Yazar çevrimiçi Markdown editöründe Opus 5.5 low ile anonim Kibitz’i karşılaştırıyor. İki kaynak ekran görüntüsü, etiketsiz model sırası varsayılmadan korunuyor. Yazar eksik matematik desteğini Kibitz’e değil Opus’a atfediyor. Anonim model kimliği ve kontrollerin gerçek davranışı doğrulanmamış kalıyor."
-    ],
-    [
-      "Penguen istihbarat bürosu açılış sayfası",
-      "Açılış sayfası kavramındaki tipografiyi, görselleri ve eylem çağrılarını inceleyin.",
-      "Özgün gönderi bunu anonim Kibitz frontend testi olarak etiketliyor ve penguen istihbaratı kavramı The Southern Bureau’nun gerçek önizlemesini içeriyor. Görüntü görünür editoryal düzeni destekliyor. Yayınlanmış işlevleri kanıtlamıyor veya anonim modelin resmî kimliğini doğrulamıyor."
     ],
     [
       "Gerçek robot görevlerinde başarısızlıklar",

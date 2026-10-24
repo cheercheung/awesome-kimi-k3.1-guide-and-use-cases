@@ -25,7 +25,7 @@
     },
     "intro": "Demostraciones, flujos de trabajo y evaluaciones de la comunidad, atribuidos a sus fuentes, para Kimi K3.1 y K3.1 Pro, incluidas grabaciones anteriores del checkpoint anónimo Kibitz.",
     "purpose": "Explora tareas concretas, resultados visibles y límites prácticos a través de sus fuentes originales.",
-    "stats": "85 casos independientes en 6 categorías. Las republicaciones y comparaciones de una misma obra se agrupan.",
+    "stats": "83 casos independientes en 6 categorías. Las republicaciones y comparaciones de una misma obra se agrupan.",
     "evidence": "La correspondencia entre Kibitz y Kimi K3.1 Pro sigue sin confirmarse. Los nombres de modelo, tiempos, costes y juicios de calidad proceden de las fuentes. Las grabaciones no demuestran código ejecutable, interacción completa ni éxito repetible.",
     "steps": "1. Elige una tarea en el índice.\n2. Abre el vídeo o la imagen y sigue el título hasta la publicación original.\n3. Contrasta el resultado visible con la tarea y sus limitaciones.",
     "thanks": "Gracias a quienes publicaron estas demostraciones:",
@@ -37,9 +37,7 @@
     "update_heading": "Nuevas incorporaciones",
     "media_labels": {
       "GPT Astra · earlier quoted run": "GPT Astra · ejecución anterior citada"
-    },
-    "source_archive_note": "Comprobación de fuentes (2026-10-24): {handles} devolvió HTTP 404. [Consulta el texto original conservado en el registro](data/kimi-k3-1-usecase-curated.json); los archivos conservados siguen disponibles abajo.",
-    "partial_source_note": "La exportación local de esta fuente solo conserva un fragmento del texto, no la transcripción completa de la publicación."
+    }
   },
   "cases": [
     [
@@ -398,11 +396,6 @@
       "El vídeo yuxtapone una carrera sobre raíles y escenas de conducción de Kimi y Opus. El autor afirma haber gastado $400 en suscripciones para cuatro prompts y estima $29 mediante la API. Son afirmaciones propias sobre facturación y cuota, no recibos verificados ni una comparación general de precios."
     ],
     [
-      "Juego de esquí low-poly comparado",
-      "Examina el movimiento del personaje y la interacción con obstáculos en la grabación.",
-      "El autor compara Kimi K3.1 Pro con GPT-6.1 Sol y declara $5.28 frente a $9.41. El vídeo muestra escenas de esquí low-poly y marcadores. No demuestra una versión jugable completa, mediciones de rendimiento ni costes verificados de forma independiente."
-    ],
-    [
       "Animación de zombis interrumpida por la cuota",
       "Incluye la interrupción por cuota en el resultado de la tarea creativa.",
       "El autor afirma haber intentado un corto de supervivencia zombi hecho con código y razonamiento high. La captura muestra un error de límite de uso de cinco horas antes de terminar y un 6% de uso mensual. Es una interrupción concreta declarada bajo una suscripción, no una afirmación sobre todos los planes."
@@ -431,11 +424,6 @@
       "Comparación de editores Markdown en línea",
       "Compara paneles de edición y vista previa a partir de un mismo encargo web.",
       "El autor compara Opus 5.5 low con el modelo anónimo Kibitz en un editor Markdown en línea. Conservamos dos capturas sin inferir un orden de modelos no etiquetado. El autor atribuye a Opus, no a Kibitz, la falta de soporte matemático. La identidad anónima y el comportamiento real de los controles siguen sin verificar."
-    ],
-    [
-      "Página de una agencia de inteligencia de pingüinos",
-      "Examina tipografía, imágenes y llamadas a la acción en un concepto de página de aterrizaje.",
-      "La publicación original lo presenta como una prueba de frontend del anónimo Kibitz e incluye una vista previa real de The Southern Bureau, un concepto de inteligencia de pingüinos. La imagen respalda el diseño editorial visible. No demuestra funcionalidad desplegada ni confirma la identidad oficial del modelo anónimo."
     ],
     [
       "Fallos en tareas de un robot real",

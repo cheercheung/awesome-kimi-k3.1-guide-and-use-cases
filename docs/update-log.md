@@ -2,9 +2,9 @@
 
 ## 2026-10-24
 
-85 independent works across six categories; 107 retained media assets. Reposts and comparisons remain attached to their underlying work.
+83 independent works across six categories; 105 retained media assets. Reposts and comparisons remain attached to their underlying work.
 
-2026-10-23: 40 initial cases. 2026-10-24: 45 additional cases. Original case identifiers are preserved.
+2026-10-23: 40 initial cases. 2026-10-24: 43 additional cases. Initial-release case identifiers are preserved.
 
 This generated Markdown register mirrors the canonical JSON. Dates use the UTC publication date of each primary source.
 
@@ -81,17 +81,15 @@ This generated Markdown register mirrors the canonical JSON. Dates use the UTC p
 | 69 | [Claude Code motion trailer](https://x.com/ChrisGPT/status/2113796109722153067) | [@ChrisGPT](https://x.com/ChrisGPT) | games | Demo | 2026-10-24 |
 | 70 | [Mountain-bike descent on AA-3D](https://x.com/ArtificialAnlys/status/2113770240769442012) | [@ArtificialAnlys](https://x.com/ArtificialAnlys) | games | Benchmark | 2026-10-23 |
 | 71 | [Game compilation and usage limits](https://x.com/_MaxBlade/status/2113750412507406751) | [@_MaxBlade](https://x.com/_MaxBlade) | games | Evaluation | 2026-10-23 |
-| 72 | [Low-poly skiing game comparison](https://x.com/shiri_shh/status/2113714575795466446) | [@shiri_shh](https://x.com/shiri_shh) | games | Evaluation | 2026-10-23 |
-| 73 | [Zombie animation interrupted by quota](https://x.com/amaliometria/status/2113711759794078162) | [@amaliometria](https://x.com/amaliometria) | games | Limit | 2026-10-23 |
-| 74 | [Rooftop parkour game recording](https://x.com/nattcornelis/status/2113710554225504495) | [@nattcornelis](https://x.com/nattcornelis) | games | Demo | 2026-10-23 |
-| 75 | [Rocket League-style game benchmark](https://x.com/LLMJunky/status/2113707413006143727) | [@LLMJunky](https://x.com/LLMJunky) | games | Limit | 2026-10-23 |
-| 76 | [Animated frontend explainer comparison](https://x.com/NFT_Chen/status/2113740284077175009) | [@NFT_Chen](https://x.com/NFT_Chen) | web | Evaluation | 2026-10-23 |
-| 77 | [Netflix-inspired motion reel](https://x.com/zentalksai/status/2113710465797009464) | [@zentalksai](https://x.com/zentalksai) | web | Demo | 2026-10-23 |
-| 78 | [Online Markdown editor comparison](https://x.com/wonjder/status/2113211835797119376) | [@wonjder](https://x.com/wonjder) | web | Evaluation | 2026-10-22 |
-| 79 | [Penguin intelligence bureau landing page](https://x.com/QuiteBuoyant/status/2113221661625356599) | [@QuiteBuoyant](https://x.com/QuiteBuoyant) | web | Demo | 2026-10-22 |
-| 80 | [Real-robot task failures](https://x.com/robocurve/status/2113827780798697613) | [@robocurve](https://x.com/robocurve) | comparison | Limit | 2026-10-24 |
-| 81 | [Agentic cyber-defense evaluation](https://x.com/ArtificialAnlys/status/2113765233462481276) | [@ArtificialAnlys](https://x.com/ArtificialAnlys) | comparison | Benchmark | 2026-10-23 |
-| 82 | [Bug Hunt across two repositories](https://x.com/PawelHuryn/status/2113747367409123623) | [@PawelHuryn](https://x.com/PawelHuryn) | comparison | Benchmark | 2026-10-23 |
-| 83 | [Agentic work and terminal evaluation](https://x.com/ArtificialAnlys/status/2113688083145314416) | [@ArtificialAnlys](https://x.com/ArtificialAnlys) | comparison | Benchmark | 2026-10-23 |
-| 84 | [Cyber-risk reduction benchmark conditions](https://news.ycombinator.com/item?id=50213450) | [@yorwba](https://news.ycombinator.com/user?id=yorwba) | comparison | Benchmark | 2026-10-23 |
-| 85 | [Plotly data-analytics workflow benchmark](https://news.ycombinator.com/item?id=50217436) | [@chriddyp](https://news.ycombinator.com/user?id=chriddyp) | comparison | Benchmark | 2026-10-24 |
+| 72 | [Zombie animation interrupted by quota](https://x.com/amaliometria/status/2113711759794078162) | [@amaliometria](https://x.com/amaliometria) | games | Limit | 2026-10-23 |
+| 73 | [Rooftop parkour game recording](https://x.com/nattcornelis/status/2113710554225504495) | [@nattcornelis](https://x.com/nattcornelis) | games | Demo | 2026-10-23 |
+| 74 | [Rocket League-style game benchmark](https://x.com/LLMJunky/status/2113707413006143727) | [@LLMJunky](https://x.com/LLMJunky) | games | Limit | 2026-10-23 |
+| 75 | [Animated frontend explainer comparison](https://x.com/NFT_Chen/status/2113740284077175009) | [@NFT_Chen](https://x.com/NFT_Chen) | web | Evaluation | 2026-10-23 |
+| 76 | [Netflix-inspired motion reel](https://x.com/zentalksai/status/2113710465797009464) | [@zentalksai](https://x.com/zentalksai) | web | Demo | 2026-10-23 |
+| 77 | [Online Markdown editor comparison](https://x.com/wonjder/status/2113211835797119376) | [@wonjder](https://x.com/wonjder) | web | Evaluation | 2026-10-22 |
+| 78 | [Real-robot task failures](https://x.com/robocurve/status/2113827780798697613) | [@robocurve](https://x.com/robocurve) | comparison | Limit | 2026-10-24 |
+| 79 | [Agentic cyber-defense evaluation](https://x.com/ArtificialAnlys/status/2113765233462481276) | [@ArtificialAnlys](https://x.com/ArtificialAnlys) | comparison | Benchmark | 2026-10-23 |
+| 80 | [Bug Hunt across two repositories](https://x.com/PawelHuryn/status/2113747367409123623) | [@PawelHuryn](https://x.com/PawelHuryn) | comparison | Benchmark | 2026-10-23 |
+| 81 | [Agentic work and terminal evaluation](https://x.com/ArtificialAnlys/status/2113688083145314416) | [@ArtificialAnlys](https://x.com/ArtificialAnlys) | comparison | Benchmark | 2026-10-23 |
+| 82 | [Cyber-risk reduction benchmark conditions](https://news.ycombinator.com/item?id=50213450) | [@yorwba](https://news.ycombinator.com/user?id=yorwba) | comparison | Benchmark | 2026-10-23 |
+| 83 | [Plotly data-analytics workflow benchmark](https://news.ycombinator.com/item?id=50217436) | [@chriddyp](https://news.ycombinator.com/user?id=chriddyp) | comparison | Benchmark | 2026-10-24 |

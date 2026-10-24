@@ -27,7 +27,7 @@ Anonim Kibitz kontrol noktasının önceki kayıtları da dahil, Kimi K3.1 ve K3
 <a id="overview"></a>
 ## 📊 Genel bakış
 
-6 kategoride 85 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.
+6 kategoride 83 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.
 
 > [!NOTE]
 > Kibitz–Kimi K3.1 Pro eşleşmesi doğrulanmamış kalıyor. Model adları, süreler, maliyetler ve kalite yargıları kaynak tarafından bildiriliyor. Kayıtlar çalıştırılabilir kodu, eksiksiz etkileşimi veya tekrarlanabilir başarıyı kanıtlamaz.
@@ -117,20 +117,18 @@ Anonim Kibitz kontrol noktasının önceki kayıtları da dahil, Kimi K3.1 ve K3
 | [69. Claude Code hareketli tanıtımı](#case-69) | Oyunlar ve animasyon sahneleri | Demo |
 | [70. AA-3D’de dağ bisikleti inişi](#case-70) | Oyunlar ve animasyon sahneleri | Benchmark |
 | [71. Oyun derlemesi ve kullanım sınırları](#case-71) | Oyunlar ve animasyon sahneleri | Evaluation |
-| [72. Low-poly kayak oyunu karşılaştırması](#case-72) | Oyunlar ve animasyon sahneleri | Evaluation |
-| [73. Kota nedeniyle kesilen zombi animasyonu](#case-73) | Oyunlar ve animasyon sahneleri | Limit |
-| [74. Çatı parkuru oyunu kaydı](#case-74) | Oyunlar ve animasyon sahneleri | Demo |
-| [75. Rocket League tarzı oyun kıyaslaması](#case-75) | Oyunlar ve animasyon sahneleri | Limit |
-| [76. Animasyonlu frontend anlatımı karşılaştırması](#case-76) | Web arayüzleri | Evaluation |
-| [77. Netflix esintili hareketli video](#case-77) | Web arayüzleri | Demo |
-| [78. Çevrimiçi Markdown editörü karşılaştırması](#case-78) | Web arayüzleri | Evaluation |
-| [79. Penguen istihbarat bürosu açılış sayfası](#case-79) | Web arayüzleri | Demo |
-| [80. Gerçek robot görevlerinde başarısızlıklar](#case-80) | Model karşılaştırması | Limit |
-| [81. Ajan tabanlı siber savunma değerlendirmesi](#case-81) | Model karşılaştırması | Benchmark |
-| [82. İki depoda Bug Hunt](#case-82) | Model karşılaştırması | Benchmark |
-| [83. Ajan işi ve terminal değerlendirmesi](#case-83) | Model karşılaştırması | Benchmark |
-| [84. Siber risk azaltma kıyaslamasının koşulları](#case-84) | Model karşılaştırması | Benchmark |
-| [85. Plotly veri analizi iş akışı kıyaslaması](#case-85) | Model karşılaştırması | Benchmark |
+| [72. Kota nedeniyle kesilen zombi animasyonu](#case-72) | Oyunlar ve animasyon sahneleri | Limit |
+| [73. Çatı parkuru oyunu kaydı](#case-73) | Oyunlar ve animasyon sahneleri | Demo |
+| [74. Rocket League tarzı oyun kıyaslaması](#case-74) | Oyunlar ve animasyon sahneleri | Limit |
+| [75. Animasyonlu frontend anlatımı karşılaştırması](#case-75) | Web arayüzleri | Evaluation |
+| [76. Netflix esintili hareketli video](#case-76) | Web arayüzleri | Demo |
+| [77. Çevrimiçi Markdown editörü karşılaştırması](#case-77) | Web arayüzleri | Evaluation |
+| [78. Gerçek robot görevlerinde başarısızlıklar](#case-78) | Model karşılaştırması | Limit |
+| [79. Ajan tabanlı siber savunma değerlendirmesi](#case-79) | Model karşılaştırması | Benchmark |
+| [80. İki depoda Bug Hunt](#case-80) | Model karşılaştırması | Benchmark |
+| [81. Ajan işi ve terminal değerlendirmesi](#case-81) | Model karşılaştırması | Benchmark |
+| [82. Siber risk azaltma kıyaslamasının koşulları](#case-82) | Model karşılaştırması | Benchmark |
+| [83. Plotly veri analizi iş akışı kıyaslaması](#case-83) | Model karşılaştırması | Benchmark |
 | [Genel bakış](#overview) | Genel bakış | |
 | [Hızlı başlangıç](#quick-start) | Hızlı başlangıç | |
 | [İlgili depolar](#related-repositories) | İlgili depolar | |
@@ -241,9 +239,7 @@ Tür: Demo | Tarih: 2026-10-22
 
 Kaynaklar model başına yaklaşık 15–20 dakika bildirir. Karşılaştırmayı yapan Qwen'i daha gerçekçi bulur; iki çıktı da korunur.
 
-Diğer görünümler ve karşılaştırmalar: [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954), [@loveAIwang](https://x.com/i/status/2113189630745157665)
-
-Kaynak sayfası kontrolü (2026-10-24): @loveAIwang HTTP 404 döndürdü. [Örnek kaydında korunan kaynak metnini okuyun](data/kimi-k3-1-usecase-curated.json); korunan görsel ve videolar aşağıda erişilebilir durumdadır.
+Diğer görünümler ve karşılaştırmalar: [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954)
 
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745-poster.jpg" alt="Helikopter montajı ve uçuşu — 1" width="480"></a><br>Kaynak videoyu izle</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480-poster.jpg" alt="Helikopter montajı ve uçuşu — 2" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
 
@@ -1135,22 +1131,7 @@ Tür: Evaluation | Tarih: 2026-10-23
 ---
 
 <a id="case-72"></a>
-### Örnek 72: [Low-poly kayak oyunu karşılaştırması](https://x.com/shiri_shh/status/2113714575795466446) (paylaşan [@shiri_shh](https://x.com/shiri_shh))
-
-**Kayıttaki karakter hareketini ve engel etkileşimini inceleyin.**
-
-Yayıncı Kimi K3.1 Pro’yu GPT-6.1 Sol ile karşılaştırıyor ve $5.28 ile $9.41 bildiriyor. Klip low-poly kayak sahneleri ve puan ekranları gösteriyor. Eksiksiz oynanabilir sürümü, performans ölçümlerini veya bağımsız doğrulanmış maliyetleri kanıtlamıyor.
-
-Kaynak sayfası kontrolü (2026-10-24): @shiri_shh HTTP 404 döndürdü. [Örnek kaydında korunan kaynak metnini okuyun](data/kimi-k3-1-usecase-curated.json); korunan görsel ve videolar aşağıda erişilebilir durumdadır.
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648-poster.jpg" alt="Low-poly kayak oyunu karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
-
-Tür: Evaluation | Tarih: 2026-10-23
-
----
-
-<a id="case-73"></a>
-### Örnek 73: [Kota nedeniyle kesilen zombi animasyonu](https://x.com/amaliometria/status/2113711759794078162) (paylaşan [@amaliometria](https://x.com/amaliometria))
+### Örnek 72: [Kota nedeniyle kesilen zombi animasyonu](https://x.com/amaliometria/status/2113711759794078162) (paylaşan [@amaliometria](https://x.com/amaliometria))
 
 **Kota kesintisini yaratıcı kodlama görevinin sonucuna dahil edin.**
 
@@ -1162,8 +1143,8 @@ Tür: Limit | Tarih: 2026-10-23
 
 ---
 
-<a id="case-74"></a>
-### Örnek 74: [Çatı parkuru oyunu kaydı](https://x.com/nattcornelis/status/2113710554225504495) (paylaşan [@nattcornelis](https://x.com/nattcornelis))
+<a id="case-73"></a>
+### Örnek 73: [Çatı parkuru oyunu kaydı](https://x.com/nattcornelis/status/2113710554225504495) (paylaşan [@nattcornelis](https://x.com/nattcornelis))
 
 **Tam proje iddialarını kabul etmeden önce görünen oyunu inceleyin.**
 
@@ -1175,8 +1156,8 @@ Tür: Demo | Tarih: 2026-10-23
 
 ---
 
-<a id="case-75"></a>
-### Örnek 75: [Rocket League tarzı oyun kıyaslaması](https://x.com/LLMJunky/status/2113707413006143727) (paylaşan [@LLMJunky](https://x.com/LLMJunky))
+<a id="case-74"></a>
+### Örnek 74: [Rocket League tarzı oyun kıyaslaması](https://x.com/LLMJunky/status/2113707413006143727) (paylaşan [@LLMJunky](https://x.com/LLMJunky))
 
 **Yararlı bir sonucu üreticinin olumsuz karşılaştırmasıyla birlikte koruyun.**
 
@@ -1191,8 +1172,8 @@ Tür: Limit | Tarih: 2026-10-23
 <a id="update-2026-10-24-web"></a>
 ## 🖥️ Web arayüzleri
 
-<a id="case-76"></a>
-### Örnek 76: [Animasyonlu frontend anlatımı karşılaştırması](https://x.com/NFT_Chen/status/2113740284077175009) (paylaşan [@NFT_Chen](https://x.com/NFT_Chen))
+<a id="case-75"></a>
+### Örnek 75: [Animasyonlu frontend anlatımı karşılaştırması](https://x.com/NFT_Chen/status/2113740284077175009) (paylaşan [@NFT_Chen](https://x.com/NFT_Chen))
 
 **Üretilen anlatımın düzenini ve hareketli kod görsellerini karşılaştırın.**
 
@@ -1204,8 +1185,8 @@ Tür: Evaluation | Tarih: 2026-10-23
 
 ---
 
-<a id="case-77"></a>
-### Örnek 77: [Netflix esintili hareketli video](https://x.com/zentalksai/status/2113710465797009464) (paylaşan [@zentalksai](https://x.com/zentalksai))
+<a id="case-76"></a>
+### Örnek 76: [Netflix esintili hareketli video](https://x.com/zentalksai/status/2113710465797009464) (paylaşan [@zentalksai](https://x.com/zentalksai))
 
 **Marka animasyonunu kaynak tarafından bildirilen kod çıktısı olarak inceleyin.**
 
@@ -1217,8 +1198,8 @@ Tür: Demo | Tarih: 2026-10-23
 
 ---
 
-<a id="case-78"></a>
-### Örnek 78: [Çevrimiçi Markdown editörü karşılaştırması](https://x.com/wonjder/status/2113211835797119376) (paylaşan [@wonjder](https://x.com/wonjder))
+<a id="case-77"></a>
+### Örnek 77: [Çevrimiçi Markdown editörü karşılaştırması](https://x.com/wonjder/status/2113211835797119376) (paylaşan [@wonjder](https://x.com/wonjder))
 
 **Aynı web sitesi talebinin düzenleme ve önizleme panellerini karşılaştırın.**
 
@@ -1230,28 +1211,11 @@ Tür: Evaluation | Tarih: 2026-10-22
 
 ---
 
-<a id="case-79"></a>
-### Örnek 79: [Penguen istihbarat bürosu açılış sayfası](https://x.com/QuiteBuoyant/status/2113221661625356599) (paylaşan [@QuiteBuoyant](https://x.com/QuiteBuoyant))
-
-**Açılış sayfası kavramındaki tipografiyi, görselleri ve eylem çağrılarını inceleyin.**
-
-Özgün gönderi bunu anonim Kibitz frontend testi olarak etiketliyor ve penguen istihbaratı kavramı The Southern Bureau’nun gerçek önizlemesini içeriyor. Görüntü görünür editoryal düzeni destekliyor. Yayınlanmış işlevleri kanıtlamıyor veya anonim modelin resmî kimliğini doğrulamıyor.
-
-Kaynak sayfası kontrolü (2026-10-24): @QuiteBuoyant HTTP 404 döndürdü. [Örnek kaydında korunan kaynak metnini okuyun](data/kimi-k3-1-usecase-curated.json); korunan görsel ve videolar aşağıda erişilebilir durumdadır.
-
-Bu kaynağın yerel dışa aktarımında yalnızca bir metin parçası bulunur; gönderinin tam dökümü değildir.
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg" alt="Penguen istihbarat bürosu açılış sayfası — 1" width="480"></a><br>Kaynak görseli aç</td></tr></table>
-
-Tür: Demo | Tarih: 2026-10-22
-
----
-
 <a id="update-2026-10-24-comparison"></a>
 ## 🔬 Model karşılaştırması
 
-<a id="case-80"></a>
-### Örnek 80: [Gerçek robot görevlerinde başarısızlıklar](https://x.com/robocurve/status/2113827780798697613) (paylaşan [@robocurve](https://x.com/robocurve))
+<a id="case-78"></a>
+### Örnek 78: [Gerçek robot görevlerinde başarısızlıklar](https://x.com/robocurve/status/2113827780798697613) (paylaşan [@robocurve](https://x.com/robocurve))
 
 **Fiziksel görev sonuçlarını kodlama gösterimlerinden ayrı denetleyin.**
 
@@ -1263,8 +1227,8 @@ Tür: Limit | Tarih: 2026-10-24
 
 ---
 
-<a id="case-81"></a>
-### Örnek 81: [Ajan tabanlı siber savunma değerlendirmesi](https://x.com/ArtificialAnlys/status/2113765233462481276) (paylaşan [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-79"></a>
+### Örnek 79: [Ajan tabanlı siber savunma değerlendirmesi](https://x.com/ArtificialAnlys/status/2113765233462481276) (paylaşan [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Savunma görevlerinin başarısını görev maliyetiyle birlikte değerlendirin.**
 
@@ -1276,8 +1240,8 @@ Tür: Benchmark | Tarih: 2026-10-23
 
 ---
 
-<a id="case-82"></a>
-### Örnek 82: [İki depoda Bug Hunt](https://x.com/PawelHuryn/status/2113747367409123623) (paylaşan [@PawelHuryn](https://x.com/PawelHuryn))
+<a id="case-80"></a>
+### Örnek 80: [İki depoda Bug Hunt](https://x.com/PawelHuryn/status/2113747367409123623) (paylaşan [@PawelHuryn](https://x.com/PawelHuryn))
 
 **Mevcut kod tabanlarında hataları bulmayı ve düzeltmeyi sınayın.**
 
@@ -1291,8 +1255,8 @@ Tür: Benchmark | Tarih: 2026-10-23
 
 ---
 
-<a id="case-83"></a>
-### Örnek 83: [Ajan işi ve terminal değerlendirmesi](https://x.com/ArtificialAnlys/status/2113688083145314416) (paylaşan [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-81"></a>
+### Örnek 81: [Ajan işi ve terminal değerlendirmesi](https://x.com/ArtificialAnlys/status/2113688083145314416) (paylaşan [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Değerlendiricinin görev sonuçlarını genel sıralamadan ayrı okuyun.**
 
@@ -1304,8 +1268,8 @@ Tür: Benchmark | Tarih: 2026-10-23
 
 ---
 
-<a id="case-84"></a>
-### Örnek 84: [Siber risk azaltma kıyaslamasının koşulları](https://news.ycombinator.com/item?id=50213450) (paylaşan [@yorwba](https://news.ycombinator.com/user?id=yorwba))
+<a id="case-82"></a>
+### Örnek 82: [Siber risk azaltma kıyaslamasının koşulları](https://news.ycombinator.com/item?id=50213450) (paylaşan [@yorwba](https://news.ycombinator.com/user?id=yorwba))
 
 **Toplu puanları yorumlamadan önce kıyaslama ayarlarını karşılaştırın.**
 
@@ -1319,8 +1283,8 @@ Tür: Benchmark | Tarih: 2026-10-23
 
 ---
 
-<a id="case-85"></a>
-### Örnek 85: [Plotly veri analizi iş akışı kıyaslaması](https://news.ycombinator.com/item?id=50217436) (paylaşan [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
+<a id="case-83"></a>
+### Örnek 83: [Plotly veri analizi iş akışı kıyaslaması](https://news.ycombinator.com/item?id=50217436) (paylaşan [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
 
 **Yanıt doğruluğunu araç çağrıları ve çalışma süresiyle birlikte denetleyin.**
 
@@ -1345,6 +1309,6 @@ Tür: Benchmark | Tarih: 2026-10-24
 
 Gösterimleri paylaşan şu kişilere teşekkürler:
 
-[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@shiri_shh](https://x.com/shiri_shh), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@QuiteBuoyant](https://x.com/QuiteBuoyant), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@loveAIwang](https://x.com/loveAIwang), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
+[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
 
 Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.

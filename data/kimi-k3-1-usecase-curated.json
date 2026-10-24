@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "model": "Kimi K3.1",
-  "case_count": 85,
+  "case_count": 83,
   "source_count": 1199,
   "category_counts": {
     "mechanical": 14,
     "worlds": 32,
     "svg": 13,
-    "games": 10,
-    "web": 5,
+    "games": 9,
+    "web": 4,
     "comparison": 11
   },
   "attribution_policy": "Names and timings follow linked sources; anonymous Kibitz mapping remains unconfirmed.",
@@ -372,12 +372,6 @@
           "source_url": "https://x.com/i/status/2113203977873661954",
           "author_handle": "xueyu1125",
           "source_text": "🚀突发，Kimi k3.1 会在下周二之前发布\n\n目前在Arena 上的匿名模型 Kibitz 应该就是Kimi k3.1\n\n目前看Kimi k3.1 通过Three.js做的直升机3D建模效果非常炸裂\n\nhttps://t.co/xUAEoNO20i"
-        },
-        {
-          "source_id": "x:2113189630745157665",
-          "source_url": "https://x.com/i/status/2113189630745157665",
-          "author_handle": "loveAIwang",
-          "source_text": "国产模型又给我整不会了\nKimi K3.1随手做了个3D直升机\n他能飞能降落还能拆成零件，还带X光和线框模式\n前后用了才不到15分钟\n我上次让AI画个按钮都改了三轮😭\n这已经不是在写网页了，是在造飞机\n我把视频转给做3D的朋友\n他回了我一串省略号。。。然后就没再说话了😂 https://t.co/kXyfThpJu0"
         }
       ],
       "media": [
@@ -3361,46 +3355,6 @@
     },
     {
       "category": "games",
-      "type": "Evaluation",
-      "title": "Low-poly skiing game comparison",
-      "takeaway": "Inspect character movement and obstacle interaction in the recording.",
-      "body_notes": "The publisher compares Kimi K3.1 Pro with GPT-6.1 Sol and reports $5.28 versus $9.41. The clip shows low-poly skiing scenes and score displays. It does not establish a complete playable build, performance measurements or independently verified costs.",
-      "source_id": "x:2113714575795466446",
-      "source_url": "https://x.com/shiri_shh/status/2113714575795466446",
-      "author_handle": "shiri_shh",
-      "author_url": "https://x.com/shiri_shh",
-      "date": "2026-10-23",
-      "source_text": "Kimi K3.1 Pro vs GPT 6.1 Sol\n\n$5.28 vs $9.41 https://t.co/4ygxbHNbFY",
-      "source_metrics": {
-        "like_count": 70,
-        "view_count": 4932,
-        "retweet_count": 0,
-        "reply_count": 4,
-        "quote_count": 0,
-        "bookmark_count": 9
-      },
-      "related_sources": [],
-      "number": 72,
-      "id": "case-72",
-      "dedup_key": "https://x.com/shiri_shh/status/2113714575795466446",
-      "kind": "comparison",
-      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
-      "prompt_status": "not_reconstructed",
-      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
-      "media": [
-        {
-          "id": "2113705627658907648",
-          "source_id": "x:2113714575795466446",
-          "source_type": "video",
-          "type": "video",
-          "source_media_url": "https://video-s.twimg.com/amplify_video/2113705627658907648/vid/avc1/2212x1080/21Z8MFLw1difZmjI.mp4?tag=29",
-          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648.mp4",
-          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648-poster.jpg"
-        }
-      ]
-    },
-    {
-      "category": "games",
       "type": "Limit",
       "title": "Zombie animation interrupted by quota",
       "takeaway": "Include quota interruption in the outcome of a creative coding task.",
@@ -3420,8 +3374,8 @@
         "bookmark_count": 15
       },
       "related_sources": [],
-      "number": 73,
-      "id": "case-73",
+      "number": 72,
+      "id": "case-72",
       "dedup_key": "https://x.com/amaliometria/status/2113711759794078162",
       "kind": "usecase",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3459,8 +3413,8 @@
         "bookmark_count": 7
       },
       "related_sources": [],
-      "number": 74,
-      "id": "case-74",
+      "number": 73,
+      "id": "case-73",
       "dedup_key": "https://x.com/nattcornelis/status/2113710554225504495",
       "kind": "usecase",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3499,8 +3453,8 @@
         "bookmark_count": 19
       },
       "related_sources": [],
-      "number": 75,
-      "id": "case-75",
+      "number": 74,
+      "id": "case-74",
       "dedup_key": "https://x.com/LLMJunky/status/2113707413006143727",
       "kind": "usecase",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3539,8 +3493,8 @@
         "bookmark_count": 18
       },
       "related_sources": [],
-      "number": 76,
-      "id": "case-76",
+      "number": 75,
+      "id": "case-75",
       "dedup_key": "https://x.com/NFT_Chen/status/2113740284077175009",
       "kind": "comparison",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3579,8 +3533,8 @@
         "bookmark_count": 15
       },
       "related_sources": [],
-      "number": 77,
-      "id": "case-77",
+      "number": 76,
+      "id": "case-76",
       "dedup_key": "https://x.com/zentalksai/status/2113710465797009464",
       "kind": "usecase",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3612,8 +3566,8 @@
       "source_text": "在arena 上对比测试了一下claude-opus-5.5-low和据说是K3.1的kibitz。\n用的提示词只有一句：帮我生成一个在线编辑查看markdown的网站，功能尽可能全面\n\n下面是opus 5.5和kibitz的成品对比\nopus 5.5几分钟就做完了，效果其实挺不错的。大部分我想要的功能都有。只是不支持数学公式有点扣分。",
       "source_metrics": null,
       "related_sources": [],
-      "number": 78,
-      "id": "case-78",
+      "number": 77,
+      "id": "case-77",
       "dedup_key": "https://x.com/wonjder/status/2113211835797119376",
       "kind": "comparison",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3639,38 +3593,6 @@
       ]
     },
     {
-      "source_id": "x:2113221661625356599",
-      "source_url": "https://x.com/QuiteBuoyant/status/2113221661625356599",
-      "author_handle": "QuiteBuoyant",
-      "author_url": "https://x.com/QuiteBuoyant",
-      "date": "2026-10-22",
-      "title": "Penguin intelligence bureau landing page",
-      "takeaway": "Inspect typography, imagery and calls to action in a landing-page concept.",
-      "body_notes": "The original post labels this an anonymous Kibitz frontend test and embeds a real preview of The Southern Bureau, a penguin-intelligence concept. The image supports the visible editorial layout. It does not establish deployed functionality or confirm the anonymous model’s official identity.",
-      "category": "web",
-      "type": "Demo",
-      "source_text": "on frontend test",
-      "source_metrics": null,
-      "related_sources": [],
-      "number": 79,
-      "id": "case-79",
-      "dedup_key": "https://x.com/QuiteBuoyant/status/2113221661625356599",
-      "kind": "usecase",
-      "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
-      "prompt_status": "not_reconstructed",
-      "prompt_boundary": "Usecase collection; source inputs are omitted rather than reconstructed.",
-      "media": [
-        {
-          "id": "x-2113221661625356599-1",
-          "source_id": "legacy-row:69",
-          "source_type": "image",
-          "type": "image",
-          "source_media_url": "https://pbs.twimg.com/card_img/2113221176902242304/IDVVxpPW?format=jpg&name=900x900",
-          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg"
-        }
-      ]
-    },
-    {
       "category": "comparison",
       "type": "Limit",
       "title": "Real-robot task failures",
@@ -3691,8 +3613,8 @@
         "bookmark_count": 10
       },
       "related_sources": [],
-      "number": 80,
-      "id": "case-80",
+      "number": 78,
+      "id": "case-78",
       "dedup_key": "https://x.com/robocurve/status/2113827780798697613",
       "kind": "usecase",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3731,8 +3653,8 @@
         "bookmark_count": 60
       },
       "related_sources": [],
-      "number": 81,
-      "id": "case-81",
+      "number": 79,
+      "id": "case-79",
       "dedup_key": "https://x.com/ArtificialAnlys/status/2113765233462481276",
       "kind": "benchmark",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3785,8 +3707,8 @@
           }
         }
       ],
-      "number": 82,
-      "id": "case-82",
+      "number": 80,
+      "id": "case-80",
       "dedup_key": "https://x.com/PawelHuryn/status/2113747367409123623",
       "kind": "benchmark",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3832,8 +3754,8 @@
         "bookmark_count": 552
       },
       "related_sources": [],
-      "number": 83,
-      "id": "case-83",
+      "number": 81,
+      "id": "case-81",
       "dedup_key": "https://x.com/ArtificialAnlys/status/2113688083145314416",
       "kind": "benchmark",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3870,8 +3792,8 @@
           "author_url": "https://x.com/Kimi_Moonshot"
         }
       ],
-      "number": 84,
-      "id": "case-84",
+      "number": 82,
+      "id": "case-82",
       "dedup_key": "https://news.ycombinator.com/item?id=50213450",
       "kind": "benchmark",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3908,8 +3830,8 @@
           "author_url": "https://plotly.com/"
         }
       ],
-      "number": 85,
-      "id": "case-85",
+      "number": 83,
+      "id": "case-83",
       "dedup_key": "https://news.ycombinator.com/item?id=50217436",
       "kind": "benchmark",
       "attribution_status": "source-reported; anonymous checkpoint identity not independently confirmed where applicable",
@@ -3947,28 +3869,7 @@
     {
       "date": "2026-10-24",
       "start": 41,
-      "end": 85
+      "end": 83
     }
-  ],
-  "source_page_checks": {
-    "https://x.com/QuiteBuoyant/status/2113221661625356599": {
-      "checked_at": "2026-10-24",
-      "http_status": 404,
-      "preserved_source": "data/kimi-k3-1-usecase-curated.json",
-      "observation": "Source page returned HTTP 404 during redirected public GET checks; this does not establish why the page is unavailable.",
-      "source_text_status": "partial_local_export"
-    },
-    "https://x.com/i/status/2113189630745157665": {
-      "checked_at": "2026-10-24",
-      "http_status": 404,
-      "preserved_source": "data/kimi-k3-1-usecase-curated.json",
-      "observation": "Source page returned HTTP 404 during redirected public GET checks; this does not establish why the page is unavailable."
-    },
-    "https://x.com/shiri_shh/status/2113714575795466446": {
-      "checked_at": "2026-10-24",
-      "http_status": 404,
-      "preserved_source": "data/kimi-k3-1-usecase-curated.json",
-      "observation": "Source page returned HTTP 404 during redirected public GET checks; this does not establish why the page is unavailable."
-    }
-  }
+  ]
 }

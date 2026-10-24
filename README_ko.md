@@ -27,7 +27,7 @@ Kimi K3.1과 K3.1 Pro의 커뮤니티 데모, 작업 흐름 및 평가를 출처
 <a id="overview"></a>
 ## 📊 개요
 
-6개 분류의 독립 사례 85개입니다. 같은 작품의 재게시와 비교는 하나로 묶었습니다.
+6개 분류의 독립 사례 83개입니다. 같은 작품의 재게시와 비교는 하나로 묶었습니다.
 
 > [!NOTE]
 > Kibitz와 Kimi K3.1 Pro의 대응 관계는 여전히 확인되지 않았습니다. 모델명, 시간, 비용과 품질 평가는 출처의 보고입니다. 녹화만으로 실행 가능한 코드, 완전한 상호작용이나 재현 가능한 성공을 입증할 수 없습니다.
@@ -117,20 +117,18 @@ Kimi K3.1과 K3.1 Pro의 커뮤니티 데모, 작업 흐름 및 평가를 출처
 | [69. Claude Code 모션 예고편](#case-69) | 게임과 애니메이션 | Demo |
 | [70. AA-3D 산악자전거 내리막](#case-70) | 게임과 애니메이션 | Benchmark |
 | [71. 게임 모음과 사용 한도](#case-71) | 게임과 애니메이션 | Evaluation |
-| [72. 로우폴리 스키 게임 비교](#case-72) | 게임과 애니메이션 | Evaluation |
-| [73. 할당량 때문에 중단된 좀비 애니메이션](#case-73) | 게임과 애니메이션 | Limit |
-| [74. 옥상 파쿠르 게임 녹화](#case-74) | 게임과 애니메이션 | Demo |
-| [75. Rocket League 스타일 게임 테스트](#case-75) | 게임과 애니메이션 | Limit |
-| [76. 움직이는 프런트엔드 해설 비교](#case-76) | 웹 인터페이스 | Evaluation |
-| [77. Netflix 스타일 모션 릴](#case-77) | 웹 인터페이스 | Demo |
-| [78. 온라인 Markdown 편집기 비교](#case-78) | 웹 인터페이스 | Evaluation |
-| [79. 펭귄 정보국 랜딩 페이지](#case-79) | 웹 인터페이스 | Demo |
-| [80. 실제 로봇 과제 실패](#case-80) | 모델 비교 | Limit |
-| [81. 에이전트 사이버 방어 평가](#case-81) | 모델 비교 | Benchmark |
-| [82. 두 저장소의 Bug Hunt](#case-82) | 모델 비교 | Benchmark |
-| [83. 에이전트 업무와 터미널 평가](#case-83) | 모델 비교 | Benchmark |
-| [84. 사이버 위험 완화 벤치마크 조건](#case-84) | 모델 비교 | Benchmark |
-| [85. Plotly 데이터 분석 작업 벤치마크](#case-85) | 모델 비교 | Benchmark |
+| [72. 할당량 때문에 중단된 좀비 애니메이션](#case-72) | 게임과 애니메이션 | Limit |
+| [73. 옥상 파쿠르 게임 녹화](#case-73) | 게임과 애니메이션 | Demo |
+| [74. Rocket League 스타일 게임 테스트](#case-74) | 게임과 애니메이션 | Limit |
+| [75. 움직이는 프런트엔드 해설 비교](#case-75) | 웹 인터페이스 | Evaluation |
+| [76. Netflix 스타일 모션 릴](#case-76) | 웹 인터페이스 | Demo |
+| [77. 온라인 Markdown 편집기 비교](#case-77) | 웹 인터페이스 | Evaluation |
+| [78. 실제 로봇 과제 실패](#case-78) | 모델 비교 | Limit |
+| [79. 에이전트 사이버 방어 평가](#case-79) | 모델 비교 | Benchmark |
+| [80. 두 저장소의 Bug Hunt](#case-80) | 모델 비교 | Benchmark |
+| [81. 에이전트 업무와 터미널 평가](#case-81) | 모델 비교 | Benchmark |
+| [82. 사이버 위험 완화 벤치마크 조건](#case-82) | 모델 비교 | Benchmark |
+| [83. Plotly 데이터 분석 작업 벤치마크](#case-83) | 모델 비교 | Benchmark |
 | [개요](#overview) | 개요 | |
 | [빠른 시작](#quick-start) | 빠른 시작 | |
 | [관련 저장소](#related-repositories) | 관련 저장소 | |
@@ -241,9 +239,7 @@ Kimi K3.1과 K3.1 Pro의 커뮤니티 데모, 작업 흐름 및 평가를 출처
 
 출처는 두 모델 모두 약 15–20분이 걸렸다고 합니다. 비교 작성자는 Qwen이 더 사실적이라고 보며 두 결과를 모두 유지했습니다.
 
-다른 시점과 비교: [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954), [@loveAIwang](https://x.com/i/status/2113189630745157665)
-
-출처 페이지 확인(2026-10-24): @loveAIwang 페이지에서 HTTP 404가 반환되었습니다. [사례 기록에 보존된 원문 보기](data/kimi-k3-1-usecase-curated.json). 보존된 영상과 이미지는 아래에서 볼 수 있습니다.
+다른 시점과 비교: [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954)
 
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745-poster.jpg" alt="헬리콥터 조립과 비행 — 1" width="480"></a><br>원본 동영상 보기</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480-poster.jpg" alt="헬리콥터 조립과 비행 — 2" width="480"></a><br>원본 동영상 보기</td></tr></table>
 
@@ -1135,22 +1131,7 @@ Artificial Analysis는 경사 커브, 뿌리, 암석 구간, 단차와 점프가
 ---
 
 <a id="case-72"></a>
-### 사례 72: [로우폴리 스키 게임 비교](https://x.com/shiri_shh/status/2113714575795466446) (작성자 [@shiri_shh](https://x.com/shiri_shh))
-
-**녹화의 캐릭터 움직임과 장애물 상호작용을 살펴봅니다.**
-
-게시자는 Kimi K3.1 Pro와 GPT-6.1 Sol을 비교하며 $5.28 대 $9.41로 보고합니다. 영상은 로우폴리 스키 장면과 점수 표시를 보여줄 뿐 완전한 플레이 빌드, 성능 측정이나 독립 검증된 비용을 입증하지 않습니다.
-
-출처 페이지 확인(2026-10-24): @shiri_shh 페이지에서 HTTP 404가 반환되었습니다. [사례 기록에 보존된 원문 보기](data/kimi-k3-1-usecase-curated.json). 보존된 영상과 이미지는 아래에서 볼 수 있습니다.
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648-poster.jpg" alt="로우폴리 스키 게임 비교 — 1" width="480"></a><br>원본 동영상 보기</td></tr></table>
-
-유형: Evaluation | 날짜: 2026-10-23
-
----
-
-<a id="case-73"></a>
-### 사례 73: [할당량 때문에 중단된 좀비 애니메이션](https://x.com/amaliometria/status/2113711759794078162) (작성자 [@amaliometria](https://x.com/amaliometria))
+### 사례 72: [할당량 때문에 중단된 좀비 애니메이션](https://x.com/amaliometria/status/2113711759794078162) (작성자 [@amaliometria](https://x.com/amaliometria))
 
 **창의적 코딩 과제의 결과에 한도 초과 중단도 포함합니다.**
 
@@ -1162,8 +1143,8 @@ Artificial Analysis는 경사 커브, 뿌리, 암석 구간, 단차와 점프가
 
 ---
 
-<a id="case-74"></a>
-### 사례 74: [옥상 파쿠르 게임 녹화](https://x.com/nattcornelis/status/2113710554225504495) (작성자 [@nattcornelis](https://x.com/nattcornelis))
+<a id="case-73"></a>
+### 사례 73: [옥상 파쿠르 게임 녹화](https://x.com/nattcornelis/status/2113710554225504495) (작성자 [@nattcornelis](https://x.com/nattcornelis))
 
 **전체 프로젝트 주장에 앞서 보이는 게임을 살펴봅니다.**
 
@@ -1175,8 +1156,8 @@ Artificial Analysis는 경사 커브, 뿌리, 암석 구간, 단차와 점프가
 
 ---
 
-<a id="case-75"></a>
-### 사례 75: [Rocket League 스타일 게임 테스트](https://x.com/LLMJunky/status/2113707413006143727) (작성자 [@LLMJunky](https://x.com/LLMJunky))
+<a id="case-74"></a>
+### 사례 74: [Rocket League 스타일 게임 테스트](https://x.com/LLMJunky/status/2113707413006143727) (작성자 [@LLMJunky](https://x.com/LLMJunky))
 
 **유용한 결과와 제작자의 부정적 비교 평가를 함께 보존합니다.**
 
@@ -1191,8 +1172,8 @@ Artificial Analysis는 경사 커브, 뿌리, 암석 구간, 단차와 점프가
 <a id="update-2026-10-24-web"></a>
 ## 🖥️ 웹 인터페이스
 
-<a id="case-76"></a>
-### 사례 76: [움직이는 프런트엔드 해설 비교](https://x.com/NFT_Chen/status/2113740284077175009) (작성자 [@NFT_Chen](https://x.com/NFT_Chen))
+<a id="case-75"></a>
+### 사례 75: [움직이는 프런트엔드 해설 비교](https://x.com/NFT_Chen/status/2113740284077175009) (작성자 [@NFT_Chen](https://x.com/NFT_Chen))
 
 **생성된 해설의 배치와 동적인 코드 시각화를 비교합니다.**
 
@@ -1204,8 +1185,8 @@ Artificial Analysis는 경사 커브, 뿌리, 암석 구간, 단차와 점프가
 
 ---
 
-<a id="case-77"></a>
-### 사례 77: [Netflix 스타일 모션 릴](https://x.com/zentalksai/status/2113710465797009464) (작성자 [@zentalksai](https://x.com/zentalksai))
+<a id="case-76"></a>
+### 사례 76: [Netflix 스타일 모션 릴](https://x.com/zentalksai/status/2113710465797009464) (작성자 [@zentalksai](https://x.com/zentalksai))
 
 **출처가 코딩 결과라고 소개한 브랜드 애니메이션을 살펴봅니다.**
 
@@ -1217,8 +1198,8 @@ Artificial Analysis는 경사 커브, 뿌리, 암석 구간, 단차와 점프가
 
 ---
 
-<a id="case-78"></a>
-### 사례 78: [온라인 Markdown 편집기 비교](https://x.com/wonjder/status/2113211835797119376) (작성자 [@wonjder](https://x.com/wonjder))
+<a id="case-77"></a>
+### 사례 77: [온라인 Markdown 편집기 비교](https://x.com/wonjder/status/2113211835797119376) (작성자 [@wonjder](https://x.com/wonjder))
 
 **같은 웹사이트 요구에 따른 편집·미리보기 창을 비교합니다.**
 
@@ -1230,28 +1211,11 @@ Artificial Analysis는 경사 커브, 뿌리, 암석 구간, 단차와 점프가
 
 ---
 
-<a id="case-79"></a>
-### 사례 79: [펭귄 정보국 랜딩 페이지](https://x.com/QuiteBuoyant/status/2113221661625356599) (작성자 [@QuiteBuoyant](https://x.com/QuiteBuoyant))
-
-**페이지 구상의 타이포그래피, 이미지와 행동 유도 요소를 살펴봅니다.**
-
-원문은 익명 Kibitz 프런트엔드 테스트라고 표기하고 펭귄 정보국 콘셉트인 The Southern Bureau의 실제 미리보기를 삽입합니다. 이미지는 보이는 편집형 배치를 뒷받침하지만 배포 기능이나 익명 모델의 공식 정체를 확인하지는 않습니다.
-
-출처 페이지 확인(2026-10-24): @QuiteBuoyant 페이지에서 HTTP 404가 반환되었습니다. [사례 기록에 보존된 원문 보기](data/kimi-k3-1-usecase-curated.json). 보존된 영상과 이미지는 아래에서 볼 수 있습니다.
-
-이 출처의 로컬 내보내기에는 텍스트 일부만 남아 있으며, 게시물 전문이 아닙니다.
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg" alt="펭귄 정보국 랜딩 페이지 — 1" width="480"></a><br>원본 이미지 보기</td></tr></table>
-
-유형: Demo | 날짜: 2026-10-22
-
----
-
 <a id="update-2026-10-24-comparison"></a>
 ## 🔬 모델 비교
 
-<a id="case-80"></a>
-### 사례 80: [실제 로봇 과제 실패](https://x.com/robocurve/status/2113827780798697613) (작성자 [@robocurve](https://x.com/robocurve))
+<a id="case-78"></a>
+### 사례 78: [실제 로봇 과제 실패](https://x.com/robocurve/status/2113827780798697613) (작성자 [@robocurve](https://x.com/robocurve))
 
 **물리적 과제 결과를 코딩 데모와 따로 확인합니다.**
 
@@ -1263,8 +1227,8 @@ Robocurve는 RoboDojo-RC Tier 1 평균 9%, 비교한 세 모델은 47–48%라�
 
 ---
 
-<a id="case-81"></a>
-### 사례 81: [에이전트 사이버 방어 평가](https://x.com/ArtificialAnlys/status/2113765233462481276) (작성자 [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-79"></a>
+### 사례 79: [에이전트 사이버 방어 평가](https://x.com/ArtificialAnlys/status/2113765233462481276) (작성자 [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **방어 과제 성공률과 과제 비용을 함께 평가합니다.**
 
@@ -1276,8 +1240,8 @@ Artificial Analysis는 CWE-Bench-AA, DeepsecBench-AA, CyberGym-E2E-AA를 포함�
 
 ---
 
-<a id="case-82"></a>
-### 사례 82: [두 저장소의 Bug Hunt](https://x.com/PawelHuryn/status/2113747367409123623) (작성자 [@PawelHuryn](https://x.com/PawelHuryn))
+<a id="case-80"></a>
+### 사례 80: [두 저장소의 Bug Hunt](https://x.com/PawelHuryn/status/2113747367409123623) (작성자 [@PawelHuryn](https://x.com/PawelHuryn))
 
 **기존 코드에서 버그를 찾고 고치는 능력을 시험합니다.**
 
@@ -1291,8 +1255,8 @@ Pawel Huryn은 두 저장소에 재삽입한 버그 105개를 보고합니다. K
 
 ---
 
-<a id="case-83"></a>
-### 사례 83: [에이전트 업무와 터미널 평가](https://x.com/ArtificialAnlys/status/2113688083145314416) (작성자 [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-81"></a>
+### 사례 81: [에이전트 업무와 터미널 평가](https://x.com/ArtificialAnlys/status/2113688083145314416) (작성자 [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **평가자가 보고한 과제 결과와 종합 순위를 분리해 읽습니다.**
 
@@ -1304,8 +1268,8 @@ Artificial Analysis는 Terminal-Bench 4.0 67%, 에이전트 SaaS 작업의 Autom
 
 ---
 
-<a id="case-84"></a>
-### 사례 84: [사이버 위험 완화 벤치마크 조건](https://news.ycombinator.com/item?id=50213450) (작성자 [@yorwba](https://news.ycombinator.com/user?id=yorwba))
+<a id="case-82"></a>
+### 사례 82: [사이버 위험 완화 벤치마크 조건](https://news.ycombinator.com/item?id=50213450) (작성자 [@yorwba](https://news.ycombinator.com/user?id=yorwba))
 
 **종합 점수를 해석하기 전에 시험 설정을 비교합니다.**
 
@@ -1319,8 +1283,8 @@ Artificial Analysis는 Terminal-Bench 4.0 67%, 에이전트 SaaS 작업의 Autom
 
 ---
 
-<a id="case-85"></a>
-### 사례 85: [Plotly 데이터 분석 작업 벤치마크](https://news.ycombinator.com/item?id=50217436) (작성자 [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
+<a id="case-83"></a>
+### 사례 83: [Plotly 데이터 분석 작업 벤치마크](https://news.ycombinator.com/item?id=50217436) (작성자 [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
 
 **정답률을 도구 호출 및 실행 시간과 함께 확인합니다.**
 
@@ -1345,6 +1309,6 @@ Plotly는 자체 데이터 분석 환경에서 43개 중 42개 과제(98%)를 �
 
 데모를 공개한 다음 게시자에게 감사드립니다.
 
-[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@shiri_shh](https://x.com/shiri_shh), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@QuiteBuoyant](https://x.com/QuiteBuoyant), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@loveAIwang](https://x.com/loveAIwang), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
+[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
 
 저자 표기는 연결된 출처를 따르며 수정이 필요할 수 있습니다. 출처 누락, 중복, 잘못된 주장이나 삭제 요청은 issue로 알려주세요. 제3자 미디어의 권리는 원 권리자에게 있습니다.

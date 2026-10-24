@@ -25,7 +25,7 @@
     },
     "intro": "Source-attributed community demos, workflows and evaluations for Kimi K3.1 and K3.1 Pro, including earlier recordings of the anonymous Kibitz checkpoint.",
     "purpose": "Explore concrete tasks, visible outputs and practical limits through their original sources.",
-    "stats": "85 independent usecases across 6 categories. Reposts and comparisons of the same work are grouped together.",
+    "stats": "83 independent usecases across 6 categories. Reposts and comparisons of the same work are grouped together.",
     "evidence": "The Kibitz–Kimi K3.1 Pro mapping remains unconfirmed. Model names, timings, costs and quality judgments are source-reported. Recordings do not establish runnable code, complete interaction or repeatable success.",
     "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
     "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
@@ -34,9 +34,7 @@
     "official": "Open the official Kimi website",
     "additional": "Additional views and comparisons:",
     "open_related": "Open the {model} usecase repository",
-    "update_heading": "New additions",
-    "source_archive_note": "Source-page check (2026-10-24): {handles} returned HTTP 404. [Read the preserved source text in the case register](data/kimi-k3-1-usecase-curated.json); the retained media remains available below.",
-    "partial_source_note": "For this source, the saved local export contains only a text fragment; it is not a complete post transcript."
+    "update_heading": "New additions"
   },
   "cases": [
     [
@@ -395,11 +393,6 @@
       "The video juxtaposes a rail-running scene and driving scenes from Kimi and Opus. The author reports spending $400 on subscriptions for four prompts and estimates $29 through the API. Those billing and quota claims are self-reported, not verified receipts or a general pricing comparison."
     ],
     [
-      "Low-poly skiing game comparison",
-      "Inspect character movement and obstacle interaction in the recording.",
-      "The publisher compares Kimi K3.1 Pro with GPT-6.1 Sol and reports $5.28 versus $9.41. The clip shows low-poly skiing scenes and score displays. It does not establish a complete playable build, performance measurements or independently verified costs."
-    ],
-    [
       "Zombie animation interrupted by quota",
       "Include quota interruption in the outcome of a creative coding task.",
       "The author reports attempting a code-made zombie-survival short on high reasoning. The screenshot shows a five-hour usage-limit error before completion and 6% monthly usage. This is a concrete source-reported interruption under one subscription, not a claim about every plan."
@@ -428,11 +421,6 @@
       "Online Markdown editor comparison",
       "Compare editing and preview panes from one website brief.",
       "The author compares Opus 5.5 low with anonymous Kibitz on an online Markdown editor. Two source screenshots are retained without inferring an unlabelled model order. The author assigns missing math support to Opus, not Kibitz. The anonymous model identity and actual control behavior remain unverified."
-    ],
-    [
-      "Penguin intelligence bureau landing page",
-      "Inspect typography, imagery and calls to action in a landing-page concept.",
-      "The original post labels this an anonymous Kibitz frontend test and embeds a real preview of The Southern Bureau, a penguin-intelligence concept. The image supports the visible editorial layout. It does not establish deployed functionality or confirm the anonymous model’s official identity."
     ],
     [
       "Real-robot task failures",

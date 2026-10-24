@@ -27,7 +27,7 @@
 <a id="overview"></a>
 ## 📊 Обзор
 
-85 самостоятельных примеров в 6 категориях. Повторные публикации и сравнения одной работы объединены.
+83 самостоятельных примеров в 6 категориях. Повторные публикации и сравнения одной работы объединены.
 
 > [!NOTE]
 > Соответствие Kibitz и Kimi K3.1 Pro остаётся неподтверждённым. Названия моделей, время, стоимость и оценки качества сообщены источниками. Записи не доказывают работоспособность кода, полноту взаимодействия или повторяемость успеха.
@@ -117,20 +117,18 @@
 | [69. Анимационный трейлер Claude Code](#case-69) | Игры и анимированные сцены | Demo |
 | [70. Спуск на горном велосипеде в AA-3D](#case-70) | Игры и анимированные сцены | Benchmark |
 | [71. Подборка игр и ограничения использования](#case-71) | Игры и анимированные сцены | Evaluation |
-| [72. Сравнение низкополигональной лыжной игры](#case-72) | Игры и анимированные сцены | Evaluation |
-| [73. Зомби-анимация, прерванная квотой](#case-73) | Игры и анимированные сцены | Limit |
-| [74. Запись игры с паркуром на крышах](#case-74) | Игры и анимированные сцены | Demo |
-| [75. Тест игры в стиле Rocket League](#case-75) | Игры и анимированные сцены | Limit |
-| [76. Сравнение анимированных фронтенд-объяснений](#case-76) | Веб-интерфейсы | Evaluation |
-| [77. Моушн-ролик в стиле Netflix](#case-77) | Веб-интерфейсы | Demo |
-| [78. Сравнение онлайн-редакторов Markdown](#case-78) | Веб-интерфейсы | Evaluation |
-| [79. Лендинг разведывательного бюро пингвинов](#case-79) | Веб-интерфейсы | Demo |
-| [80. Неудачи реального робота](#case-80) | Сравнение моделей | Limit |
-| [81. Оценка агентной киберзащиты](#case-81) | Сравнение моделей | Benchmark |
-| [82. Bug Hunt в двух репозиториях](#case-82) | Сравнение моделей | Benchmark |
-| [83. Оценка агентной работы и терминала](#case-83) | Сравнение моделей | Benchmark |
-| [84. Условия теста снижения киберрисков](#case-84) | Сравнение моделей | Benchmark |
-| [85. Тест аналитических процессов Plotly](#case-85) | Сравнение моделей | Benchmark |
+| [72. Зомби-анимация, прерванная квотой](#case-72) | Игры и анимированные сцены | Limit |
+| [73. Запись игры с паркуром на крышах](#case-73) | Игры и анимированные сцены | Demo |
+| [74. Тест игры в стиле Rocket League](#case-74) | Игры и анимированные сцены | Limit |
+| [75. Сравнение анимированных фронтенд-объяснений](#case-75) | Веб-интерфейсы | Evaluation |
+| [76. Моушн-ролик в стиле Netflix](#case-76) | Веб-интерфейсы | Demo |
+| [77. Сравнение онлайн-редакторов Markdown](#case-77) | Веб-интерфейсы | Evaluation |
+| [78. Неудачи реального робота](#case-78) | Сравнение моделей | Limit |
+| [79. Оценка агентной киберзащиты](#case-79) | Сравнение моделей | Benchmark |
+| [80. Bug Hunt в двух репозиториях](#case-80) | Сравнение моделей | Benchmark |
+| [81. Оценка агентной работы и терминала](#case-81) | Сравнение моделей | Benchmark |
+| [82. Условия теста снижения киберрисков](#case-82) | Сравнение моделей | Benchmark |
+| [83. Тест аналитических процессов Plotly](#case-83) | Сравнение моделей | Benchmark |
 | [Обзор](#overview) | Обзор | |
 | [Быстрый старт](#quick-start) | Быстрый старт | |
 | [Связанные репозитории](#related-repositories) | Связанные репозитории | |
@@ -241,9 +239,7 @@
 
 Источники сообщают о 15–20 минутах на модель. Автор сравнения считает Qwen реалистичнее; оба результата сохранены.
 
-Другие ракурсы и сравнения: [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954), [@loveAIwang](https://x.com/i/status/2113189630745157665)
-
-Проверка страницы источника (2026-10-24): @loveAIwang вернула HTTP 404. [Прочитать сохранённый исходный текст в реестре примеров](data/kimi-k3-1-usecase-curated.json); сохранённые изображения и видео доступны ниже.
+Другие ракурсы и сравнения: [@LuminaBench](https://x.com/i/status/2113217029675085963), [@leo114119](https://x.com/i/status/2113219785131757778), [@xueyu1125](https://x.com/i/status/2113203977873661954)
 
 <table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113186104266399745-poster.jpg" alt="Вертолёт: сборка и полёт — 1" width="480"></a><br>Смотреть исходное видео</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113216103165972480-poster.jpg" alt="Вертолёт: сборка и полёт — 2" width="480"></a><br>Смотреть исходное видео</td></tr></table>
 
@@ -1135,22 +1131,7 @@ Artificial Analysis показывает спуск длиной 492 m с вир
 ---
 
 <a id="case-72"></a>
-### Пример 72: [Сравнение низкополигональной лыжной игры](https://x.com/shiri_shh/status/2113714575795466446) (автор [@shiri_shh](https://x.com/shiri_shh))
-
-**Осмотреть движение персонажа и взаимодействие с препятствиями в записи.**
-
-Автор сравнивает Kimi K3.1 Pro с GPT-6.1 Sol и сообщает о $5.28 против $9.41. Ролик показывает низкополигональные лыжные сцены и счёт. Он не подтверждает полный игровой билд, измерения производительности или независимо проверенные расходы.
-
-Проверка страницы источника (2026-10-24): @shiri_shh вернула HTTP 404. [Прочитать сохранённый исходный текст в реестре примеров](data/kimi-k3-1-usecase-curated.json); сохранённые изображения и видео доступны ниже.
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705627658907648-poster.jpg" alt="Сравнение низкополигональной лыжной игры — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
-
-Тип: Evaluation | Дата: 2026-10-23
-
----
-
-<a id="case-73"></a>
-### Пример 73: [Зомби-анимация, прерванная квотой](https://x.com/amaliometria/status/2113711759794078162) (автор [@amaliometria](https://x.com/amaliometria))
+### Пример 72: [Зомби-анимация, прерванная квотой](https://x.com/amaliometria/status/2113711759794078162) (автор [@amaliometria](https://x.com/amaliometria))
 
 **Учесть прерывание из-за квоты в результате творческой задачи.**
 
@@ -1162,8 +1143,8 @@ Artificial Analysis показывает спуск длиной 492 m с вир
 
 ---
 
-<a id="case-74"></a>
-### Пример 74: [Запись игры с паркуром на крышах](https://x.com/nattcornelis/status/2113710554225504495) (автор [@nattcornelis](https://x.com/nattcornelis))
+<a id="case-73"></a>
+### Пример 73: [Запись игры с паркуром на крышах](https://x.com/nattcornelis/status/2113710554225504495) (автор [@nattcornelis](https://x.com/nattcornelis))
 
 **Осмотреть видимую игру до принятия заявлений о готовом проекте.**
 
@@ -1175,8 +1156,8 @@ Artificial Analysis показывает спуск длиной 492 m с вир
 
 ---
 
-<a id="case-75"></a>
-### Пример 75: [Тест игры в стиле Rocket League](https://x.com/LLMJunky/status/2113707413006143727) (автор [@LLMJunky](https://x.com/LLMJunky))
+<a id="case-74"></a>
+### Пример 74: [Тест игры в стиле Rocket League](https://x.com/LLMJunky/status/2113707413006143727) (автор [@LLMJunky](https://x.com/LLMJunky))
 
 **Сохранить полезный результат вместе с негативным сравнением автора.**
 
@@ -1191,8 +1172,8 @@ Artificial Analysis показывает спуск длиной 492 m с вир
 <a id="update-2026-10-24-web"></a>
 ## 🖥️ Веб-интерфейсы
 
-<a id="case-76"></a>
-### Пример 76: [Сравнение анимированных фронтенд-объяснений](https://x.com/NFT_Chen/status/2113740284077175009) (автор [@NFT_Chen](https://x.com/NFT_Chen))
+<a id="case-75"></a>
+### Пример 75: [Сравнение анимированных фронтенд-объяснений](https://x.com/NFT_Chen/status/2113740284077175009) (автор [@NFT_Chen](https://x.com/NFT_Chen))
 
 **Сравнить компоновку объяснения и анимированную визуализацию кода.**
 
@@ -1204,8 +1185,8 @@ Artificial Analysis показывает спуск длиной 492 m с вир
 
 ---
 
-<a id="case-77"></a>
-### Пример 77: [Моушн-ролик в стиле Netflix](https://x.com/zentalksai/status/2113710465797009464) (автор [@zentalksai](https://x.com/zentalksai))
+<a id="case-76"></a>
+### Пример 76: [Моушн-ролик в стиле Netflix](https://x.com/zentalksai/status/2113710465797009464) (автор [@zentalksai](https://x.com/zentalksai))
 
 **Осмотреть брендовую анимацию, заявленную как результат программирования.**
 
@@ -1217,8 +1198,8 @@ Artificial Analysis показывает спуск длиной 492 m с вир
 
 ---
 
-<a id="case-78"></a>
-### Пример 78: [Сравнение онлайн-редакторов Markdown](https://x.com/wonjder/status/2113211835797119376) (автор [@wonjder](https://x.com/wonjder))
+<a id="case-77"></a>
+### Пример 77: [Сравнение онлайн-редакторов Markdown](https://x.com/wonjder/status/2113211835797119376) (автор [@wonjder](https://x.com/wonjder))
 
 **Сравнить панели редактирования и просмотра по одному заданию сайта.**
 
@@ -1230,28 +1211,11 @@ Artificial Analysis показывает спуск длиной 492 m с вир
 
 ---
 
-<a id="case-79"></a>
-### Пример 79: [Лендинг разведывательного бюро пингвинов](https://x.com/QuiteBuoyant/status/2113221661625356599) (автор [@QuiteBuoyant](https://x.com/QuiteBuoyant))
-
-**Осмотреть типографику, изображения и призывы к действию в концепции лендинга.**
-
-Исходная публикация называет это фронтенд-тестом анонимного Kibitz и встраивает настоящий предпросмотр The Southern Bureau — концепции разведбюро пингвинов. Изображение подтверждает видимую журнальную компоновку, но не работающий развёрнутый сайт или официальную личность анонимной модели.
-
-Проверка страницы источника (2026-10-24): @QuiteBuoyant вернула HTTP 404. [Прочитать сохранённый исходный текст в реестре примеров](data/kimi-k3-1-usecase-curated.json); сохранённые изображения и видео доступны ниже.
-
-Локальный экспорт этого источника содержит только фрагмент текста, а не полную расшифровку публикации.
-
-<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/x-2113221661625356599-1.jpg" alt="Лендинг разведывательного бюро пингвинов — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
-
-Тип: Demo | Дата: 2026-10-22
-
----
-
 <a id="update-2026-10-24-comparison"></a>
 ## 🔬 Сравнение моделей
 
-<a id="case-80"></a>
-### Пример 80: [Неудачи реального робота](https://x.com/robocurve/status/2113827780798697613) (автор [@robocurve](https://x.com/robocurve))
+<a id="case-78"></a>
+### Пример 78: [Неудачи реального робота](https://x.com/robocurve/status/2113827780798697613) (автор [@robocurve](https://x.com/robocurve))
 
 **Проверить физические задачи отдельно от демонстраций программирования.**
 
@@ -1263,8 +1227,8 @@ Robocurve сообщает о среднем результате 9% на RoboDo
 
 ---
 
-<a id="case-81"></a>
-### Пример 81: [Оценка агентной киберзащиты](https://x.com/ArtificialAnlys/status/2113765233462481276) (автор [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-79"></a>
+### Пример 79: [Оценка агентной киберзащиты](https://x.com/ArtificialAnlys/status/2113765233462481276) (автор [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Оценить успешность защитных задач вместе со стоимостью.**
 
@@ -1276,8 +1240,8 @@ Artificial Analysis сообщает о 64% в Cyber Index по CWE-Bench-AA, De
 
 ---
 
-<a id="case-82"></a>
-### Пример 82: [Bug Hunt в двух репозиториях](https://x.com/PawelHuryn/status/2113747367409123623) (автор [@PawelHuryn](https://x.com/PawelHuryn))
+<a id="case-80"></a>
+### Пример 80: [Bug Hunt в двух репозиториях](https://x.com/PawelHuryn/status/2113747367409123623) (автор [@PawelHuryn](https://x.com/PawelHuryn))
 
 **Проверить поиск и исправление ошибок в существующем коде.**
 
@@ -1291,8 +1255,8 @@ Pawel Huryn сообщает о 105 повторно внедрённых оши
 
 ---
 
-<a id="case-83"></a>
-### Пример 83: [Оценка агентной работы и терминала](https://x.com/ArtificialAnlys/status/2113688083145314416) (автор [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+<a id="case-81"></a>
+### Пример 81: [Оценка агентной работы и терминала](https://x.com/ArtificialAnlys/status/2113688083145314416) (автор [@ArtificialAnlys](https://x.com/ArtificialAnlys))
 
 **Читать результаты задач оценщика отдельно от общего рейтинга.**
 
@@ -1304,8 +1268,8 @@ Artificial Analysis сообщает о 67% на Terminal-Bench 4.0 и 73% на 
 
 ---
 
-<a id="case-84"></a>
-### Пример 84: [Условия теста снижения киберрисков](https://news.ycombinator.com/item?id=50213450) (автор [@yorwba](https://news.ycombinator.com/user?id=yorwba))
+<a id="case-82"></a>
+### Пример 82: [Условия теста снижения киберрисков](https://news.ycombinator.com/item?id=50213450) (автор [@yorwba](https://news.ycombinator.com/user?id=yorwba))
 
 **Сравнить настройки теста перед интерпретацией общих оценок.**
 
@@ -1319,8 +1283,8 @@ Artificial Analysis сообщает о 67% на Terminal-Bench 4.0 и 73% на 
 
 ---
 
-<a id="case-85"></a>
-### Пример 85: [Тест аналитических процессов Plotly](https://news.ycombinator.com/item?id=50217436) (автор [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
+<a id="case-83"></a>
+### Пример 83: [Тест аналитических процессов Plotly](https://news.ycombinator.com/item?id=50217436) (автор [@chriddyp](https://news.ycombinator.com/user?id=chriddyp))
 
 **Проверить точность ответов вместе с вызовами инструментов и временем.**
 
@@ -1345,6 +1309,6 @@ Plotly сообщает о 42 из 43 пройденных задач (98%) пр
 
 Спасибо авторам, опубликовавшим эти демонстрации:
 
-[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@shiri_shh](https://x.com/shiri_shh), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@QuiteBuoyant](https://x.com/QuiteBuoyant), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@loveAIwang](https://x.com/loveAIwang), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
+[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
 
 Атрибуция следует связанным источникам и может нуждаться в исправлении. Сообщайте через issue о пропущенных авторах, дубликатах, неверных утверждениях или просьбах об удалении. Права на сторонние материалы остаются у их владельцев.

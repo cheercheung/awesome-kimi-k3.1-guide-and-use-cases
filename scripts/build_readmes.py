@@ -23,9 +23,6 @@ def render(data,locale):
     chunks.append(f'<a id="case-{c["number"]}"></a>\n### {g["case"]} {c["number"]}: [{t[0]}]({c["source_url"]}) ({g["by"]} [@{c["author_handle"]}]({c["author_url"]}))\n\n**{t[1]}**\n\n{t[2]}\n')
     if c.get('related_sources'):
      chunks.append(g['additional']+' '+', '.join(f'[@{s["author_handle"]}]({s["source_url"]})' for s in c['related_sources'])+'\n')
-    unavailable=[s for s in [c]+c.get('related_sources',[]) if data.get('source_page_checks',{}).get(s['source_url'],{}).get('http_status')==404]
-    if unavailable:chunks.append(g['source_archive_note'].format(handles=', '.join('@'+s['author_handle'] for s in unavailable))+'\n')
-    if any(data['source_page_checks'][s['source_url']].get('source_text_status')=='partial_local_export' for s in unavailable):chunks.append(g['partial_source_note']+'\n')
     cells=[]
     for i,m in enumerate(c['media'],1):
      dest=m['playable_url'] if m['type']=='video' else m['image_url'];poster=m['poster_url'] if m['type']=='video' else m['image_url'];label=g['video'] if m['type']=='video' else g['image'];alt=html.escape(f'{t[0]} — {i}',quote=True)
@@ -49,7 +46,7 @@ def main():
    if not path.is_file() or path.read_text()!=out:errors.append(filename)
   else:path.write_text(out)
  batch_history=' '.join(f"{b['date']}: {b['end']-b['start']+1} {'initial' if i==0 else 'additional'} cases." for i,b in enumerate(data.get('batches',[])))
- catalog=f'# Update Log and Curated Case Register\n\n## {data.get("updated_at","2026-10-23")}\n\n{len(data["cases"])} independent works across six categories; {sum(len(c["media"]) for c in data["cases"])} retained media assets. Reposts and comparisons remain attached to their underlying work.\n\n{batch_history} Original case identifiers are preserved.\n\nThis generated Markdown register mirrors the canonical JSON. Dates use the UTC publication date of each primary source.\n\n| Case | Work | Creator | Category | Type | Date |\n|---|---|---|---|---|---|\n'
+ catalog=f'# Update Log and Curated Case Register\n\n## {data.get("updated_at","2026-10-23")}\n\n{len(data["cases"])} independent works across six categories; {sum(len(c["media"]) for c in data["cases"])} retained media assets. Reposts and comparisons remain attached to their underlying work.\n\n{batch_history} Initial-release case identifiers are preserved.\n\nThis generated Markdown register mirrors the canonical JSON. Dates use the UTC publication date of each primary source.\n\n| Case | Work | Creator | Category | Type | Date |\n|---|---|---|---|---|---|\n'
  for c in data['cases']:catalog+=f'| {c["number"]} | [{c["title"]}]({c["source_url"]}) | [@{c["author_handle"]}]({c["author_url"]}) | {c["category"]} | {c["type"]} | {c["date"]} |\n'
  catalog_path=ROOT/'docs/update-log.md'
  if a.check:
