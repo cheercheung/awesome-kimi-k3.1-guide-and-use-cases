@@ -27,7 +27,7 @@
 <a id="overview"></a>
 ## 📊 概览
 
-共 83 个独立使用案例，覆盖 6 类。同一作品的转载与对比合并呈现。
+共 125 个独立使用案例，覆盖 6 类。同一作品的转载与对比合并呈现。
 
 > [!NOTE]
 > Kibitz 与 Kimi K3.1 Pro 的对应关系仍未确认。型号、耗时、费用和质量判断均来自来源自述。录屏不能证明代码可运行、交互完整或结果可重复。
@@ -129,6 +129,48 @@
 | [81. 代理工作与终端评估](#case-81) | 模型对比 | Benchmark |
 | [82. 网络风险降低基准条件](#case-82) | 模型对比 | Benchmark |
 | [83. Plotly 数据分析工作流基准](#case-83) | 模型对比 | Benchmark |
+| [84. Blender 机械手表拆解动画](#case-84) | 机械与三维物体 | Demo |
+| [85. 方程式赛车与风洞网页体验](#case-85) | 机械与三维物体 | Demo |
+| [86. 禁用技能的深潜器对比](#case-86) | 机械与三维物体 | Evaluation |
+| [87. 发条机构对比](#case-87) | 机械与三维物体 | Evaluation |
+| [88. 与 Tripo 的角色网格对比](#case-88) | 世界与风景 | Evaluation |
+| [89. 向日葵上蜜蜂的对比](#case-89) | 世界与风景 | Evaluation |
+| [90. 由概念图衍生的冰封房屋](#case-90) | 世界与风景 | Evaluation |
+| [91. 西番莲对比](#case-91) | 世界与风景 | Evaluation |
+| [92. 交互式软糖熊对比](#case-92) | 世界与风景 | Evaluation |
+| [93. 三模型篝火场景](#case-93) | 世界与风景 | Evaluation |
+| [94. 体素骑行岛对比](#case-94) | 世界与风景 | Evaluation |
+| [95. Alpine Gold 飞行场景对比](#case-95) | 世界与风景 | Evaluation |
+| [96. 四模型浮空王国](#case-96) | 世界与风景 | Evaluation |
+| [97. 交互式剖面房屋对比](#case-97) | 世界与风景 | Evaluation |
+| [98. 彩虹果冻交互对比](#case-98) | 世界与风景 | Evaluation |
+| [99. 20 场景 3D 展示合集](#case-99) | 世界与风景 | Demo |
+| [100. 三模型灯塔场景](#case-100) | 世界与风景 | Evaluation |
+| [101. 借助专用工具建模](#case-101) | 世界与风景 | Evaluation |
+| [102. 软体软糖眼球对比](#case-102) | 世界与风景 | Evaluation |
+| [103. Blender 中展示的程序化塔楼](#case-103) | 世界与风景 | Demo |
+| [104. 积木搭建对比与重试次数](#case-104) | 世界与风景 | Evaluation |
+| [105. 体素狮身人面像与早期 Opus 参考](#case-105) | 世界与风景 | Evaluation |
+| [106. 夜间 8 字赛道上的鹈鹕](#case-106) | 游戏与动画场景 | Demo |
+| [107. 穿越山峡的御剑飞行](#case-107) | 游戏与动画场景 | Demo |
+| [108. 鹈鹕 50 米翘轮骑行对比](#case-108) | 游戏与动画场景 | Evaluation |
+| [109. Minecraft 风格的终末维度](#case-109) | 游戏与动画场景 | Demo |
+| [110. Unity 浮游炮型视觉特效](#case-110) | 游戏与动画场景 | Demo |
+| [111. 四模型骑行场景](#case-111) | 游戏与动画场景 | Evaluation |
+| [112. Sol 命名冲突的鹈鹕场景](#case-112) | 游戏与动画场景 | Evaluation |
+| [113. 三维作品集网站](#case-113) | 网页界面 | Demo |
+| [114. OpenCode Go 配额中断](#case-114) | 模型对比 | Limit |
+| [115. 创意故事写作基准](#case-115) | 模型对比 | Benchmark |
+| [116. 两个运行框架中的编程得分](#case-116) | 模型对比 | Benchmark |
+| [117. WebExploitBench 公开目标评估](#case-117) | 模型对比 | Benchmark |
+| [118. 因拥堵停止的发布视频任务](#case-118) | 模型对比 | Limit |
+| [119. 凹形方块谜题限制](#case-119) | 模型对比 | Limit |
+| [120. 20 次尝试后的多步方块谜题](#case-120) | 模型对比 | Evaluation |
+| [121. 附代理框架标签的 MazeBench](#case-121) | 模型对比 | Benchmark |
+| [122. 被配额中断的鹈鹕尝试](#case-122) | 模型对比 | Limit |
+| [123. ToneBench 准确性与个人语气取舍](#case-123) | 模型对比 | Benchmark |
+| [124. 七任务代理编程评分表](#case-124) | 模型对比 | Evaluation |
+| [125. VulnPR-100 已知漏洞审查](#case-125) | 模型对比 | Benchmark |
 | [概览](#overview) | 概览 | |
 | [快速开始](#quick-start) | 快速开始 | |
 | [相关仓库](#related-repositories) | 相关仓库 | |
@@ -1298,6 +1340,576 @@ Plotly 报告在其数据分析框架中通过 43 项任务中的 42 项（98%�
 
 ---
 
+<a id="updates-2026-10-25"></a>
+## 🆕 新增案例 · 2026-10-25
+
+<a id="update-2026-10-25-mechanical"></a>
+## ⚙️ 机械与三维物体
+
+<a id="case-84"></a>
+### 案例 84: [Blender 机械手表拆解动画](https://x.com/Majin_AppSheet/status/2114218441813250086) (作者 [@Majin_AppSheet](https://x.com/Majin_AppSheet))
+
+**通过同一录屏检查部件分离、运动与重新组装。**
+
+创作者称用 Python 操作 Blender，从零建模 527 个手表部件，仅用一条指令，建模及验证约 50 分钟。他们估算按 API 计价的等效用量为 $1.50。片段展示拆开的手表重新合拢；部件数、齿轮机构与费用均为来源自述。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114218264457015296.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114218264457015296-poster.jpg" alt="Blender 机械手表拆解动画 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-25
+
+---
+
+<a id="case-85"></a>
+### 案例 85: [方程式赛车与风洞网页体验](https://x.com/ka1manov/status/2114064765731721480) (作者 [@ka1manov](https://x.com/ka1manov))
+
+**区分多模型协作流程与单模型结果。**
+
+创作者将方程式赛车及风洞体验同时归功于 Kimi K3.1 Pro 和 Claude Opus 5.5，自述 1,815 行代码、19 个部件，以及可听到声音的 V6。录屏展示模型查看器与速度控件；各模型的贡献和一天完成的说法均未获独立确认。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114064469772931072.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114064469772931072-poster.jpg" alt="方程式赛车与风洞网页体验 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-24
+
+---
+
+<a id="case-86"></a>
+### 案例 86: [禁用技能的深潜器对比](https://x.com/kenonews/status/2114057423023431922) (作者 [@kenonews](https://x.com/kenonews))
+
+**在明确说明的工具限制下比较输出。**
+
+发布者称禁用技能后，给 Kimi 和 Opus 5.5 相同的深潜器任务。片段标注 Opus 为 $0.51，Kimi 为 $1.08。这是来源自述的两个可见模型对比，不能确认其他 Kimi 工作流使用何种后端。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114057348612329472.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114057348612329472-poster.jpg" alt="禁用技能的深潜器对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-87"></a>
+### 案例 87: [发条机构对比](https://x.com/heyfudji/status/2113997305242394627) (作者 [@heyfudji](https://x.com/heyfudji))
+
+**选择结果前先检查齿轮与活动部件。**
+
+创作者展示自己的 Kimi K3.1 Pro 和 Opus 5.5 测试。短片分别标注模型，展示不同的发条组件，包括齿轮、环与指针。未提供完整输入、机械正确性证明或可执行实现。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113996974965895168.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113996974965895168-poster.jpg" alt="发条机构对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="update-2026-10-25-worlds"></a>
+## 🏞️ 世界与风景
+
+<a id="case-88"></a>
+### 案例 88: [与 Tripo 的角色网格对比](https://x.com/FiniYang/status/2114226084707442716) (作者 [@FiniYang](https://x.com/FiniYang))
+
+**比较实际网格，同时保留路由说法的未确认状态。**
+
+FiniYang 将左侧角色标为 Kimi K3.1 Pro，右侧标为 Tripo 直接输出。两张来源图片均保留。发布者质疑 Kimi 是否路由至 Tripo，但视觉相似或差异都不能证明这种后端关系。未从无法查看的评论重构原始角色参考图。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114224951406530560.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114224951406530560.jpg" alt="与 Tripo 的角色网格对比 — 1" width="480"></a><br>查看来源图片</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114224951431733248.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114224951431733248.jpg" alt="与 Tripo 的角色网格对比 — 2" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-25
+
+---
+
+<a id="case-89"></a>
+### 案例 89: [向日葵上蜜蜂的对比](https://x.com/loktar00/status/2114195241997840671) (作者 [@loktar00](https://x.com/loktar00))
+
+**通过带标签的录屏比较昆虫细节与花朵结构。**
+
+发布者对比 DeepSeek Flash 和 Kimi K3.1 的蜜蜂与向日葵场景。保留视频展示两份输出及其标签。作者偏好 DeepSeek；未提供完整输入、可运行源码或受控复跑。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114150101278957568.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114150101278957568-poster.jpg" alt="向日葵上蜜蜂的对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-25
+
+---
+
+<a id="case-90"></a>
+### 案例 90: [由概念图衍生的冰封房屋](https://x.com/SahilExec/status/2114183814339862882) (作者 [@SahilExec](https://x.com/SahilExec))
+
+**比较可见场景与来源报告的指令遵循差异。**
+
+发布者分享归于 Kimi K3.1 Pro 的 North Reach 场景，包含浮冰、群山、反光水面和亮着灯的窗户。他们称生成约一小时，认为 Claude 更遵循需求。录屏支持场景展示；原始参考图、配额核算和创作者所有权均未获独立确认。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113889520164966400.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113889520164966400-poster.jpg" alt="由概念图衍生的冰封房屋 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-25
+
+---
+
+<a id="case-91"></a>
+### 案例 91: [西番莲对比](https://x.com/loktar00/status/2114149692523311578) (作者 [@loktar00](https://x.com/loktar00))
+
+**比较两份输出的精细几何与植被。**
+
+发布者并列展示 DeepSeek Flash 和 Kimi K3.1 Pro 的西番莲场景。片段呈现不同的花朵与叶片处理。他们偏好 DeepSeek 是针对该任务的判断；未提供完整输入或可执行源码。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114149446057377792.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114149446057377792-poster.jpg" alt="西番莲对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-25
+
+---
+
+<a id="case-92"></a>
+### 案例 92: [交互式软糖熊对比](https://x.com/leo114119/status/2114145338256998843) (作者 [@leo114119](https://x.com/leo114119))
+
+**在共同任务中检查形状、半透明效果与控件。**
+
+作者用软糖熊比较 Kimi K3.1 Pro 与 DeepSeek Flash 1017。对比录屏与额外动画展示均保留。作者偏好 DeepSeek。他们另行提出的 Tripo 路由说法未经验证，这些视觉素材也不能证明它。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114006063368318976.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114006063368318976-poster.jpg" alt="交互式软糖熊对比 — 1" width="480"></a><br>观看来源视频</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114144920428527616.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114144920428527616-poster.jpg" alt="交互式软糖熊对比 — 2" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-25
+
+---
+
+<a id="case-93"></a>
+### 案例 93: [三模型篝火场景](https://x.com/rubenssoto_ai/status/2114092835729445213) (作者 [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+
+**将光照与场景结构的比较同费用标签分开。**
+
+录屏将篝火任务标为 DeepSeek V4.1 Flash 1017、MiniMax M3.1 Flash 和 Kimi K3.1 Pro，费用分别显示 $0.54、$0.22 和 $1.88。发布者称输入相同；这些是特定任务的来源标签，并非独立验证的价格或性能测量。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114092663146258432.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114092663146258432-poster.jpg" alt="三模型篝火场景 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-94"></a>
+### 案例 94: [体素骑行岛对比](https://x.com/filicroval/status/2114085656779731171) (作者 [@filicroval](https://x.com/filicroval))
+
+**同时比较迭代投入与可见场景。**
+
+创作者对比 Kimi K3.1 Pro 与 Opus 5.5 的体素骑行岛，称 Kimi 经过数次迭代，Opus 一次完成，并形容 Kimi 用量限制严苛。视频支持可见场景差异；迭代次数和订阅体验仍属来源自述。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085530853875713.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085530853875713-poster.jpg" alt="体素骑行岛对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-95"></a>
+### 案例 95: [Alpine Gold 飞行场景对比](https://x.com/EnvolDev/status/2114085222044299723) (作者 [@EnvolDev](https://x.com/EnvolDev))
+
+**比较场景时保留推理设置与任务费用。**
+
+EnvolDev 在 Alpine Gold 任务中对比 Kimi K3.1 Pro max 和 Opus 5.5 xhigh。来源称 Kimi 为 $24.12、1 小时 12 分钟，Opus 为 $31.85、2 小时 45 分钟。作者偏好 Opus。这些是不同推理强度下的费用报告，并非只改变模型的受控排名。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085131921342464.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085131921342464-poster.jpg" alt="Alpine Gold 飞行场景对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-96"></a>
+### 案例 96: [四模型浮空王国](https://x.com/marcthecreatorr/status/2114074078340649183) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**通过四份带标签输出比较单文件场景需求。**
+
+创作者称四个模型收到相同的 Floating Kingdom HTML 任务。视频对比 Opus 5.5、DeepSeek Flash 1017、GPT-6 Astra 和 Kimi K3.1 Pro。他们称 Kimi 耗时 25 分钟、约 $3，但性价比更偏好 DeepSeek。耗时与费用为来源自述，未包含完整实现。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114073718104162304.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114073718104162304-poster.jpg" alt="四模型浮空王国 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-97"></a>
+### 案例 97: [交互式剖面房屋对比](https://x.com/marcthecreatorr/status/2113910766781055052) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**检查房间细节与控件，同时保留不同的推理强度设置。**
+
+创作者对比 Kimi high 和 GPT-6 Astra extra high 制作的单 HTML 剖面房屋，称 Kimi 为 15 分钟、约 $1.70，Astra 为 30 分钟、约 $6。录屏展示室内与控件；功能和报告费用均未独立复跑。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113910634953748480.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113910634953748480-poster.jpg" alt="交互式剖面房屋对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-98"></a>
+### 案例 98: [彩虹果冻交互对比](https://x.com/0xRhinoX/status/2114059647233495351) (作者 [@0xRhinoX](https://x.com/0xRhinoX))
+
+**结合要求的交互检查形变与光照。**
+
+发布者对比 Kimi K3.1 Pro 与 Opus 5.5 制作可切割、钉入及火烧的彩虹果冻，称 Kimi 为 $1.50、17 分钟，Opus 为 $8、52 分钟。录屏展示不同形变与彩色光照，不能验证每项要求的交互或账单。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114058638440464384.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114058638440464384-poster.jpg" alt="彩虹果冻交互对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-99"></a>
+### 案例 99: [20 场景 3D 展示合集](https://x.com/quimedesu/status/2114046543783202899) (作者 [@quimedesu](https://x.com/quimedesu))
+
+**通过合集观察多样性，不将一个来源扩成多个案例。**
+
+发布者分享十分钟合集，宣称包含 20 个 Kimi K3.1 Pro 场景。抽样片段展示水下景观、图书馆、峡谷城堡、暴风雨灯塔等环境。按一个展示案例收录，未提供完整提示词、代码、素材来源或独立生成记录。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114045063093182464.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114045063093182464-poster.jpg" alt="20 场景 3D 展示合集 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-24
+
+---
+
+<a id="case-100"></a>
+### 案例 100: [三模型灯塔场景](https://x.com/EnvolDev/status/2114037839281508431) (作者 [@EnvolDev](https://x.com/EnvolDev))
+
+**结合说明的推理与费用条件比较质量。**
+
+EnvolDev 在灯塔场景对比 Kimi K3.1 Pro max、Opus 5.5 和 GPT-6 Astra，分别报告 $23.42、$53 和 $42，并更偏好两个竞争模型。帖子还描述较便宜的 Kimi high 测试，与 max 录屏分开看待。这些结果均为来源自述。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114037758524370944.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114037758524370944-poster.jpg" alt="三模型灯塔场景 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-101"></a>
+### 案例 101: [借助专用工具建模](https://x.com/yugen_matuni/status/2114026044395331722) (作者 [@yugen_matuni](https://x.com/yugen_matuni))
+
+**归因建模结果前先检查工具环境。**
+
+发布者分享角色建模截图，称在 Kimi Code 或应用中使用专用工具会显著影响质量。这是他们对工作流的观察，并非隔离模型测试，也不能证明任何具名第三方后端。未提供完整构建轨迹。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114025730120290304.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114025730120290304.jpg" alt="借助专用工具建模 — 1" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-102"></a>
+### 案例 102: [软体软糖眼球对比](https://x.com/daveeyyy_/status/2114014158102397168) (作者 [@daveeyyy_](https://x.com/daveeyyy_))
+
+**除形变和费用外，也比较指令覆盖程度。**
+
+创作者对比 Kimi K3.1 Pro、GPT-6 Astra 和 Opus 5.5 制作可戳、拉伸、抛掷及提着神经抬起的软糖眼球。他们称 Kimi 耗时八分钟、$0.24，但只有 Opus 完成全部要求。录制结果与该判断是来源证据，并非功能复跑。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114014049918681088.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114014049918681088-poster.jpg" alt="软体软糖眼球对比 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-103"></a>
+### 案例 103: [Blender 中展示的程序化塔楼](https://x.com/thebuggeddev/status/2114014134480372210) (作者 [@thebuggeddev](https://x.com/thebuggeddev))
+
+**检查程序化案例，不推广到所有 3D 工作流。**
+
+创作者称塔楼由 Kimi K3.1 Pro 使用 bpy 制作，未涉及独立的 3D 生成模型。片段展示塔楼和 Blender 界面。说法仅针对该案例，未提供完整执行轨迹或源码，也不能证明其他 Kimi 任务如何路由。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114013328246988800.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114013328246988800-poster.jpg" alt="Blender 中展示的程序化塔楼 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-24
+
+---
+
+<a id="case-104"></a>
+### 案例 104: [积木搭建对比与重试次数](https://x.com/thegreatest_sv/status/2114011783476441136) (作者 [@thegreatest_sv](https://x.com/thegreatest_sv))
+
+**分别阅读完成数量、重试标签与视觉偏好。**
+
+发布者在据称有 3,915 块积木的任务中对比 Opus 5.5 与 Kimi K3.1 Pro。帖子称两者均达 3,915/3,915，Opus 为 6 分 40 秒、零次重试，Kimi 为 8 分 25 秒、两次重试；片段却将 Kimi 标为 9 分 25 秒、三次重试。费用标为 $12.40 与 $8.91。保留这些耗时及重试记录的冲突，不自行统一；未提供底层日志或计数方法。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113996662116904960.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113996662116904960-poster.jpg" alt="积木搭建对比与重试次数 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-105"></a>
+### 案例 105: [体素狮身人面像与早期 Opus 参考](https://x.com/diegocabezas01/status/2113965730014109802) (作者 [@diegocabezas01](https://x.com/diegocabezas01))
+
+**比较体素形状，不将不同帖子视作受控复跑。**
+
+创作者分享支持旋转和缩放的 Kimi K3.1 Pro max 狮身人面像任务，并引用早期 Opus 5.5 max 狮身人面像。两份录屏均保留原始模型归属。早期片段是独立对比素材，不是另一份 Kimi 输出；未确认完整代码或相同执行条件。
+
+其他视角与对比： [@diegocabezas01](https://x.com/diegocabezas01/status/2102549002285981917)
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113809479997296641.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113809479997296641-poster.jpg" alt="体素狮身人面像与早期 Opus 参考 — 1" width="480"></a><br>观看来源视频<br>Kimi K3.1 Pro · max</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2102473684573184000.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2102473684573184000-poster.jpg" alt="体素狮身人面像与早期 Opus 参考 — 2" width="480"></a><br>观看来源视频<br>Opus 5.5 · 引用的早期测试</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="update-2026-10-25-games"></a>
+## 🎮 游戏与动画场景
+
+<a id="case-106"></a>
+### 案例 106: [夜间 8 字赛道上的鹈鹕](https://x.com/FiniYang/status/2113791833822372172) (作者 [@FiniYang](https://x.com/FiniYang))
+
+**检查 3D 场景中的弯道、高度变化与镜头运动。**
+
+FiniYang 分享鹈鹕在夜间 8 字赛道骑行的场景，称使用约 8% 月度订阅额度。录屏展示弯道、坡道及变化视角。配额用量为来源自述。完整玩法功能未获独立确认，也未提供完整输入或可运行实现。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113732266711191553.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113732266711191553-poster.jpg" alt="夜间 8 字赛道上的鹈鹕 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-24
+
+---
+
+<a id="case-107"></a>
+### 案例 107: [穿越山峡的御剑飞行](https://x.com/FiniYang/status/2114200775060799504) (作者 [@FiniYang](https://x.com/FiniYang))
+
+**检查带标签奇幻场景中的移动与镜头视角。**
+
+FiniYang 分享标为御剑穿云的 Kimi K3.1 Pro 场景。录屏展示白衣人物经过岩壁、大型雕像与山顶建筑，并提供视角控件。帖子猜测使用了第三方 3D 工具，但录屏不能确认具名后端或完整游戏功能。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114198217374248960.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114198217374248960-poster.jpg" alt="穿越山峡的御剑飞行 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-25
+
+---
+
+<a id="case-108"></a>
+### 案例 108: [鹈鹕 50 米翘轮骑行对比](https://x.com/VulKan42069/status/2114085091261682016) (作者 [@VulKan42069](https://x.com/VulKan42069))
+
+**将同一 Kimi 结果与运行环境不同的两个竞争模型比较。**
+
+创作者重复使用一份 Kimi K3.1 Pro max API 结果，分别对比网页聊天中的 Sonnet 5.5 high 和 Gemini 4 Argon high。两段视频按一个作品收录。他们称一条指令、无迭代修复，Kimi 为 21 分 05 秒、$0.56。不同框架和推理设置使其不能成为只改变模型的受控对比。
+
+其他视角与对比： [@VulKan42069](https://x.com/VulKan42069/status/2114079543632003455)
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085060714618880.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085060714618880-poster.jpg" alt="鹈鹕 50 米翘轮骑行对比 — 1" width="480"></a><br>观看来源视频</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114079500875304961.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114079500875304961-poster.jpg" alt="鹈鹕 50 米翘轮骑行对比 — 2" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-109"></a>
+### 案例 109: [Minecraft 风格的终末维度](https://x.com/kepochnik/status/2114044255727702423) (作者 [@kepochnik](https://x.com/kepochnik))
+
+**检查多模型协作游戏更新，不将所有素材都归于 Kimi。**
+
+创作者将 Minecraft 风格项目更新同时归功于 Opus 5.5 和 Kimi K3.1。录屏展示末地风格维度及与龙遭遇的场景。作者描述计划增加维度与敌人；片段不能证明这些计划已实现、已公开发布或各模型的精确贡献。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114043858543849472.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114043858543849472-poster.jpg" alt="Minecraft 风格的终末维度 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-24
+
+---
+
+<a id="case-110"></a>
+### 案例 110: [Unity 浮游炮型视觉特效](https://x.com/yugen_matuni/status/2113893761105461253) (作者 [@yugen_matuni](https://x.com/yugen_matuni))
+
+**在现成素材上扩展效果，同时区分素材制作。**
+
+创作者称用 Kimi 3.1 在 Unity 制作浮游炮型 VFX，认为适合扩展既有作品。视频展示网格场景中发光的移动效果。他们与 DeepSeek 的比较属主观判断，帖子特别以预备素材为前提，并非展示独立生成全部素材。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113893650585534465.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113893650585534465-poster.jpg" alt="Unity 浮游炮型视觉特效 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-24
+
+---
+
+<a id="case-111"></a>
+### 案例 111: [四模型骑行场景](https://x.com/AI_Screening/status/2114018402033692976) (作者 [@AI_Screening](https://x.com/AI_Screening))
+
+**判断场景对比前先阅读录屏模型标签。**
+
+发布者比较标为 Kimi K3.1 Pro、GPT-6 Astra、Gemini 4 Argon 和 Gemini 4 Carbon (Arena) 的骑行场景。录屏展示不同自行车、骑手及环境。匿名 Carbon 标签来自来源，帖子未确认该检查点官方身份、受控设置或可执行代码。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114018163679727616.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114018163679727616-poster.jpg" alt="四模型骑行场景 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-112"></a>
+### 案例 112: [Sol 命名冲突的鹈鹕场景](https://x.com/VulKan42069/status/2113957931305848987) (作者 [@VulKan42069](https://x.com/VulKan42069))
+
+**保留模型标签差异，不悄悄统一名称。**
+
+片段标为 Kimi K3.1 Pro 和 GPT-6.1 Sol，但帖子正文写 GPT-6 Sol，标题又写 GPT-6.1 Sol。创作者称这是单指令 high 强度测试，Kimi 为 $0.11，Sol 为 $0.18。保留该对比，并明确命名差异及费用标签未经验证。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113955385975746560.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113955385975746560-poster.jpg" alt="Sol 命名冲突的鹈鹕场景 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="update-2026-10-25-web"></a>
+## 🖥️ 网页界面
+
+<a id="case-113"></a>
+### 案例 113: [三维作品集网站](https://x.com/MikuBTC/status/2114063038387036634) (作者 [@MikuBTC](https://x.com/MikuBTC))
+
+**通过网站录屏检查布局切换与视觉对象。**
+
+发布者称 Kimi K3.1 Pro 通过一条指令在 15 分钟内完成网站。片段展示漂浮物体作品集界面、导航及视图变化，支持可见设计展示；未提供已部署网站、完整输入、可访问源码或可用控件。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114062984859312128.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114062984859312128-poster.jpg" alt="三维作品集网站 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Demo | 日期: 2026-10-24
+
+---
+
+<a id="update-2026-10-25-comparison"></a>
+## 🔬 模型对比
+
+<a id="case-114"></a>
+### 案例 114: [OpenCode Go 配额中断](https://x.com/localhost_4173/status/2114168114028130714) (作者 [@localhost_4173](https://x.com/localhost_4173))
+
+**将运行中断计入编程任务结果。**
+
+作者称通过 OpenCode Go 使用 Kimi 3.1 Pro 七分钟后停止。截图显示探索失败、“Go 用量超限”及 7 分 28 秒运行时长。这是一次观察到的服务商配额中断，不能说明所有订阅容量或模型质量失败。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114168024282615808.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114168024282615808.jpg" alt="OpenCode Go 配额中断 — 1" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Limit | 日期: 2026-10-25
+
+---
+
+<a id="case-115"></a>
+### 案例 115: [创意故事写作基准](https://x.com/LechMazur/status/2114092500541415649) (作者 [@LechMazur](https://x.com/LechMazur))
+
+**在同一评估中比较配对故事结果与推理用量。**
+
+Lech Mazur 报告 Kimi K3.1 Pro high 从 K3 的 2.35 提升至 2.72，在 50 条配对提示词中获 35 胜、八平、七负。帖子称推理 tokens 减少 34%，情节安排更强。三张图表均保留。这是评估方在该写作方案下的结果，并非通用写作质量保证。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114090883981193216.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114090883981193216.jpg" alt="创意故事写作基准 — 1" width="480"></a><br>查看来源图片</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114091026180685824.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114091026180685824.jpg" alt="创意故事写作基准 — 2" width="480"></a><br>查看来源图片</td></tr></table>
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114091105583058944.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114091105583058944.jpg" alt="创意故事写作基准 — 3" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Benchmark | 日期: 2026-10-24
+
+---
+
+<a id="case-116"></a>
+### 案例 116: [两个运行框架中的编程得分](https://x.com/PovilasKorop/status/2114046844380537187) (作者 [@PovilasKorop](https://x.com/PovilasKorop))
+
+**比较同一模型在不同编程环境中的结果。**
+
+Povilas Korop 报告 Kimi K3.1 Pro high 在 OpenCode 得 59.99/70，在 Kimi Code 得 56.89/70。链接评估覆盖 Laravel、React-TypeScript 代码质量、查错与边界情况。框架特定得分、平均费用及耗时均属于该评估方的测试，并非本地复跑。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114046841855594496.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114046841855594496.jpg" alt="两个运行框架中的编程得分 — 1" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Benchmark | 日期: 2026-10-24
+
+---
+
+<a id="case-117"></a>
+### 案例 117: [WebExploitBench 公开目标评估](https://x.com/migtissera/status/2114029692147950008) (作者 [@migtissera](https://x.com/migtissera))
+
+**结合汇总成功率阅读各目标结果。**
+
+发布者报告黑盒 WebExploitBench Public-5 的 pass@1：Kimi K3.1 Pro 为 13/28，DeepSeek Flash 1017 为 12/28，GLM-5.3-Flash 为 10/28。表格细分五个目标。这些评估方报告结果仅针对固定基准，不能证明实际操作能力或通用安全优势。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114028525728763904.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114028525728763904.jpg" alt="WebExploitBench 公开目标评估 — 1" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Benchmark | 日期: 2026-10-24
+
+---
+
+<a id="case-118"></a>
+### 案例 118: [因拥堵停止的发布视频任务](https://x.com/whydeso/status/2114028190050254878) (作者 [@whydeso](https://x.com/whydeso))
+
+**将失败的生成尝试与竞争模型输出分开。**
+
+作者称要求 Kimi K3.1 Pro 制作自己的发布视频，11 分钟后收到拥堵提示。并排录屏展示 Kimi 停止的会话及 Claude 结果。这是该次中断任务的报告证据，不是完成的 Kimi 视频，也不是跨用户实测失败率。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114027275758784512.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114027275758784512-poster.jpg" alt="因拥堵停止的发布视频任务 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Limit | 日期: 2026-10-24
+
+---
+
+<a id="case-119"></a>
+### 案例 119: [凹形方块谜题限制](https://x.com/patience_cave/status/2114025446069403836) (作者 [@patience_cave](https://x.com/patience_cave))
+
+**检查停止位置，不将进展当作完成。**
+
+评估者称 Kimi K3.1 Pro 比 K3 有进步，但不能充分理解凹形方块，无法继续推进。来源图片比较探索过的谜题布局。这是评估者对单个任务的描述，未提供完整尝试轨迹或该谜题的汇总得分。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114025439199207424.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114025439199207424.jpg" alt="凹形方块谜题限制 — 1" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Limit | 日期: 2026-10-24
+
+---
+
+<a id="case-120"></a>
+### 案例 120: [20 次尝试后的多步方块谜题](https://x.com/patience_cave/status/2114024288974156237) (作者 [@patience_cave](https://x.com/patience_cave))
+
+**展示解谜成功结果时保留尝试次数。**
+
+评估者称 Kimi K3.1 Pro 尝试 20 次后解出多步谜题，此前只有另外五个模型解出。视频展示在方块房间中的移动。成功及与先前模型的比较均为来源自述，不能证明一次尝试即可可靠成功。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114024191192436736.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114024191192436736-poster.jpg" alt="20 次尝试后的多步方块谜题 — 1" width="480"></a><br>观看来源视频</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-121"></a>
+### 案例 121: [附代理框架标签的 MazeBench](https://x.com/patience_cave/status/2114024186901623249) (作者 [@patience_cave](https://x.com/patience_cave))
+
+**比较迷宫得分时保留运行框架背景。**
+
+评估者报告 Kimi K3.1 Pro 在 MazeBench 得 2%，DeepSeek V4.1 Flash 得 1%。图表分别列出 Kimi Code max、Prime Agent max，以及其他模型与框架组合。这些是特定基准的报告分数，微小非零结果不意味着普遍的规划可靠性。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114024183881719808.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114024183881719808.jpg" alt="附代理框架标签的 MazeBench — 1" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Benchmark | 日期: 2026-10-24
+
+---
+
+<a id="case-122"></a>
+### 案例 122: [被配额中断的鹈鹕尝试](https://x.com/Lonely__MH/status/2114022528599654743) (作者 [@Lonely__MH](https://x.com/Lonely__MH))
+
+**记录未完成输出及来源对访问模式的模糊表述。**
+
+作者称鹈鹕任务耗尽五小时配额，手动复制的 HTML 仅生成框架。错误截图与部分页面均保留。帖子又提到借用 API key，因此不悄悄统一其访问模式与配额措辞。这是一次报告的未完成尝试。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114020768850104320.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114020768850104320.jpg" alt="被配额中断的鹈鹕尝试 — 1" width="480"></a><br>查看来源图片</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114020787040772096.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114020787040772096.jpg" alt="被配额中断的鹈鹕尝试 — 2" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Limit | 日期: 2026-10-24
+
+---
+
+<a id="case-123"></a>
+### 案例 123: [ToneBench 准确性与个人语气取舍](https://x.com/Whats_AI/status/2114015091838398600) (作者 [@Whats_AI](https://x.com/Whats_AI))
+
+**同时根据内容和声音风格匹配选择写作设置。**
+
+What’s AI 报告 K3.1 Pro 在 83 个模型中排第 7，内容与准确性从第 45 升至第 2，语气与声音风格却从第 21 降至第 47。总 Elo 区间与 K3 重叠，每稿费用报告为 $0.25 对 $0.36。这些发现针对该创作者声音风格脚本基准及其提示词，并非所有写作任务。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114013969929138176.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114013969929138176.jpg" alt="ToneBench 准确性与个人语气取舍 — 1" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Benchmark | 日期: 2026-10-24
+
+---
+
+<a id="case-124"></a>
+### 案例 124: [七任务代理编程评分表](https://x.com/ai_funss/status/2114012839623131298) (作者 [@ai_funss](https://x.com/ai_funss))
+
+**提出整体判断前先读各任务评分及其标准。**
+
+发布者分享七任务评估，覆盖网页 3D、iOS/Rust、交互动画、HarmonyOS/C++、Metal 渲染、教学可视化及 Rust GUI。评分表与等级图例均保留。发布者称 K3.1 Pro max 得分低于 K3 max，但表中各任务等级有高有低，也有继承前代结果的 Pass 项及待测项目，未提供汇总分数或完整原始运行记录。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114011888082444288.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114011888082444288.jpg" alt="七任务代理编程评分表 — 1" width="480"></a><br>查看来源图片</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114011894650716160.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114011894650716160.jpg" alt="七任务代理编程评分表 — 2" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Evaluation | 日期: 2026-10-24
+
+---
+
+<a id="case-125"></a>
+### 案例 125: [VulnPR-100 已知漏洞审查](https://x.com/Zaddyzaddy/status/2113973761502253210) (作者 [@Zaddyzaddy](https://x.com/Zaddyzaddy))
+
+**在同一组 PR 中比较发现数量、时限与总费用。**
+
+评估者称给 Kimi K3.1 Pro 100 个含已知漏洞的拉取请求，每个 PR 限一小时。它发现 47 个，费用 $124.69；K3 发现 37 个，DeepSeek Flash 1017 为 54 个、$7.53。两张图表均保留。这些数量与费用来自该基准评估方，区别于其他查错测试方案。
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494136360960.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494136360960.jpg" alt="VulnPR-100 已知漏洞审查 — 1" width="480"></a><br>查看来源图片</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494773866496.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494773866496.jpg" alt="VulnPR-100 已知漏洞审查 — 2" width="480"></a><br>查看来源图片</td></tr></table>
+
+类型: Benchmark | 日期: 2026-10-24
+
+---
+
 <a id="related-repositories"></a>
 ## 相关仓库
 
@@ -1309,6 +1921,6 @@ Plotly 报告在其数据分析框架中通过 43 项任务中的 42 项（98%�
 
 感谢以下公开分享演示的发布者：
 
-[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
+[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Majin_AppSheet](https://x.com/Majin_AppSheet), [@ka1manov](https://x.com/ka1manov), [@kenonews](https://x.com/kenonews), [@heyfudji](https://x.com/heyfudji), [@FiniYang](https://x.com/FiniYang), [@SahilExec](https://x.com/SahilExec), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@filicroval](https://x.com/filicroval), [@EnvolDev](https://x.com/EnvolDev), [@0xRhinoX](https://x.com/0xRhinoX), [@quimedesu](https://x.com/quimedesu), [@yugen_matuni](https://x.com/yugen_matuni), [@daveeyyy_](https://x.com/daveeyyy_), [@thebuggeddev](https://x.com/thebuggeddev), [@thegreatest_sv](https://x.com/thegreatest_sv), [@diegocabezas01](https://x.com/diegocabezas01), [@VulKan42069](https://x.com/VulKan42069), [@MikuBTC](https://x.com/MikuBTC), [@localhost_4173](https://x.com/localhost_4173), [@LechMazur](https://x.com/LechMazur), [@PovilasKorop](https://x.com/PovilasKorop), [@migtissera](https://x.com/migtissera), [@whydeso](https://x.com/whydeso), [@patience_cave](https://x.com/patience_cave), [@Lonely__MH](https://x.com/Lonely__MH), [@Whats_AI](https://x.com/Whats_AI), [@ai_funss](https://x.com/ai_funss), [@Zaddyzaddy](https://x.com/Zaddyzaddy), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
 
 署名依据所链接来源，可能需要更正。若有遗漏署名、重复作品、表述错误或移除需求，请提交 issue。第三方媒体权利归原权利人。

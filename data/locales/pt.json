@@ -25,7 +25,7 @@
     },
     "intro": "Demonstrações, fluxos e avaliações da comunidade, atribuídos às fontes, para Kimi K3.1 e K3.1 Pro, incluindo gravações anteriores do checkpoint anônimo Kibitz.",
     "purpose": "Explore tarefas concretas, resultados visíveis e limites práticos através das fontes originais.",
-    "stats": "83 casos independentes em 6 categorias. Republicações e comparações da mesma obra ficam agrupadas.",
+    "stats": "125 casos independentes em 6 categorias. Republicações e comparações da mesma obra ficam agrupadas.",
     "evidence": "A correspondência Kibitz–Kimi K3.1 Pro continua sem confirmação. Nomes de modelos, tempos, custos e julgamentos de qualidade são relatos das fontes. As gravações não comprovam código executável, interação completa ou sucesso repetível.",
     "steps": "1. Escolha uma tarefa no índice.\n2. Abra o vídeo ou a imagem e siga o título até à publicação original.\n3. Compare o resultado visível com a tarefa e as limitações.",
     "thanks": "Agradecemos aos responsáveis pelas demonstrações:",
@@ -36,7 +36,8 @@
     "open_related": "Abrir o repositório de casos de uso do {model}",
     "update_heading": "Novas adições",
     "media_labels": {
-      "GPT Astra · earlier quoted run": "GPT Astra · execução anterior citada"
+      "GPT Astra · earlier quoted run": "GPT Astra · execução anterior citada",
+      "Opus 5.5 · earlier quoted run": "Opus 5.5 · execução anterior citada"
     }
   },
   "cases": [
@@ -454,6 +455,216 @@
       "Benchmark de análise de dados da Plotly",
       "Confira a precisão das respostas junto com chamadas de ferramentas e tempo de execução.",
       "Plotly relata 42 de 43 tarefas aprovadas (98%), contra 81% de Kimi K3, em seu ambiente de análise de dados. Relata $13.47 para o exame completo e mediana de cerca de 2.5 minutos por tarefa. O autor no HN cita 73 consultas numa tarefa de problema de dados contra 18 para Sol. Resultados e custos são relatos das fontes."
+    ],
+    [
+      "Relógio mecânico em vista explodida no Blender",
+      "Examine separação, movimento e remontagem de peças numa gravação.",
+      "O criador relata usar Python no Blender para modelar do zero 527 peças de relógio, com uma instrução e cerca de 50 minutos de modelagem e verificação. Estima $1.50 em uso equivalente de API. O vídeo mostra o relógio explodido se reunindo; número de peças, mecânica das engrenagens e custo são relatos da fonte."
+    ],
+    [
+      "Carro de fórmula e túnel de vento na web",
+      "Separe um fluxo conjunto de modelos de um resultado de modelo único.",
+      "O criador credita Kimi K3.1 Pro e Claude Opus 5.5 por uma experiência de carro de fórmula e túnel de vento. Relata 1,815 linhas, 19 peças e um V6 audível. A gravação mostra um visualizador e controles de velocidade; a contribuição de cada modelo e a construção declarada de um dia não foram estabelecidas independentemente."
+    ],
+    [
+      "Batiscafo com skills desativadas",
+      "Compare resultados sob uma restrição explícita de ferramentas.",
+      "O autor diz ter desativado as skills e dado a Kimi e Opus 5.5 a mesma tarefa de batiscafo. O vídeo indica $0.51 para Opus e $1.08 para Kimi. É uma comparação relatada de dois modelos visíveis; não estabelece qual backend qualquer outro fluxo do Kimi usa."
+    ],
+    [
+      "Comparação de mecanismos de relojoaria",
+      "Examine engrenagens e peças móveis antes de escolher um resultado.",
+      "O criador apresenta seu próprio teste de Kimi K3.1 Pro e Opus 5.5. O vídeo curto identifica cada modelo e mostra mecanismos diferentes, com engrenagens, anéis e ponteiros. Não são fornecidos entrada completa, correção mecânica ou implementações executáveis."
+    ],
+    [
+      "Malhas de personagens em comparação com Tripo",
+      "Compare as malhas reais mantendo sem confirmação as alegações de roteamento.",
+      "FiniYang identifica o personagem à esquerda como Kimi K3.1 Pro e o da direita como saída direta de Tripo. Ambas as imagens são preservadas. O autor questiona se Kimi encaminha para Tripo, mas semelhança ou diferença visual não estabelece essa relação de backend. A referência original do personagem não é reconstruída a partir de um comentário não visto."
+    ],
+    [
+      "Abelha sobre girassol em comparação",
+      "Compare detalhes do inseto e estrutura da flor em gravações identificadas.",
+      "O autor compara DeepSeek Flash com Kimi K3.1 numa cena de abelha e girassol. O vídeo preservado mostra as duas saídas e seus rótulos. Ele prefere DeepSeek; entrada completa, código executável e repetição controlada não são fornecidos."
+    ],
+    [
+      "Casa cercada de gelo a partir de arte conceitual",
+      "Compare a cena visível com as diferenças relatadas ao seguir instruções.",
+      "O autor compartilha uma cena North Reach com gelo flutuante, montanhas, água reflexiva e janelas iluminadas, atribuída a Kimi K3.1 Pro. Relata aproximadamente uma hora de geração e prefere Claude ao seguir o pedido. A gravação sustenta a cena; referência original, contabilização da cota e autoria não foram estabelecidas independentemente."
+    ],
+    [
+      "Comparação de flor de maracujá",
+      "Examine geometria fina e vegetação em duas saídas.",
+      "O autor justapõe DeepSeek Flash e Kimi K3.1 Pro numa cena de flor de maracujá. O vídeo mostra tratamentos diferentes de flores e folhagem. A preferência por DeepSeek é um julgamento específico da tarefa; nem entrada completa nem código executável são fornecidos."
+    ],
+    [
+      "Ursinho de goma interativo em comparação",
+      "Examine forma, translucidez e controles numa tarefa comum.",
+      "O autor compara Kimi K3.1 Pro com DeepSeek Flash 1017 usando ursinhos de goma. A comparação gravada e a demonstração animada adicional são preservadas. Ele prefere DeepSeek. Sua alegação separada de roteamento para Tripo não foi verificada nem é comprovada por essas imagens."
+    ],
+    [
+      "Fogueira em três modelos",
+      "Compare iluminação e estrutura da cena separadamente dos custos.",
+      "A gravação identifica DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash e Kimi K3.1 Pro numa tarefa de fogueira. Os rótulos mostram, respectivamente, $0.54, $0.22 e $1.88. O autor diz que a entrada era igual; são rótulos da fonte para esta tarefa, não preços ou medições de desempenho verificados independentemente."
+    ],
+    [
+      "Ilha de ciclismo em voxels em comparação",
+      "Compare esforço de iteração além da cena visível.",
+      "O criador compara Kimi K3.1 Pro e Opus 5.5 numa ilha de ciclismo em voxels. Relata várias iterações para Kimi contra uma para Opus e considera duros os limites de uso do Kimi. O vídeo sustenta diferenças visuais; contagens de iteração e experiência de assinatura continuam sendo relatos da fonte."
+    ],
+    [
+      "Comparação da cena de voo Alpine Gold",
+      "Mantenha visíveis os ajustes de raciocínio e custos ao comparar cenas.",
+      "EnvolDev compara Kimi K3.1 Pro max com Opus 5.5 xhigh na tarefa Alpine Gold. A fonte relata $24.12 e 1h 12m para Kimi, contra $31.85 e 2h 45m para Opus. O autor prefere Opus. São ajustes de esforço diferentes e custos relatados, não uma classificação controlada apenas dos modelos."
+    ],
+    [
+      "Floating Kingdom em quatro modelos",
+      "Compare um pedido de cena em arquivo único em quatro saídas identificadas.",
+      "O criador diz que os quatro modelos receberam a mesma tarefa HTML Floating Kingdom. O vídeo compara Opus 5.5, DeepSeek Flash 1017, GPT-6 Astra e Kimi K3.1 Pro. Relata 25 minutos e cerca de $3 para Kimi, mas prefere o custo-benefício de DeepSeek. Tempos e custos são relatos da fonte; as implementações completas não estão incluídas."
+    ],
+    [
+      "Casa interativa em corte em comparação",
+      "Examine cômodos e controles preservando os ajustes de esforço desiguais.",
+      "O criador compara uma casa em corte num único HTML feita com Kimi high e GPT-6 Astra extra high. Relata 15 minutos e cerca de $1.70 para Kimi contra 30 minutos e cerca de $6 para Astra. A gravação mostra interiores e controles; seu funcionamento e os custos não foram testados novamente de forma independente."
+    ],
+    [
+      "Interação com gelatina arco-íris em comparação",
+      "Examine deformação e iluminação junto das interações solicitadas.",
+      "O autor compara Kimi K3.1 Pro e Opus 5.5 numa gelatina arco-íris que pode ser cortada, pregada e queimada com maçarico. Relata $1.50 e 17 minutos para Kimi contra $8 e 52 minutos para Opus. A gravação mostra deformações diferentes e iluminação colorida; não verifica cada interação nem as cobranças."
+    ],
+    [
+      "Mostra 3D de vinte cenas",
+      "Use uma compilação para examinar variedade sem multiplicar uma fonte.",
+      "O autor compartilha uma compilação de dez minutos anunciada como 20 cenas de Kimi K3.1 Pro. Trechos amostrados mostram paisagem subaquática, biblioteca, castelo num cânion, farol sob tempestade e outros ambientes. É preservada como uma única mostra. Prompts completos, código, procedência dos recursos e registros independentes de geração não são fornecidos."
+    ],
+    [
+      "Farol em três modelos",
+      "Compare qualidade com as condições declaradas de raciocínio e custo.",
+      "EnvolDev compara Kimi K3.1 Pro max com Opus 5.5 e GPT-6 Astra numa cena de farol. Relata $23.42, $53 e $42 respectivamente e prefere os dois concorrentes. O post também descreve uma execução Kimi high mais barata, separada da gravação max. São resultados relatados pela fonte."
+    ],
+    [
+      "Modelagem com ferramentas especializadas",
+      "Confira o ambiente de ferramentas antes de atribuir um resultado de modelagem.",
+      "O autor compartilha uma captura de modelagem de personagem e diz que a qualidade muda bastante com ferramentas especializadas em Kimi Code ou no aplicativo. É sua observação do fluxo, não um teste isolado do modelo ou prova de um backend específico de terceiros. O registro completo de construção não é fornecido."
+    ],
+    [
+      "Olho de goma deformável em comparação",
+      "Compare cobertura de instruções além de deformação e custo.",
+      "O criador compara Kimi K3.1 Pro, GPT-6 Astra e Opus 5.5 num olho de goma que pode ser cutucado, esticado, arremessado e levantado pelo nervo. Relata oito minutos e $0.24 para Kimi, dizendo que só Opus cumpriu todo o pedido. As saídas gravadas e a avaliação são evidências da fonte, não uma repetição funcional."
+    ],
+    [
+      "Torre procedural mostrada no Blender",
+      "Examine um exemplo procedural sem generalizar para todo fluxo 3D.",
+      "O criador atribui uma torre a Kimi K3.1 Pro usando bpy e diz que nenhum modelo separado de geração 3D participou. O vídeo mostra a torre e a interface do Blender. A alegação se limita a este exemplo; registro completo e código não são fornecidos, e ela não estabelece o roteamento de outras tarefas Kimi."
+    ],
+    [
+      "Construção de blocos e contagem de tentativas",
+      "Leia conclusão e novas tentativas separadamente da preferência visual.",
+      "O autor compara Opus 5.5 e Kimi K3.1 Pro numa construção declarada de 3,915 blocos. O post relata ambos chegando a 3,915/3,915, com Opus em 6m 40s/zero novas tentativas e Kimi em 8m 25s/duas novas tentativas. O vídeo identifica Kimi com 9m 25s/três novas tentativas. Os custos indicados são $12.40 e $8.91. Os registros conflitantes de tempo e tentativas não são conciliados; logs e procedimento de contagem não são fornecidos."
+    ],
+    [
+      "Esfinge de voxels com referência anterior de Opus",
+      "Compare formas de voxels sem tratar posts separados como repetição controlada.",
+      "O criador compartilha uma esfinge Kimi K3.1 Pro max com rotação e zoom, citando uma esfinge anterior Opus 5.5 max. As duas gravações são preservadas com suas atribuições originais. O vídeo anterior é um comparador separado, não outra saída Kimi; código completo e condições idênticas de execução não são estabelecidos."
+    ],
+    [
+      "Pelicano em pista noturna em forma de oito",
+      "Examine curvas, mudanças de altura e câmera numa cena 3D.",
+      "FiniYang compartilha um pelicano pedalando num percurso noturno em oito e relata cerca de 8% do uso mensal da assinatura. A gravação mostra curvas, rampas e vistas variadas. O uso da cota é relatado pela fonte. A funcionalidade completa do jogo não foi estabelecida de forma independente; entrada completa e implementação executável não são fornecidas."
+    ],
+    [
+      "Voo sobre espada por um desfiladeiro montanhoso",
+      "Examine movimento e vistas de câmera numa cena de fantasia identificada.",
+      "FiniYang compartilha uma cena Kimi K3.1 Pro identificada como voo sobre espada entre nuvens. A gravação mostra uma figura de branco passando por penhascos rochosos, uma grande estátua e edifícios no topo das montanhas, com controles de vista. O post especula sobre ferramentas 3D de terceiros, mas a gravação não estabelece um backend específico nem funcionalidade completa de jogo."
+    ],
+    [
+      "Pelicano empinando por cinquenta metros",
+      "Compare uma saída Kimi com dois concorrentes hospedados de formas diferentes.",
+      "O criador reutiliza um resultado API de Kimi K3.1 Pro max contra Sonnet 5.5 high e Gemini 4 Argon high via chat web. Ambos os vídeos são preservados como uma obra. Relata uma instrução, nenhuma correção iterativa e 21m 05s/$0.56 para Kimi. Ambientes e ajustes de raciocínio diferentes impedem uma comparação controlada apenas dos modelos."
+    ],
+    [
+      "Dimensão final inspirada em Minecraft",
+      "Examine uma atualização conjunta sem atribuir todo recurso a Kimi.",
+      "O criador credita Opus 5.5 e Kimi K3.1 por esta atualização inspirada em Minecraft. A gravação mostra uma dimensão no estilo End e um encontro com dragão. O autor descreve planos para mais dimensões e inimigos; o vídeo não estabelece esses planos, um lançamento público ou a contribuição exata de cada modelo."
+    ],
+    [
+      "Efeitos visuais tipo funnel no Unity",
+      "Amplie recursos preparados separando a criação dos recursos.",
+      "O criador diz ter usado Kimi 3.1 para VFX tipo funnel no Unity e considera útil para expandir trabalhos existentes. O vídeo mostra efeitos luminosos em movimento numa cena de grade. A comparação com DeepSeek é subjetiva, e o post prevê especificamente recursos preparados em vez de demonstrar a geração independente de cada recurso."
+    ],
+    [
+      "Cena de ciclismo em quatro modelos",
+      "Leia os rótulos gravados antes de julgar a comparação.",
+      "O autor compara uma cena de ciclismo identificada como Kimi K3.1 Pro, GPT-6 Astra, Gemini 4 Argon e Gemini 4 Carbon (Arena). A gravação mostra bicicletas, ciclistas e ambientes diferentes. Carbon é um rótulo anônimo da fonte; o post não estabelece identidade oficial do checkpoint, ajustes controlados ou código executável."
+    ],
+    [
+      "Pelicano com nomes de Sol conflitantes",
+      "Preserve divergências de rótulos sem conciliá-las silenciosamente.",
+      "O vídeo identifica Kimi K3.1 Pro e GPT-6.1 Sol, mas o corpo do post diz GPT-6 Sol, enquanto o título diz GPT-6.1 Sol. O criador relata teste de uma instrução e esforço high a $0.11 para Kimi e $0.18 para Sol. A comparação é preservada explicitando a divergência de nomes e os custos não verificados."
+    ],
+    [
+      "Site de portfólio tridimensional",
+      "Examine transições de layout e objetos visuais numa gravação de site.",
+      "O autor atribui a Kimi K3.1 Pro um site feito com uma instrução em 15 minutos. O vídeo mostra um portfólio com objetos flutuantes, navegação e vistas variadas. Sustenta o design visível; site implantado, entrada completa, código acessível e controles funcionais não são fornecidos."
+    ],
+    [
+      "Interrupção de cota no OpenCode Go",
+      "Inclua uma execução interrompida no resultado da tarefa de código.",
+      "O autor relata Kimi 3.1 Pro parando após sete minutos pelo OpenCode Go. A captura mostra falha de exploração, “Go usage limit exceeded” e uma execução de 7m 28s. É uma interrupção de cota observada num provedor; não estabelece a capacidade de toda assinatura nem falha de qualidade do modelo."
+    ],
+    [
+      "Benchmark de escrita criativa",
+      "Compare histórias pareadas e uso de raciocínio dentro de uma avaliação.",
+      "Lech Mazur relata Kimi K3.1 Pro high subindo de 2.35 de K3 para 2.72, com 35 vitórias, oito empates e sete derrotas em 50 prompts pareados. O post relata 34% menos tokens de raciocínio e tramas melhores. Os três gráficos são preservados. São resultados do avaliador nesse protocolo, não garantia geral de qualidade da escrita."
+    ],
+    [
+      "Notas de programação em dois ambientes",
+      "Compare resultados do mesmo modelo em ambientes de código diferentes.",
+      "Povilas Korop relata Kimi K3.1 Pro high a 59.99/70 no OpenCode e 56.89/70 no Kimi Code. A avaliação vinculada abrange qualidade de código Laravel e React-TypeScript, detecção de bugs e casos extremos. Resultados por ambiente, custos médios e tempos pertencem ao teste desse avaliador; não são repetição local."
+    ],
+    [
+      "Avaliação de alvos públicos WebExploitBench",
+      "Leia resultados por alvo junto da taxa agregada de sucesso.",
+      "O autor relata resultados caixa-preta WebExploitBench Public-5 pass@1 de 13/28 para Kimi K3.1 Pro, 12/28 para DeepSeek Flash 1017 e 10/28 para GLM-5.3-Flash. A tabela detalha cinco alvos. São resultados do avaliador nesse benchmark fixo e não estabelecem capacidade operacional ou superioridade geral em segurança."
+    ],
+    [
+      "Vídeo de lançamento interrompido por congestionamento",
+      "Separe uma tentativa de geração falha da saída de um concorrente.",
+      "O autor relata pedir o vídeo de lançamento ao Kimi K3.1 Pro e receber uma mensagem de congestionamento após 11 minutos. A gravação lado a lado mostra a sessão Kimi parada e um resultado Claude. Evidencia esta tarefa interrompida relatada, não um vídeo Kimi concluído nem uma taxa de falha medida entre usuários."
+    ],
+    [
+      "Limitação num quebra-cabeça de blocos côncavos",
+      "Examine o ponto de parada sem tratar progresso como conclusão.",
+      "O avaliador diz que Kimi K3.1 Pro melhorou em relação a K3, mas não entendeu os blocos côncavos o suficiente para avançar. A imagem compara os layouts explorados. É o relato do avaliador de uma tarefa; registro completo da tentativa ou nota agregada deste quebra-cabeça não é fornecido."
+    ],
+    [
+      "Quebra-cabeça de blocos após vinte tentativas",
+      "Inclua o número de tentativas ao apresentar um sucesso.",
+      "O avaliador relata Kimi K3.1 Pro resolvendo um quebra-cabeça de várias etapas após 20 tentativas, antes resolvido por apenas cinco outros modelos. O vídeo mostra movimento numa sala cheia de blocos. Sucesso e comparação anterior são relatos da fonte; não demonstram confiabilidade na primeira tentativa."
+    ],
+    [
+      "MazeBench com rótulos de ambiente de agente",
+      "Compare notas de labirinto sem remover o contexto do ambiente.",
+      "O avaliador relata Kimi K3.1 Pro a 2% no MazeBench e DeepSeek V4.1 Flash a 1%. O gráfico nomeia separadamente Kimi Code max e Prime Agent max entre outras combinações de modelo e ambiente. São notas relatadas específicas do benchmark; o pequeno resultado não nulo não implica confiabilidade geral de planejamento."
+    ],
+    [
+      "Tentativa de pelicano interrompida pela cota",
+      "Registre a saída incompleta e a ambiguidade de acesso da fonte.",
+      "O autor relata uma tarefa de pelicano esgotando a cota de cinco horas, com HTML copiado manualmente produzindo apenas uma estrutura. Captura de erro e página parcial são preservadas. O post também menciona uma chave API emprestada, portanto modo de acesso e descrição de cota não são conciliados silenciosamente. É uma tentativa incompleta relatada."
+    ],
+    [
+      "Precisão e voz em compromisso no ToneBench",
+      "Escolha ajustes de escrita considerando conteúdo e adequação de voz.",
+      "What’s AI relata K3.1 Pro em #7 de 83 modelos, passando de #45 para #2 em conteúdo e precisão, mas de #21 para #47 em tom e voz. Seu Elo geral se sobrepõe ao de K3, com $0.25 contra $0.36 por roteiro relatados. As conclusões dizem respeito a esse benchmark de roteiros com voz do criador e seus prompts, não a toda escrita."
+    ],
+    [
+      "Tabela de sete tarefas de programação com agentes",
+      "Leia notas por tarefa e sua rubrica antes de uma afirmação geral.",
+      "O autor compartilha avaliação de sete tarefas: 3D web, iOS/Rust, animação interativa, HarmonyOS/C++, renderização Metal, visualizações didáticas e GUI Rust. Tabela e legenda de notas são preservadas. O autor diz que K3.1 Pro max pontuou abaixo de K3 max, mas a tabela tem notas mistas por tarefa, entradas Pass herdadas e testes pendentes. Não fornece nota agregada nem execuções originais completas."
+    ],
+    [
+      "Revisão de vulnerabilidades conhecidas VulnPR-100",
+      "Compare achados, limites de tempo e custo total no mesmo conjunto de PRs.",
+      "O avaliador relata dar a Kimi K3.1 Pro 100 pull requests com vulnerabilidades conhecidas e uma hora por PR. Encontrou 47 por $124.69, contra 37 de K3 e 54 de DeepSeek Flash 1017 por $7.53. Os dois gráficos são preservados. Essas contagens e custos específicos do benchmark são relatos do avaliador, distintos de outros protocolos de caça a bugs."
     ]
   ]
 }

@@ -25,7 +25,7 @@
     },
     "intro": "Anonim Kibitz kontrol noktasının önceki kayıtları da dahil, Kimi K3.1 ve K3.1 Pro için kaynaklarına atfedilmiş topluluk gösterimleri, iş akışları ve değerlendirmeleri.",
     "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
-    "stats": "6 kategoride 83 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.",
+    "stats": "6 kategoride 125 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.",
     "evidence": "Kibitz–Kimi K3.1 Pro eşleşmesi doğrulanmamış kalıyor. Model adları, süreler, maliyetler ve kalite yargıları kaynak tarafından bildiriliyor. Kayıtlar çalıştırılabilir kodu, eksiksiz etkileşimi veya tekrarlanabilir başarıyı kanıtlamaz.",
     "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
     "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
@@ -36,7 +36,8 @@
     "open_related": "{model} kullanım senaryosu deposunu aç",
     "update_heading": "Yeni eklenenler",
     "media_labels": {
-      "GPT Astra · earlier quoted run": "GPT Astra · alıntılanan önceki çalışma"
+      "GPT Astra · earlier quoted run": "GPT Astra · alıntılanan önceki çalışma",
+      "Opus 5.5 · earlier quoted run": "Opus 5.5 · alıntılanan önceki çalışma"
     }
   },
   "cases": [
@@ -454,6 +455,216 @@
       "Plotly veri analizi iş akışı kıyaslaması",
       "Yanıt doğruluğunu araç çağrıları ve çalışma süresiyle birlikte denetleyin.",
       "Plotly veri analizi ortamında 43 görevin 42’sinin geçildiğini (98%), Kimi K3’te ise 81% olduğunu bildiriyor. Tam sınav için $13.47 ve görev başına yaklaşık 2.5 dakika medyan bildiriyor. HN yazarı bir veri sorunu görevinde Sol’un 18 sorgusuna karşı 73 sorgu belirtiyor. Sonuçlar ve maliyetler kaynak tarafından bildiriliyor."
+    ],
+    [
+      "Blender’da parçalarına ayrılan mekanik saat",
+      "Tek kayıtta parça ayrılmasını, hareketi ve yeniden birleşmeyi inceleyin.",
+      "Üretici Blender’da Python kullanarak 527 saat parçasını sıfırdan modellediğini, tek talimatla modelleme ve doğrulamanın yaklaşık 50 dakika sürdüğünü bildiriyor. API eşdeğeri kullanımı $1.50 olarak tahmin ediyor. Klip ayrılmış saatin birleşmesini gösteriyor; parça sayısı, dişli mekaniği ve maliyet kaynak bildirimidir."
+    ],
+    [
+      "Formula aracı ve web rüzgâr tüneli deneyimi",
+      "Ortak model iş akışını tek model sonucundan ayırın.",
+      "Üretici Formula aracı ve rüzgâr tüneli deneyimi için Kimi K3.1 Pro ile Claude Opus 5.5’i birlikte anıyor. 1,815 satır, 19 parça ve duyulabilir bir V6 bildiriyor. Kayıt model görüntüleyici ve hız kontrolleri gösteriyor; her modelin katkısı ve iddia edilen bir günlük yapım bağımsız olarak kanıtlanmış değil."
+    ],
+    [
+      "Skills devre dışıyken batiskaf karşılaştırması",
+      "Açıkça belirtilen araç kısıtlaması altında çıktıları karşılaştırın.",
+      "Yayıncı skills’i kapatıp Kimi ve Opus 5.5’e aynı batiskaf görevini verdiğini söylüyor. Klip Opus için $0.51 ve Kimi için $1.08 gösteriyor. Bu, görünür iki modelin kaynakça bildirilen karşılaştırmasıdır; başka Kimi iş akışlarının hangi arka ucu kullandığını kanıtlamaz."
+    ],
+    [
+      "Saat mekanizması karşılaştırması",
+      "Sonuç seçmeden önce dişlileri ve hareketli parçaları inceleyin.",
+      "Üretici kendi Kimi K3.1 Pro ve Opus 5.5 testini sunuyor. Kısa klip her modeli etiketliyor; dişliler, halkalar ve ibreler içeren farklı saat mekanizmaları gösteriyor. Tam girdi, mekanik doğruluk ve çalıştırılabilir uygulamalar sunulmuyor."
+    ],
+    [
+      "Tripo ile karakter ağı karşılaştırması",
+      "Yönlendirme iddialarını doğrulanmamış tutarak gerçek ağları karşılaştırın.",
+      "FiniYang soldaki karakteri Kimi K3.1 Pro, sağdakini doğrudan Tripo çıktısı olarak etiketliyor. İki kaynak görseli de korunuyor. Yayıncı Kimi’nin Tripo’ya yönlendirip yönlendirmediğini sorguluyor; görsel benzerlik veya farklılık bu arka uç ilişkisini kanıtlamaz. Karakterin özgün referansı görülmemiş bir yorumdan yeniden oluşturulmuyor."
+    ],
+    [
+      "Ayçiçeğindeki arı karşılaştırması",
+      "Etiketli kayıtlarda böcek detayını ve çiçek yapısını karşılaştırın.",
+      "Yayıncı arı ve ayçiçeği sahnesinde DeepSeek Flash ile Kimi K3.1’i karşılaştırıyor. Korunan video iki çıktıyı ve etiketlerini gösteriyor. Yazar DeepSeek’i tercih ediyor; tam girdi, çalıştırılabilir kaynak ve kontrollü tekrar sunulmuyor."
+    ],
+    [
+      "Konsept çiziminden buzlarla çevrili ev",
+      "Görünür sahneyi bildirilen talimat izleme farklarıyla karşılaştırın.",
+      "Yayıncı yüzen buz, dağlar, yansıtıcı su ve aydınlatılmış pencereler içeren North Reach sahnesini Kimi K3.1 Pro’ya atfediyor. Yaklaşık bir saat üretim bildiriyor ve talebi izlemekte Claude’u tercih ediyor. Kayıt sahneyi destekliyor; özgün referans, kota hesabı ve üretici sahipliği bağımsız olarak kanıtlanmış değil."
+    ],
+    [
+      "Çarkıfelek çiçeği karşılaştırması",
+      "İki çıktıda ince geometriyi ve bitki örtüsünü inceleyin.",
+      "Yayıncı çarkıfelek çiçeği sahnesinde DeepSeek Flash ve Kimi K3.1 Pro’yu yan yana koyuyor. Klip farklı çiçek ve yaprak işleyişleri gösteriyor. DeepSeek tercihi göreve özgü yargıdır; tam girdi veya çalıştırılabilir kaynak sunulmuyor."
+    ],
+    [
+      "Etkileşimli jelibon ayı karşılaştırması",
+      "Ortak görevde biçimi, yarı saydamlığı ve kontrolleri inceleyin.",
+      "Yazar jelibon ayılarla Kimi K3.1 Pro ve DeepSeek Flash 1017’yi karşılaştırıyor. Karşılaştırma kaydı ve ek animasyon gösterimi korunuyor. Yazar DeepSeek’i tercih ediyor. Ayrı Tripo yönlendirme iddiası doğrulanmamıştır ve bu görsellerle kanıtlanmaz."
+    ],
+    [
+      "Üç modelle kamp ateşi",
+      "Aydınlatmayı ve sahne yapısını maliyet etiketlerinden ayrı karşılaştırın.",
+      "Kayıt kamp ateşi görevinde DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash ve Kimi K3.1 Pro’yu etiketliyor. Sırasıyla $0.54, $0.22 ve $1.88 gösteriyor. Yayıncı girdinin aynı olduğunu söylüyor; bunlar göreve özgü kaynak etiketleridir, bağımsız doğrulanmış fiyatlar veya performans ölçümleri değildir."
+    ],
+    [
+      "Voksel bisiklet adası karşılaştırması",
+      "Görünür sahneyle birlikte yineleme çabasını karşılaştırın.",
+      "Üretici voksel bisiklet adasında Kimi K3.1 Pro ve Opus 5.5’i karşılaştırıyor. Kimi için birkaç, Opus için bir yineleme bildiriyor ve Kimi kullanım sınırlarını sert buluyor. Video görünür sahne farklarını destekliyor; yineleme sayıları ve abonelik deneyimi kaynak bildirimidir."
+    ],
+    [
+      "Alpine Gold uçuş sahnesi karşılaştırması",
+      "Sahneleri karşılaştırırken akıl yürütme ayarları ve maliyetler görünür kalsın.",
+      "EnvolDev Alpine Gold görevinde Kimi K3.1 Pro max ile Opus 5.5 xhigh’ı karşılaştırıyor. Kaynak Kimi için $24.12 ve 1h 12m, Opus için $31.85 ve 2h 45m bildiriyor. Yazar Opus’u tercih ediyor. Bunlar farklı çaba ayarları ve bildirilen maliyetlerdir; yalnızca modellerin kontrollü sıralaması değildir."
+    ],
+    [
+      "Dört modelle Floating Kingdom",
+      "Tek dosyalı sahne talebini dört etiketli çıktıda karşılaştırın.",
+      "Üretici dört modele aynı Floating Kingdom HTML görevini verdiğini söylüyor. Video Opus 5.5, DeepSeek Flash 1017, GPT-6 Astra ve Kimi K3.1 Pro’yu karşılaştırıyor. Kimi için 25 dakika ve yaklaşık $3 bildirirken fiyat-performansta DeepSeek’i tercih ediyor. Süre ve maliyetler kaynak bildirimidir; tam uygulamalar dahil değildir."
+    ],
+    [
+      "Etkileşimli kesit ev karşılaştırması",
+      "Eşit olmayan çaba ayarlarını koruyarak oda detaylarını ve kontrolleri inceleyin.",
+      "Üretici tek HTML’lik kesit evi Kimi high ve GPT-6 Astra extra high ile karşılaştırıyor. Kimi için 15 dakika ve yaklaşık $1.70, Astra için 30 dakika ve yaklaşık $6 bildiriyor. Kayıt iç mekân ve kontrolleri gösteriyor; işleyişleri ve maliyetler bağımsız olarak yeniden denenmedi."
+    ],
+    [
+      "Gökkuşağı jölesi etkileşimi karşılaştırması",
+      "Deformasyonu ve aydınlatmayı istenen etkileşimlerle birlikte inceleyin.",
+      "Yayıncı kesilebilen, çivilenebilen ve pürmüzlenebilen gökkuşağı jölesinde Kimi K3.1 Pro ile Opus 5.5’i karşılaştırıyor. Kimi için $1.50 ve 17 dakika, Opus için $8 ve 52 dakika bildiriyor. Kayıt farklı deformasyonlar ve renkli ışıklar gösteriyor; her istenen etkileşimi veya faturaları doğrulamıyor."
+    ],
+    [
+      "Yirmi sahnelik 3B gösterim",
+      "Bir kaynağı çoğaltmadan derlemeyle çeşitliliği inceleyin.",
+      "Yayıncı 20 Kimi K3.1 Pro sahnesi olarak tanıtılan on dakikalık derleme paylaşıyor. Örneklenen bölümler sualtı, kütüphane, kanyon kalesi, fırtınalı deniz feneri ve diğer ortamları gösteriyor. Tek gösterim olarak korunuyor. Tam promptlar, kod, varlık kaynağı ve bağımsız üretim kayıtları sunulmuyor."
+    ],
+    [
+      "Üç modelle deniz feneri",
+      "Kaliteyi belirtilen akıl yürütme ve maliyet koşullarıyla karşılaştırın.",
+      "EnvolDev deniz fenerinde Kimi K3.1 Pro max ile Opus 5.5 ve GPT-6 Astra’yı karşılaştırıyor. Sırasıyla $23.42, $53 ve $42 bildiriyor; iki rakibi de tercih ediyor. Gönderi max kaydından ayrı, daha ucuz bir Kimi high çalışmasını da anlatıyor. Bunlar kaynakça bildirilen sonuçlardır."
+    ],
+    [
+      "Uzmanlaşmış araçlarla modelleme",
+      "Modelleme sonucunu atfetmeden önce araç ortamını denetleyin.",
+      "Yayıncı karakter modelleme ekran görüntüsü paylaşarak Kimi Code veya uygulamadaki uzman araçlarla kalitenin çok değiştiğini söylüyor. Bu iş akışı hakkındaki gözlemidir; yalıtılmış model testi veya adı konmuş üçüncü taraf arka uç kanıtı değildir. Tam yapım izi sunulmuyor."
+    ],
+    [
+      "Yumuşak jelibon göz karşılaştırması",
+      "Talimat kapsamını deformasyon ve görev maliyetiyle birlikte karşılaştırın.",
+      "Üretici dürtülebilen, gerilebilen, atılabilen ve sinirinden kaldırılabilen jelibon gözde Kimi K3.1 Pro, GPT-6 Astra ve Opus 5.5’i karşılaştırıyor. Kimi için sekiz dakika ve $0.24 bildirirken yalnızca Opus’un tüm talebi karşıladığını söylüyor. Kayıtlı çıktılar ve değerlendirme kaynak kanıtıdır; işlevsel tekrar değildir."
+    ],
+    [
+      "Blender’da gösterilen prosedürel kule",
+      "Bir prosedürel örneği bütün 3B iş akışlarına genellemeden inceleyin.",
+      "Üretici bpy kullanan kule modelini Kimi K3.1 Pro’ya atfediyor ve ayrı 3B üretim modeli kullanılmadığını söylüyor. Klip kule ve Blender arayüzünü gösteriyor. İddia bu örnekle ilgilidir; tam yürütme izi ve kod verilmez, diğer Kimi görevlerinin yönlendirmesini kanıtlamaz."
+    ],
+    [
+      "Tuğla yapı karşılaştırması ve tekrar sayıları",
+      "Tamamlama ve tekrar etiketlerini görsel tercihten ayrı okuyun.",
+      "Yayıncı bildirilen 3,915 tuğlalık yapıda Opus 5.5 ve Kimi K3.1 Pro’yu karşılaştırıyor. Gönderi ikisinin 3,915/3,915’e ulaştığını; Opus için 6m 40s/sıfır tekrar, Kimi için 8m 25s/iki tekrar bildiriyor. Klip ise Kimi’yi 9m 25s/üç tekrar etiketliyor. Maliyetler $12.40 ve $8.91 gösteriliyor. Çelişkili süre/tekrar kayıtları uzlaştırılmıyor; temel günlükler ve sayım yöntemi sunulmuyor."
+    ],
+    [
+      "Önceki Opus referansıyla voksel sfenks",
+      "Ayrı gönderileri kontrollü tekrar saymadan voksel biçimlerini karşılaştırın.",
+      "Üretici döndürme ve yakınlaştırmalı Kimi K3.1 Pro max sfenksini paylaşırken önceki Opus 5.5 max sfenksini alıntılıyor. İki kayıt özgün model atıflarıyla korunuyor. Önceki klip ayrı karşılaştırıcıdır, başka Kimi çıktısı değildir; tam kod ve aynı yürütme koşulları kanıtlanmış değildir."
+    ],
+    [
+      "Gece sekiz biçimli pistte pelikan",
+      "3B sahnede dönüşleri, yükseklik değişimlerini ve kamera hareketini inceleyin.",
+      "FiniYang gece sekiz biçimli parkurda bisiklete binen pelikan paylaşıyor ve aylık aboneliğin yaklaşık 8% kullanımını bildiriyor. Kayıt viraj, rampa ve değişen açılar gösteriyor. Kota kullanımı kaynak bildirimidir. Tam oyun işlevi bağımsız olarak kanıtlanmış değildir; tam girdi ve çalıştırılabilir uygulama sunulmuyor."
+    ],
+    [
+      "Dağ geçidinde kılıç üzerinde uçuş",
+      "Etiketli fantastik sahnede hareketi ve kamera açılarını inceleyin.",
+      "FiniYang bulutlar arasında kılıç uçuşu etiketli Kimi K3.1 Pro sahnesi paylaşıyor. Kayıt, görünüm kontrolleriyle kayalık uçurumlar, büyük heykel ve dağ tepesi yapılarının yanından geçen beyaz giyimli figür gösteriyor. Gönderi üçüncü taraf 3B araçları hakkında spekülasyon yapıyor; kayıt belirli bir arka ucu veya tam oyun işlevini kanıtlamıyor."
+    ],
+    [
+      "Elli metrelik pelikan tek teker karşılaştırmaları",
+      "Bir Kimi sonucunu farklı ortamlardaki iki rakiple karşılaştırın.",
+      "Üretici Kimi K3.1 Pro max API sonucunu web sohbetindeki Sonnet 5.5 high ve Gemini 4 Argon high ile karşılaştırmalarda yeniden kullanıyor. İki video tek çalışma olarak korunuyor. Tek talimat, yinelemeli onarım yok ve Kimi için 21m 05s/$0.56 bildiriyor. Farklı ortamlar ve akıl yürütme ayarları yalnızca modellerin kontrollü karşılaştırmasını engelliyor."
+    ],
+    [
+      "Minecraft esintili son boyut",
+      "Ortak model oyun güncellemesini her varlığı Kimi’ye atfetmeden inceleyin.",
+      "Üretici Minecraft esintili bu güncellemeyi Opus 5.5 ve Kimi K3.1’e birlikte atfediyor. Kayıt End tarzı boyut ve ejderha karşılaşması gösteriyor. Yazar yeni boyut ve düşman planlarını anlatıyor; klip bu planları, kamuya açık yayını veya her modelin tam katkısını kanıtlamıyor."
+    ],
+    [
+      "Unity’de funnel tipi görsel efektler",
+      "Hazır varlıkları genişletirken varlık üretimini ayrı tutun.",
+      "Üretici Unity’de funnel tipi VFX için Kimi 3.1 kullandığını ve mevcut çalışmayı genişletmekte yararlı bulduğunu söylüyor. Video ızgara sahnesinde parlak hareketli efektler gösteriyor. DeepSeek karşılaştırması özneldir; gönderi her varlığın bağımsız üretimini göstermek yerine özellikle hazırlanmış varlıkları öngörüyor."
+    ],
+    [
+      "Dört modelle bisiklet sahnesi",
+      "Sahne karşılaştırmasını değerlendirmeden kayıtlı model etiketlerini okuyun.",
+      "Yayıncı Kimi K3.1 Pro, GPT-6 Astra, Gemini 4 Argon ve Gemini 4 Carbon (Arena) etiketli bisiklet sahnesini karşılaştırıyor. Kayıt farklı bisikletler, sürücüler ve çevreler gösteriyor. Anonim Carbon etiketi kaynakça sağlanmıştır; resmî kontrol noktası kimliği, kontrollü ayarlar veya çalıştırılabilir kod kanıtlanmaz."
+    ],
+    [
+      "Çelişkili Sol adıyla pelikan sahnesi",
+      "Model etiketi uyuşmazlıklarını sessizce uzlaştırmadan koruyun.",
+      "Klip Kimi K3.1 Pro ve GPT-6.1 Sol gösteriyor, ancak gönderi gövdesi GPT-6 Sol, başlığı GPT-6.1 Sol diyor. Üretici tek talimatlı high çaba testinde Kimi için $0.11, Sol için $0.18 bildiriyor. Karşılaştırma ad uyuşmazlığı ve doğrulanmamış maliyet etiketleri açıkça belirtilerek korunuyor."
+    ],
+    [
+      "Üç boyutlu portfolyo sitesi",
+      "Web sitesi kaydında düzen geçişlerini ve görsel nesneleri inceleyin.",
+      "Yayıncı tek talimatla 15 dakikalık site yapımını Kimi K3.1 Pro’ya atfediyor. Klip yüzen nesneli portfolyo arayüzü, gezinme ve değişen görünümler gösteriyor. Görünür tasarımı destekliyor; yayındaki site, tam girdi, erişilebilir kaynak ve çalışan kontroller sunulmuyor."
+    ],
+    [
+      "OpenCode Go kota kesintisi",
+      "Durmuş çalışmayı kodlama görevinin sonucuna dahil edin.",
+      "Yazar OpenCode Go üzerinden Kimi 3.1 Pro’nun yedi dakika sonra durduğunu bildiriyor. Ekran görüntüsü keşif hatası, “Go usage limit exceeded” ve 7m 28s çalışma gösteriyor. Bu bir sağlayıcıda gözlenen kota kesintisidir; her aboneliğin kapasitesini veya model kalitesi başarısızlığını kanıtlamaz."
+    ],
+    [
+      "Yaratıcı öykü yazma kıyaslaması",
+      "Bir değerlendirmede eşleşen öykü sonuçlarını ve akıl yürütme kullanımını karşılaştırın.",
+      "Lech Mazur Kimi K3.1 Pro high’ın K3’ün 2.35’inden 2.72’ye çıktığını; 50 eşlenmiş promptta 35 galibiyet, sekiz beraberlik ve yedi yenilgi bildirdi. Gönderi 34% daha az akıl yürütme tokenı ve güçlü olay örgüsü bildiriyor. Üç grafik korunuyor. Bunlar bu yazım protokolünün değerlendirici sonuçlarıdır; genel yazı kalitesi garantisi değildir."
+    ],
+    [
+      "İki ortamda kodlama puanları",
+      "Aynı modelin sonuçlarını farklı kodlama ortamlarında karşılaştırın.",
+      "Povilas Korop Kimi K3.1 Pro high için OpenCode’da 59.99/70 ve Kimi Code’da 56.89/70 bildiriyor. Bağlantılı değerlendirme Laravel ve React-TypeScript kod kalitesi, hata bulma ve uç durumları kapsıyor. Ortama özgü sonuçlar, ortalama maliyetler ve süreler bu değerlendiricinin testine aittir; yerel tekrar değildir."
+    ],
+    [
+      "WebExploitBench kamu hedefleri değerlendirmesi",
+      "Hedef başına sonuçları toplam başarı oranıyla birlikte okuyun.",
+      "Yayıncı kara kutu WebExploitBench Public-5 pass@1 sonuçlarında Kimi K3.1 Pro için 13/28, DeepSeek Flash 1017 için 12/28, GLM-5.3-Flash için 10/28 bildiriyor. Tablo beş hedefi ayırıyor. Değerlendirici sonuçları bu sabit kıyaslamayla ilgilidir; operasyonel yetenek veya genel güvenlik üstünlüğü kanıtlamaz."
+    ],
+    [
+      "Yoğunluk nedeniyle duran tanıtım videosu görevi",
+      "Başarısız üretim denemesini rakibin çıktısından ayırın.",
+      "Yazar Kimi K3.1 Pro’dan kendi tanıtım videosunu isteyip 11 dakika sonra yoğunluk mesajı aldığını bildiriyor. Yan yana kayıt Kimi’nin durmuş oturumunu ve Claude sonucunu gösteriyor. Bu bildirilen kesintili görevin kanıtıdır; bitmiş Kimi videosu veya kullanıcılar genelinde ölçülmüş hata oranı değildir."
+    ],
+    [
+      "İçbükey blok bulmacası sınırlaması",
+      "İlerlemeyi bitiş saymadan durulan noktayı inceleyin.",
+      "Değerlendirici Kimi K3.1 Pro’nun K3’e göre geliştiğini, fakat içbükey blokları daha ileri gidecek kadar anlayamadığını söylüyor. Kaynak görseli keşfedilen bulmaca düzenlerini karşılaştırıyor. Bu tek göreve ilişkin anlatımdır; tam deneme izi veya bulmacanın toplu puanı sunulmuyor."
+    ],
+    [
+      "Yirmi denemeden sonra çok aşamalı blok bulmacası",
+      "Başarılı sonucu sunarken deneme sayısını da ekleyin.",
+      "Değerlendirici Kimi K3.1 Pro’nun çok aşamalı bulmacayı 20 denemede çözdüğünü ve daha önce yalnızca beş modelin çözdüğünü bildiriyor. Video blok dolu odada hareket gösteriyor. Başarı ve önceki modellerle karşılaştırma kaynak bildirimidir; tek deneme güvenilirliğinin kanıtı değildir."
+    ],
+    [
+      "Ajan ortamı etiketleriyle MazeBench",
+      "Ortam bağlamını çıkarmadan labirent puanlarını karşılaştırın.",
+      "Değerlendirici MazeBench’te Kimi K3.1 Pro için 2%, DeepSeek V4.1 Flash için 1% bildiriyor. Grafik diğer model-ortam birleşimleri yanında Kimi Code max ile Prime Agent max’i ayrı adlandırıyor. Bunlar kıyaslamaya özgü bildirilen puanlardır; küçük sıfır dışı sonuç genel planlama güvenilirliği anlamına gelmez."
+    ],
+    [
+      "Kotayla kesilen pelikan denemesi",
+      "Eksik çıktıyı ve kaynağın erişim biçimi belirsizliğini kaydedin.",
+      "Yazar pelikan görevinin beş saatlik kotayı tükettiğini, elle kopyalanan HTML’nin yalnızca iskelet ürettiğini bildiriyor. Hata görüntüsü ve kısmi sayfa korunuyor. Gönderi ödünç API anahtarı da anıyor; erişim biçimi ve kota ifadeleri sessizce uzlaştırılmıyor. Bu bildirilen tek eksik denemedir."
+    ],
+    [
+      "ToneBench’te doğruluk ve üslup dengesi",
+      "Yazı ayarlarını içerik ve ses eşleşmesiyle birlikte seçin.",
+      "What’s AI K3.1 Pro’yu 83 modelde #7 bildiriyor; içerik ve doğrulukta #45’ten #2’ye, ton ve seste #21’den #47’ye gidiyor. Genel Elo’su K3 ile örtüşüyor; senaryo başına $0.25 ve $0.36 bildiriliyor. Bulgular bu üretici sesiyle senaryo kıyaslaması ve promptlarıyla ilgilidir; tüm yazım görevleriyle değil."
+    ],
+    [
+      "Yedi görevlik ajan kodlama not tablosu",
+      "Genel iddiadan önce göreve özgü notları ve ölçütü okuyun.",
+      "Yayıncı web 3B, iOS/Rust, etkileşimli animasyon, HarmonyOS/C++, Metal render, öğretim görselleştirmeleri ve Rust GUI içeren yedi görevlik değerlendirme paylaşıyor. Tablo ve not açıklaması korunuyor. Yayıncı K3.1 Pro max’in K3 max’in altında puan aldığını söylüyor; ancak tabloda karma görev notları, devralınan Pass girdileri ve bekleyen testler var. Toplam puan veya özgün tam çalışmalar sunulmuyor."
+    ],
+    [
+      "VulnPR-100 bilinen açık incelemesi",
+      "Aynı PR kümesinde bulguları, süre sınırlarını ve toplam maliyeti karşılaştırın.",
+      "Değerlendirici Kimi K3.1 Pro’ya bilinen açıklar içeren 100 pull request ve PR başına bir saat verdiğini bildiriyor. $124.69 karşılığında 47 buldu; K3 37, DeepSeek Flash 1017 $7.53 karşılığında 54 bulmuştu. İki grafik korunuyor. Kıyaslamaya özgü sayılar ve maliyetler değerlendirici bildirimidir; diğer hata avı protokollerinden ayrıdır."
     ]
   ]
 }

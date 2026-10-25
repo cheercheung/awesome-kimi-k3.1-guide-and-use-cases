@@ -1,10 +1,10 @@
 # Update Log and Curated Case Register
 
-## 2026-10-24
+## 2026-10-25
 
-83 independent works across six categories; 105 retained media assets. Reposts and comparisons remain attached to their underlying work.
+125 independent works across six categories; 156 retained media assets. Reposts and comparisons remain attached to their underlying work.
 
-2026-10-23: 40 initial cases. 2026-10-24: 43 additional cases. Initial-release case identifiers are preserved.
+2026-10-23: 40 initial cases. 2026-10-24: 43 additional cases. 2026-10-25: 42 additional cases. Initial-release case identifiers are preserved.
 
 This generated Markdown register mirrors the canonical JSON. Dates use the UTC publication date of each primary source.
 
@@ -93,3 +93,45 @@ This generated Markdown register mirrors the canonical JSON. Dates use the UTC p
 | 81 | [Agentic work and terminal evaluation](https://x.com/ArtificialAnlys/status/2113688083145314416) | [@ArtificialAnlys](https://x.com/ArtificialAnlys) | comparison | Benchmark | 2026-10-23 |
 | 82 | [Cyber-risk reduction benchmark conditions](https://news.ycombinator.com/item?id=50213450) | [@yorwba](https://news.ycombinator.com/user?id=yorwba) | comparison | Benchmark | 2026-10-23 |
 | 83 | [Plotly data-analytics workflow benchmark](https://news.ycombinator.com/item?id=50217436) | [@chriddyp](https://news.ycombinator.com/user?id=chriddyp) | comparison | Benchmark | 2026-10-24 |
+| 84 | [Exploded mechanical watch in Blender](https://x.com/Majin_AppSheet/status/2114218441813250086) | [@Majin_AppSheet](https://x.com/Majin_AppSheet) | mechanical | Demo | 2026-10-25 |
+| 85 | [Formula car and wind-tunnel web experience](https://x.com/ka1manov/status/2114064765731721480) | [@ka1manov](https://x.com/ka1manov) | mechanical | Demo | 2026-10-24 |
+| 86 | [Bathyscaphe comparison with skills disabled](https://x.com/kenonews/status/2114057423023431922) | [@kenonews](https://x.com/kenonews) | mechanical | Evaluation | 2026-10-24 |
+| 87 | [Clockwork mechanism comparison](https://x.com/heyfudji/status/2113997305242394627) | [@heyfudji](https://x.com/heyfudji) | mechanical | Evaluation | 2026-10-24 |
+| 88 | [Character mesh comparison with Tripo](https://x.com/FiniYang/status/2114226084707442716) | [@FiniYang](https://x.com/FiniYang) | worlds | Evaluation | 2026-10-25 |
+| 89 | [Bee on a sunflower comparison](https://x.com/loktar00/status/2114195241997840671) | [@loktar00](https://x.com/loktar00) | worlds | Evaluation | 2026-10-25 |
+| 90 | [Icebound house from concept art](https://x.com/SahilExec/status/2114183814339862882) | [@SahilExec](https://x.com/SahilExec) | worlds | Evaluation | 2026-10-25 |
+| 91 | [Passion flower comparison](https://x.com/loktar00/status/2114149692523311578) | [@loktar00](https://x.com/loktar00) | worlds | Evaluation | 2026-10-25 |
+| 92 | [Interactive gummy bear comparison](https://x.com/leo114119/status/2114145338256998843) | [@leo114119](https://x.com/leo114119) | worlds | Evaluation | 2026-10-25 |
+| 93 | [Campfire across three models](https://x.com/rubenssoto_ai/status/2114092835729445213) | [@rubenssoto_ai](https://x.com/rubenssoto_ai) | worlds | Evaluation | 2026-10-24 |
+| 94 | [Voxel cycling island comparison](https://x.com/filicroval/status/2114085656779731171) | [@filicroval](https://x.com/filicroval) | worlds | Evaluation | 2026-10-24 |
+| 95 | [Alpine Gold flight-scene comparison](https://x.com/EnvolDev/status/2114085222044299723) | [@EnvolDev](https://x.com/EnvolDev) | worlds | Evaluation | 2026-10-24 |
+| 96 | [Floating Kingdom across four models](https://x.com/marcthecreatorr/status/2114074078340649183) | [@marcthecreatorr](https://x.com/marcthecreatorr) | worlds | Evaluation | 2026-10-24 |
+| 97 | [Interactive cutaway house comparison](https://x.com/marcthecreatorr/status/2113910766781055052) | [@marcthecreatorr](https://x.com/marcthecreatorr) | worlds | Evaluation | 2026-10-24 |
+| 98 | [Rainbow jelly interaction comparison](https://x.com/0xRhinoX/status/2114059647233495351) | [@0xRhinoX](https://x.com/0xRhinoX) | worlds | Evaluation | 2026-10-24 |
+| 99 | [Twenty-scene 3D showcase](https://x.com/quimedesu/status/2114046543783202899) | [@quimedesu](https://x.com/quimedesu) | worlds | Demo | 2026-10-24 |
+| 100 | [Lighthouse across three models](https://x.com/EnvolDev/status/2114037839281508431) | [@EnvolDev](https://x.com/EnvolDev) | worlds | Evaluation | 2026-10-24 |
+| 101 | [Modelling with specialized tools](https://x.com/yugen_matuni/status/2114026044395331722) | [@yugen_matuni](https://x.com/yugen_matuni) | worlds | Evaluation | 2026-10-24 |
+| 102 | [Soft-body gummy eyeball comparison](https://x.com/daveeyyy_/status/2114014158102397168) | [@daveeyyy_](https://x.com/daveeyyy_) | worlds | Evaluation | 2026-10-24 |
+| 103 | [Procedural tower shown in Blender](https://x.com/thebuggeddev/status/2114014134480372210) | [@thebuggeddev](https://x.com/thebuggeddev) | worlds | Demo | 2026-10-24 |
+| 104 | [Brick-build comparison and retry counts](https://x.com/thegreatest_sv/status/2114011783476441136) | [@thegreatest_sv](https://x.com/thegreatest_sv) | worlds | Evaluation | 2026-10-24 |
+| 105 | [Voxel sphinx with an earlier Opus reference](https://x.com/diegocabezas01/status/2113965730014109802) | [@diegocabezas01](https://x.com/diegocabezas01) | worlds | Evaluation | 2026-10-24 |
+| 106 | [Pelican on a night-time figure-eight track](https://x.com/FiniYang/status/2113791833822372172) | [@FiniYang](https://x.com/FiniYang) | games | Demo | 2026-10-24 |
+| 107 | [Sword flight through a mountain gorge](https://x.com/FiniYang/status/2114200775060799504) | [@FiniYang](https://x.com/FiniYang) | games | Demo | 2026-10-25 |
+| 108 | [Fifty-metre pelican wheelie comparisons](https://x.com/VulKan42069/status/2114085091261682016) | [@VulKan42069](https://x.com/VulKan42069) | games | Evaluation | 2026-10-24 |
+| 109 | [Minecraft-inspired final dimension](https://x.com/kepochnik/status/2114044255727702423) | [@kepochnik](https://x.com/kepochnik) | games | Demo | 2026-10-24 |
+| 110 | [Unity funnel-type visual effects](https://x.com/yugen_matuni/status/2113893761105461253) | [@yugen_matuni](https://x.com/yugen_matuni) | games | Demo | 2026-10-24 |
+| 111 | [Four-model cycling scene](https://x.com/AI_Screening/status/2114018402033692976) | [@AI_Screening](https://x.com/AI_Screening) | games | Evaluation | 2026-10-24 |
+| 112 | [Pelican scene with conflicting Sol naming](https://x.com/VulKan42069/status/2113957931305848987) | [@VulKan42069](https://x.com/VulKan42069) | games | Evaluation | 2026-10-24 |
+| 113 | [Three-dimensional portfolio website](https://x.com/MikuBTC/status/2114063038387036634) | [@MikuBTC](https://x.com/MikuBTC) | web | Demo | 2026-10-24 |
+| 114 | [OpenCode Go quota interruption](https://x.com/localhost_4173/status/2114168114028130714) | [@localhost_4173](https://x.com/localhost_4173) | comparison | Limit | 2026-10-25 |
+| 115 | [Creative story-writing benchmark](https://x.com/LechMazur/status/2114092500541415649) | [@LechMazur](https://x.com/LechMazur) | comparison | Benchmark | 2026-10-24 |
+| 116 | [Coding scores across two harnesses](https://x.com/PovilasKorop/status/2114046844380537187) | [@PovilasKorop](https://x.com/PovilasKorop) | comparison | Benchmark | 2026-10-24 |
+| 117 | [WebExploitBench public-target evaluation](https://x.com/migtissera/status/2114029692147950008) | [@migtissera](https://x.com/migtissera) | comparison | Benchmark | 2026-10-24 |
+| 118 | [Launch-video task stopped by congestion](https://x.com/whydeso/status/2114028190050254878) | [@whydeso](https://x.com/whydeso) | comparison | Limit | 2026-10-24 |
+| 119 | [Concave-block puzzle limitation](https://x.com/patience_cave/status/2114025446069403836) | [@patience_cave](https://x.com/patience_cave) | comparison | Limit | 2026-10-24 |
+| 120 | [Multistep block puzzle after twenty attempts](https://x.com/patience_cave/status/2114024288974156237) | [@patience_cave](https://x.com/patience_cave) | comparison | Evaluation | 2026-10-24 |
+| 121 | [MazeBench with agent harness labels](https://x.com/patience_cave/status/2114024186901623249) | [@patience_cave](https://x.com/patience_cave) | comparison | Benchmark | 2026-10-24 |
+| 122 | [Quota-interrupted pelican attempt](https://x.com/Lonely__MH/status/2114022528599654743) | [@Lonely__MH](https://x.com/Lonely__MH) | comparison | Limit | 2026-10-24 |
+| 123 | [ToneBench accuracy and voice tradeoff](https://x.com/Whats_AI/status/2114015091838398600) | [@Whats_AI](https://x.com/Whats_AI) | comparison | Benchmark | 2026-10-24 |
+| 124 | [Seven-task agentic coding grade table](https://x.com/ai_funss/status/2114012839623131298) | [@ai_funss](https://x.com/ai_funss) | comparison | Evaluation | 2026-10-24 |
+| 125 | [VulnPR-100 known-vulnerability review](https://x.com/Zaddyzaddy/status/2113973761502253210) | [@Zaddyzaddy](https://x.com/Zaddyzaddy) | comparison | Benchmark | 2026-10-24 |

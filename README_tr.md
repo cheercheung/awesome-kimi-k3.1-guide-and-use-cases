@@ -27,7 +27,7 @@ Anonim Kibitz kontrol noktasının önceki kayıtları da dahil, Kimi K3.1 ve K3
 <a id="overview"></a>
 ## 📊 Genel bakış
 
-6 kategoride 83 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.
+6 kategoride 125 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.
 
 > [!NOTE]
 > Kibitz–Kimi K3.1 Pro eşleşmesi doğrulanmamış kalıyor. Model adları, süreler, maliyetler ve kalite yargıları kaynak tarafından bildiriliyor. Kayıtlar çalıştırılabilir kodu, eksiksiz etkileşimi veya tekrarlanabilir başarıyı kanıtlamaz.
@@ -129,6 +129,48 @@ Anonim Kibitz kontrol noktasının önceki kayıtları da dahil, Kimi K3.1 ve K3
 | [81. Ajan işi ve terminal değerlendirmesi](#case-81) | Model karşılaştırması | Benchmark |
 | [82. Siber risk azaltma kıyaslamasının koşulları](#case-82) | Model karşılaştırması | Benchmark |
 | [83. Plotly veri analizi iş akışı kıyaslaması](#case-83) | Model karşılaştırması | Benchmark |
+| [84. Blender’da parçalarına ayrılan mekanik saat](#case-84) | Mekanik ve 3B nesneler | Demo |
+| [85. Formula aracı ve web rüzgâr tüneli deneyimi](#case-85) | Mekanik ve 3B nesneler | Demo |
+| [86. Skills devre dışıyken batiskaf karşılaştırması](#case-86) | Mekanik ve 3B nesneler | Evaluation |
+| [87. Saat mekanizması karşılaştırması](#case-87) | Mekanik ve 3B nesneler | Evaluation |
+| [88. Tripo ile karakter ağı karşılaştırması](#case-88) | Dünyalar ve manzaralar | Evaluation |
+| [89. Ayçiçeğindeki arı karşılaştırması](#case-89) | Dünyalar ve manzaralar | Evaluation |
+| [90. Konsept çiziminden buzlarla çevrili ev](#case-90) | Dünyalar ve manzaralar | Evaluation |
+| [91. Çarkıfelek çiçeği karşılaştırması](#case-91) | Dünyalar ve manzaralar | Evaluation |
+| [92. Etkileşimli jelibon ayı karşılaştırması](#case-92) | Dünyalar ve manzaralar | Evaluation |
+| [93. Üç modelle kamp ateşi](#case-93) | Dünyalar ve manzaralar | Evaluation |
+| [94. Voksel bisiklet adası karşılaştırması](#case-94) | Dünyalar ve manzaralar | Evaluation |
+| [95. Alpine Gold uçuş sahnesi karşılaştırması](#case-95) | Dünyalar ve manzaralar | Evaluation |
+| [96. Dört modelle Floating Kingdom](#case-96) | Dünyalar ve manzaralar | Evaluation |
+| [97. Etkileşimli kesit ev karşılaştırması](#case-97) | Dünyalar ve manzaralar | Evaluation |
+| [98. Gökkuşağı jölesi etkileşimi karşılaştırması](#case-98) | Dünyalar ve manzaralar | Evaluation |
+| [99. Yirmi sahnelik 3B gösterim](#case-99) | Dünyalar ve manzaralar | Demo |
+| [100. Üç modelle deniz feneri](#case-100) | Dünyalar ve manzaralar | Evaluation |
+| [101. Uzmanlaşmış araçlarla modelleme](#case-101) | Dünyalar ve manzaralar | Evaluation |
+| [102. Yumuşak jelibon göz karşılaştırması](#case-102) | Dünyalar ve manzaralar | Evaluation |
+| [103. Blender’da gösterilen prosedürel kule](#case-103) | Dünyalar ve manzaralar | Demo |
+| [104. Tuğla yapı karşılaştırması ve tekrar sayıları](#case-104) | Dünyalar ve manzaralar | Evaluation |
+| [105. Önceki Opus referansıyla voksel sfenks](#case-105) | Dünyalar ve manzaralar | Evaluation |
+| [106. Gece sekiz biçimli pistte pelikan](#case-106) | Oyunlar ve animasyon sahneleri | Demo |
+| [107. Dağ geçidinde kılıç üzerinde uçuş](#case-107) | Oyunlar ve animasyon sahneleri | Demo |
+| [108. Elli metrelik pelikan tek teker karşılaştırmaları](#case-108) | Oyunlar ve animasyon sahneleri | Evaluation |
+| [109. Minecraft esintili son boyut](#case-109) | Oyunlar ve animasyon sahneleri | Demo |
+| [110. Unity’de funnel tipi görsel efektler](#case-110) | Oyunlar ve animasyon sahneleri | Demo |
+| [111. Dört modelle bisiklet sahnesi](#case-111) | Oyunlar ve animasyon sahneleri | Evaluation |
+| [112. Çelişkili Sol adıyla pelikan sahnesi](#case-112) | Oyunlar ve animasyon sahneleri | Evaluation |
+| [113. Üç boyutlu portfolyo sitesi](#case-113) | Web arayüzleri | Demo |
+| [114. OpenCode Go kota kesintisi](#case-114) | Model karşılaştırması | Limit |
+| [115. Yaratıcı öykü yazma kıyaslaması](#case-115) | Model karşılaştırması | Benchmark |
+| [116. İki ortamda kodlama puanları](#case-116) | Model karşılaştırması | Benchmark |
+| [117. WebExploitBench kamu hedefleri değerlendirmesi](#case-117) | Model karşılaştırması | Benchmark |
+| [118. Yoğunluk nedeniyle duran tanıtım videosu görevi](#case-118) | Model karşılaştırması | Limit |
+| [119. İçbükey blok bulmacası sınırlaması](#case-119) | Model karşılaştırması | Limit |
+| [120. Yirmi denemeden sonra çok aşamalı blok bulmacası](#case-120) | Model karşılaştırması | Evaluation |
+| [121. Ajan ortamı etiketleriyle MazeBench](#case-121) | Model karşılaştırması | Benchmark |
+| [122. Kotayla kesilen pelikan denemesi](#case-122) | Model karşılaştırması | Limit |
+| [123. ToneBench’te doğruluk ve üslup dengesi](#case-123) | Model karşılaştırması | Benchmark |
+| [124. Yedi görevlik ajan kodlama not tablosu](#case-124) | Model karşılaştırması | Evaluation |
+| [125. VulnPR-100 bilinen açık incelemesi](#case-125) | Model karşılaştırması | Benchmark |
 | [Genel bakış](#overview) | Genel bakış | |
 | [Hızlı başlangıç](#quick-start) | Hızlı başlangıç | |
 | [İlgili depolar](#related-repositories) | İlgili depolar | |
@@ -1298,6 +1340,576 @@ Tür: Benchmark | Tarih: 2026-10-24
 
 ---
 
+<a id="updates-2026-10-25"></a>
+## 🆕 Yeni eklenenler · 2026-10-25
+
+<a id="update-2026-10-25-mechanical"></a>
+## ⚙️ Mekanik ve 3B nesneler
+
+<a id="case-84"></a>
+### Örnek 84: [Blender’da parçalarına ayrılan mekanik saat](https://x.com/Majin_AppSheet/status/2114218441813250086) (paylaşan [@Majin_AppSheet](https://x.com/Majin_AppSheet))
+
+**Tek kayıtta parça ayrılmasını, hareketi ve yeniden birleşmeyi inceleyin.**
+
+Üretici Blender’da Python kullanarak 527 saat parçasını sıfırdan modellediğini, tek talimatla modelleme ve doğrulamanın yaklaşık 50 dakika sürdüğünü bildiriyor. API eşdeğeri kullanımı $1.50 olarak tahmin ediyor. Klip ayrılmış saatin birleşmesini gösteriyor; parça sayısı, dişli mekaniği ve maliyet kaynak bildirimidir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114218264457015296.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114218264457015296-poster.jpg" alt="Blender’da parçalarına ayrılan mekanik saat — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-25
+
+---
+
+<a id="case-85"></a>
+### Örnek 85: [Formula aracı ve web rüzgâr tüneli deneyimi](https://x.com/ka1manov/status/2114064765731721480) (paylaşan [@ka1manov](https://x.com/ka1manov))
+
+**Ortak model iş akışını tek model sonucundan ayırın.**
+
+Üretici Formula aracı ve rüzgâr tüneli deneyimi için Kimi K3.1 Pro ile Claude Opus 5.5’i birlikte anıyor. 1,815 satır, 19 parça ve duyulabilir bir V6 bildiriyor. Kayıt model görüntüleyici ve hız kontrolleri gösteriyor; her modelin katkısı ve iddia edilen bir günlük yapım bağımsız olarak kanıtlanmış değil.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114064469772931072.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114064469772931072-poster.jpg" alt="Formula aracı ve web rüzgâr tüneli deneyimi — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-24
+
+---
+
+<a id="case-86"></a>
+### Örnek 86: [Skills devre dışıyken batiskaf karşılaştırması](https://x.com/kenonews/status/2114057423023431922) (paylaşan [@kenonews](https://x.com/kenonews))
+
+**Açıkça belirtilen araç kısıtlaması altında çıktıları karşılaştırın.**
+
+Yayıncı skills’i kapatıp Kimi ve Opus 5.5’e aynı batiskaf görevini verdiğini söylüyor. Klip Opus için $0.51 ve Kimi için $1.08 gösteriyor. Bu, görünür iki modelin kaynakça bildirilen karşılaştırmasıdır; başka Kimi iş akışlarının hangi arka ucu kullandığını kanıtlamaz.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114057348612329472.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114057348612329472-poster.jpg" alt="Skills devre dışıyken batiskaf karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-87"></a>
+### Örnek 87: [Saat mekanizması karşılaştırması](https://x.com/heyfudji/status/2113997305242394627) (paylaşan [@heyfudji](https://x.com/heyfudji))
+
+**Sonuç seçmeden önce dişlileri ve hareketli parçaları inceleyin.**
+
+Üretici kendi Kimi K3.1 Pro ve Opus 5.5 testini sunuyor. Kısa klip her modeli etiketliyor; dişliler, halkalar ve ibreler içeren farklı saat mekanizmaları gösteriyor. Tam girdi, mekanik doğruluk ve çalıştırılabilir uygulamalar sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113996974965895168.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113996974965895168-poster.jpg" alt="Saat mekanizması karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="update-2026-10-25-worlds"></a>
+## 🏞️ Dünyalar ve manzaralar
+
+<a id="case-88"></a>
+### Örnek 88: [Tripo ile karakter ağı karşılaştırması](https://x.com/FiniYang/status/2114226084707442716) (paylaşan [@FiniYang](https://x.com/FiniYang))
+
+**Yönlendirme iddialarını doğrulanmamış tutarak gerçek ağları karşılaştırın.**
+
+FiniYang soldaki karakteri Kimi K3.1 Pro, sağdakini doğrudan Tripo çıktısı olarak etiketliyor. İki kaynak görseli de korunuyor. Yayıncı Kimi’nin Tripo’ya yönlendirip yönlendirmediğini sorguluyor; görsel benzerlik veya farklılık bu arka uç ilişkisini kanıtlamaz. Karakterin özgün referansı görülmemiş bir yorumdan yeniden oluşturulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114224951406530560.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114224951406530560.jpg" alt="Tripo ile karakter ağı karşılaştırması — 1" width="480"></a><br>Kaynak görseli aç</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114224951431733248.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114224951431733248.jpg" alt="Tripo ile karakter ağı karşılaştırması — 2" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-25
+
+---
+
+<a id="case-89"></a>
+### Örnek 89: [Ayçiçeğindeki arı karşılaştırması](https://x.com/loktar00/status/2114195241997840671) (paylaşan [@loktar00](https://x.com/loktar00))
+
+**Etiketli kayıtlarda böcek detayını ve çiçek yapısını karşılaştırın.**
+
+Yayıncı arı ve ayçiçeği sahnesinde DeepSeek Flash ile Kimi K3.1’i karşılaştırıyor. Korunan video iki çıktıyı ve etiketlerini gösteriyor. Yazar DeepSeek’i tercih ediyor; tam girdi, çalıştırılabilir kaynak ve kontrollü tekrar sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114150101278957568.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114150101278957568-poster.jpg" alt="Ayçiçeğindeki arı karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-25
+
+---
+
+<a id="case-90"></a>
+### Örnek 90: [Konsept çiziminden buzlarla çevrili ev](https://x.com/SahilExec/status/2114183814339862882) (paylaşan [@SahilExec](https://x.com/SahilExec))
+
+**Görünür sahneyi bildirilen talimat izleme farklarıyla karşılaştırın.**
+
+Yayıncı yüzen buz, dağlar, yansıtıcı su ve aydınlatılmış pencereler içeren North Reach sahnesini Kimi K3.1 Pro’ya atfediyor. Yaklaşık bir saat üretim bildiriyor ve talebi izlemekte Claude’u tercih ediyor. Kayıt sahneyi destekliyor; özgün referans, kota hesabı ve üretici sahipliği bağımsız olarak kanıtlanmış değil.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113889520164966400.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113889520164966400-poster.jpg" alt="Konsept çiziminden buzlarla çevrili ev — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-25
+
+---
+
+<a id="case-91"></a>
+### Örnek 91: [Çarkıfelek çiçeği karşılaştırması](https://x.com/loktar00/status/2114149692523311578) (paylaşan [@loktar00](https://x.com/loktar00))
+
+**İki çıktıda ince geometriyi ve bitki örtüsünü inceleyin.**
+
+Yayıncı çarkıfelek çiçeği sahnesinde DeepSeek Flash ve Kimi K3.1 Pro’yu yan yana koyuyor. Klip farklı çiçek ve yaprak işleyişleri gösteriyor. DeepSeek tercihi göreve özgü yargıdır; tam girdi veya çalıştırılabilir kaynak sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114149446057377792.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114149446057377792-poster.jpg" alt="Çarkıfelek çiçeği karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-25
+
+---
+
+<a id="case-92"></a>
+### Örnek 92: [Etkileşimli jelibon ayı karşılaştırması](https://x.com/leo114119/status/2114145338256998843) (paylaşan [@leo114119](https://x.com/leo114119))
+
+**Ortak görevde biçimi, yarı saydamlığı ve kontrolleri inceleyin.**
+
+Yazar jelibon ayılarla Kimi K3.1 Pro ve DeepSeek Flash 1017’yi karşılaştırıyor. Karşılaştırma kaydı ve ek animasyon gösterimi korunuyor. Yazar DeepSeek’i tercih ediyor. Ayrı Tripo yönlendirme iddiası doğrulanmamıştır ve bu görsellerle kanıtlanmaz.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114006063368318976.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114006063368318976-poster.jpg" alt="Etkileşimli jelibon ayı karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114144920428527616.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114144920428527616-poster.jpg" alt="Etkileşimli jelibon ayı karşılaştırması — 2" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-25
+
+---
+
+<a id="case-93"></a>
+### Örnek 93: [Üç modelle kamp ateşi](https://x.com/rubenssoto_ai/status/2114092835729445213) (paylaşan [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+
+**Aydınlatmayı ve sahne yapısını maliyet etiketlerinden ayrı karşılaştırın.**
+
+Kayıt kamp ateşi görevinde DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash ve Kimi K3.1 Pro’yu etiketliyor. Sırasıyla $0.54, $0.22 ve $1.88 gösteriyor. Yayıncı girdinin aynı olduğunu söylüyor; bunlar göreve özgü kaynak etiketleridir, bağımsız doğrulanmış fiyatlar veya performans ölçümleri değildir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114092663146258432.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114092663146258432-poster.jpg" alt="Üç modelle kamp ateşi — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-94"></a>
+### Örnek 94: [Voksel bisiklet adası karşılaştırması](https://x.com/filicroval/status/2114085656779731171) (paylaşan [@filicroval](https://x.com/filicroval))
+
+**Görünür sahneyle birlikte yineleme çabasını karşılaştırın.**
+
+Üretici voksel bisiklet adasında Kimi K3.1 Pro ve Opus 5.5’i karşılaştırıyor. Kimi için birkaç, Opus için bir yineleme bildiriyor ve Kimi kullanım sınırlarını sert buluyor. Video görünür sahne farklarını destekliyor; yineleme sayıları ve abonelik deneyimi kaynak bildirimidir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085530853875713.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085530853875713-poster.jpg" alt="Voksel bisiklet adası karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-95"></a>
+### Örnek 95: [Alpine Gold uçuş sahnesi karşılaştırması](https://x.com/EnvolDev/status/2114085222044299723) (paylaşan [@EnvolDev](https://x.com/EnvolDev))
+
+**Sahneleri karşılaştırırken akıl yürütme ayarları ve maliyetler görünür kalsın.**
+
+EnvolDev Alpine Gold görevinde Kimi K3.1 Pro max ile Opus 5.5 xhigh’ı karşılaştırıyor. Kaynak Kimi için $24.12 ve 1h 12m, Opus için $31.85 ve 2h 45m bildiriyor. Yazar Opus’u tercih ediyor. Bunlar farklı çaba ayarları ve bildirilen maliyetlerdir; yalnızca modellerin kontrollü sıralaması değildir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085131921342464.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085131921342464-poster.jpg" alt="Alpine Gold uçuş sahnesi karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-96"></a>
+### Örnek 96: [Dört modelle Floating Kingdom](https://x.com/marcthecreatorr/status/2114074078340649183) (paylaşan [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Tek dosyalı sahne talebini dört etiketli çıktıda karşılaştırın.**
+
+Üretici dört modele aynı Floating Kingdom HTML görevini verdiğini söylüyor. Video Opus 5.5, DeepSeek Flash 1017, GPT-6 Astra ve Kimi K3.1 Pro’yu karşılaştırıyor. Kimi için 25 dakika ve yaklaşık $3 bildirirken fiyat-performansta DeepSeek’i tercih ediyor. Süre ve maliyetler kaynak bildirimidir; tam uygulamalar dahil değildir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114073718104162304.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114073718104162304-poster.jpg" alt="Dört modelle Floating Kingdom — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-97"></a>
+### Örnek 97: [Etkileşimli kesit ev karşılaştırması](https://x.com/marcthecreatorr/status/2113910766781055052) (paylaşan [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Eşit olmayan çaba ayarlarını koruyarak oda detaylarını ve kontrolleri inceleyin.**
+
+Üretici tek HTML’lik kesit evi Kimi high ve GPT-6 Astra extra high ile karşılaştırıyor. Kimi için 15 dakika ve yaklaşık $1.70, Astra için 30 dakika ve yaklaşık $6 bildiriyor. Kayıt iç mekân ve kontrolleri gösteriyor; işleyişleri ve maliyetler bağımsız olarak yeniden denenmedi.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113910634953748480.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113910634953748480-poster.jpg" alt="Etkileşimli kesit ev karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-98"></a>
+### Örnek 98: [Gökkuşağı jölesi etkileşimi karşılaştırması](https://x.com/0xRhinoX/status/2114059647233495351) (paylaşan [@0xRhinoX](https://x.com/0xRhinoX))
+
+**Deformasyonu ve aydınlatmayı istenen etkileşimlerle birlikte inceleyin.**
+
+Yayıncı kesilebilen, çivilenebilen ve pürmüzlenebilen gökkuşağı jölesinde Kimi K3.1 Pro ile Opus 5.5’i karşılaştırıyor. Kimi için $1.50 ve 17 dakika, Opus için $8 ve 52 dakika bildiriyor. Kayıt farklı deformasyonlar ve renkli ışıklar gösteriyor; her istenen etkileşimi veya faturaları doğrulamıyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114058638440464384.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114058638440464384-poster.jpg" alt="Gökkuşağı jölesi etkileşimi karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-99"></a>
+### Örnek 99: [Yirmi sahnelik 3B gösterim](https://x.com/quimedesu/status/2114046543783202899) (paylaşan [@quimedesu](https://x.com/quimedesu))
+
+**Bir kaynağı çoğaltmadan derlemeyle çeşitliliği inceleyin.**
+
+Yayıncı 20 Kimi K3.1 Pro sahnesi olarak tanıtılan on dakikalık derleme paylaşıyor. Örneklenen bölümler sualtı, kütüphane, kanyon kalesi, fırtınalı deniz feneri ve diğer ortamları gösteriyor. Tek gösterim olarak korunuyor. Tam promptlar, kod, varlık kaynağı ve bağımsız üretim kayıtları sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114045063093182464.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114045063093182464-poster.jpg" alt="Yirmi sahnelik 3B gösterim — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-24
+
+---
+
+<a id="case-100"></a>
+### Örnek 100: [Üç modelle deniz feneri](https://x.com/EnvolDev/status/2114037839281508431) (paylaşan [@EnvolDev](https://x.com/EnvolDev))
+
+**Kaliteyi belirtilen akıl yürütme ve maliyet koşullarıyla karşılaştırın.**
+
+EnvolDev deniz fenerinde Kimi K3.1 Pro max ile Opus 5.5 ve GPT-6 Astra’yı karşılaştırıyor. Sırasıyla $23.42, $53 ve $42 bildiriyor; iki rakibi de tercih ediyor. Gönderi max kaydından ayrı, daha ucuz bir Kimi high çalışmasını da anlatıyor. Bunlar kaynakça bildirilen sonuçlardır.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114037758524370944.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114037758524370944-poster.jpg" alt="Üç modelle deniz feneri — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-101"></a>
+### Örnek 101: [Uzmanlaşmış araçlarla modelleme](https://x.com/yugen_matuni/status/2114026044395331722) (paylaşan [@yugen_matuni](https://x.com/yugen_matuni))
+
+**Modelleme sonucunu atfetmeden önce araç ortamını denetleyin.**
+
+Yayıncı karakter modelleme ekran görüntüsü paylaşarak Kimi Code veya uygulamadaki uzman araçlarla kalitenin çok değiştiğini söylüyor. Bu iş akışı hakkındaki gözlemidir; yalıtılmış model testi veya adı konmuş üçüncü taraf arka uç kanıtı değildir. Tam yapım izi sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114025730120290304.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114025730120290304.jpg" alt="Uzmanlaşmış araçlarla modelleme — 1" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-102"></a>
+### Örnek 102: [Yumuşak jelibon göz karşılaştırması](https://x.com/daveeyyy_/status/2114014158102397168) (paylaşan [@daveeyyy_](https://x.com/daveeyyy_))
+
+**Talimat kapsamını deformasyon ve görev maliyetiyle birlikte karşılaştırın.**
+
+Üretici dürtülebilen, gerilebilen, atılabilen ve sinirinden kaldırılabilen jelibon gözde Kimi K3.1 Pro, GPT-6 Astra ve Opus 5.5’i karşılaştırıyor. Kimi için sekiz dakika ve $0.24 bildirirken yalnızca Opus’un tüm talebi karşıladığını söylüyor. Kayıtlı çıktılar ve değerlendirme kaynak kanıtıdır; işlevsel tekrar değildir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114014049918681088.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114014049918681088-poster.jpg" alt="Yumuşak jelibon göz karşılaştırması — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-103"></a>
+### Örnek 103: [Blender’da gösterilen prosedürel kule](https://x.com/thebuggeddev/status/2114014134480372210) (paylaşan [@thebuggeddev](https://x.com/thebuggeddev))
+
+**Bir prosedürel örneği bütün 3B iş akışlarına genellemeden inceleyin.**
+
+Üretici bpy kullanan kule modelini Kimi K3.1 Pro’ya atfediyor ve ayrı 3B üretim modeli kullanılmadığını söylüyor. Klip kule ve Blender arayüzünü gösteriyor. İddia bu örnekle ilgilidir; tam yürütme izi ve kod verilmez, diğer Kimi görevlerinin yönlendirmesini kanıtlamaz.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114013328246988800.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114013328246988800-poster.jpg" alt="Blender’da gösterilen prosedürel kule — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-24
+
+---
+
+<a id="case-104"></a>
+### Örnek 104: [Tuğla yapı karşılaştırması ve tekrar sayıları](https://x.com/thegreatest_sv/status/2114011783476441136) (paylaşan [@thegreatest_sv](https://x.com/thegreatest_sv))
+
+**Tamamlama ve tekrar etiketlerini görsel tercihten ayrı okuyun.**
+
+Yayıncı bildirilen 3,915 tuğlalık yapıda Opus 5.5 ve Kimi K3.1 Pro’yu karşılaştırıyor. Gönderi ikisinin 3,915/3,915’e ulaştığını; Opus için 6m 40s/sıfır tekrar, Kimi için 8m 25s/iki tekrar bildiriyor. Klip ise Kimi’yi 9m 25s/üç tekrar etiketliyor. Maliyetler $12.40 ve $8.91 gösteriliyor. Çelişkili süre/tekrar kayıtları uzlaştırılmıyor; temel günlükler ve sayım yöntemi sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113996662116904960.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113996662116904960-poster.jpg" alt="Tuğla yapı karşılaştırması ve tekrar sayıları — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-105"></a>
+### Örnek 105: [Önceki Opus referansıyla voksel sfenks](https://x.com/diegocabezas01/status/2113965730014109802) (paylaşan [@diegocabezas01](https://x.com/diegocabezas01))
+
+**Ayrı gönderileri kontrollü tekrar saymadan voksel biçimlerini karşılaştırın.**
+
+Üretici döndürme ve yakınlaştırmalı Kimi K3.1 Pro max sfenksini paylaşırken önceki Opus 5.5 max sfenksini alıntılıyor. İki kayıt özgün model atıflarıyla korunuyor. Önceki klip ayrı karşılaştırıcıdır, başka Kimi çıktısı değildir; tam kod ve aynı yürütme koşulları kanıtlanmış değildir.
+
+Diğer görünümler ve karşılaştırmalar: [@diegocabezas01](https://x.com/diegocabezas01/status/2102549002285981917)
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113809479997296641.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113809479997296641-poster.jpg" alt="Önceki Opus referansıyla voksel sfenks — 1" width="480"></a><br>Kaynak videoyu izle<br>Kimi K3.1 Pro · max</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2102473684573184000.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2102473684573184000-poster.jpg" alt="Önceki Opus referansıyla voksel sfenks — 2" width="480"></a><br>Kaynak videoyu izle<br>Opus 5.5 · alıntılanan önceki çalışma</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="update-2026-10-25-games"></a>
+## 🎮 Oyunlar ve animasyon sahneleri
+
+<a id="case-106"></a>
+### Örnek 106: [Gece sekiz biçimli pistte pelikan](https://x.com/FiniYang/status/2113791833822372172) (paylaşan [@FiniYang](https://x.com/FiniYang))
+
+**3B sahnede dönüşleri, yükseklik değişimlerini ve kamera hareketini inceleyin.**
+
+FiniYang gece sekiz biçimli parkurda bisiklete binen pelikan paylaşıyor ve aylık aboneliğin yaklaşık 8% kullanımını bildiriyor. Kayıt viraj, rampa ve değişen açılar gösteriyor. Kota kullanımı kaynak bildirimidir. Tam oyun işlevi bağımsız olarak kanıtlanmış değildir; tam girdi ve çalıştırılabilir uygulama sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113732266711191553.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113732266711191553-poster.jpg" alt="Gece sekiz biçimli pistte pelikan — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-24
+
+---
+
+<a id="case-107"></a>
+### Örnek 107: [Dağ geçidinde kılıç üzerinde uçuş](https://x.com/FiniYang/status/2114200775060799504) (paylaşan [@FiniYang](https://x.com/FiniYang))
+
+**Etiketli fantastik sahnede hareketi ve kamera açılarını inceleyin.**
+
+FiniYang bulutlar arasında kılıç uçuşu etiketli Kimi K3.1 Pro sahnesi paylaşıyor. Kayıt, görünüm kontrolleriyle kayalık uçurumlar, büyük heykel ve dağ tepesi yapılarının yanından geçen beyaz giyimli figür gösteriyor. Gönderi üçüncü taraf 3B araçları hakkında spekülasyon yapıyor; kayıt belirli bir arka ucu veya tam oyun işlevini kanıtlamıyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114198217374248960.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114198217374248960-poster.jpg" alt="Dağ geçidinde kılıç üzerinde uçuş — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-25
+
+---
+
+<a id="case-108"></a>
+### Örnek 108: [Elli metrelik pelikan tek teker karşılaştırmaları](https://x.com/VulKan42069/status/2114085091261682016) (paylaşan [@VulKan42069](https://x.com/VulKan42069))
+
+**Bir Kimi sonucunu farklı ortamlardaki iki rakiple karşılaştırın.**
+
+Üretici Kimi K3.1 Pro max API sonucunu web sohbetindeki Sonnet 5.5 high ve Gemini 4 Argon high ile karşılaştırmalarda yeniden kullanıyor. İki video tek çalışma olarak korunuyor. Tek talimat, yinelemeli onarım yok ve Kimi için 21m 05s/$0.56 bildiriyor. Farklı ortamlar ve akıl yürütme ayarları yalnızca modellerin kontrollü karşılaştırmasını engelliyor.
+
+Diğer görünümler ve karşılaştırmalar: [@VulKan42069](https://x.com/VulKan42069/status/2114079543632003455)
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085060714618880.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114085060714618880-poster.jpg" alt="Elli metrelik pelikan tek teker karşılaştırmaları — 1" width="480"></a><br>Kaynak videoyu izle</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114079500875304961.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114079500875304961-poster.jpg" alt="Elli metrelik pelikan tek teker karşılaştırmaları — 2" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-109"></a>
+### Örnek 109: [Minecraft esintili son boyut](https://x.com/kepochnik/status/2114044255727702423) (paylaşan [@kepochnik](https://x.com/kepochnik))
+
+**Ortak model oyun güncellemesini her varlığı Kimi’ye atfetmeden inceleyin.**
+
+Üretici Minecraft esintili bu güncellemeyi Opus 5.5 ve Kimi K3.1’e birlikte atfediyor. Kayıt End tarzı boyut ve ejderha karşılaşması gösteriyor. Yazar yeni boyut ve düşman planlarını anlatıyor; klip bu planları, kamuya açık yayını veya her modelin tam katkısını kanıtlamıyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114043858543849472.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114043858543849472-poster.jpg" alt="Minecraft esintili son boyut — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-24
+
+---
+
+<a id="case-110"></a>
+### Örnek 110: [Unity’de funnel tipi görsel efektler](https://x.com/yugen_matuni/status/2113893761105461253) (paylaşan [@yugen_matuni](https://x.com/yugen_matuni))
+
+**Hazır varlıkları genişletirken varlık üretimini ayrı tutun.**
+
+Üretici Unity’de funnel tipi VFX için Kimi 3.1 kullandığını ve mevcut çalışmayı genişletmekte yararlı bulduğunu söylüyor. Video ızgara sahnesinde parlak hareketli efektler gösteriyor. DeepSeek karşılaştırması özneldir; gönderi her varlığın bağımsız üretimini göstermek yerine özellikle hazırlanmış varlıkları öngörüyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113893650585534465.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113893650585534465-poster.jpg" alt="Unity’de funnel tipi görsel efektler — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-24
+
+---
+
+<a id="case-111"></a>
+### Örnek 111: [Dört modelle bisiklet sahnesi](https://x.com/AI_Screening/status/2114018402033692976) (paylaşan [@AI_Screening](https://x.com/AI_Screening))
+
+**Sahne karşılaştırmasını değerlendirmeden kayıtlı model etiketlerini okuyun.**
+
+Yayıncı Kimi K3.1 Pro, GPT-6 Astra, Gemini 4 Argon ve Gemini 4 Carbon (Arena) etiketli bisiklet sahnesini karşılaştırıyor. Kayıt farklı bisikletler, sürücüler ve çevreler gösteriyor. Anonim Carbon etiketi kaynakça sağlanmıştır; resmî kontrol noktası kimliği, kontrollü ayarlar veya çalıştırılabilir kod kanıtlanmaz.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114018163679727616.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114018163679727616-poster.jpg" alt="Dört modelle bisiklet sahnesi — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-112"></a>
+### Örnek 112: [Çelişkili Sol adıyla pelikan sahnesi](https://x.com/VulKan42069/status/2113957931305848987) (paylaşan [@VulKan42069](https://x.com/VulKan42069))
+
+**Model etiketi uyuşmazlıklarını sessizce uzlaştırmadan koruyun.**
+
+Klip Kimi K3.1 Pro ve GPT-6.1 Sol gösteriyor, ancak gönderi gövdesi GPT-6 Sol, başlığı GPT-6.1 Sol diyor. Üretici tek talimatlı high çaba testinde Kimi için $0.11, Sol için $0.18 bildiriyor. Karşılaştırma ad uyuşmazlığı ve doğrulanmamış maliyet etiketleri açıkça belirtilerek korunuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113955385975746560.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113955385975746560-poster.jpg" alt="Çelişkili Sol adıyla pelikan sahnesi — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="update-2026-10-25-web"></a>
+## 🖥️ Web arayüzleri
+
+<a id="case-113"></a>
+### Örnek 113: [Üç boyutlu portfolyo sitesi](https://x.com/MikuBTC/status/2114063038387036634) (paylaşan [@MikuBTC](https://x.com/MikuBTC))
+
+**Web sitesi kaydında düzen geçişlerini ve görsel nesneleri inceleyin.**
+
+Yayıncı tek talimatla 15 dakikalık site yapımını Kimi K3.1 Pro’ya atfediyor. Klip yüzen nesneli portfolyo arayüzü, gezinme ve değişen görünümler gösteriyor. Görünür tasarımı destekliyor; yayındaki site, tam girdi, erişilebilir kaynak ve çalışan kontroller sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114062984859312128.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114062984859312128-poster.jpg" alt="Üç boyutlu portfolyo sitesi — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Demo | Tarih: 2026-10-24
+
+---
+
+<a id="update-2026-10-25-comparison"></a>
+## 🔬 Model karşılaştırması
+
+<a id="case-114"></a>
+### Örnek 114: [OpenCode Go kota kesintisi](https://x.com/localhost_4173/status/2114168114028130714) (paylaşan [@localhost_4173](https://x.com/localhost_4173))
+
+**Durmuş çalışmayı kodlama görevinin sonucuna dahil edin.**
+
+Yazar OpenCode Go üzerinden Kimi 3.1 Pro’nun yedi dakika sonra durduğunu bildiriyor. Ekran görüntüsü keşif hatası, “Go usage limit exceeded” ve 7m 28s çalışma gösteriyor. Bu bir sağlayıcıda gözlenen kota kesintisidir; her aboneliğin kapasitesini veya model kalitesi başarısızlığını kanıtlamaz.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114168024282615808.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114168024282615808.jpg" alt="OpenCode Go kota kesintisi — 1" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Limit | Tarih: 2026-10-25
+
+---
+
+<a id="case-115"></a>
+### Örnek 115: [Yaratıcı öykü yazma kıyaslaması](https://x.com/LechMazur/status/2114092500541415649) (paylaşan [@LechMazur](https://x.com/LechMazur))
+
+**Bir değerlendirmede eşleşen öykü sonuçlarını ve akıl yürütme kullanımını karşılaştırın.**
+
+Lech Mazur Kimi K3.1 Pro high’ın K3’ün 2.35’inden 2.72’ye çıktığını; 50 eşlenmiş promptta 35 galibiyet, sekiz beraberlik ve yedi yenilgi bildirdi. Gönderi 34% daha az akıl yürütme tokenı ve güçlü olay örgüsü bildiriyor. Üç grafik korunuyor. Bunlar bu yazım protokolünün değerlendirici sonuçlarıdır; genel yazı kalitesi garantisi değildir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114090883981193216.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114090883981193216.jpg" alt="Yaratıcı öykü yazma kıyaslaması — 1" width="480"></a><br>Kaynak görseli aç</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114091026180685824.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114091026180685824.jpg" alt="Yaratıcı öykü yazma kıyaslaması — 2" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114091105583058944.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114091105583058944.jpg" alt="Yaratıcı öykü yazma kıyaslaması — 3" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Benchmark | Tarih: 2026-10-24
+
+---
+
+<a id="case-116"></a>
+### Örnek 116: [İki ortamda kodlama puanları](https://x.com/PovilasKorop/status/2114046844380537187) (paylaşan [@PovilasKorop](https://x.com/PovilasKorop))
+
+**Aynı modelin sonuçlarını farklı kodlama ortamlarında karşılaştırın.**
+
+Povilas Korop Kimi K3.1 Pro high için OpenCode’da 59.99/70 ve Kimi Code’da 56.89/70 bildiriyor. Bağlantılı değerlendirme Laravel ve React-TypeScript kod kalitesi, hata bulma ve uç durumları kapsıyor. Ortama özgü sonuçlar, ortalama maliyetler ve süreler bu değerlendiricinin testine aittir; yerel tekrar değildir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114046841855594496.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114046841855594496.jpg" alt="İki ortamda kodlama puanları — 1" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Benchmark | Tarih: 2026-10-24
+
+---
+
+<a id="case-117"></a>
+### Örnek 117: [WebExploitBench kamu hedefleri değerlendirmesi](https://x.com/migtissera/status/2114029692147950008) (paylaşan [@migtissera](https://x.com/migtissera))
+
+**Hedef başına sonuçları toplam başarı oranıyla birlikte okuyun.**
+
+Yayıncı kara kutu WebExploitBench Public-5 pass@1 sonuçlarında Kimi K3.1 Pro için 13/28, DeepSeek Flash 1017 için 12/28, GLM-5.3-Flash için 10/28 bildiriyor. Tablo beş hedefi ayırıyor. Değerlendirici sonuçları bu sabit kıyaslamayla ilgilidir; operasyonel yetenek veya genel güvenlik üstünlüğü kanıtlamaz.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114028525728763904.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114028525728763904.jpg" alt="WebExploitBench kamu hedefleri değerlendirmesi — 1" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Benchmark | Tarih: 2026-10-24
+
+---
+
+<a id="case-118"></a>
+### Örnek 118: [Yoğunluk nedeniyle duran tanıtım videosu görevi](https://x.com/whydeso/status/2114028190050254878) (paylaşan [@whydeso](https://x.com/whydeso))
+
+**Başarısız üretim denemesini rakibin çıktısından ayırın.**
+
+Yazar Kimi K3.1 Pro’dan kendi tanıtım videosunu isteyip 11 dakika sonra yoğunluk mesajı aldığını bildiriyor. Yan yana kayıt Kimi’nin durmuş oturumunu ve Claude sonucunu gösteriyor. Bu bildirilen kesintili görevin kanıtıdır; bitmiş Kimi videosu veya kullanıcılar genelinde ölçülmüş hata oranı değildir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114027275758784512.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114027275758784512-poster.jpg" alt="Yoğunluk nedeniyle duran tanıtım videosu görevi — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Limit | Tarih: 2026-10-24
+
+---
+
+<a id="case-119"></a>
+### Örnek 119: [İçbükey blok bulmacası sınırlaması](https://x.com/patience_cave/status/2114025446069403836) (paylaşan [@patience_cave](https://x.com/patience_cave))
+
+**İlerlemeyi bitiş saymadan durulan noktayı inceleyin.**
+
+Değerlendirici Kimi K3.1 Pro’nun K3’e göre geliştiğini, fakat içbükey blokları daha ileri gidecek kadar anlayamadığını söylüyor. Kaynak görseli keşfedilen bulmaca düzenlerini karşılaştırıyor. Bu tek göreve ilişkin anlatımdır; tam deneme izi veya bulmacanın toplu puanı sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114025439199207424.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114025439199207424.jpg" alt="İçbükey blok bulmacası sınırlaması — 1" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Limit | Tarih: 2026-10-24
+
+---
+
+<a id="case-120"></a>
+### Örnek 120: [Yirmi denemeden sonra çok aşamalı blok bulmacası](https://x.com/patience_cave/status/2114024288974156237) (paylaşan [@patience_cave](https://x.com/patience_cave))
+
+**Başarılı sonucu sunarken deneme sayısını da ekleyin.**
+
+Değerlendirici Kimi K3.1 Pro’nun çok aşamalı bulmacayı 20 denemede çözdüğünü ve daha önce yalnızca beş modelin çözdüğünü bildiriyor. Video blok dolu odada hareket gösteriyor. Başarı ve önceki modellerle karşılaştırma kaynak bildirimidir; tek deneme güvenilirliğinin kanıtı değildir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114024191192436736.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114024191192436736-poster.jpg" alt="Yirmi denemeden sonra çok aşamalı blok bulmacası — 1" width="480"></a><br>Kaynak videoyu izle</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-121"></a>
+### Örnek 121: [Ajan ortamı etiketleriyle MazeBench](https://x.com/patience_cave/status/2114024186901623249) (paylaşan [@patience_cave](https://x.com/patience_cave))
+
+**Ortam bağlamını çıkarmadan labirent puanlarını karşılaştırın.**
+
+Değerlendirici MazeBench’te Kimi K3.1 Pro için 2%, DeepSeek V4.1 Flash için 1% bildiriyor. Grafik diğer model-ortam birleşimleri yanında Kimi Code max ile Prime Agent max’i ayrı adlandırıyor. Bunlar kıyaslamaya özgü bildirilen puanlardır; küçük sıfır dışı sonuç genel planlama güvenilirliği anlamına gelmez.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114024183881719808.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114024183881719808.jpg" alt="Ajan ortamı etiketleriyle MazeBench — 1" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Benchmark | Tarih: 2026-10-24
+
+---
+
+<a id="case-122"></a>
+### Örnek 122: [Kotayla kesilen pelikan denemesi](https://x.com/Lonely__MH/status/2114022528599654743) (paylaşan [@Lonely__MH](https://x.com/Lonely__MH))
+
+**Eksik çıktıyı ve kaynağın erişim biçimi belirsizliğini kaydedin.**
+
+Yazar pelikan görevinin beş saatlik kotayı tükettiğini, elle kopyalanan HTML’nin yalnızca iskelet ürettiğini bildiriyor. Hata görüntüsü ve kısmi sayfa korunuyor. Gönderi ödünç API anahtarı da anıyor; erişim biçimi ve kota ifadeleri sessizce uzlaştırılmıyor. Bu bildirilen tek eksik denemedir.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114020768850104320.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114020768850104320.jpg" alt="Kotayla kesilen pelikan denemesi — 1" width="480"></a><br>Kaynak görseli aç</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114020787040772096.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114020787040772096.jpg" alt="Kotayla kesilen pelikan denemesi — 2" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Limit | Tarih: 2026-10-24
+
+---
+
+<a id="case-123"></a>
+### Örnek 123: [ToneBench’te doğruluk ve üslup dengesi](https://x.com/Whats_AI/status/2114015091838398600) (paylaşan [@Whats_AI](https://x.com/Whats_AI))
+
+**Yazı ayarlarını içerik ve ses eşleşmesiyle birlikte seçin.**
+
+What’s AI K3.1 Pro’yu 83 modelde #7 bildiriyor; içerik ve doğrulukta #45’ten #2’ye, ton ve seste #21’den #47’ye gidiyor. Genel Elo’su K3 ile örtüşüyor; senaryo başına $0.25 ve $0.36 bildiriliyor. Bulgular bu üretici sesiyle senaryo kıyaslaması ve promptlarıyla ilgilidir; tüm yazım görevleriyle değil.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114013969929138176.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114013969929138176.jpg" alt="ToneBench’te doğruluk ve üslup dengesi — 1" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Benchmark | Tarih: 2026-10-24
+
+---
+
+<a id="case-124"></a>
+### Örnek 124: [Yedi görevlik ajan kodlama not tablosu](https://x.com/ai_funss/status/2114012839623131298) (paylaşan [@ai_funss](https://x.com/ai_funss))
+
+**Genel iddiadan önce göreve özgü notları ve ölçütü okuyun.**
+
+Yayıncı web 3B, iOS/Rust, etkileşimli animasyon, HarmonyOS/C++, Metal render, öğretim görselleştirmeleri ve Rust GUI içeren yedi görevlik değerlendirme paylaşıyor. Tablo ve not açıklaması korunuyor. Yayıncı K3.1 Pro max’in K3 max’in altında puan aldığını söylüyor; ancak tabloda karma görev notları, devralınan Pass girdileri ve bekleyen testler var. Toplam puan veya özgün tam çalışmalar sunulmuyor.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114011888082444288.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114011888082444288.jpg" alt="Yedi görevlik ajan kodlama not tablosu — 1" width="480"></a><br>Kaynak görseli aç</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114011894650716160.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114011894650716160.jpg" alt="Yedi görevlik ajan kodlama not tablosu — 2" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Evaluation | Tarih: 2026-10-24
+
+---
+
+<a id="case-125"></a>
+### Örnek 125: [VulnPR-100 bilinen açık incelemesi](https://x.com/Zaddyzaddy/status/2113973761502253210) (paylaşan [@Zaddyzaddy](https://x.com/Zaddyzaddy))
+
+**Aynı PR kümesinde bulguları, süre sınırlarını ve toplam maliyeti karşılaştırın.**
+
+Değerlendirici Kimi K3.1 Pro’ya bilinen açıklar içeren 100 pull request ve PR başına bir saat verdiğini bildiriyor. $124.69 karşılığında 47 buldu; K3 37, DeepSeek Flash 1017 $7.53 karşılığında 54 bulmuştu. İki grafik korunuyor. Kıyaslamaya özgü sayılar ve maliyetler değerlendirici bildirimidir; diğer hata avı protokollerinden ayrıdır.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494136360960.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494136360960.jpg" alt="VulnPR-100 bilinen açık incelemesi — 1" width="480"></a><br>Kaynak görseli aç</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494773866496.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494773866496.jpg" alt="VulnPR-100 bilinen açık incelemesi — 2" width="480"></a><br>Kaynak görseli aç</td></tr></table>
+
+Tür: Benchmark | Tarih: 2026-10-24
+
+---
+
 <a id="related-repositories"></a>
 ## İlgili depolar
 
@@ -1309,6 +1921,6 @@ Tür: Benchmark | Tarih: 2026-10-24
 
 Gösterimleri paylaşan şu kişilere teşekkürler:
 
-[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
+[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Majin_AppSheet](https://x.com/Majin_AppSheet), [@ka1manov](https://x.com/ka1manov), [@kenonews](https://x.com/kenonews), [@heyfudji](https://x.com/heyfudji), [@FiniYang](https://x.com/FiniYang), [@SahilExec](https://x.com/SahilExec), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@filicroval](https://x.com/filicroval), [@EnvolDev](https://x.com/EnvolDev), [@0xRhinoX](https://x.com/0xRhinoX), [@quimedesu](https://x.com/quimedesu), [@yugen_matuni](https://x.com/yugen_matuni), [@daveeyyy_](https://x.com/daveeyyy_), [@thebuggeddev](https://x.com/thebuggeddev), [@thegreatest_sv](https://x.com/thegreatest_sv), [@diegocabezas01](https://x.com/diegocabezas01), [@VulKan42069](https://x.com/VulKan42069), [@MikuBTC](https://x.com/MikuBTC), [@localhost_4173](https://x.com/localhost_4173), [@LechMazur](https://x.com/LechMazur), [@PovilasKorop](https://x.com/PovilasKorop), [@migtissera](https://x.com/migtissera), [@whydeso](https://x.com/whydeso), [@patience_cave](https://x.com/patience_cave), [@Lonely__MH](https://x.com/Lonely__MH), [@Whats_AI](https://x.com/Whats_AI), [@ai_funss](https://x.com/ai_funss), [@Zaddyzaddy](https://x.com/Zaddyzaddy), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
 
 Atıflar bağlantılı kaynaklara dayanır ve düzeltilmesi gerekebilir. Eksik atıf, yinelenen eser, yanlış iddia veya kaldırma isteği için issue açın. Üçüncü taraf medyanın hakları sahiplerinde kalır.
