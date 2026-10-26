@@ -25,7 +25,7 @@
     },
     "intro": "Anonim Kibitz kontrol noktasının önceki kayıtları da dahil, Kimi K3.1 ve K3.1 Pro için kaynaklarına atfedilmiş topluluk gösterimleri, iş akışları ve değerlendirmeleri.",
     "purpose": "Özgün kaynaklar üzerinden somut görevleri, görünür çıktıları ve pratik sınırları inceleyin.",
-    "stats": "6 kategoride 125 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.",
+    "stats": "6 kategoride 205 bağımsız kullanım örneği. Aynı çalışmanın yeniden paylaşımları ve karşılaştırmaları birlikte tutulur.",
     "evidence": "Kibitz–Kimi K3.1 Pro eşleşmesi doğrulanmamış kalıyor. Model adları, süreler, maliyetler ve kalite yargıları kaynak tarafından bildiriliyor. Kayıtlar çalıştırılabilir kodu, eksiksiz etkileşimi veya tekrarlanabilir başarıyı kanıtlamaz.",
     "steps": "1. İçindekilerden bir görev seçin.\n2. Video ya da görseli açıp örnek başlığından özgün paylaşıma gidin.\n3. Görünen sonucu görev ve sınırlarla karşılaştırın.",
     "thanks": "Gösterimleri paylaşan şu kişilere teşekkürler:",
@@ -665,6 +665,406 @@
       "VulnPR-100 bilinen açık incelemesi",
       "Aynı PR kümesinde bulguları, süre sınırlarını ve toplam maliyeti karşılaştırın.",
       "Değerlendirici Kimi K3.1 Pro’ya bilinen açıklar içeren 100 pull request ve PR başına bir saat verdiğini bildiriyor. $124.69 karşılığında 47 buldu; K3 37, DeepSeek Flash 1017 $7.53 karşılığında 54 bulmuştu. İki grafik korunuyor. Kıyaslamaya özgü sayılar ve maliyetler değerlendirici bildirimidir; diğer hata avı protokollerinden ayrıdır."
+    ],
+    [
+      "Voksel ekran kartı modeli",
+      "Paylaşılan görselde devre kartını, fanları ve kasayı inceleyin.",
+      "Yayıncı, RTX 5090 tarzındaki bu voksel ekran kartını Kimi K3.1 Pro’ya atfediyor ve daha eski bir Opus 4.5 paylaşımını alıntılıyor. Kaynak görsel, ayrıntılı devre kartı ve kasası olan çok fanlı bir kart gösteriyor. Önceki model bağlam sağlıyor; kontrollü bir yeniden çalıştırma değil. Kaynak kodu ve mühendislik doğruluğu ortaya konmuş değil."
+    ],
+    [
+      "İki kademeli düz dişli redüktörü",
+      "Donanım olarak değerlendirmeden önce görünen dişli aktarımını inceleyin.",
+      "Venice, Kimi K3.1 Pro etiketli iki kademeli düz dişli redüktörünü, hareketli kesit ve parça göstergesiyle tanıtım paylaşımında sunuyor. Geometri ve hareket incelenebilir; ancak yük hesabı, üretim doğrulaması veya bağımsız yürütme kaydı sunulmuyor."
+    ],
+    [
+      "Altı bacaklı robot karşılaştırması",
+      "Etiketli iki modelde bacak ayrıntılarını ve sensörleri karşılaştırın.",
+      "Yayıncı, altı bacaklı bir robotta Kimi K3.1 Pro ile GPT-6 Astra’yı karşılaştırıyor. Video farklı kabuklar, eklemler ve sensör ayrıntıları gösteriyor. Dışa aktarma seçeneklerine ilişkin iddialar gösterilen iş akışına ait; klip yürüme becerisini, üretime hazır oluşu, her varlığın kaynağını veya eşdeğer yürütme koşullarını doğrulamıyor."
+    ],
+    [
+      "CAD ortamında patlatılmış türbin",
+      "Mekanik doğrulamayı ayrı tutarak patlatılmış montajı inceleyin.",
+      "ShadeLurk, Kimi K3.1 Pro’yu denemeye davet edildiğini açıklıyor ve patlatılmış türbin montajı içeren bir CAD ortamı paylaşıyor. Ekran görüntüsü görünen geometriyi ve parça ayrımını destekliyor. Paylaşımda eksiksiz yapım kaydı, boyutlar, dayanım kontrolleri veya üretim doğrulaması yok."
+    ],
+    [
+      "CAD’de ev planı ve ön görünüş",
+      "Oda yerleşimini ve ölçüleri amaçlanan gereksinimlerle karşılaştırın.",
+      "Yayıncı, 97.7 metrekarelik ev planını ve ön görünüşünü Kimi K3.1’e atfediyor ve 63 saniye çalışma bildiriyor. Kayıt, CAD’de duvarları, kapıları, pencereleri ve ölçü açıklamalarını gösteriyor. Alan, süre, yapısal uygunluk ve yapı kurallarına uyum bağımsız olarak doğrulanmış değil."
+    ],
+    [
+      "Sekiz tekerlekli Ay aracı modeli",
+      "Görünen araç geometrisini görev mühendisliği kontrollerinden ayırın.",
+      "Yayıncı, Lunokhod’dan esinlenen sekiz tekerlekli aracı Kimi K3.1 Pro’ya atfediyor ve içe aktarılan model olmadan kodla yapıldığını söylüyor. Kayıt gövdeyi, kapağı ve tekerlekleri gösteriyor. Kaynak, kütle, tork, ısıl dayanım, toz sızdırmazlığı ve hareketli parçaların açıklıklarının henüz gösterilmediğini açıkça belirtiyor."
+    ],
+    [
+      "Basılı stres çarkı deneyi",
+      "Fiziksel baskıyı, onu üreten modelle birlikte inceleyin.",
+      "Üretici, bu stres çarkını Kimi K3.1 Pro’nun Blender’da tasarladığını ve baskıyı bir saat içinde bitirme şartıyla canlı bastığını söylüyor. Klip tasarımı ve fiziksel nesneyi içeriyor. Önceki modellerle öne sürülen karşılaştırma ve baskı performansı bağımsız olarak tekrarlanmış değil."
+    ],
+    [
+      "Avuç algılayan dronun kesiti",
+      "Önerilen mekanizmayı kesit üzerinden inceleyin.",
+      "Yayıncı, Kimi K3.1 Pro’nun 3D Make iş akışıyla yapılmış avuç algılayan bir dron sunuyor. Kayıtta kaldırılmış dış kabuk, elektronik ve motor kesitleri ile mesafe algılama açıklaması var. Bu bir eğitim modeli; fiziksel uçuş, kontrol kararlılığı ve eksiksiz yapım kaydı doğrulanmış değil."
+    ],
+    [
+      "Jenga oynayan sanal robot kollar",
+      "Fiziksel performans çıkarmadan önce simüle temasları ve göstergeleri inceleyin.",
+      "Yayıncı, iki kolun blok çıkardığı ve kuleyi ittiği Kimi K3.1 Pro etiketli Jenga simülasyonu paylaşıyor. 2:05 çalışma, 8.14 N kuvvet ve 51 bloktan 44’ünün gevşemesi bildiriliyor. Bu simülasyon göstergeleri kaynak iddialarıdır; gerçek robot donanımından ölçümler değildir."
+    ],
+    [
+      "Blender’da render edilen Boeing 747",
+      "Blender yeniden yapımını ayrı bir tarayıcı modeliyle karşılaştırın.",
+      "Üretici, Kimi K3.1’e atfedilen Boeing 747 sahnesini paylaşıyor ve bu sürümün Blender’da yapıldığını açıkça belirtiyor. Gösterilen uygulama farklı olduğundan önceki tarayıcı inceleme modelinden ayrı tutuluyor. Kayıt uçak renderini destekliyor; uçuş dinamiklerini, aerodinamik doğruluğu veya eksiksiz yapım kaydını değil."
+    ],
+    [
+      "Three.js ile Day-Date saati",
+      "Kodla yapılmış görüntüleyicide saat ayrıntılarını inceleyin.",
+      "Üretici, Day-Date tarzındaki saati Kimi K3.1 Pro’ya atfediyor; Blender veya içe aktarılan model olmadan saf Three.js geometrisi, 32 dakika ve $6.25 bildiriyor. Kayıt altın renkli saat ve kontrolleri gösteriyor. Kodun kökeni, süre, maliyet ve mekanik doğruluk kaynak beyanı olarak kalıyor."
+    ],
+    [
+      "On iki işlemli CAD braketi karşılaştırması",
+      "Aynı protokolde işlem ilerlemesini ve normalize maliyetleri karşılaştırın.",
+      "Yayıncı, dört modelin aynı CAD braketini 12 işlem ve işlem başına bir çağrıyla oluşturmasını kaydediyor. Kimi için 21.8, Opus 5.5 için 17.5 saniye bildiriyor. $31,200 ve $62,400, milyon yapım başına normalize tutarlar; gerçekten gerçekleştirilmiş bir milyon yapımın faturası değil. Mühendislik doğruluğu ve süreler bağımsız tekrar çalıştırmayla doğrulanmış değil."
+    ],
+    [
+      "Üç modelle Enterprise-D dış görünüşü",
+      "Sunulan görünümlerde silueti ve geometriyi karşılaştırın.",
+      "Yayıncı, Enterprise-D dış görünüşü için Kimi K3.1 Pro, GPT-6 Astra ve Opus 5.5 sonuçlarını sunuyor. Üç kaynak görsel de korunuyor. Geminin farklı yorumlarını gösteriyorlar; paylaşım çalıştırılabilir modelleri, eksiksiz girdileri veya kontrollü geometri değerlendirmesini sunmuyor."
+    ],
+    [
+      "İnceleme görünümleriyle SR-71 Blackbird",
+      "Uçak geometrisini ve açığa çıkan bileşenleri tarayıcıda inceleyin.",
+      "Yayıncı, Three.js ile yapılmış SR-71 Blackbird modelini Kimi K3.1’e atfediyor. Kayıt uçağı ve iç bileşen görünümlerini gösteriyor. İddia gösterilen modelle ilgili; kaynak kodu, aerodinamik davranış ve mühendislik doğruluğu bağımsız doğrulanmış değil."
+    ],
+    [
+      "Patlatılmış motor karşılaştırması",
+      "İç geometriyi kayıttaki maliyet etiketleriyle birlikte karşılaştırın.",
+      "Yayıncı, patlatılmış motor montajında Kimi K3.1 Pro ile Opus 5.5’i, videodaki $0.71 ve $12.63 etiketleriyle karşılaştırıyor. Klip farklı gövdeler, miller ve iç bileşenler gösteriyor. Mekanik doğruluk, kaynak kodu, tam girdiler ve bildirilen faturalar bağımsız doğrulanmış değil."
+    ],
+    [
+      "Robot ördekli sahne karşılaştırması",
+      "Etiketleri toplam faturalardan ayırarak sunulan sahneyi karşılaştırın.",
+      "AI/ML API, Jensen Huang’ın robot ördekli sahnesinde Kimi K3.1 Pro ile Opus 5.5’i karşılaştırıyor; bir saate karşı üç saat bildiriyor. Kayıttaki biriken maliyet sayaçları sırasıyla $1.57 ve $5.58’de bitiyor. Bu toplamlar kaynağın beyanı; eksiksiz görev kayıtları ve faturalar bağımsız doğrulanmış değil."
+    ],
+    [
+      "Three.js ile Coca-Cola ürün modeli",
+      "Gerçek ürün modelini yazarın eleştirisiyle birlikte inceleyin.",
+      "Üretici, Kimi K3.1 Pro’ya atfedilen Coca-Cola temalı Three.js modelini paylaşıyor ve sonucu kötü buluyor. Kayıt, kesit bileşenleri olan şişe benzeri mekanik bir nesne gösteriyor. Tam girdi, amaçlanan tasarım gereksinimleri, kaynak kodu ve işlevsel davranış sunulmuyor."
+    ],
+    [
+      "Kum solucanı modelleme karşılaştırması",
+      "Etiketli sonuçlarda tekrarlanan geometriyi ve ağız ayrıntılarını karşılaştırın.",
+      "Yayıncı, kum solucanı sahnesinde Kimi K3.1 Pro ile GPT-6 Astra’yı karşılaştırarak gövde panelleri, ağız yapıları ve saydam yüzey altındaki harekete dikkat çekiyor. Kayıt bu görünür farkları destekliyor. Tam yapım, varlık kökeni ve iki yürütme ortamının eşdeğerliği ortaya konmuş değil."
+    ],
+    [
+      "Yanardöner arı modelleme karşılaştırması",
+      "Etiketli iki modelin ince yüzey ayrıntılarını inceleyin.",
+      "Yayıncı, Kimi K3.1 Pro arısını GPT-6 Astra arısıyla karşılaştırarak bacak kıllarına, göz peteklerine, kanatlara ve yanardöner yüzeylere dikkat çekiyor. Video sonuçları gösteriyor. Her varlığın kökeni, eksiksiz yapım adımları veya yalnız modelden kaynaklanan kontrollü bir üstünlük ortaya konmuyor."
+    ],
+    [
+      "Dört iş akışında yanardağ patlaması",
+      "İş akışı etiketlerini koruyarak patlama ayrıntılarını karşılaştırın.",
+      "Yayıncı, Kimi K3.1, GPT-6 Astra, Blender MCP ve Claude Code etiketli yanardağ çıktılarını yan yana sunuyor; aynı girdinin elle düzenleme olmadan kullanıldığını bildiriyor. Etiketler model ve araçları karıştırıyor. Kayıt görsel karşılaştırma sağlıyor; ancak alttaki modeli ayrıştırmıyor, kurulumu doğrulamıyor veya fiziksel doğruluğu ortaya koymuyor."
+    ],
+    [
+      "Bir saatlik ajan bütçesiyle Mont-Saint-Michel",
+      "Görev bütçesinde yapım ve tarayıcı incelemesine zaman ayırın.",
+      "Üretici, Nous Portal’daki Hermes Agent üzerinden Kimi K3.1 Pro ile bir saatlik Mont-Saint-Michel voksel görevi yaptığını söylüyor. Son sayfa düzenlemesi 44. dakikada, ardından tarayıcı ve ekran görüntüsü kontrolleri yapılmış; maliyet $3.38. Kayıt adayı gösteriyor; süre, test kapsamı ve fatura bağımsız doğrulanmış değil."
+    ],
+    [
+      "Birden fazla görevde görsel kodlama karşılaştırması",
+      "Etiketli derlemedeki görevleri tek tek inceleyin.",
+      "Yayıncı, Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, Opus 5.5 ve GPT-6 Astra adlı dört modeli içeren 3D karşılaştırma paylaşıyor. Derlemede eklemli figürler ve rüzgârda hareket eden tente örtüsü, görevlere göre değişen model eşleşmeleriyle yer alıyor. Tam girdiler, uygulamalar ve işlev testleri sunulmuyor; doğrulanmış mekanik benchmark değil, görsel karşılaştırma."
+    ],
+    [
+      "3D Make ve Tripo’da zırhlı karakter",
+      "Belgelenmemiş bir arka uç çıkarmadan sonuçları karşılaştırın.",
+      "FiniYang, Kimi K3.1 Pro’nun 3D Make moduna atfedilen zırhlı karakteri, doğrudan Tripo H3.1 çıktısı ve özelliğin arayüzüyle sunuyor. ¥199’lık planın aylık kotasının yaklaşık 2%’sini bildirmiş. Benzer görünüm ve yazarın açıklaması doğrulanmış bir yönlendirme ilişkisini veya genel maliyet karşılaştırmasını ortaya koymuyor."
+    ],
+    [
+      "Ortak referans dosyalarıyla yaratık adası",
+      "Sahne farklarını belirtilen referans koşullarıyla birlikte inceleyin.",
+      "Üretici, Opus 5.5 ve Kimi K3.1 Pro ada karşılaştırmasında aynı girdi ve 3D dosyalarının her biriyle bir kez, elle düzeltmeden kullanıldığını söylüyor. Kayıt yaratıklar, yapılar ve farklı arazi yorumlarını gösteriyor. Referans dosyaları, tam uygulamalar ve eşdeğer yürütme ayarları bağımsız kontrol edilmiş değil."
+    ],
+    [
+      "Gün batımında uçak inişi karşılaştırması",
+      "Video karşılaştırmasını yorumlamadan önce üretim kökenini kontrol edin.",
+      "Yayıncı, kaynakta on saniyelik olarak bildirilen gün batımında uçak inişi isteği için Kimi K3.1 Pro, Gemini 4 Argon ve Fable 5.1 etiketli klipler sunuyor. Video görünen farkları destekliyor. Kliplerin nasıl üretildiği, dış varlık veya araç kullanılıp kullanılmadığı ve koşulların karşılaştırılabilirliği ortaya konmuyor."
+    ],
+    [
+      "Sol ile Blender referans yeniden yapımı",
+      "Yeniden yapılan ayrıntıları belirtilen emek ve maliyetle karşılaştırın.",
+      "Üretici, Kimi K3.1 Pro ve GPT-6.1 Sol’a aynı Blender referans görevini, erişilebilir en yüksek akıl yürütme ayarlarıyla verdiğini söylüyor. Kimi için yaklaşık 25 dakika/$1.50, Sol için 17 dakika/$0.70 bildiriyor ve Sol’un ışık ve dokularını tercih ediyor. Kayıtlar görsel karşılaştırmayı destekliyor; tam girdiler, ayarlar ve faturalar doğrulanmış değil."
+    ],
+    [
+      "Blender MCP ile imkânsız şişe",
+      "Tamamlanan nesneyle birlikte geçen süreyi de değerlendirin.",
+      "Üretici, imkânsız şişe sahnesini Blender MCP üzerinden Kimi K3.1 Pro Max’e atfediyor ve yaklaşık dört saat çalışma bildiriyor. Kayıt yarı saydam şişe, askıda parçacıklar ve sergileme tabanı gösteriyor. Tam girdi, yineleme geçmişi ve kesin yürütme süresi sunulmuyor."
+    ],
+    [
+      "Titanic’in batışı karşılaştırması",
+      "Kalite yargılarını bildirilen süre ve toplam maliyetten ayırın.",
+      "Yayıncı, Titanic’in batışında Kimi K3.1 ve Opus 5.5’i karşılaştırıyor: Kimi için 35m 05s, 1.98M token ve yaklaşık $0.88; Opus için 28m 55s, 9.02M token ve yaklaşık $8.43. Opus’u tercih ediyor. Kayıt görünen farkları destekliyor; maliyet ve süreler kaynak beyanı."
+    ],
+    [
+      "Soyut yansıtıcı nesne karşılaştırması",
+      "Referans yorumunu ve işçiliği belirtilen çaba ayarlarıyla karşılaştırın.",
+      "Üretici, ortak referans görevinde Kimi K3.1 Pro ve GPT-6 Astra’yı erişilebilir en yüksek akıl yürütme ayarlarında karşılaştırıyor. Klip farklı soyut yansıtıcı nesneler ve düzenler gösteriyor. Kimi için yaklaşık 45 dakika/$7.30, Astra için 47 dakika/$86.50 bildiriliyor; tam girdiler, faturalar ve yürütme eşdeğerliği ortaya konmuş değil."
+    ],
+    [
+      "StillWild ve MossLight sahne karşılaştırması",
+      "Bildirilen render sorunlarını koruyarak ayrı sahne tasarımlarını inceleyin.",
+      "Üretici, kayıtları Kimi K3.1 Pro için StillWild ve DeepSeek V4.1 Flash 1017 için MossLight olarak adlandırıyor. DeepSeek’i tercih ediyor ve Kimi sonucunda aralıklı kare hızı düşüşleri bildiriyor. Her iki kaynak video korunuyor. Tam girdiler ve yerel performans kayıtları sunulmuyor."
+    ],
+    [
+      "Havada kalan köşeleriyle kale benchmarkı",
+      "Yakın görünümlerde görünüş kadar geometrik kusurları da inceleyin.",
+      "Değerlendirici, Kimi K3.1 Pro’nun dört kale ekran görüntüsünü paylaşıyor ve dış köşelerin yerden kopuk göründüğünü belirtiyor. Sahne ve öne sürülen kusur için tüm görünümler korunuyor. Eğitim kökenine ilişkin spekülasyonu görsel benzerlikle kanıtlanmıyor; çalıştırılabilir model veya sayısal puan sunulmuyor."
+    ],
+    [
+      "Piksel havalimanı karşılaştırması",
+      "Havalimanı sahnesini bildirilen görev maliyetleriyle karşılaştırın.",
+      "Yayıncı, piksel havalimanında Kimi K3.1 Pro ve GPT-6 Astra’yı karşılaştırıyor; sırasıyla $0.98 ve $17.61 bildiriyor. Kayıt farklı havalimanları, uçaklar ve kontrol panelleri gösteriyor. Hava durumu, etkileşimlerin eksiksizliği ve belirtilen faturalar bağımsız test edilmiş değil."
+    ],
+    [
+      "Giysi modelleme testi",
+      "Bitmemiş yüzeyleri kaynağın modelleme isteğine göre inceleyin.",
+      "Değerlendirici, Kimi K3.1 Pro max ile giysi modelleme denemesini paylaşıyor ve sonucu olumsuz değerlendiriyor. Ekran görüntüsü şortlu bir alt gövde modeli ve kısmen bitmiş yüzey gösteriyor. Bu, görev için bildirilen bir sınır; genel anatomi benchmarkı değil. Tam deneme ve puanlama yöntemi sunulmuyor."
+    ],
+    [
+      "Voksel kayak merkezi karşılaştırması",
+      "Görev maliyetlerini genel sıralamaya çevirmeden tesis ayrıntılarını inceleyin.",
+      "Yayıncı, Kimi K3.1 Pro ve GPT-6 Astra kayak merkezlerini $0.31 ve $15.57 etiketleriyle karşılaştırıyor. Kayıt pistler, telesiyejler ve farklı yerleşimler gösteriyor. Yazar fiyat karşılığında Kimi’yi tercih ediyor; tam girdiler, işlev kapsamı ve faturalar bağımsız doğrulanmış değil."
+    ],
+    [
+      "Astra’ya karşı bitki sahnesi",
+      "Bitki ayrıntılarını kayıttaki model etiketleri altında karşılaştırın.",
+      "Değerlendirici, GPT-6 Astra ve Kimi K3.1 Pro max bitki sahnelerini yan yana sunuyor ve Astra’yı tercih ediyor. Görsel farklı yaprak, sap, çiçek ve arka plan işlenişlerini gösteriyor. Tam girdi, çalıştırılabilir çıktılar ve kontrollü puanlama yöntemi sunulmuyor."
+    ],
+    [
+      "İki modelle Geyser Isle",
+      "Eşit olmayan süre ve maliyetlerle sahne ayrıntılarını karşılaştırın.",
+      "Üretici, Geyser Isle’da DeepSeek V4.1 Flash 1017 ile Kimi K3.1 Pro’yu karşılaştırıyor; en yüksek ayarlar, DeepSeek için $1.07/90 dakika ve Kimi için $7.40/60 dakika bildiriyor. DeepSeek’i tercih ediyor. Kayıt farklı ada ve gayzer yorumlarını gösteriyor; süreler, maliyetler ve davranış bağımsız tekrarlanmış değil."
+    ],
+    [
+      "Çevrimiçi kayıt sorunları olan bahçe sahnesi",
+      "Kayıt kusurunu iddia edilen yerel sonuçtan ayırın.",
+      "Üretici, Kimi K3.1 Pro’nun köprü, bitki ve çiçekli bahçe sahnesini paylaşıyor. Çevrimiçi üretilen kayıtta kare hızı sorunu bildirirken HTML’nin yerelde doğru çalıştığını söylüyor ve bu görevde Opus 5.5’i tercih ediyor. Sunulan klip yerel performansı veya tam karşılaştırma kurulumunu doğrulamıyor."
+    ],
+    [
+      "New York silueti ve kota karşılaştırması",
+      "Sahneyi ve bildirilen kaynak kullanımını ayrı değerlendirin.",
+      "Üretici, New York üzerinde uçuşta Kimi K3.1 Pro ile Opus 5.5’i karşılaştırıyor ve rakiplerin ayrıntılarını tercih ediyor. $100’lık Kimi planının beş saatlik kotasını 20 dakika içinde tükettiğini bildiriyor. Kayıt şehir çıktılarını gösteriyor; kota hesabı ve simge yapıların doğruluğu bağımsız doğrulanmış değil."
+    ],
+    [
+      "Opus’a karşı dört uzay sahnesi",
+      "Genel görsel tercihi benimsemeden önce her sahneyi karşılaştırın.",
+      "Üretici, Opus 5.5 ve Kimi K3.1 Pro’nun dört uzay sahnesini karşılaştırıyor; toplam $5.63 ve $1.09 bildiriyor. Kayıt asteroit çarpması ve başka etiketli sahneler içeriyor. Opus’un sinematik görünüşünü tercih ediyor ve Kimi’nin karanlık galaksilerini eleştiriyor. Bunlar göreve özgü yargı ve bildirilen maliyetler; bağımsız yeniden çalıştırma değil."
+    ],
+    [
+      "Yirmi sekiz dakikada yapılan kale",
+      "Bitmiş ortamı bildirilen emekle birlikte inceleyin.",
+      "Üretici, bu ayrıntılı kale ortamını Kimi K3.1’e atfediyor ve 28 dakika ile $4.48 bildiriyor. Kayıt kuleler, surlar, avlular ve çevreyi gösteriyor. Tam girdi, kaynak kodu, varlık kökeni ve süre bağımsız doğrulanmış değil."
+    ],
+    [
+      "Altı çekimlik Avatar sahnesi karşılaştırması",
+      "Görev toplamlarını tek çekimlerdeki etiketlerden ayırın.",
+      "Atomic Agent, tek HTML dosyasında altı çekimlik Avatar sahnesi bildiriyor: ekran görüntüsüyle düzeltmeler dahil Kimi için 40 adım/12 dakika, Astra için 70 adım/9 dakika. Videonun tek çekim süre ve maliyet etiketleri tüm görev toplamlarıyla örtüşmüyor. Tam kayıtlar ve varlık kökeni bağımsız doğrulanmış değil."
+    ],
+    [
+      "Blender’da Changi Havalimanı",
+      "Araç ve varlık katkılarını açık tutarak sahne geometrisini inceleyin.",
+      "Üretici, Singapur Changi Havalimanı sahnesini Kimi K3.1 Pro’ya atfediyor; Blender’da varlık üretimi, birleştirme ve render işlemlerini anlatıyor. Kayıt sahneyi ve tel kafes geometrisini gösteriyor. Paylaşım Tripo eklenti desteğini de anıyor; ancak burada kullanılıp kullanılmadığını ortaya koymuyor veya tam yapım kaydı sunmuyor."
+    ],
+    [
+      "Gece yelkenli sahnesi",
+      "Modeli ve suyu ayrı bir kayıtlı sahnede inceleyin.",
+      "Üretici erken erişimini açıklıyor ve yelkenli sahnesini Kimi K3.1 Pro’ya atfediyor: tek talimat, yaklaşık bir saat ve $8.40. Kayıt gemiyi gece yansıtıcı suda gösteriyor. Tam kod, varlık kökeni, süre ve maliyet bağımsız doğrulanmış değil."
+    ],
+    [
+      "Ay ışığında kamp sahnesi",
+      "Kayıtta aydınlatmayı, ateşi ve ortam ayrıntılarını inceleyin.",
+      "Yayıncı, ay ışığında kamp sahnesini Kimi K3.1 Pro’ya atfediyor. Klip ateş, kayalar, arazi ve gökyüzü aydınlatması gösteriyor. Diğer modellerle olumlu karşılaştırması öznel; eşleştirilmiş karşılaştırma örneği, tam girdi veya çalıştırılabilir uygulama sunulmuyor."
+    ],
+    [
+      "Kara delik sahnesi karşılaştırması",
+      "Bilimsel doğruluk varsaymadan gösterilen işlenişi karşılaştırın.",
+      "Üretici, Kimi K3.1 ve Opus 5.5 kara delik sahnelerini karşılaştırıyor; sırasıyla 30 ve 48 dakika bildiriyor. Kayıt farklı yığılma diskleri, ışık ve kamera yorumları gösteriyor. Fiziksel olarak doğru render, tam girdilerin eşdeğerliği veya bağımsız ölçülmüş oluşturma süreleri ortaya konmuyor."
+    ],
+    [
+      "Bir üreticinin 3D üretim koleksiyonu",
+      "Her görünümü ayrı saymadan koleksiyonun çeşitliliğini inceleyin.",
+      "Peter Gostev, Kimi K3.1 Pro üretim koleksiyonunu paylaşıyor; Arena ona ek örnekler de atfediyor. İki kayıt, her sahne için ayrı vaka yerine tek koleksiyon olarak tutuluyor. Klipler çeşitli ortam ve nesneler gösteriyor; ancak tüm girdileri, kodu veya bağımsız üretim kayıtlarını sunmuyor."
+    ],
+    [
+      "Yörünge kameralı Roma kalıntıları",
+      "Ortak isteği kontrol ederek sahneyi karşılaştırın.",
+      "Yayıncı, Kimi K3.1 Pro ve GPT-6.1 Sol’a yörünge kamerasıyla aynı Roma kalıntıları isteğini verdiğini bildiriyor. Kayıt su, ağaçlar ve taş yapılar içeren iki benzer mimari sahne gösteriyor. Tam girdiler, kod ve kameranın işlev testleri sunulmuyor."
+    ],
+    [
+      "Karakter görselinden GLB önizlemesine",
+      "Arka uç iddialarını doğrulanmamış tutarak gerçek önizlemeyi inceleyin.",
+      "Üretici, karakter görselini Kimi K3.1 Pro ile yaklaşık beş dakikada ve yaklaşık $0.60’a GLB modeline çevirdiğini söylüyor. Kayıt giyimli, kurda benzeyen karakterin 3D önizlemesini gösteriyor. Yüklü Tripo eklentisinin bakiyesi olmadığını ve kullanılmadığını söylüyor; klip bu yürütme iddiasını veya varlık kökenini bağımsız ortaya koymuyor."
+    ],
+    [
+      "SVG’de patlatılmış tüplü pikap",
+      "Katmanlı izometrik geometriyle sökülmüş aygıtı inceleyin.",
+      "Üretici, izometrik SVG olarak resmedilen doğrudan tahrikli tüplü pikabı Kimi K3.1 ve Anatomy skill’ine bağlıyor. Dış varlık olmadığını, dört tonlu gölgeleme ve çizim sırasına göre katmanlar kullandığını bildiriyor. Kaynak görsel çizimi destekliyor; tam SVG, skill katkısı ve mekanik doğruluk bağımsız kontrol edilmiş değil."
+    ],
+    [
+      "Dört modelle çıkartma soyma efekti",
+      "Ortak efekt görevinde deformasyon ve yüzey işlenişini karşılaştırın.",
+      "Üretici, çıkartma soyma efektinin yeniden yapımında Kimi K3.1 Pro, DeepSeek V4.1 Flash, GPT-6.1 Sol ve Opus 5.5’i karşılaştırıyor. Kayıt dört etiketi de koruyor ve farklı işlenişleri gösteriyor. Kaynağın olumlu değerlendirmesi çalıştırılabilir kodun, tam girdinin veya etkileşim testinin yerini tutmuyor."
+    ],
+    [
+      "Three.js ile Antseed lansman animasyonu",
+      "Marka animasyonunu bildirilen maliyetle inceleyin.",
+      "Antseed, lansman animasyonunu Three.js kullanan tek Kimi K3.1 Pro isteğine atfediyor ve tüm çalıştırma için $0.1016 bildiriyor. Kayıt yeşil, ağ temalı bir sekans gösteriyor. Tam girdi, uygulama ve bildirilen maliyet bağımsız doğrulanmış değil."
+    ],
+    [
+      "Tek HTML dosyasında Lantern Hour",
+      "Stil değişimlerini ve kontrolleri açık gereksinimlerle karşılaştırın.",
+      "Üretici, Lantern Hour’da Opus 5.5 ve Kimi K3.1 Pro’yu karşılaştırıyor: tek HTML dosyası, Canvas 2D, dört sanat stili, gündüz/gece döngüsü, aydınlatma ve dış varlıksız etkileşimli kontroller. Kayıt çıktıları gösteriyor. Her kontrolü veya dış varlık kullanılmadığı iddiasını bağımsız doğrulamıyor."
+    ],
+    [
+      "Mozart tarzında kod animasyonu remiksi",
+      "Kod animasyonu sonucuyla birlikte referansları ve yinelemeleri kaydedin.",
+      "Üretici, lansman öncesi animasyonun Mozart tarzı remiksini Three.js ile Kimi K3.1’e atfediyor: en yüksek akıl yürütme, yaklaşık 40 dakika ve $2. Tek talimat yerine referanslı çoklu yinelemeleri açıkça anlatıyor. Kayıt animasyonu destekliyor; kodun kökeni ve maliyetler bağımsız doğrulanmış değil."
+    ],
+    [
+      "İzometrik hareket sekansı karşılaştırması",
+      "Tutarsız model adlarını koruyarak görünen sekansları karşılaştırın.",
+      "Yayıncı, izometrik hareket sekansını Opus 5.5 ile karşılaştırıp renk, ışık ve aralıkları tartışıyor. Başlık K3.1 Pro derken metin ve video etiketi Kimi K3 Pro diyor. Bu tutarsızlık korunuyor; kayıt kesin checkpoint’i, tam girdiyi veya yürütme koşullarını ortaya koymuyor."
+    ],
+    [
+      "Three.js ile lansman videosunun yeniden yapımı",
+      "İddia edilen lansman videosu yapımını belirtilen emekle inceleyin.",
+      "Yayıncı, lansman videosunun yeniden yapımını Three.js ile Kimi K3.1’e atfediyor ve beş dakika ile $1.10 bildiriyor. Klip maskot, çiçekler, ağaçlar ve voksel benzeri çevre gösteriyor. Tam girdi, kaynak kodu, varlık kökeni veya bağımsız doğrulanmış süre ve maliyet sunulmuyor."
+    ],
+    [
+      "MemoMind gözlüğüne DOOM portu",
+      "Adı belirtilen aygıtta çalışan yazılım portunu inceleyin.",
+      "Üretici, DOOM’u MemoMind One gözlüğüne taşımak için bir haftalık Kimi K3.1 kotasını kullandığını söylüyor. Kayıt aygıta yönelik kurulum ve oyun ekranını gösteriyor. Kaynak kodu, derleme ve kurulum adımları, kare hızı ölçümleri ve kota hesabı sunulmadığından tam oynanabilirlik ve maliyet bağımsız doğrulanmış değil."
+    ],
+    [
+      "Etkileşimli Mısır tapınağı karşılaştırması",
+      "İstenen etkileşimleri görünüş ve bitiş süresinden ayrı test edin.",
+      "Üretici, Kimi K3.1 Pro ve DeepSeek V4.1 Flash’a aynı Three.js Mısır tapınağı görevini verdiğini bildiriyor: kazma, fırçalama, mezar odası bulmacası, hava durumu ve gündüz/gece döngüsü. Sırasıyla 41 ve 32 dakika bildiriyor. Kayıt görünen farkları destekliyor; her etkileşimi veya süreleri doğrulamıyor."
+    ],
+    [
+      "Pelikanlı sonsuz koşu oyunu karşılaştırması",
+      "Kayıtlı oyunu bildirilen geçen süre ve maliyetle karşılaştırın.",
+      "Yayıncı, Subway Surfers tarzı pelikanlı bisiklet görevini karşılaştırıyor: Kimi 10m 01s/$0.95, GPT-6 Astra 19m 52s/$6.53. Klip farklı koşucuları ve test sonu puanlarını gösteriyor. Tam oynanış, puanlama yöntemi ve faturalar bağımsız doğrulanmış değil."
+    ],
+    [
+      "Kota ayarından sonra bisikletli pelikan",
+      "Kotanın herkes için düzeldiğini varsaymadan sonraki tamamlanmış çıktıyı inceleyin.",
+      "Üretici, bildirilen kota artışından sonra Kimi K3.1 Pro’nun pelikanlı bisiklet kaydını paylaşıyor ve aboneliğinde uzun görevlerin artık bitebildiğini söylüyor. Klip bu sahneyi destekliyor. Diğer abonelerin kotalarını, tam oynanışı veya önceki tüm kota sorunlarının çözüldüğünü ortaya koymuyor."
+    ],
+    [
+      "Sistem sistem kurulan galaksi nişancı oyunu",
+      "Hareket, dalga ve güçlendirmeleri aşamalı oluşturup test edin.",
+      "Üretici, aynı altı adımla yapılan üç galaksi nişancı oyununu karşılaştırıyor: hareket, ateş, dalgalar, güçlendirmeler, durum ekranları ve öz inceleme. Kimi için $0.31, Astra için $2.55, Opus için $1.93 bildiriyor ve Kimi’nin işlev kapsamını tercih ediyor. Kayıt çıktıları destekliyor; her oyun işlevi ve maliyetler bağımsız yeniden çalıştırılmış değil."
+    ],
+    [
+      "Sonbahar kanalında voksel tekne",
+      "Oyunu tamamen test edilmiş saymadan kontrolleri ve engelleri inceleyin.",
+      "Üretici, voksel tekne oyununu Kimi K3.1’e atfediyor ve 28 dakika ile $4.58 bildiriyor. Kaynak nehir ışıkları toplamayı ve kovalayan kıvrımlı yılanlara kürekle vurmayı anlatıyor. Kayıt tekne ve kanalı gösteriyor; tüm kontroller, çarpışmalar, kaynak kodu ve fatura bağımsız test edilmiş değil."
+    ],
+    [
+      "Tarayıcıda blok yapım oyunu karşılaştırması",
+      "İddia edilen ilerlemeyi kayıtlı oyuna göre kontrol edin.",
+      "Yayıncı, tarayıcıdaki blok yapım oyununda Kimi K3.1 Pro ve GPT-6 Astra’yı karşılaştırıyor; $2.30 ve $13.40 bildiriyor. Köy, maden, Nether ve portal ilerlemesini anlatıyor. Kayıt dünyaların bir bölümünü gösteriyor; tam ilerleme, açık kaynak iddiası, varlık kökeni ve faturalar bağımsız doğrulanmış değil."
+    ],
+    [
+      "Beş ajanlı ekiplerle SüngerBob sahnesi",
+      "Ekip çıktılarıyla belirtilen orkestrasyonu karşılaştırın.",
+      "Atomic Chat, beş ajanlı ekiplerin SüngerBob temalı sahne yaptığını; Kimi’nin 26 dakikada, Opus 5.5’in iki saatte bitirdiğini bildiriyor. Klipte $7.31 ve $76.42 maliyet etiketleri var. Bunlar kaynak süreleri ve etiketleri; ekip kayıtları, tam uygulama ve işlevsel oyun davranışı bağımsız kontrol edilmiş değil."
+    ],
+    [
+      "Japon aksiyon oyunu ortamı",
+      "Tam oynanış varsaymadan kayıtlı ortamı inceleyin.",
+      "Yayıncı, Ghost of Tsushima’dan esinlenen sahneyi Kimi K3.1 Pro’ya atfediyor. Kayıt üçüncü şahıs karakter, köprü, su ve Japon binaları gösteriyor. Görünen ortamı ve hareketi destekliyor; ancak tam oyun, özgün varlıklar, kamuya açık kod veya yeniden üretilebilir derleme ortaya koymuyor."
+    ],
+    [
+      "Eksik efektli mekanik pelikan bisikleti",
+      "Görsel ayrıntıların yanında istenip eklenmeyen efektleri de kontrol edin.",
+      "FiniYang, Kimi Desktop’ta Kimi K3.1 Pro ile yapılan mekanik pelikan bisikletini paylaşıyor ve istenen nitro hızlanma efektinin eklenmediğini söylüyor. Kayıt modeli ve görüntüleyiciyi gösteriyor. Bildirilen eksiklik korunuyor; tam hareket davranışı, girdiler ve uygulama bağımsız test edilmiş değil."
+    ],
+    [
+      "3D web sitesi için kayıtlı iş akışı",
+      "Örnekleri vaatlerden ayırarak kayıtlı kurulumu izleyin.",
+      "Yayıncı, Kimi K3.1 Pro ile 3D web sitesi yapma video eğitimi paylaşıyor. Kayıtta referans taraması, model oturumu ve site örnekleri var. Geniş bütçe karşılaştırmaları tanıtım iddiaları; doğrulanmış tasarruf değil. Başarılı yeniden üretim, tüm bağımlılıklar ve gösterilen her varlığın sahipliği ortaya konmuş değil."
+    ],
+    [
+      "Üç modelle bisiklet showroomu",
+      "Ürün ayrıntılarını ve düzeni kayıtlı maliyet etiketleriyle inceleyin.",
+      "Yayıncı, Kimi K3.1 Pro, Opus 5.5 ve GPT-6 Astra etiketli bisiklet showroomu sayfalarını $0.05, $0.72 ve $2.63 maliyetleriyle karşılaştırıyor. Kayıt farklı bisikletler ve arayüz düzenleri gösteriyor. Tam işlevsellik, kaynak kodu ve belirtilen faturalar bağımsız doğrulanmış değil."
+    ],
+    [
+      "Katlanır telefon için pizza arayüzü",
+      "Etkileşim fikrini aygıt biçimli yerleşimde inceleyin.",
+      "Üretici, iPhone Duo’ya yönelik uygulama konseptini Kimi K3.1 Pro’ya atfediyor. Kayıt malzemeli pizza arayüzü ve aygıt çerçevesi gösteriyor. Görünen düzeni ve animasyonu destekliyor; yayımlanmış yerel uygulama, eksiksiz etkileşim kapsamı veya kamuya açık yeniden üretilebilir uygulama değil."
+    ],
+    [
+      "Telefon uygulaması arayüzü karşılaştırması",
+      "Tam uygulama varsaymadan görünen ekranları karşılaştırın.",
+      "Yayıncı, Fable 5.1, GPT-6 Astra ve Kimi K3.1 Pro etiketli telefon arayüzlerini sunuyor; Kimi için $17.30, Astra için $86.50 bildiriyor. Kayıt farklı ekranlar ve geçişler gösteriyor. Tam uygulama davranışı, girdi eşdeğerliği ve bildirilen faturalar bağımsız ortaya konmuş değil."
+    ],
+    [
+      "FawnBench geyik modelleme karşılaştırması",
+      "Sıralamayı genellemeden önce bu özel karşılaştırmayı inceleyin.",
+      "FawnBench, geyik modelleme görevinde Kimi K3.1 Pro ile Opus 5.5’i karşılaştırıyor. Kayıt farklı geyik biçimleri ve yüzey işlenişleri gösteriyor. Göreve özgü görsel karşılaştırma olarak tutuluyor; paylaşımda tam girdi, çalıştırılabilir modeller veya belgelenmiş toplu puanlama protokolü yok."
+    ],
+    [
+      "CUDA yarışmasında süre ve gönderim sınırları",
+      "Düşünme süresini ve gönderim kısıtlarını görev sonucuna katın.",
+      "Katılımcı, Kimi K3.1 ve yüksek akıl yürütmeli diğer modellerin CUDA.FAST çözümlerini liderlik çıtası ilerlemeden geliştirmek için fazla zaman harcadığını bildiriyor. Tek hesaptaki üç aygıttan paralel gönderimlerin de engellendiğini söylüyor. Sıralama ekranı bağlam sağlıyor; model gecikmeleri ve yarışma gönderim sınırları, kaynağın bildirdiği ayrı kısıtlar."
+    ],
+    [
+      "Araç etiketli rakiple roket fırlatma",
+      "Model üstünlüğü atfetmeden önce karşılaştırılan sistemin kimliğini kontrol edin.",
+      "Yayıncı, Kimi K3.1 etiketli roket çalışmasını Claude Code etiketli çalışmayla karşılaştırıyor; $11/üç dakika ve $115/30 dakika bildiriyor. Kayıtta biriken maliyet ve süre etiketleri var. Claude Code bir araç etiketi olduğundan alttaki rakip model ve eşdeğer ayarlar ortaya konmuyor; toplamlar kaynak beyanı."
+    ],
+    [
+      "VoxelBench canlı sıralama anlık görüntüsü",
+      "Sıralama sonucunu kendi değerlendirme kapsamı içinde okuyun.",
+      "VoxelBench, Kimi K3.1 Pro’yu canlı sıralamasında Gemini 4 Argon ile eşit altıncı sırada bildiriyor. Kaynak ekran görüntüsü tarihli sıralamayı koruyor. Temel görev kümesi, belirsizlik ve sonraki sıralama değişiklikleri burada bağımsız değerlendirilmemiştir; bu, değerlendiricinin anlık görüntüsü."
+    ],
+    [
+      "WorkBuddy kullanım sınırı kesintisi",
+      "İş akışını değerlendirirken sağlayıcı kota kesintilerini dahil edin.",
+      "Kullanıcı, WorkBuddy üzerinden Kimi K3.1 kullanımının zor olduğunu bildiriyor ve kota sıfırlanana veya plan değişene kadar işi durduran kullanım sınırı mesajını paylaşıyor. Ekran görüntüsü kesintiyi destekliyor. Tam görev, gerçek tüketim ve başka planlara uygulanabilirlik ortaya konmuş değil."
+    ],
+    [
+      "KingBench puanı ve önbellek okuma maliyeti",
+      "Görev puanını bildirilen tam kullanım maliyetiyle karşılaştırın.",
+      "Değerlendirici, KingBench 4’te Kimi K3.1 Pro için 53.7% ve $31.88 bildiriyor ve tekrarlanan önbellek okumalarını eleştiriyor. İlgili maliyet diyagramı önbellek okumaya $22.11, çıktıya $6.93 ayırıyor; bunlar tek başına $31.88 etmiyor. İki grafik de korunuyor; tam hesap ve önerilen davranış açıklaması bağımsız doğrulanmış değil."
+    ],
+    [
+      "BuildingBench fotoğraf rekonstrüksiyonu",
+      "Aynı benchmarkta yeniden yapım puanlarını ve görev maliyetlerini karşılaştırın.",
+      "BuildingBench, Kimi K3.1 Pro’nun K3’ün 54.0 puanından 81.6’ya çıktığını ve tahmini medyan görev maliyetinin $12.58 olduğunu bildiriyor. Melbourne’deki Australian Centre for Contemporary Art’ın fotoğraftan yeniden yapımını 90.8 puanla öne çıkarıyor. Kaynak grafik ve rekonstrüksiyon, değerlendiricinin beyanı; bağımsız yerel yeniden çalıştırma değil."
+    ],
+    [
+      "Kod inceleme kotası ve token kaydı",
+      "Kayıtlı tüketimi tahmini plan kotalarından ayrı okuyun.",
+      "Yayıncı, beş alt ajanlı inceleme görevinin beş saatlik Kimi kotasını yaklaşık on dakikada tükettiği raporunu aktarıyor. Ekran görüntüsü toplam 13,007,388 token, bunun içinde 11,667,200 önbellekli girdi tokenı listeliyor. Önerilen haftalık ve aylık toplamlar ekstrapolasyon; doğrulanmış sınırlar değil. Tam oturum kaydı sunulmuyor."
+    ],
+    [
+      "Tümevarım benchmarkı karşılaştırması",
+      "Göreve özgü sonuçlar ve token maliyetiyle model seçin.",
+      "Değerlendirici, tümevarım benchmarkında Kimi K3.1 Pro’yu Opus 5 civarında; Qwen 3.8 Max ve Muse Spark 1.3’ün önünde, GPT-5.6 Sol, GPT-6.1 Sol ve Opus 5.5’in gerisinde bildiriyor. Sıralama korunuyor. Bunlar token kullanım maliyeti dengesini içeren, protokole özgü kaynak sonuçları; genel yetenek sıralaması değil."
+    ],
+    [
+      "Bach tarzı koral değerlendirmesi",
+      "Müziği değerlendiricinin belirttiği sınırlarla inceleyin.",
+      "Değerlendirici, Bach Benchmark’ta Kimi K3.1 Pro max’in sol minör koralini paylaşıyor ve Fable 5 düzeyine yakın buluyor. Akor dışı seslerin ve sekizlik notaların yokluğunu eleştiriyor. Müzik kaydı ve nota kaynak kanıtı; tam puanlama protokolü ve bağımsız tekrar sunulmuyor."
+    ],
+    [
+      "Kotayla kesilen galeri ajan sürüsü",
+      "Ajan sayısını tamamlanma saymadan başarısız çalışmayı inceleyin.",
+      "Kullanıcı, beş saatlik Kimi K3.1 Pro kotasının galeri üretme isteğinden yaklaşık bir dakika sonra, hiçbir şey yapılmadan tükendiğini bildiriyor. Ekran görüntüsü birçok ajan kaydının 429 hatası verdiğini gösteriyor. Görev başarısızlığı ve süre tek kullanıcının beyanı; abonelikler genelinde ölçülmüş başarısızlık oranı değil."
     ]
   ]
 }

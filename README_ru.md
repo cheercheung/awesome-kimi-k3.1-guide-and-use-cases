@@ -27,7 +27,7 @@
 <a id="overview"></a>
 ## 📊 Обзор
 
-125 самостоятельных примеров в 6 категориях. Повторные публикации и сравнения одной работы объединены.
+205 самостоятельных примеров в 6 категориях. Повторные публикации и сравнения одной работы объединены.
 
 > [!NOTE]
 > Соответствие Kibitz и Kimi K3.1 Pro остаётся неподтверждённым. Названия моделей, время, стоимость и оценки качества сообщены источниками. Записи не доказывают работоспособность кода, полноту взаимодействия или повторяемость успеха.
@@ -171,6 +171,86 @@
 | [123. Компромисс точности и авторского голоса в ToneBench](#case-123) | Сравнение моделей | Benchmark |
 | [124. Таблица оценок семи задач агентного программирования](#case-124) | Сравнение моделей | Evaluation |
 | [125. Проверка известных уязвимостей VulnPR-100](#case-125) | Сравнение моделей | Benchmark |
+| [126. Воксельная видеокарта](#case-126) | Механические и трёхмерные объекты | Demo |
+| [127. Двухступенчатый прямозубый редуктор](#case-127) | Механические и трёхмерные объекты | Demo |
+| [128. Сравнение шестиногих роботов](#case-128) | Механические и трёхмерные объекты | Evaluation |
+| [129. Турбина в разобранном виде в CAD](#case-129) | Механические и трёхмерные объекты | Demo |
+| [130. План дома и фасад в CAD](#case-130) | Механические и трёхмерные объекты | Demo |
+| [131. Восьмиколёсный луноход](#case-131) | Механические и трёхмерные объекты | Demo |
+| [132. Эксперимент с напечатанным спиннером](#case-132) | Механические и трёхмерные объекты | Evaluation |
+| [133. Разрез дрона, распознающего ладонь](#case-133) | Механические и трёхмерные объекты | Demo |
+| [134. Виртуальные руки играют в дженгу](#case-134) | Механические и трёхмерные объекты | Demo |
+| [135. Boeing 747, отрендеренный в Blender](#case-135) | Механические и трёхмерные объекты | Demo |
+| [136. Часы Day-Date на Three.js](#case-136) | Механические и трёхмерные объекты | Demo |
+| [137. Сравнение CAD-кронштейна за двенадцать операций](#case-137) | Механические и трёхмерные объекты | Evaluation |
+| [138. Внешний вид Enterprise-D у трёх моделей](#case-138) | Механические и трёхмерные объекты | Evaluation |
+| [139. SR-71 Blackbird с видами для осмотра](#case-139) | Механические и трёхмерные объекты | Demo |
+| [140. Сравнение разобранных моторов](#case-140) | Механические и трёхмерные объекты | Evaluation |
+| [141. Сравнение сцены с роботом-уткой](#case-141) | Механические и трёхмерные объекты | Evaluation |
+| [142. Модель продукта Coca-Cola на Three.js](#case-142) | Механические и трёхмерные объекты | Demo |
+| [143. Сравнение моделей песчаного червя](#case-143) | Миры и пейзажи | Evaluation |
+| [144. Сравнение переливающихся пчёл](#case-144) | Миры и пейзажи | Evaluation |
+| [145. Извержение вулкана в четырёх процессах](#case-145) | Миры и пейзажи | Evaluation |
+| [146. Мон-Сен-Мишель за час работы агента](#case-146) | Миры и пейзажи | Demo |
+| [147. Сравнение нескольких задач визуального программирования](#case-147) | Миры и пейзажи | Evaluation |
+| [148. Бронированный персонаж в 3D Make и Tripo](#case-148) | Миры и пейзажи | Evaluation |
+| [149. Остров с существами и общими файлами-референсами](#case-149) | Миры и пейзажи | Evaluation |
+| [150. Сравнение посадки самолёта на закате](#case-150) | Миры и пейзажи | Evaluation |
+| [151. Реконструкция Blender по референсу против Sol](#case-151) | Миры и пейзажи | Evaluation |
+| [152. Невозможная бутылка через Blender MCP](#case-152) | Миры и пейзажи | Demo |
+| [153. Сравнение гибели «Титаника»](#case-153) | Миры и пейзажи | Evaluation |
+| [154. Сравнение абстрактных отражающих объектов](#case-154) | Миры и пейзажи | Evaluation |
+| [155. Сравнение StillWild и MossLight](#case-155) | Миры и пейзажи | Evaluation |
+| [156. Тест замка с висящими углами](#case-156) | Миры и пейзажи | Evaluation |
+| [157. Сравнение пиксельных аэропортов](#case-157) | Миры и пейзажи | Evaluation |
+| [158. Тест моделирования одежды](#case-158) | Миры и пейзажи | Limit |
+| [159. Сравнение воксельных горнолыжных курортов](#case-159) | Миры и пейзажи | Evaluation |
+| [160. Растительная сцена против Astra](#case-160) | Миры и пейзажи | Evaluation |
+| [161. Geyser Isle у двух моделей](#case-161) | Миры и пейзажи | Evaluation |
+| [162. Сад с проблемами онлайн-записи](#case-162) | Миры и пейзажи | Demo |
+| [163. Нью-Йорк и сравнение квот](#case-163) | Миры и пейзажи | Evaluation |
+| [164. Четыре космические сцены против Opus](#case-164) | Миры и пейзажи | Evaluation |
+| [165. Замок за двадцать восемь минут](#case-165) | Миры и пейзажи | Demo |
+| [166. Сравнение шестикадровой сцены Avatar](#case-166) | Миры и пейзажи | Evaluation |
+| [167. Аэропорт Чанги в Blender](#case-167) | Миры и пейзажи | Demo |
+| [168. Ночной парусник](#case-168) | Миры и пейзажи | Demo |
+| [169. Лагерь под луной](#case-169) | Миры и пейзажи | Demo |
+| [170. Сравнение чёрных дыр](#case-170) | Миры и пейзажи | Evaluation |
+| [171. Авторская подборка 3D-генераций](#case-171) | Миры и пейзажи | Demo |
+| [172. Римские руины с орбитальной камерой](#case-172) | Миры и пейзажи | Evaluation |
+| [173. Изображение персонажа в просмотре GLB](#case-173) | Миры и пейзажи | Demo |
+| [174. Взрыв-схема лампового проигрывателя в SVG](#case-174) | SVG и интерактивная графика | Demo |
+| [175. Эффект отклеивания стикера у четырёх моделей](#case-175) | SVG и интерактивная графика | Evaluation |
+| [176. Анимация запуска Antseed на Three.js](#case-176) | SVG и интерактивная графика | Demo |
+| [177. Lantern Hour в одном HTML](#case-177) | SVG и интерактивная графика | Evaluation |
+| [178. Ремикс кодовой анимации в стиле Моцарта](#case-178) | SVG и интерактивная графика | Demo |
+| [179. Сравнение изометрической анимации](#case-179) | SVG и интерактивная графика | Evaluation |
+| [180. Воссоздание релизного видео на Three.js](#case-180) | SVG и интерактивная графика | Demo |
+| [181. Порт DOOM на очках MemoMind](#case-181) | Игры и анимированные сцены | Demo |
+| [182. Сравнение интерактивных египетских храмов](#case-182) | Игры и анимированные сцены | Evaluation |
+| [183. Сравнение бесконечного раннера с пеликаном](#case-183) | Игры и анимированные сцены | Evaluation |
+| [184. Велопеликан после изменения квоты](#case-184) | Игры и анимированные сцены | Demo |
+| [185. Галактический шутер по одной системе за раз](#case-185) | Игры и анимированные сцены | Evaluation |
+| [186. Воксельная лодка в осеннем канале](#case-186) | Игры и анимированные сцены | Demo |
+| [187. Сравнение браузерной игры со строительством блоков](#case-187) | Игры и анимированные сцены | Evaluation |
+| [188. Губка Боб от команд из пяти агентов](#case-188) | Игры и анимированные сцены | Evaluation |
+| [189. Среда японской экшен-игры](#case-189) | Игры и анимированные сцены | Demo |
+| [190. Механический велопеликан с отсутствующим эффектом](#case-190) | Игры и анимированные сцены | Demo |
+| [191. Записанный процесс создания 3D-сайта](#case-191) | Веб-интерфейсы | Tutorial |
+| [192. Велосипедный шоурум у трёх моделей](#case-192) | Веб-интерфейсы | Evaluation |
+| [193. Пицца-интерфейс для складного телефона](#case-193) | Веб-интерфейсы | Demo |
+| [194. Сравнение интерфейсов телефонных приложений](#case-194) | Веб-интерфейсы | Evaluation |
+| [195. Сравнение моделей оленя FawnBench](#case-195) | Сравнение моделей | Evaluation |
+| [196. Время CUDA-соревнования и ограничения отправки](#case-196) | Сравнение моделей | Limit |
+| [197. Запуск ракеты с инструментом в роли подписи конкурента](#case-197) | Сравнение моделей | Evaluation |
+| [198. Снимок живого рейтинга VoxelBench](#case-198) | Сравнение моделей | Benchmark |
+| [199. Остановка лимитом WorkBuddy](#case-199) | Сравнение моделей | Limit |
+| [200. KingBench и расходы на чтение кеша](#case-200) | Сравнение моделей | Benchmark |
+| [201. Фотореконструкция BuildingBench](#case-201) | Сравнение моделей | Benchmark |
+| [202. Квота ревью кода и журнал token](#case-202) | Сравнение моделей | Limit |
+| [203. Сравнение индуктивного теста](#case-203) | Сравнение моделей | Benchmark |
+| [204. Оценка хорала в стиле Баха](#case-204) | Сравнение моделей | Evaluation |
+| [205. Рой для галереи, остановленный квотой](#case-205) | Сравнение моделей | Limit |
 | [Обзор](#overview) | Обзор | |
 | [Быстрый старт](#quick-start) | Быстрый старт | |
 | [Связанные репозитории](#related-repositories) | Связанные репозитории | |
@@ -1910,6 +1990,1081 @@ What’s AI сообщает, что K3.1 Pro заняла #7 среди 83 мо
 
 ---
 
+<a id="updates-2026-10-26"></a>
+## 🆕 Новые примеры · 2026-10-26
+
+<a id="update-2026-10-26-mechanical"></a>
+## ⚙️ Механические и трёхмерные объекты
+
+<a id="case-126"></a>
+### Пример 126: [Воксельная видеокарта](https://x.com/adonis_singh/status/2114396769324802183) (автор [@adonis_singh](https://x.com/adonis_singh))
+
+**Осмотреть плату, вентиляторы и корпус на опубликованном изображении.**
+
+Автор приписывает карту в стиле RTX 5090 модели Kimi K3.1 Pro, цитируя прежнюю публикацию Opus 4.5. Изображение показывает несколько вентиляторов и подробные плату и корпус. Прежняя модель — контекст, не контролируемый повтор; код и инженерная точность не установлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114396261876969473.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114396261876969473.jpg" alt="Воксельная видеокарта — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-25
+
+---
+
+<a id="case-127"></a>
+### Пример 127: [Двухступенчатый прямозубый редуктор](https://x.com/AskVenice/status/2114349790792417617) (автор [@AskVenice](https://x.com/AskVenice))
+
+**Осмотреть видимую передачу, прежде чем считать её настоящим оборудованием.**
+
+Venice публикует редуктор с подписью Kimi K3.1 Pro, анимированным разрезом и показателями деталей. Результат находится в рекламной публикации. Геометрию и движение можно осмотреть, но расчётов нагрузки, производственной проверки и независимой истории выполнения нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114349763877556224.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114349763877556224-poster.jpg" alt="Двухступенчатый прямозубый редуктор — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-25
+
+---
+
+<a id="case-128"></a>
+### Пример 128: [Сравнение шестиногих роботов](https://x.com/0x_fokki/status/2114337407247982640) (автор [@0x_fokki](https://x.com/0x_fokki))
+
+**Сравнить детали ног и датчиков двух подписанных моделей.**
+
+Автор сравнивает Kimi K3.1 Pro и GPT-6 Astra на шестиногом роботе. Видео показывает разные оболочки, суставы и датчики. Заявления об экспорте описывают показанный процесс; ролик не проверяет ходьбу, готовность к изготовлению, происхождение всех ресурсов или равные условия выполнения.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114337332228726784.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114337332228726784-poster.jpg" alt="Сравнение шестиногих роботов — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-129"></a>
+### Пример 129: [Турбина в разобранном виде в CAD](https://x.com/ShadeLurk/status/2114336636612067409) (автор [@ShadeLurk](https://x.com/ShadeLurk))
+
+**Осмотреть разобранную сборку отдельно от механической проверки.**
+
+ShadeLurk раскрывает приглашение попробовать Kimi K3.1 Pro и показывает CAD с разобранной турбиной. Снимок подтверждает видимую геометрию и разделение деталей. Полной истории построения, размеров, проверки напряжений и производственной валидации нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114336165717528576.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114336165717528576-poster.jpg" alt="Турбина в разобранном виде в CAD — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-25
+
+---
+
+<a id="case-130"></a>
+### Пример 130: [План дома и фасад в CAD](https://x.com/irinatoxi/status/2114304670063587730) (автор [@irinatoxi](https://x.com/irinatoxi))
+
+**Сверить комнаты и размеры с предполагаемым заданием.**
+
+Автор приписывает Kimi K3.1 план дома площадью 97.7 квадратного метра и передний фасад, заявляя 63 секунды работы. Запись показывает стены, двери, окна и размеры в CAD. Площадь, время, конструктивная пригодность и соответствие строительным правилам независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114304076351410176.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114304076351410176-poster.jpg" alt="План дома и фасад в CAD — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-25
+
+---
+
+<a id="case-131"></a>
+### Пример 131: [Восьмиколёсный луноход](https://x.com/kiruwaaaaaa/status/2114004076325187923) (автор [@kiruwaaaaaa](https://x.com/kiruwaaaaaa))
+
+**Отделить видимую геометрию от инженерных проверок миссии.**
+
+Автор приписывает Kimi K3.1 Pro луноход в стиле Lunokhod и говорит о коде без импортированных моделей. Запись показывает корпус, крышку и колёса. Источник прямо отмечает отсутствие демонстрации массы, крутящего момента, термостойкости, пылезащиты и зазоров и отсутствия столкновений движущихся деталей.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114003796871241728.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114003796871241728-poster.jpg" alt="Восьмиколёсный луноход — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="case-132"></a>
+### Пример 132: [Эксперимент с напечатанным спиннером](https://x.com/_MaxBlade/status/2113991534693773817) (автор [@_MaxBlade](https://x.com/_MaxBlade))
+
+**Осмотреть физическую печать вместе с породившей её моделью.**
+
+Автор говорит, что Kimi K3.1 Pro спроектировала спиннер в Blender, а он напечатал его в прямом эфире при условии закончить печать за час. Ролик включает проект и предмет. Сравнение с прежними моделями и качество печати независимо не воспроизведены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113990538634358784.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113990538634358784-poster.jpg" alt="Эксперимент с напечатанным спиннером — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-133"></a>
+### Пример 133: [Разрез дрона, распознающего ладонь](https://x.com/elvar_official/status/2113990648646750546) (автор [@elvar_official](https://x.com/elvar_official))
+
+**Через разрез осмотреть предлагаемый механизм.**
+
+Автор представляет дрон, созданный процессом 3D Make у Kimi K3.1 Pro. Запись показывает поднятую оболочку, электронику и разрезы моторов с объяснением измерения расстояния. Это учебная модель; реальный полёт, устойчивость управления и полная история построения не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113989807768551424.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113989807768551424-poster.jpg" alt="Разрез дрона, распознающего ладонь — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="case-134"></a>
+### Пример 134: [Виртуальные руки играют в дженгу](https://x.com/0x_fokki/status/2113980770939183296) (автор [@0x_fokki](https://x.com/0x_fokki))
+
+**Осмотреть моделируемые контакты и показания до выводов о реальном роботе.**
+
+Автор показывает симуляцию с подписью Kimi K3.1 Pro: две руки вытаскивают блоки и толкают башню. Заявлены запуск 2:05, сила 8.14 N и освобождение 44 из 51 блока. Показания симуляции — утверждения источника, не измерения реального оборудования.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113979642818232320.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113979642818232320-poster.jpg" alt="Виртуальные руки играют в дженгу — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="case-135"></a>
+### Пример 135: [Boeing 747, отрендеренный в Blender](https://x.com/victormustar/status/2113971808554615026) (автор [@victormustar](https://x.com/victormustar))
+
+**Сравнить реконструкцию Blender с отдельной браузерной моделью.**
+
+Автор делится сценой Boeing 747 от Kimi K3.1, явно называя эту версию сделанной в Blender. Она сохранена отдельно от его прежней браузерной модели, поскольку демонстрируется другая реализация. Запись подтверждает рендер самолёта, но не динамику полёта, аэродинамическую точность или полную историю построения.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113971690220711936.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113971690220711936-poster.jpg" alt="Boeing 747, отрендеренный в Blender — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="case-136"></a>
+### Пример 136: [Часы Day-Date на Three.js](https://x.com/abhinavflac/status/2113957709582315886) (автор [@abhinavflac](https://x.com/abhinavflac))
+
+**Осмотреть часы в просмотрщике, построенном кодом.**
+
+Автор приписывает часы в стиле Day-Date модели Kimi K3.1 Pro: чистая геометрия Three.js без Blender и импортированных моделей, 32 минуты и $6.25. Запись показывает золотые часы и управление. Происхождение кода, время, цена и механическая точность сообщены источником.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113954039205675008.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113954039205675008-poster.jpg" alt="Часы Day-Date на Three.js — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="case-137"></a>
+### Пример 137: [Сравнение CAD-кронштейна за двенадцать операций](https://x.com/leopardracer/status/2113941454963806558) (автор [@leopardracer](https://x.com/leopardracer))
+
+**Сравнить ход операций и нормированные расходы в одном протоколе.**
+
+Автор записывает четыре модели, строящие один кронштейн за 12 операций с вызовом на операцию. Заявлены 21.8 секунды для Kimi и 17.5 для Opus 5.5. $31,200 и $62,400 нормированы на миллион сборок, а не являются счётом за реально выполненный миллион. Инженерная правильность и время независимо не воспроизведены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113940979346444288.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113940979346444288-poster.jpg" alt="Сравнение CAD-кронштейна за двенадцать операций — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-138"></a>
+### Пример 138: [Внешний вид Enterprise-D у трёх моделей](https://x.com/Angaisb_/status/2113709458106798347) (автор [@Angaisb_](https://x.com/Angaisb_))
+
+**Сравнить силуэт и геометрию по данным ракурсам.**
+
+Автор представляет внешность Enterprise-D от Kimi K3.1 Pro, GPT-6 Astra и Opus 5.5. Все три исходные картинки сохранены. Они показывают разные трактовки корабля, но исполняемых моделей, полного ввода или контролируемой оценки геометрии нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709427459043328.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709427459043328.jpg" alt="Внешний вид Enterprise-D у трёх моделей — 1" width="480"></a><br>Открыть исходное изображение</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709438003458049.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709438003458049.jpg" alt="Внешний вид Enterprise-D у трёх моделей — 2" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709445725179904.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709445725179904.jpg" alt="Внешний вид Enterprise-D у трёх моделей — 3" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-139"></a>
+### Пример 139: [SR-71 Blackbird с видами для осмотра](https://x.com/ai_for_success/status/2113691197189525853) (автор [@ai_for_success](https://x.com/ai_for_success))
+
+**Осмотреть самолёт и открытые компоненты в браузерном просмотрщике.**
+
+Автор приписывает модель SR-71 Blackbird на Three.js модели Kimi K3.1. Запись показывает самолёт и внутренние компоненты. Утверждение касается показанной модели; код, аэродинамика и инженерная корректность независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690551241547776.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690551241547776-poster.jpg" alt="SR-71 Blackbird с видами для осмотра — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-140"></a>
+### Пример 140: [Сравнение разобранных моторов](https://x.com/rubenssoto_ai/status/2113988189044293793) (автор [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+
+**Сравнить внутреннюю геометрию с ценовыми подписями записи.**
+
+Автор сравнивает Kimi K3.1 Pro и Opus 5.5 на разобранном моторе с подписями $0.71 и $12.63. Ролик показывает разные корпуса, валы и внутренние компоненты. Механическая корректность, код, полный ввод и заявленные счета независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113987955383500800.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113987955383500800-poster.jpg" alt="Сравнение разобранных моторов — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-141"></a>
+### Пример 141: [Сравнение сцены с роботом-уткой](https://x.com/aimlapi/status/2113715863207518536) (автор [@aimlapi](https://x.com/aimlapi))
+
+**Сравнить сцену, отличая подписи от полных счетов.**
+
+AI/ML API сравнивает Kimi K3.1 Pro и Opus 5.5 на сцене Jensen Huang с роботом-уткой, заявляя час против трёх. Счётчики накопленной стоимости заканчиваются на $1.57 и $5.58 соответственно. Это итоги по данным источника; полные следы задач и счета независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113715199383314432.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113715199383314432-poster.jpg" alt="Сравнение сцены с роботом-уткой — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-142"></a>
+### Пример 142: [Модель продукта Coca-Cola на Three.js](https://x.com/dummerspast39/status/2113686992898961535) (автор [@dummerspast39](https://x.com/dummerspast39))
+
+**Осмотреть реальную модель вместе с критикой автора.**
+
+Автор делится моделью Coca-Cola на Three.js от Kimi K3.1 Pro и называет результат плохим. Запись показывает бутылкообразный механический объект с компонентами в разрезе. Полный ввод, задуманные требования, код и функциональное поведение не предоставлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113686931028525056.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113686931028525056-poster.jpg" alt="Модель продукта Coca-Cola на Three.js — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="update-2026-10-26-worlds"></a>
+## 🏞️ Миры и пейзажи
+
+<a id="case-143"></a>
+### Пример 143: [Сравнение моделей песчаного червя](https://x.com/elvar_official/status/2114325660248281265) (автор [@elvar_official](https://x.com/elvar_official))
+
+**Сравнить повторяющуюся геометрию и детали пасти в подписанных результатах.**
+
+Автор сравнивает Kimi K3.1 Pro и GPT-6 Astra, отмечая панели тела, структуры пасти и движение под прозрачной поверхностью. Запись подтверждает видимые различия. Полное построение, происхождение ресурсов и равенство сред выполнения не установлены.
+
+Другие ракурсы и сравнения: [@EngMoElgaraihy](https://x.com/EngMoElgaraihy/status/2114381751132844065)
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114323785587232768.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114323785587232768-poster.jpg" alt="Сравнение моделей песчаного червя — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-144"></a>
+### Пример 144: [Сравнение переливающихся пчёл](https://x.com/Nyxera0x/status/2114315304335474786) (автор [@Nyxera0x](https://x.com/Nyxera0x))
+
+**Осмотреть тонкие поверхности двух подписанных моделей.**
+
+Автор сравнивает пчёл Kimi K3.1 Pro и GPT-6 Astra, отмечая волоски ног, грани глаз, крылья и переливы поверхности. Видео показывает результаты, но не устанавливает происхождение каждого ресурса, все этапы построения или контролируемое преимущество только модели.
+
+Другие ракурсы и сравнения: [@EngMoElgaraihy](https://x.com/EngMoElgaraihy/status/2114392025294389258)
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114315027389775872.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114315027389775872-poster.jpg" alt="Сравнение переливающихся пчёл — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-145"></a>
+### Пример 145: [Извержение вулкана в четырёх процессах](https://x.com/Lummox_eth/status/2114348609109987619) (автор [@Lummox_eth](https://x.com/Lummox_eth))
+
+**Сравнить извержения, сохранив подписи процессов.**
+
+Автор сопоставляет вулканы с подписями Kimi K3.1, GPT-6 Astra, Blender MCP и Claude Code, заявляя одинаковый ввод без ручных правок. Подписи смешивают модели и инструменты. Визуальное сравнение возможно, но базовая модель не изолирована, настройки и физическая точность не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114348392964898816.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114348392964898816-poster.jpg" alt="Извержение вулкана в четырёх процессах — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-146"></a>
+### Пример 146: [Мон-Сен-Мишель за час работы агента](https://x.com/witcheer/status/2114295910138322988) (автор [@witcheer](https://x.com/witcheer))
+
+**Выделить время на создание и браузерную проверку в бюджете задачи.**
+
+Автор сообщает об использовании Kimi K3.1 Pro через Hermes Agent на Nous Portal для часовой воксельной задачи. Последняя правка страницы якобы была на 44-й минуте, затем проверки браузером и снимками, за $3.38. Запись показывает остров; время, охват тестов и счёт независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114002889014153216.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114002889014153216-poster.jpg" alt="Мон-Сен-Мишель за час работы агента — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-25
+
+---
+
+<a id="case-147"></a>
+### Пример 147: [Сравнение нескольких задач визуального программирования](https://x.com/NFT_Chen/status/2114292200020627902) (автор [@NFT_Chen](https://x.com/NFT_Chen))
+
+**Осмотреть отдельные задачи в подписанной подборке.**
+
+Автор публикует 3D-сравнение Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, Opus 5.5 и GPT-6 Astra. Есть шарнирные фигуры и навес на ветру, с разными парами моделей по задачам. Полных входов, реализаций и функциональных тестов нет, поэтому это визуальное сравнение, не проверенный механический бенчмарк.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114290962075877376.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114290962075877376-poster.jpg" alt="Сравнение нескольких задач визуального программирования — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-148"></a>
+### Пример 148: [Бронированный персонаж в 3D Make и Tripo](https://x.com/FiniYang/status/2114280069145485819) (автор [@FiniYang](https://x.com/FiniYang))
+
+**Сравнить результаты без выводов о недокументированном бэкенде.**
+
+FiniYang сопоставляет персонажа от режима 3D Make Kimi K3.1 Pro с прямым результатом Tripo H3.1 и интерфейсом функции. Заявлено около 2% месячной квоты тарифа ¥199. Сходство вида и объяснение автора не устанавливают проверенную маршрутизацию или общее сравнение стоимости.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114276453768732672.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114276453768732672.jpg" alt="Бронированный персонаж в 3D Make и Tripo — 1" width="480"></a><br>Открыть исходное изображение</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114278375514857472.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114278375514857472.jpg" alt="Бронированный персонаж в 3D Make и Tripo — 2" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114278516590333952.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114278516590333952.png" alt="Бронированный персонаж в 3D Make и Tripo — 3" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-149"></a>
+### Пример 149: [Остров с существами и общими файлами-референсами](https://x.com/anxuanng/status/2114170540391096407) (автор [@anxuanng](https://x.com/anxuanng))
+
+**Осмотреть различия сцен вместе с заявленными условиями референсов.**
+
+Автор сравнивает острова Opus 5.5 и Kimi K3.1 Pro, заявляя одинаковые ввод и 3D-файлы по одному запуску без ручных правок. Запись показывает существ, постройки и разный рельеф. Референсы, полные реализации и одинаковые настройки независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114170463085875200.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114170463085875200-poster.jpg" alt="Остров с существами и общими файлами-референсами — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-150"></a>
+### Пример 150: [Сравнение посадки самолёта на закате](https://x.com/glitch_catAI/status/2113981829984460925) (автор [@glitch_catAI](https://x.com/glitch_catAI))
+
+**Проверить происхождение генерации перед трактовкой видеосравнения.**
+
+Автор показывает ролики с подписями Kimi K3.1 Pro, Gemini 4 Argon и Fable 5.1 для заявленного десятисекундного запроса посадки на закате. Видео показывает различия, но не способ генерации, использование внешних ресурсов или инструментов и сравнимость условий.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113981792214753280.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113981792214753280-poster.jpg" alt="Сравнение посадки самолёта на закате — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-151"></a>
+### Пример 151: [Реконструкция Blender по референсу против Sol](https://x.com/notjazii/status/2113979790177042916) (автор [@notjazii](https://x.com/notjazii))
+
+**Сравнить детали с учётом заявленных усилий и расходов.**
+
+Автор говорит об одинаковой задаче Blender для Kimi K3.1 Pro и GPT-6.1 Sol при максимальных доступных настройках рассуждения. Заявлены около 25 минут/$1.50 для Kimi и 17 минут/$0.70 для Sol; свет и текстуры Sol ему нравятся больше. Записи дают визуальное сравнение, но полный ввод, настройки и счета не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113977701551972352.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113977701551972352-poster.jpg" alt="Реконструкция Blender по референсу против Sol — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-152"></a>
+### Пример 152: [Невозможная бутылка через Blender MCP](https://x.com/ashen_one/status/2113979598304334017) (автор [@ashen_one](https://x.com/ashen_one))
+
+**Учесть время вместе с готовым объектом.**
+
+Автор приписывает сцену невозможной бутылки модели Kimi K3.1 Pro Max через Blender MCP и сообщает о примерно четырёх часах работы. Запись показывает полупрозрачную бутылку, взвешенные частицы и подставку. Полного ввода, истории итераций и точного времени нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113979573583126528.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113979573583126528-poster.jpg" alt="Невозможная бутылка через Blender MCP — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="case-153"></a>
+### Пример 153: [Сравнение гибели «Титаника»](https://x.com/noclipepe/status/2113974830215098859) (автор [@noclipepe](https://x.com/noclipepe))
+
+**Отделить качество от заявленного времени и полной стоимости.**
+
+Автор сравнивает Kimi K3.1 и Opus 5.5: для Kimi 35 мин 05 с, 1.98M tokens, около $0.88; для Opus 28 мин 55 с, 9.02M tokens, около $8.43. Он предпочитает Opus. Запись показывает видимые различия; цена и время сообщены источником.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973531864186881.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973531864186881-poster.jpg" alt="Сравнение гибели «Титаника» — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-154"></a>
+### Пример 154: [Сравнение абстрактных отражающих объектов](https://x.com/notjazii/status/2113920211728666816) (автор [@notjazii](https://x.com/notjazii))
+
+**Сравнить трактовку референса и отделку при заявленном уровне усилий.**
+
+Автор сравнивает Kimi K3.1 Pro и GPT-6 Astra на общем референсе при максимальных доступных настройках рассуждения. Видны разные отражающие объекты и компоновки. Заявлены около 45 минут/$7.30 для Kimi и 47 минут/$86.50 для Astra; полный ввод, счета и равенство выполнения не установлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113909680963825664.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113909680963825664-poster.jpg" alt="Сравнение абстрактных отражающих объектов — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-155"></a>
+### Пример 155: [Сравнение StillWild и MossLight](https://x.com/ivanfioravanti/status/2113890712097825112) (автор [@ivanfioravanti](https://x.com/ivanfioravanti))
+
+**Осмотреть разные сцены с сохранением сообщений о проблемах рендера.**
+
+Автор подписывает две записи StillWild для Kimi K3.1 Pro и MossLight для DeepSeek V4.1 Flash 1017. Он предпочитает DeepSeek и сообщает о периодических падениях кадровой частоты Kimi. Оба видео сохранены; полного ввода и локальных замеров производительности нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113890197939085312.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113890197939085312-poster.jpg" alt="Сравнение StillWild и MossLight — 1" width="480"></a><br>Смотреть исходное видео</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113890197934944256.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113890197934944256-poster.jpg" alt="Сравнение StillWild и MossLight — 2" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-156"></a>
+### Пример 156: [Тест замка с висящими углами](https://x.com/nemumusitocha/status/2113867472604733926) (автор [@nemumusitocha](https://x.com/nemumusitocha))
+
+**Вблизи проверить геометрические дефекты наряду с внешностью.**
+
+Оценщик показывает четыре снимка замка Kimi K3.1 Pro и указывает на внешние углы, будто оторванные от земли. Все ракурсы сохранены для сцены и заявленного дефекта. Сходство не доказывает предположения о происхождении обучения; исполняемой модели и числового балла нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866869950308352.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866869950308352-poster.jpg" alt="Тест замка с висящими углами — 1" width="480"></a><br>Смотреть исходное видео</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866896177303552.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866896177303552.jpg" alt="Тест замка с висящими углами — 2" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866905471877120.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866905471877120.jpg" alt="Тест замка с висящими углами — 3" width="480"></a><br>Открыть исходное изображение</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866917748543488.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866917748543488.jpg" alt="Тест замка с висящими углами — 4" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-157"></a>
+### Пример 157: [Сравнение пиксельных аэропортов](https://x.com/vib3coded/status/2113849897438834851) (автор [@vib3coded](https://x.com/vib3coded))
+
+**Сравнить аэропорт с заявленной ценой задачи.**
+
+Автор сравнивает Kimi K3.1 Pro и GPT-6 Astra, сообщая о $0.98 и $17.61 соответственно. Запись показывает разные аэропорты, самолёты и панели. Погода, полнота взаимодействий и счета независимо не испытаны.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113849838198530049.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113849838198530049-poster.jpg" alt="Сравнение пиксельных аэропортов — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-158"></a>
+### Пример 158: [Тест моделирования одежды](https://x.com/developedbyed/status/2113772532809539674) (автор [@developedbyed](https://x.com/developedbyed))
+
+**Осмотреть незаконченные поверхности по запросу источника.**
+
+Оценщик негативно описывает попытку моделирования одежды Kimi K3.1 Pro max. Снимок показывает нижнюю часть тела в шортах с частично законченной поверхностью. Это ограничение данной задачи, не общий анатомический тест; полной попытки и метода оценки нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113772461095297024.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113772461095297024.jpg" alt="Тест моделирования одежды — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Limit | Дата: 2026-10-23
+
+---
+
+<a id="case-159"></a>
+### Пример 159: [Сравнение воксельных горнолыжных курортов](https://x.com/N1njaCodex/status/2113759398187417835) (автор [@N1njaCodex](https://x.com/N1njaCodex))
+
+**Осмотреть детали, не превращая цену задачи в общий рейтинг.**
+
+Автор сравнивает Kimi K3.1 Pro и GPT-6 Astra с подписями $0.31 и $15.57. Запись показывает склоны, подъёмники и разные планы. Автор предпочитает Kimi по выгоде; полный ввод, функциональный охват и счета независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113759323230715904.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113759323230715904-poster.jpg" alt="Сравнение воксельных горнолыжных курортов — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-160"></a>
+### Пример 160: [Растительная сцена против Astra](https://x.com/developedbyed/status/2113752024106115532) (автор [@developedbyed](https://x.com/developedbyed))
+
+**Сравнить растительность под записанными именами моделей.**
+
+Оценщик сопоставляет GPT-6 Astra и Kimi K3.1 Pro max, предпочитая Astra. Изображение показывает разную проработку листьев, стеблей, цветов и фона. Полный ввод, исполняемые результаты и контролируемый порядок оценки не предоставлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113751634811469824.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113751634811469824-poster.jpg" alt="Растительная сцена против Astra — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-161"></a>
+### Пример 161: [Geyser Isle у двух моделей](https://x.com/badboyfoxy/status/2113743678166446103) (автор [@badboyfoxy](https://x.com/badboyfoxy))
+
+**Сравнить детали при неравных времени и стоимости.**
+
+Автор сравнивает DeepSeek V4.1 Flash 1017 и Kimi K3.1 Pro на max, заявляя $1.07/90 минут для DeepSeek и $7.40/60 минут для Kimi и предпочитая DeepSeek. Запись показывает разные острова и гейзеры; время, цена и поведение независимо не воспроизведены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113743596205559808.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113743596205559808-poster.jpg" alt="Geyser Isle у двух моделей — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-162"></a>
+### Пример 162: [Сад с проблемами онлайн-записи](https://x.com/ivanfioravanti/status/2113721778128507206) (автор [@ivanfioravanti](https://x.com/ivanfioravanti))
+
+**Отличить дефект записи от заявленного локального результата.**
+
+Автор показывает сад Kimi K3.1 Pro с мостами, растительностью и цветами. Он сообщает о кадровых проблемах онлайн-записи, утверждая, что HTML локально работает правильно, и предпочитает Opus 5.5. Ролик не проверяет локальную производительность или всю сравнительную установку.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113721265584267264.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113721265584267264-poster.jpg" alt="Сад с проблемами онлайн-записи — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-163"></a>
+### Пример 163: [Нью-Йорк и сравнение квот](https://x.com/aipulseda1ly/status/2113712396891980083) (автор [@aipulseda1ly](https://x.com/aipulseda1ly))
+
+**Сравнить сцену и заявленный расход ресурсов отдельно.**
+
+Автор сравнивает пролёт над Нью-Йорком у Kimi K3.1 Pro и Opus 5.5, предпочитая детали конкурентов. Он сообщает об исчерпании пятичасовой квоты тарифа Kimi за $100 за 20 минут. Запись показывает города; учёт квоты и точность достопримечательностей независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113712340017258496.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113712340017258496-poster.jpg" alt="Нью-Йорк и сравнение квот — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-164"></a>
+### Пример 164: [Четыре космические сцены против Opus](https://x.com/hug0_plat/status/2113708170132459697) (автор [@hug0_plat](https://x.com/hug0_plat))
+
+**Сравнить сцены по отдельности до общего визуального предпочтения.**
+
+Автор сравнивает четыре сцены Opus 5.5 и Kimi K3.1 Pro с общими ценами $5.63 и $1.09. Есть столкновение астероида и другие подписанные сцены. Он предпочитает кинематографичность Opus и критикует тёмные галактики Kimi. Это оценки конкретных задач и заявленные расходы, не независимый повтор.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113707264078995456.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113707264078995456-poster.jpg" alt="Четыре космические сцены против Opus — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-165"></a>
+### Пример 165: [Замок за двадцать восемь минут](https://x.com/doe_naps/status/2113705794554536156) (автор [@doe_naps](https://x.com/doe_naps))
+
+**Осмотреть готовую среду вместе с заявленными усилиями.**
+
+Автор приписывает подробный замок Kimi K3.1, заявляя 28 минут и $4.48. Запись показывает башни, стены, дворы и окружение. Полный ввод, код, происхождение ресурсов и время независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705240801529856.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705240801529856-poster.jpg" alt="Замок за двадцать восемь минут — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-166"></a>
+### Пример 166: [Сравнение шестикадровой сцены Avatar](https://x.com/atomicagent_io/status/2113702744800571769) (автор [@atomicagent_io](https://x.com/atomicagent_io))
+
+**Отделить итоги задачи от подписей отдельных кадров.**
+
+Atomic Agent сообщает о шести планах Avatar в одном HTML: 40 шагов/12 минут для Kimi и 70 шагов/9 минут для Astra, включая исправления по снимкам. Видео показывает время и цены отдельных планов, не совпадающие с итогами всей задачи. Полные следы и происхождение ресурсов независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113701639378833408.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113701639378833408-poster.jpg" alt="Сравнение шестикадровой сцены Avatar — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-167"></a>
+### Пример 167: [Аэропорт Чанги в Blender](https://x.com/crystalsssup/status/2113698280991580577) (автор [@crystalsssup](https://x.com/crystalsssup))
+
+**Осмотреть геометрию, явно сохранив вклад инструментов и ресурсов.**
+
+Автор приписывает сцену сингапурского Чанги модели Kimi K3.1 Pro, описывая создание ресурсов, сборку и рендер в Blender. Запись показывает сцену и каркасную геометрию. Упомянута поддержка плагина Tripo, но не установлено его использование здесь и нет полной истории построения.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113696280035971072.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113696280035971072-poster.jpg" alt="Аэропорт Чанги в Blender — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-168"></a>
+### Пример 168: [Ночной парусник](https://x.com/notjazii/status/2113697560103952826) (автор [@notjazii](https://x.com/notjazii))
+
+**Осмотреть модель и воду в отдельно записанной сцене.**
+
+Автор раскрывает ранний доступ и приписывает парусник Kimi K3.1 Pro: одна инструкция, примерно час и $8.40. Запись показывает ночной корабль на отражающей воде. Полный код, происхождение ресурсов, время и расходы независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113697522371936257.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113697522371936257-poster.jpg" alt="Ночной парусник — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-169"></a>
+### Пример 169: [Лагерь под луной](https://x.com/Mr_Salio/status/2113691335739752810) (автор [@Mr_Salio](https://x.com/Mr_Salio))
+
+**Осмотреть свет, огонь и детали окружения в записи.**
+
+Автор приписывает лунную лагерную сцену Kimi K3.1 Pro. Ролик показывает огонь, камни, рельеф и свет неба. Благоприятное сравнение с другими моделями субъективно; согласованного примера конкурента, полного ввода и исполняемой реализации нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690971598643202.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690971598643202-poster.jpg" alt="Лагерь под луной — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-170"></a>
+### Пример 170: [Сравнение чёрных дыр](https://x.com/yohakujpn/status/2113690050538164603) (автор [@yohakujpn](https://x.com/yohakujpn))
+
+**Сравнить показанную трактовку без предположения научной точности.**
+
+Автор сравнивает Kimi K3.1 и Opus 5.5, заявляя 30 и 48 минут соответственно. Запись показывает разные аккреционные диски, свет и камеры. Она не устанавливает физически верный рендер, равенство полных входов или независимо измеренное время создания.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113689607715934208.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113689607715934208-poster.jpg" alt="Сравнение чёрных дыр — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-171"></a>
+### Пример 171: [Авторская подборка 3D-генераций](https://x.com/petergostev/status/2113685825775075821) (автор [@petergostev](https://x.com/petergostev))
+
+**Осмотреть разнообразие, не считая каждый вид отдельно.**
+
+Peter Gostev делится подборкой Kimi K3.1 Pro; дополнительные примеры приписаны ему Arena. Обе записи сохранены как одна подборка, а не отдельная задача на каждую сцену. Видны разные среды и объекты, но нет всех входов, кода и независимых историй генерации.
+
+Другие ракурсы и сравнения: [@arena](https://x.com/arena/status/2113687358834946085)
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113685539442331648.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113685539442331648-poster.jpg" alt="Авторская подборка 3D-генераций — 1" width="480"></a><br>Смотреть исходное видео</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113684260737486848.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113684260737486848-poster.jpg" alt="Авторская подборка 3D-генераций — 2" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-172"></a>
+### Пример 172: [Римские руины с орбитальной камерой](https://x.com/NinaLumeh_ia/status/2113683116820746556) (автор [@NinaLumeh_ia](https://x.com/NinaLumeh_ia))
+
+**Сравнить сцену, проверяя общий запрос.**
+
+Автор сообщает об одинаковом запросе римских руин с орбитальной камерой для Kimi K3.1 Pro и GPT-6.1 Sol. Запись показывает две похожие архитектурные сцены с водой, деревьями и каменными сооружениями. Полного ввода, кода и функциональных тестов камеры нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113683061464281088.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113683061464281088-poster.jpg" alt="Римские руины с орбитальной камерой — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-173"></a>
+### Пример 173: [Изображение персонажа в просмотре GLB](https://x.com/lucianlamp/status/2113882041444094366) (автор [@lucianlamp](https://x.com/lucianlamp))
+
+**Осмотреть реальный просмотр, сохранив непроверенность заявлений о бэкенде.**
+
+Автор сообщает о превращении изображения в GLB через Kimi K3.1 Pro примерно за пять минут и $0.60. Запись показывает одетого волкоподобного персонажа в 3D. Установленный плагин Tripo якобы не имел баланса и не использовался; ролик независимо не устанавливает это выполнение или происхождение ресурсов.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113881957490978816.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113881957490978816-poster.jpg" alt="Изображение персонажа в просмотре GLB — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="update-2026-10-26-svg"></a>
+## 🎨 SVG и интерактивная графика
+
+<a id="case-174"></a>
+### Пример 174: [Взрыв-схема лампового проигрывателя в SVG](https://x.com/Adidotdev/status/2114000799156277357) (автор [@Adidotdev](https://x.com/Adidotdev))
+
+**Осмотреть разобранное устройство через слоёную изометрическую геометрию.**
+
+Автор приписывает изометрический SVG прямоприводного лампового проигрывателя модели Kimi K3.1 и навыку Anatomy. Заявлены отсутствие внешних ресурсов, четыре тона теней и слои в порядке рисования от дальнего к ближнему. Изображение подтверждает иллюстрацию; полный SVG, вклад навыка и механическая правильность независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113999810135273472.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113999810135273472-poster.jpg" alt="Взрыв-схема лампового проигрывателя в SVG — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="case-175"></a>
+### Пример 175: [Эффект отклеивания стикера у четырёх моделей](https://x.com/ann_nnng/status/2113915835387670793) (автор [@ann_nnng](https://x.com/ann_nnng))
+
+**Сравнить деформацию и поверхность в общей задаче эффекта.**
+
+Автор сравнивает воссоздание эффекта у Kimi K3.1 Pro, DeepSeek V4.1 Flash, GPT-6.1 Sol и Opus 5.5. Запись сохраняет четыре подписи и разные варианты. Положительная оценка источника не заменяет исполняемый код, полный ввод и испытание взаимодействий.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113915785794166784.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113915785794166784-poster.jpg" alt="Эффект отклеивания стикера у четырёх моделей — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-176"></a>
+### Пример 176: [Анимация запуска Antseed на Three.js](https://x.com/AntSeed/status/2113717837168566696) (автор [@AntSeed](https://x.com/AntSeed))
+
+**Осмотреть фирменную анимацию вместе с заявленной ценой.**
+
+Antseed приписывает анимацию одному запросу Kimi K3.1 Pro с Three.js и сообщает о $0.1016 за весь запуск. Запись показывает зелёную сетевую последовательность. Полный ввод, реализация и заявленная цена независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113716549307547648.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113716549307547648-poster.jpg" alt="Анимация запуска Antseed на Three.js — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-177"></a>
+### Пример 177: [Lantern Hour в одном HTML](https://x.com/adolandev/status/2113711071668142142) (автор [@adolandev](https://x.com/adolandev))
+
+**Сравнить смену стилей и управление с явным заданием.**
+
+Автор сравнивает Lantern Hour у Opus 5.5 и Kimi K3.1 Pro: один HTML, Canvas 2D, четыре стиля, цикл дня и ночи, свет и управление без внешних ресурсов. Запись показывает результаты, но независимо не проверяет каждое управление и отсутствие ресурсов.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113710961991221249.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113710961991221249-poster.jpg" alt="Lantern Hour в одном HTML — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-178"></a>
+### Пример 178: [Ремикс кодовой анимации в стиле Моцарта](https://x.com/marcthecreatorr/status/2113702615263359305) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Записать референсы и итерации вместе с результатом анимации.**
+
+Автор приписывает ремикс предрелизной анимации модели Kimi K3.1 с Three.js, заявляя max, примерно 40 минут и $2. Он явно описывает несколько итераций с референсами, не одну инструкцию. Запись подтверждает анимацию; происхождение кода и цена независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113702389110722560.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113702389110722560-poster.jpg" alt="Ремикс кодовой анимации в стиле Моцарта — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-179"></a>
+### Пример 179: [Сравнение изометрической анимации](https://x.com/OGKAIM/status/2113695497789817264) (автор [@OGKAIM](https://x.com/OGKAIM))
+
+**Сравнить видимые последовательности, сохранив несогласованные имена моделей.**
+
+Автор сравнивает изометрическую анимацию с Opus 5.5, обсуждая цвет, свет и интервалы. Заголовок называет K3.1 Pro, текст и видео — Kimi K3 Pro. Расхождение сохранено; точный чекпойнт, полный ввод и условия выполнения записью не установлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113695392705716225.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113695392705716225-poster.jpg" alt="Сравнение изометрической анимации — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-180"></a>
+### Пример 180: [Воссоздание релизного видео на Three.js](https://x.com/Bhavani_00007/status/2113683399680700591) (автор [@Bhavani_00007](https://x.com/Bhavani_00007))
+
+**Осмотреть заявленное создание видео вместе с усилиями.**
+
+Автор приписывает воссоздание релизного видео модели Kimi K3.1 с Three.js: пять минут и $1.10. Ролик показывает маскота, цветы, деревья и воксельные пейзажи. Полный ввод, код, происхождение ресурсов и независимо проверенные время и цена не предоставлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113682289033084928.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113682289033084928-poster.jpg" alt="Воссоздание релизного видео на Three.js — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="update-2026-10-26-games"></a>
+## 🎮 Игры и анимированные сцены
+
+<a id="case-181"></a>
+### Пример 181: [Порт DOOM на очках MemoMind](https://x.com/nicongdev/status/2114335057125278044) (автор [@nicongdev](https://x.com/nicongdev))
+
+**Осмотреть программный порт на названном устройстве.**
+
+Автор сообщает о недельной квоте Kimi K3.1 на перенос DOOM на MemoMind One. Запись показывает настройку для устройства и игру. Кода, шагов сборки и установки, измерений кадровой частоты и учёта квоты нет; полная играбельность и цена независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114299643458924544.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114299643458924544-poster.jpg" alt="Порт DOOM на очках MemoMind — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-25
+
+---
+
+<a id="case-182"></a>
+### Пример 182: [Сравнение интерактивных египетских храмов](https://x.com/sakatayasha/status/2114330266986799169) (автор [@sakatayasha](https://x.com/sakatayasha))
+
+**Проверить запрошенные действия отдельно от внешности и времени завершения.**
+
+Автор сообщает об одинаковой Three.js-задаче для Kimi K3.1 Pro и DeepSeek V4.1 Flash: копать, чистить кистью, решать загадку погребальной камеры, погода и день/ночь. Заявлены 41 и 32 минуты. Запись показывает видимые различия, но не проверяет все действия и время.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114330104117764096.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114330104117764096-poster.jpg" alt="Сравнение интерактивных египетских храмов — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-183"></a>
+### Пример 183: [Сравнение бесконечного раннера с пеликаном](https://x.com/noclipepe/status/2114294888523026501) (автор [@noclipepe](https://x.com/noclipepe))
+
+**Сравнить записанную игру с заявленными временем и ценой.**
+
+Автор сравнивает велосипедного пеликана в стиле Subway Surfers: Kimi 10 мин 01 с/$0.95 и GPT-6 Astra 19 мин 52 с/$6.53. Ролик показывает разных бегунов и финальные очки теста. Полная игра, метод подсчёта и счета независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114294727029780480.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114294727029780480-poster.jpg" alt="Сравнение бесконечного раннера с пеликаном — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-184"></a>
+### Пример 184: [Велопеликан после изменения квоты](https://x.com/xueyu1125/status/2114282056427663736) (автор [@xueyu1125](https://x.com/xueyu1125))
+
+**Осмотреть поздний законченный результат без вывода о восстановлении квот всех.**
+
+Автор делится записью Kimi K3.1 Pro после заявленного повышения квоты, говоря, что длинные задачи теперь завершаются на его подписке. Ролик подтверждает эту сцену, но не квоты других подписчиков, полную игру или решение всех прежних проблем ограничений.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114280888393691136.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114280888393691136-poster.jpg" alt="Велопеликан после изменения квоты — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-25
+
+---
+
+<a id="case-185"></a>
+### Пример 185: [Галактический шутер по одной системе за раз](https://x.com/slash1sol/status/2113995388189286653) (автор [@slash1sol](https://x.com/slash1sol))
+
+**Постепенно создавать и проверять движение, волны и усиления.**
+
+Автор сравнивает три шутера по шести одинаковым шагам: движение, стрельба, волны, усиления, экраны состояния и самопроверка. Заявлены $0.31 для Kimi, $2.55 для Astra, $1.93 для Opus; он предпочитает охват функций Kimi. Запись подтверждает результаты, но все функции и цены независимо не воспроизведены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113980108885090304.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113980108885090304-poster.jpg" alt="Галактический шутер по одной системе за раз — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-186"></a>
+### Пример 186: [Воксельная лодка в осеннем канале](https://x.com/doe_naps/status/2113970938375237770) (автор [@doe_naps](https://x.com/doe_naps))
+
+**Проверить управление и препятствия до вывода о полностью испытанной игре.**
+
+Автор приписывает игру Kimi K3.1: 28 минут и $4.58. Источник описывает сбор речных огоньков и удары веслом по преследующим свёрнутым змеям. Запись показывает лодку и канал, но полное управление, столкновения, код и счёт независимо не испытаны.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113967551671881729.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113967551671881729-poster.jpg" alt="Воксельная лодка в осеннем канале — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-24
+
+---
+
+<a id="case-187"></a>
+### Пример 187: [Сравнение браузерной игры со строительством блоков](https://x.com/starmexxx/status/2113722581610033330) (автор [@starmexxx](https://x.com/starmexxx))
+
+**Сверить заявленное продвижение с записанной игрой.**
+
+Автор сравнивает Kimi K3.1 Pro и GPT-6 Astra за $2.30 и $13.40, описывая деревню, шахту, Нижний мир и порталы. Запись показывает часть миров; всё продвижение, открытость кода, происхождение ресурсов и счета независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113722412181147648.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113722412181147648-poster.jpg" alt="Сравнение браузерной игры со строительством блоков — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-188"></a>
+### Пример 188: [Губка Боб от команд из пяти агентов](https://x.com/atomic_chat_hq/status/2113700709506113948) (автор [@atomic_chat_hq](https://x.com/atomic_chat_hq))
+
+**Сравнить командные результаты с указанной оркестрацией.**
+
+Atomic Chat сообщает о командах из пяти агентов: Kimi завершила сцену за 26 минут против двух часов у Opus 5.5. Ролик подписывает $7.31 и $76.42. Время и подписи сообщены источником; командные следы, полная реализация и игровое поведение независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113700030813020160.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113700030813020160-poster.jpg" alt="Губка Боб от команд из пяти агентов — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-189"></a>
+### Пример 189: [Среда японской экшен-игры](https://x.com/thebuggeddev/status/2113694356939112498) (автор [@thebuggeddev](https://x.com/thebuggeddev))
+
+**Осмотреть запись среды, не предполагая полной игры.**
+
+Автор приписывает сцену в стиле Ghost of Tsushima модели Kimi K3.1 Pro. Видны персонаж от третьего лица, мост, вода и японские здания. Запись подтверждает среду и движение, но не законченную игру, оригинальные ресурсы, публичный код или воспроизводимую сборку.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113693956353757184.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113693956353757184-poster.jpg" alt="Среда японской экшен-игры — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-190"></a>
+### Пример 190: [Механический велопеликан с отсутствующим эффектом](https://x.com/FiniYang/status/2113689317545795727) (автор [@FiniYang](https://x.com/FiniYang))
+
+**Проверить пропущенный эффект наряду с деталями вида.**
+
+FiniYang показывает механического велопеликана от Kimi K3.1 Pro в Kimi Desktop и говорит об отсутствии требуемого нитроускорения. Запись показывает модель и просмотрщик. Пропуск сохранён; полное движение, ввод и реализация независимо не испытаны.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113689047298437120.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113689047298437120-poster.jpg" alt="Механический велопеликан с отсутствующим эффектом — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="update-2026-10-26-web"></a>
+## 🖥️ Веб-интерфейсы
+
+<a id="case-191"></a>
+### Пример 191: [Записанный процесс создания 3D-сайта](https://x.com/viktoroddy/status/2114311800191930880) (автор [@viktoroddy](https://x.com/viktoroddy))
+
+**Следовать показанной настройке, отличая примеры от обещаний.**
+
+Автор делится видеоуроком по созданию 3D-сайтов с Kimi K3.1 Pro с просмотром референсов, сессией модели и примерами сайтов. Общие сравнения бюджетов — рекламные заявления, не проверенная экономия. Успешное воспроизведение, все зависимости и права на все показанные ресурсы не установлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114309393114406912.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114309393114406912-poster.jpg" alt="Записанный процесс создания 3D-сайта — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Tutorial | Дата: 2026-10-25
+
+---
+
+<a id="case-192"></a>
+### Пример 192: [Велосипедный шоурум у трёх моделей](https://x.com/reMugi3/status/2113727385904280034) (автор [@reMugi3](https://x.com/reMugi3))
+
+**Осмотреть продукт и планировку с записанными ценовыми подписями.**
+
+Автор сравнивает страницы Kimi K3.1 Pro, Opus 5.5 и GPT-6 Astra за $0.05, $0.72 и $2.63. Запись показывает разные велосипеды и интерфейсы. Полная функциональность, код и счета независимо не проверены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727092286189568.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727092286189568-poster.jpg" alt="Велосипедный шоурум у трёх моделей — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-193"></a>
+### Пример 193: [Пицца-интерфейс для складного телефона](https://x.com/jaimintf/status/2113715425456611738) (автор [@jaimintf](https://x.com/jaimintf))
+
+**Осмотреть концепцию взаимодействия в макете формы устройства.**
+
+Автор приписывает концепцию приложения для iPhone Duo модели Kimi K3.1 Pro. Запись показывает пиццу, ингредиенты и рамку устройства. Это видимые макет и анимация, не выпущенное нативное приложение, полный охват взаимодействий или публично воспроизводимая реализация.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113714872345370624.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113714872345370624-poster.jpg" alt="Пицца-интерфейс для складного телефона — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Demo | Дата: 2026-10-23
+
+---
+
+<a id="case-194"></a>
+### Пример 194: [Сравнение интерфейсов телефонных приложений](https://x.com/jaimintf/status/2113703132970799423) (автор [@jaimintf](https://x.com/jaimintf))
+
+**Сравнить видимые экраны, не предполагая готового приложения.**
+
+Автор показывает интерфейсы с подписями Fable 5.1, GPT-6 Astra и Kimi K3.1 Pro, заявляя $17.30 для Kimi и $86.50 для Astra. Запись показывает разные экраны и переходы. Всё поведение, равенство ввода и счета независимо не установлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113703006298595330.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113703006298595330-poster.jpg" alt="Сравнение интерфейсов телефонных приложений — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="update-2026-10-26-comparison"></a>
+## 🔬 Сравнение моделей
+
+<a id="case-195"></a>
+### Пример 195: [Сравнение моделей оленя FawnBench](https://x.com/fawnunwrap/status/2114357112923103708) (автор [@fawnunwrap](https://x.com/fawnunwrap))
+
+**Осмотреть конкретное сравнение до обобщения рейтинга.**
+
+FawnBench сравнивает Kimi K3.1 Pro и Opus 5.5 на моделировании оленя. Запись показывает разные формы и поверхности. Это визуальное сравнение одной задачи; полного ввода, исполняемых моделей и документированного общего протокола оценивания нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114356813520900096.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114356813520900096-poster.jpg" alt="Сравнение моделей оленя FawnBench — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-25
+
+---
+
+<a id="case-196"></a>
+### Пример 196: [Время CUDA-соревнования и ограничения отправки](https://x.com/ivanfioravanti/status/2114252573553140099) (автор [@ivanfioravanti](https://x.com/ivanfioravanti))
+
+**Включить время размышления и условия отправки в результат.**
+
+Участник сообщает, что Kimi K3.1 и другие модели с высоким уровнем рассуждения не успевали улучшить CUDA.FAST до продвижения фронтира. Также заявлена блокировка параллельных отправок с трёх устройств одного аккаунта. Таблица лидеров — контекст; задержки моделей и конкурсные ограничения отправки — отдельные сообщения источника.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114252564761845760.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114252564761845760.jpg" alt="Время CUDA-соревнования и ограничения отправки — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Limit | Дата: 2026-10-25
+
+---
+
+<a id="case-197"></a>
+### Пример 197: [Запуск ракеты с инструментом в роли подписи конкурента](https://x.com/Lummox_eth/status/2114014409613832221) (автор [@Lummox_eth](https://x.com/Lummox_eth))
+
+**Проверить личность конкурента до вывода о преимуществе модели.**
+
+Автор сравнивает запуск с подписью Kimi K3.1 и запуск Claude Code, заявляя $11/три минуты и $115/30 минут. Запись содержит текущие цену и время. Claude Code — инструмент, поэтому базовая модель конкурента и равные настройки не установлены; итоги сообщены источником.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114014351661182979.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114014351661182979-poster.jpg" alt="Запуск ракеты с инструментом в роли подписи конкурента — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-24
+
+---
+
+<a id="case-198"></a>
+### Пример 198: [Снимок живого рейтинга VoxelBench](https://x.com/voxelbench/status/2113994678404092215) (автор [@voxelbench](https://x.com/voxelbench))
+
+**Читать рейтинг внутри области его оценки.**
+
+VoxelBench сообщает о шестом месте Kimi K3.1 Pro наравне с Gemini 4 Argon. Скриншот сохраняет рейтинг на ту дату. Задачи, неопределённость и последующие изменения здесь независимо не оцениваются; это снимок оценщика.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113992768431230976.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113992768431230976.jpg" alt="Снимок живого рейтинга VoxelBench — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Benchmark | Дата: 2026-10-24
+
+---
+
+<a id="case-199"></a>
+### Пример 199: [Остановка лимитом WorkBuddy](https://x.com/xKaka1456/status/2113908523138773437) (автор [@xKaka1456](https://x.com/xKaka1456))
+
+**Учитывать прерывания квотой провайдера при оценке процесса.**
+
+Пользователь сообщает о трудностях с Kimi K3.1 через WorkBuddy и показывает лимит, останавливающий работу до сброса квоты или изменения тарифа. Скриншот подтверждает прерывание. Полная задача, действительное потребление и применимость к другим планам не установлены.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113907640493621248.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113907640493621248.jpg" alt="Остановка лимитом WorkBuddy — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Limit | Дата: 2026-10-24
+
+---
+
+<a id="case-200"></a>
+### Пример 200: [KingBench и расходы на чтение кеша](https://x.com/aicodeking/status/2113853437792121165) (автор [@aicodeking](https://x.com/aicodeking))
+
+**Сравнить балл с полной заявленной стоимостью использования.**
+
+Оценщик сообщает о Kimi K3.1 Pro 53.7% и $31.88 на KingBench 4, критикуя повторное чтение кеша. Связанная диаграмма относит $22.11 к кешу и $6.93 к выводу: они сами по себе не дают $31.88. Оба графика сохранены; полная бухгалтерия и предложенное объяснение поведения независимо не проверены.
+
+Другие ракурсы и сравнения: [@aicodeking](https://x.com/aicodeking/status/2113849457376665866)
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113852050232500224.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113852050232500224.jpg" alt="KingBench и расходы на чтение кеша — 1" width="480"></a><br>Открыть исходное изображение</td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113849001124507648.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113849001124507648.jpg" alt="KingBench и расходы на чтение кеша — 2" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Benchmark | Дата: 2026-10-24
+
+---
+
+<a id="case-201"></a>
+### Пример 201: [Фотореконструкция BuildingBench](https://x.com/EnactraAI/status/2113781675427799338) (автор [@EnactraAI](https://x.com/EnactraAI))
+
+**Сравнить оценки реконструкции и расходы в одном тесте.**
+
+BuildingBench сообщает о росте Kimi K3.1 Pro с 54.0 у K3 до 81.6 при оценочной медиане $12.58 на задачу. Выделена реконструкция по фото мельбурнского Australian Centre for Contemporary Art с 90.8. Диаграмма и реконструкция сообщены оценщиком, не являются независимым локальным повтором.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113781636110430208.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113781636110430208-poster.jpg" alt="Фотореконструкция BuildingBench — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Benchmark | Дата: 2026-10-23
+
+---
+
+<a id="case-202"></a>
+### Пример 202: [Квота ревью кода и журнал token](https://x.com/leo114119/status/2113773360257896748) (автор [@leo114119](https://x.com/leo114119))
+
+**Отделить записанное потребление от экстраполированных квот плана.**
+
+Автор передаёт сообщение, что ревью с пятью субагентами исчерпало пятичасовую квоту Kimi примерно за десять минут. Скриншот указывает 13,007,388 tokens всего, включая 11,667,200 кешированных входных. Предлагаемые недельные и месячные суммы — экстраполяции, не проверенные лимиты; полного журнала сессии нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113773124248350720.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113773124248350720.png" alt="Квота ревью кода и журнал token — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Limit | Дата: 2026-10-23
+
+---
+
+<a id="case-203"></a>
+### Пример 203: [Сравнение индуктивного теста](https://x.com/s_batzoglou/status/2113756315256590768) (автор [@s_batzoglou](https://x.com/s_batzoglou))
+
+**Выбрать модель по результатам конкретной задачи и цене token.**
+
+Оценщик сообщает о Kimi K3.1 Pro примерно на уровне Opus 5, выше Qwen 3.8 Max и Muse Spark 1.3, но ниже GPT-5.6 Sol, GPT-6.1 Sol и Opus 5.5. Рейтинг сохранён. Это результаты конкретного протокола с компромиссом расхода token, не общий рейтинг способностей.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113755113299021824.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113755113299021824.jpg" alt="Сравнение индуктивного теста — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Benchmark | Дата: 2026-10-23
+
+---
+
+<a id="case-204"></a>
+### Пример 204: [Оценка хорала в стиле Баха](https://x.com/aug5thmusic/status/2113727877955174836) (автор [@aug5thmusic](https://x.com/aug5thmusic))
+
+**Осмотреть музыку в свете указанных оценщиком ограничений.**
+
+Оценщик делится хоралом соль минор Kimi K3.1 Pro max на Bach Benchmark и называет его примерно уровнем Fable 5. Он критикует отсутствие неаккордовых тонов и восьмых нот. Аудио и ноты — свидетельства источника; полного протокола оценивания и независимого повтора нет.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727021671223296.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727021671223296-poster.jpg" alt="Оценка хорала в стиле Баха — 1" width="480"></a><br>Смотреть исходное видео</td></tr></table>
+
+Тип: Evaluation | Дата: 2026-10-23
+
+---
+
+<a id="case-205"></a>
+### Пример 205: [Рой для галереи, остановленный квотой](https://x.com/MiaAI_lab/status/2113703310301839567) (автор [@MiaAI_lab](https://x.com/MiaAI_lab))
+
+**Осмотреть неудачный запуск, не считая число агентов завершением.**
+
+Пользователь сообщает, что пятичасовая квота Kimi K3.1 Pro исчерпалась примерно за минуту запроса галереи, ничего не построив. Скриншот показывает множество агентов с ошибками 429. Неудача и время — сообщение одного пользователя, не измеренная частота отказов всех подписок.
+
+<table><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113701448101883904.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113701448101883904.png" alt="Рой для галереи, остановленный квотой — 1" width="480"></a><br>Открыть исходное изображение</td></tr></table>
+
+Тип: Limit | Дата: 2026-10-23
+
+---
+
 <a id="related-repositories"></a>
 ## Связанные репозитории
 
@@ -1921,6 +3076,6 @@ What’s AI сообщает, что K3.1 Pro заняла #7 среди 83 мо
 
 Спасибо авторам, опубликовавшим эти демонстрации:
 
-[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Majin_AppSheet](https://x.com/Majin_AppSheet), [@ka1manov](https://x.com/ka1manov), [@kenonews](https://x.com/kenonews), [@heyfudji](https://x.com/heyfudji), [@FiniYang](https://x.com/FiniYang), [@SahilExec](https://x.com/SahilExec), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@filicroval](https://x.com/filicroval), [@EnvolDev](https://x.com/EnvolDev), [@0xRhinoX](https://x.com/0xRhinoX), [@quimedesu](https://x.com/quimedesu), [@yugen_matuni](https://x.com/yugen_matuni), [@daveeyyy_](https://x.com/daveeyyy_), [@thebuggeddev](https://x.com/thebuggeddev), [@thegreatest_sv](https://x.com/thegreatest_sv), [@diegocabezas01](https://x.com/diegocabezas01), [@VulKan42069](https://x.com/VulKan42069), [@MikuBTC](https://x.com/MikuBTC), [@localhost_4173](https://x.com/localhost_4173), [@LechMazur](https://x.com/LechMazur), [@PovilasKorop](https://x.com/PovilasKorop), [@migtissera](https://x.com/migtissera), [@whydeso](https://x.com/whydeso), [@patience_cave](https://x.com/patience_cave), [@Lonely__MH](https://x.com/Lonely__MH), [@Whats_AI](https://x.com/Whats_AI), [@ai_funss](https://x.com/ai_funss), [@Zaddyzaddy](https://x.com/Zaddyzaddy), [@xueyu1125](https://x.com/xueyu1125), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/)
+[@SPAC89](https://x.com/SPAC89), [@beyondwudan](https://x.com/beyondwudan), [@ash_twtz](https://x.com/ash_twtz), [@k2sbhai](https://x.com/k2sbhai), [@srikanthvaluri](https://x.com/srikanthvaluri), [@karanC_12](https://x.com/karanC_12), [@LuminaBench](https://x.com/LuminaBench), [@ChrisGPT](https://x.com/ChrisGPT), [@notjazii](https://x.com/notjazii), [@mirochill](https://x.com/mirochill), [@painn_x](https://x.com/painn_x), [@abhinavflac](https://x.com/abhinavflac), [@alannnfx](https://x.com/alannnfx), [@MingTian685474](https://x.com/MingTian685474), [@marcthecreatorr](https://x.com/marcthecreatorr), [@Mr_Salio](https://x.com/Mr_Salio), [@leo114119](https://x.com/leo114119), [@chetaslua](https://x.com/chetaslua), [@dummerspast39](https://x.com/dummerspast39), [@lyraxana](https://x.com/lyraxana), [@kepochnik](https://x.com/kepochnik), [@thegenioo](https://x.com/thegenioo), [@Haleeeemahh](https://x.com/Haleeeemahh), [@AI_Screening](https://x.com/AI_Screening), [@TimJayas](https://x.com/TimJayas), [@thtbee_](https://x.com/thtbee_), [@victormustar](https://x.com/victormustar), [@k1rallik](https://x.com/k1rallik), [@NFT_Chen](https://x.com/NFT_Chen), [@ivanainai](https://x.com/ivanainai), [@Bhavani_00007](https://x.com/Bhavani_00007), [@bernirov](https://x.com/bernirov), [@Da7_Tech](https://x.com/Da7_Tech), [@heliocosta](https://x.com/heliocosta), [@liambraus](https://x.com/liambraus), [@yuhasbeentaken](https://x.com/yuhasbeentaken), [@vib3coded](https://x.com/vib3coded), [@loktar00](https://x.com/loktar00), [@marcusyul](https://x.com/marcusyul), [@gelorria](https://x.com/gelorria), [@erhanmeydan](https://x.com/erhanmeydan), [@kickingkeys](https://x.com/kickingkeys), [@slash1sol](https://x.com/slash1sol), [@benyuls](https://x.com/benyuls), [@simonw](https://news.ycombinator.com/user?id=simonw), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@_MaxBlade](https://x.com/_MaxBlade), [@amaliometria](https://x.com/amaliometria), [@nattcornelis](https://x.com/nattcornelis), [@LLMJunky](https://x.com/LLMJunky), [@zentalksai](https://x.com/zentalksai), [@wonjder](https://x.com/wonjder), [@robocurve](https://x.com/robocurve), [@PawelHuryn](https://x.com/PawelHuryn), [@yorwba](https://news.ycombinator.com/user?id=yorwba), [@chriddyp](https://news.ycombinator.com/user?id=chriddyp), [@Majin_AppSheet](https://x.com/Majin_AppSheet), [@ka1manov](https://x.com/ka1manov), [@kenonews](https://x.com/kenonews), [@heyfudji](https://x.com/heyfudji), [@FiniYang](https://x.com/FiniYang), [@SahilExec](https://x.com/SahilExec), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@filicroval](https://x.com/filicroval), [@EnvolDev](https://x.com/EnvolDev), [@0xRhinoX](https://x.com/0xRhinoX), [@quimedesu](https://x.com/quimedesu), [@yugen_matuni](https://x.com/yugen_matuni), [@daveeyyy_](https://x.com/daveeyyy_), [@thebuggeddev](https://x.com/thebuggeddev), [@thegreatest_sv](https://x.com/thegreatest_sv), [@diegocabezas01](https://x.com/diegocabezas01), [@VulKan42069](https://x.com/VulKan42069), [@MikuBTC](https://x.com/MikuBTC), [@localhost_4173](https://x.com/localhost_4173), [@LechMazur](https://x.com/LechMazur), [@PovilasKorop](https://x.com/PovilasKorop), [@migtissera](https://x.com/migtissera), [@whydeso](https://x.com/whydeso), [@patience_cave](https://x.com/patience_cave), [@Lonely__MH](https://x.com/Lonely__MH), [@Whats_AI](https://x.com/Whats_AI), [@ai_funss](https://x.com/ai_funss), [@Zaddyzaddy](https://x.com/Zaddyzaddy), [@adonis_singh](https://x.com/adonis_singh), [@AskVenice](https://x.com/AskVenice), [@0x_fokki](https://x.com/0x_fokki), [@ShadeLurk](https://x.com/ShadeLurk), [@irinatoxi](https://x.com/irinatoxi), [@kiruwaaaaaa](https://x.com/kiruwaaaaaa), [@elvar_official](https://x.com/elvar_official), [@leopardracer](https://x.com/leopardracer), [@Angaisb_](https://x.com/Angaisb_), [@ai_for_success](https://x.com/ai_for_success), [@aimlapi](https://x.com/aimlapi), [@Nyxera0x](https://x.com/Nyxera0x), [@Lummox_eth](https://x.com/Lummox_eth), [@witcheer](https://x.com/witcheer), [@anxuanng](https://x.com/anxuanng), [@glitch_catAI](https://x.com/glitch_catAI), [@ashen_one](https://x.com/ashen_one), [@noclipepe](https://x.com/noclipepe), [@ivanfioravanti](https://x.com/ivanfioravanti), [@nemumusitocha](https://x.com/nemumusitocha), [@developedbyed](https://x.com/developedbyed), [@N1njaCodex](https://x.com/N1njaCodex), [@badboyfoxy](https://x.com/badboyfoxy), [@aipulseda1ly](https://x.com/aipulseda1ly), [@hug0_plat](https://x.com/hug0_plat), [@doe_naps](https://x.com/doe_naps), [@atomicagent_io](https://x.com/atomicagent_io), [@crystalsssup](https://x.com/crystalsssup), [@yohakujpn](https://x.com/yohakujpn), [@petergostev](https://x.com/petergostev), [@NinaLumeh_ia](https://x.com/NinaLumeh_ia), [@lucianlamp](https://x.com/lucianlamp), [@Adidotdev](https://x.com/Adidotdev), [@ann_nnng](https://x.com/ann_nnng), [@AntSeed](https://x.com/AntSeed), [@adolandev](https://x.com/adolandev), [@OGKAIM](https://x.com/OGKAIM), [@nicongdev](https://x.com/nicongdev), [@sakatayasha](https://x.com/sakatayasha), [@xueyu1125](https://x.com/xueyu1125), [@starmexxx](https://x.com/starmexxx), [@atomic_chat_hq](https://x.com/atomic_chat_hq), [@viktoroddy](https://x.com/viktoroddy), [@reMugi3](https://x.com/reMugi3), [@jaimintf](https://x.com/jaimintf), [@fawnunwrap](https://x.com/fawnunwrap), [@voxelbench](https://x.com/voxelbench), [@xKaka1456](https://x.com/xKaka1456), [@aicodeking](https://x.com/aicodeking), [@EnactraAI](https://x.com/EnactraAI), [@s_batzoglou](https://x.com/s_batzoglou), [@aug5thmusic](https://x.com/aug5thmusic), [@MiaAI_lab](https://x.com/MiaAI_lab), [@simonw](https://github.com/simonw), [@Kimi_Moonshot](https://x.com/Kimi_Moonshot), [@Plotly](https://plotly.com/), [@EngMoElgaraihy](https://x.com/EngMoElgaraihy), [@arena](https://x.com/arena)
 
 Атрибуция следует связанным источникам и может нуждаться в исправлении. Сообщайте через issue о пропущенных авторах, дубликатах, неверных утверждениях или просьбах об удалении. Права на сторонние материалы остаются у их владельцев.

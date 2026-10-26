@@ -1,10 +1,10 @@
 # Update Log and Curated Case Register
 
-## 2026-10-25
+## 2026-10-26
 
-125 independent works across six categories; 156 retained media assets. Reposts and comparisons remain attached to their underlying work.
+205 independent works across six categories; 246 retained media assets. Reposts and comparisons remain attached to their underlying work.
 
-2026-10-23: 40 initial cases. 2026-10-24: 43 additional cases. 2026-10-25: 42 additional cases. Initial-release case identifiers are preserved.
+2026-10-23: 40 initial cases. 2026-10-24: 43 additional cases. 2026-10-25: 42 additional cases. 2026-10-26: 80 additional cases. Initial-release case identifiers are preserved.
 
 This generated Markdown register mirrors the canonical JSON. Dates use the UTC publication date of each primary source.
 
@@ -135,3 +135,83 @@ This generated Markdown register mirrors the canonical JSON. Dates use the UTC p
 | 123 | [ToneBench accuracy and voice tradeoff](https://x.com/Whats_AI/status/2114015091838398600) | [@Whats_AI](https://x.com/Whats_AI) | comparison | Benchmark | 2026-10-24 |
 | 124 | [Seven-task agentic coding grade table](https://x.com/ai_funss/status/2114012839623131298) | [@ai_funss](https://x.com/ai_funss) | comparison | Evaluation | 2026-10-24 |
 | 125 | [VulnPR-100 known-vulnerability review](https://x.com/Zaddyzaddy/status/2113973761502253210) | [@Zaddyzaddy](https://x.com/Zaddyzaddy) | comparison | Benchmark | 2026-10-24 |
+| 126 | [Voxel graphics card model](https://x.com/adonis_singh/status/2114396769324802183) | [@adonis_singh](https://x.com/adonis_singh) | mechanical | Demo | 2026-10-25 |
+| 127 | [Two-stage spur gear reducer](https://x.com/AskVenice/status/2114349790792417617) | [@AskVenice](https://x.com/AskVenice) | mechanical | Demo | 2026-10-25 |
+| 128 | [Six-legged robot comparison](https://x.com/0x_fokki/status/2114337407247982640) | [@0x_fokki](https://x.com/0x_fokki) | mechanical | Evaluation | 2026-10-25 |
+| 129 | [Exploded turbine in a CAD workspace](https://x.com/ShadeLurk/status/2114336636612067409) | [@ShadeLurk](https://x.com/ShadeLurk) | mechanical | Demo | 2026-10-25 |
+| 130 | [House plan and elevation in CAD](https://x.com/irinatoxi/status/2114304670063587730) | [@irinatoxi](https://x.com/irinatoxi) | mechanical | Demo | 2026-10-25 |
+| 131 | [Eight-wheel lunar rover model](https://x.com/kiruwaaaaaa/status/2114004076325187923) | [@kiruwaaaaaa](https://x.com/kiruwaaaaaa) | mechanical | Demo | 2026-10-24 |
+| 132 | [Printed fidget spinner experiment](https://x.com/_MaxBlade/status/2113991534693773817) | [@_MaxBlade](https://x.com/_MaxBlade) | mechanical | Evaluation | 2026-10-24 |
+| 133 | [Palm-sensing drone cutaway](https://x.com/elvar_official/status/2113990648646750546) | [@elvar_official](https://x.com/elvar_official) | mechanical | Demo | 2026-10-24 |
+| 134 | [Virtual robot arms playing Jenga](https://x.com/0x_fokki/status/2113980770939183296) | [@0x_fokki](https://x.com/0x_fokki) | mechanical | Demo | 2026-10-24 |
+| 135 | [Boeing 747 rendered in Blender](https://x.com/victormustar/status/2113971808554615026) | [@victormustar](https://x.com/victormustar) | mechanical | Demo | 2026-10-24 |
+| 136 | [Day-Date watch in Three.js](https://x.com/abhinavflac/status/2113957709582315886) | [@abhinavflac](https://x.com/abhinavflac) | mechanical | Demo | 2026-10-24 |
+| 137 | [Twelve-operation CAD bracket comparison](https://x.com/leopardracer/status/2113941454963806558) | [@leopardracer](https://x.com/leopardracer) | mechanical | Evaluation | 2026-10-24 |
+| 138 | [Enterprise-D exterior across three models](https://x.com/Angaisb_/status/2113709458106798347) | [@Angaisb_](https://x.com/Angaisb_) | mechanical | Evaluation | 2026-10-23 |
+| 139 | [SR-71 Blackbird with inspection views](https://x.com/ai_for_success/status/2113691197189525853) | [@ai_for_success](https://x.com/ai_for_success) | mechanical | Demo | 2026-10-23 |
+| 140 | [Exploded motor comparison](https://x.com/rubenssoto_ai/status/2113988189044293793) | [@rubenssoto_ai](https://x.com/rubenssoto_ai) | mechanical | Evaluation | 2026-10-24 |
+| 141 | [Robot-duck stage comparison](https://x.com/aimlapi/status/2113715863207518536) | [@aimlapi](https://x.com/aimlapi) | mechanical | Evaluation | 2026-10-23 |
+| 142 | [Coca-Cola product model in Three.js](https://x.com/dummerspast39/status/2113686992898961535) | [@dummerspast39](https://x.com/dummerspast39) | mechanical | Demo | 2026-10-23 |
+| 143 | [Sandworm modelling comparison](https://x.com/elvar_official/status/2114325660248281265) | [@elvar_official](https://x.com/elvar_official) | worlds | Evaluation | 2026-10-25 |
+| 144 | [Iridescent bee modelling comparison](https://x.com/Nyxera0x/status/2114315304335474786) | [@Nyxera0x](https://x.com/Nyxera0x) | worlds | Evaluation | 2026-10-25 |
+| 145 | [Volcano eruption across four workflows](https://x.com/Lummox_eth/status/2114348609109987619) | [@Lummox_eth](https://x.com/Lummox_eth) | worlds | Evaluation | 2026-10-25 |
+| 146 | [Mont-Saint-Michel with a one-hour agent budget](https://x.com/witcheer/status/2114295910138322988) | [@witcheer](https://x.com/witcheer) | worlds | Demo | 2026-10-25 |
+| 147 | [Multi-task visual coding comparison](https://x.com/NFT_Chen/status/2114292200020627902) | [@NFT_Chen](https://x.com/NFT_Chen) | worlds | Evaluation | 2026-10-25 |
+| 148 | [Armoured character in 3D Make and Tripo](https://x.com/FiniYang/status/2114280069145485819) | [@FiniYang](https://x.com/FiniYang) | worlds | Evaluation | 2026-10-25 |
+| 149 | [Creature island with shared reference files](https://x.com/anxuanng/status/2114170540391096407) | [@anxuanng](https://x.com/anxuanng) | worlds | Evaluation | 2026-10-25 |
+| 150 | [Sunset aircraft landing comparison](https://x.com/glitch_catAI/status/2113981829984460925) | [@glitch_catAI](https://x.com/glitch_catAI) | worlds | Evaluation | 2026-10-24 |
+| 151 | [Blender reference reconstruction with Sol](https://x.com/notjazii/status/2113979790177042916) | [@notjazii](https://x.com/notjazii) | worlds | Evaluation | 2026-10-24 |
+| 152 | [Impossible bottle through Blender MCP](https://x.com/ashen_one/status/2113979598304334017) | [@ashen_one](https://x.com/ashen_one) | worlds | Demo | 2026-10-24 |
+| 153 | [Titanic sinking comparison](https://x.com/noclipepe/status/2113974830215098859) | [@noclipepe](https://x.com/noclipepe) | worlds | Evaluation | 2026-10-24 |
+| 154 | [Abstract reflective-object comparison](https://x.com/notjazii/status/2113920211728666816) | [@notjazii](https://x.com/notjazii) | worlds | Evaluation | 2026-10-24 |
+| 155 | [StillWild and MossLight scene comparison](https://x.com/ivanfioravanti/status/2113890712097825112) | [@ivanfioravanti](https://x.com/ivanfioravanti) | worlds | Evaluation | 2026-10-24 |
+| 156 | [Castle benchmark with floating corners](https://x.com/nemumusitocha/status/2113867472604733926) | [@nemumusitocha](https://x.com/nemumusitocha) | worlds | Evaluation | 2026-10-24 |
+| 157 | [Pixel airport comparison](https://x.com/vib3coded/status/2113849897438834851) | [@vib3coded](https://x.com/vib3coded) | worlds | Evaluation | 2026-10-24 |
+| 158 | [Garment modelling test](https://x.com/developedbyed/status/2113772532809539674) | [@developedbyed](https://x.com/developedbyed) | worlds | Limit | 2026-10-23 |
+| 159 | [Voxel ski resort comparison](https://x.com/N1njaCodex/status/2113759398187417835) | [@N1njaCodex](https://x.com/N1njaCodex) | worlds | Evaluation | 2026-10-23 |
+| 160 | [Plant scene against Astra](https://x.com/developedbyed/status/2113752024106115532) | [@developedbyed](https://x.com/developedbyed) | worlds | Evaluation | 2026-10-23 |
+| 161 | [Geyser Isle across two models](https://x.com/badboyfoxy/status/2113743678166446103) | [@badboyfoxy](https://x.com/badboyfoxy) | worlds | Evaluation | 2026-10-23 |
+| 162 | [Garden scene with online recording issues](https://x.com/ivanfioravanti/status/2113721778128507206) | [@ivanfioravanti](https://x.com/ivanfioravanti) | worlds | Demo | 2026-10-23 |
+| 163 | [New York skyline and quota comparison](https://x.com/aipulseda1ly/status/2113712396891980083) | [@aipulseda1ly](https://x.com/aipulseda1ly) | worlds | Evaluation | 2026-10-23 |
+| 164 | [Four space scenes against Opus](https://x.com/hug0_plat/status/2113708170132459697) | [@hug0_plat](https://x.com/hug0_plat) | worlds | Evaluation | 2026-10-23 |
+| 165 | [Castle built in twenty-eight minutes](https://x.com/doe_naps/status/2113705794554536156) | [@doe_naps](https://x.com/doe_naps) | worlds | Demo | 2026-10-23 |
+| 166 | [Six-shot Avatar scene comparison](https://x.com/atomicagent_io/status/2113702744800571769) | [@atomicagent_io](https://x.com/atomicagent_io) | worlds | Evaluation | 2026-10-23 |
+| 167 | [Changi Airport inside Blender](https://x.com/crystalsssup/status/2113698280991580577) | [@crystalsssup](https://x.com/crystalsssup) | worlds | Demo | 2026-10-23 |
+| 168 | [Night-time sailing ship scene](https://x.com/notjazii/status/2113697560103952826) | [@notjazii](https://x.com/notjazii) | worlds | Demo | 2026-10-23 |
+| 169 | [Moonlit campsite scene](https://x.com/Mr_Salio/status/2113691335739752810) | [@Mr_Salio](https://x.com/Mr_Salio) | worlds | Demo | 2026-10-23 |
+| 170 | [Black-hole scene comparison](https://x.com/yohakujpn/status/2113690050538164603) | [@yohakujpn](https://x.com/yohakujpn) | worlds | Evaluation | 2026-10-23 |
+| 171 | [Creator collection of 3D generations](https://x.com/petergostev/status/2113685825775075821) | [@petergostev](https://x.com/petergostev) | worlds | Demo | 2026-10-23 |
+| 172 | [Roman ruins with an orbit camera](https://x.com/NinaLumeh_ia/status/2113683116820746556) | [@NinaLumeh_ia](https://x.com/NinaLumeh_ia) | worlds | Evaluation | 2026-10-23 |
+| 173 | [Character image to a GLB preview](https://x.com/lucianlamp/status/2113882041444094366) | [@lucianlamp](https://x.com/lucianlamp) | worlds | Demo | 2026-10-24 |
+| 174 | [Exploded tube turntable in SVG](https://x.com/Adidotdev/status/2114000799156277357) | [@Adidotdev](https://x.com/Adidotdev) | svg | Demo | 2026-10-24 |
+| 175 | [Sticker-peeling effect across four models](https://x.com/ann_nnng/status/2113915835387670793) | [@ann_nnng](https://x.com/ann_nnng) | svg | Evaluation | 2026-10-24 |
+| 176 | [Antseed launch animation in Three.js](https://x.com/AntSeed/status/2113717837168566696) | [@AntSeed](https://x.com/AntSeed) | svg | Demo | 2026-10-23 |
+| 177 | [Lantern Hour in one HTML file](https://x.com/adolandev/status/2113711071668142142) | [@adolandev](https://x.com/adolandev) | svg | Evaluation | 2026-10-23 |
+| 178 | [Mozart-style code animation remix](https://x.com/marcthecreatorr/status/2113702615263359305) | [@marcthecreatorr](https://x.com/marcthecreatorr) | svg | Demo | 2026-10-23 |
+| 179 | [Isometric motion sequence comparison](https://x.com/OGKAIM/status/2113695497789817264) | [@OGKAIM](https://x.com/OGKAIM) | svg | Evaluation | 2026-10-23 |
+| 180 | [Three.js launch-video recreation](https://x.com/Bhavani_00007/status/2113683399680700591) | [@Bhavani_00007](https://x.com/Bhavani_00007) | svg | Demo | 2026-10-23 |
+| 181 | [DOOM port on MemoMind glasses](https://x.com/nicongdev/status/2114335057125278044) | [@nicongdev](https://x.com/nicongdev) | games | Demo | 2026-10-25 |
+| 182 | [Interactive Egyptian temple comparison](https://x.com/sakatayasha/status/2114330266986799169) | [@sakatayasha](https://x.com/sakatayasha) | games | Evaluation | 2026-10-25 |
+| 183 | [Pelican endless-runner comparison](https://x.com/noclipepe/status/2114294888523026501) | [@noclipepe](https://x.com/noclipepe) | games | Evaluation | 2026-10-25 |
+| 184 | [Pelican cycling after a quota adjustment](https://x.com/xueyu1125/status/2114282056427663736) | [@xueyu1125](https://x.com/xueyu1125) | games | Demo | 2026-10-25 |
+| 185 | [Galaxy shooter built one system at a time](https://x.com/slash1sol/status/2113995388189286653) | [@slash1sol](https://x.com/slash1sol) | games | Evaluation | 2026-10-24 |
+| 186 | [Voxel boat through an autumn canal](https://x.com/doe_naps/status/2113970938375237770) | [@doe_naps](https://x.com/doe_naps) | games | Demo | 2026-10-24 |
+| 187 | [Browser block-building game comparison](https://x.com/starmexxx/status/2113722581610033330) | [@starmexxx](https://x.com/starmexxx) | games | Evaluation | 2026-10-23 |
+| 188 | [SpongeBob scene with five-agent teams](https://x.com/atomic_chat_hq/status/2113700709506113948) | [@atomic_chat_hq](https://x.com/atomic_chat_hq) | games | Evaluation | 2026-10-23 |
+| 189 | [Japanese action-game environment](https://x.com/thebuggeddev/status/2113694356939112498) | [@thebuggeddev](https://x.com/thebuggeddev) | games | Demo | 2026-10-23 |
+| 190 | [Mechanical pelican bicycle with a missing effect](https://x.com/FiniYang/status/2113689317545795727) | [@FiniYang](https://x.com/FiniYang) | games | Demo | 2026-10-23 |
+| 191 | [Recorded workflow for a 3D website](https://x.com/viktoroddy/status/2114311800191930880) | [@viktoroddy](https://x.com/viktoroddy) | web | Tutorial | 2026-10-25 |
+| 192 | [Bicycle showroom across three models](https://x.com/reMugi3/status/2113727385904280034) | [@reMugi3](https://x.com/reMugi3) | web | Evaluation | 2026-10-23 |
+| 193 | [Pizza interface for a folding phone](https://x.com/jaimintf/status/2113715425456611738) | [@jaimintf](https://x.com/jaimintf) | web | Demo | 2026-10-23 |
+| 194 | [Phone app interface comparison](https://x.com/jaimintf/status/2113703132970799423) | [@jaimintf](https://x.com/jaimintf) | web | Evaluation | 2026-10-23 |
+| 195 | [FawnBench deer modelling comparison](https://x.com/fawnunwrap/status/2114357112923103708) | [@fawnunwrap](https://x.com/fawnunwrap) | comparison | Evaluation | 2026-10-25 |
+| 196 | [CUDA competition timing and submission limits](https://x.com/ivanfioravanti/status/2114252573553140099) | [@ivanfioravanti](https://x.com/ivanfioravanti) | comparison | Limit | 2026-10-25 |
+| 197 | [Rocket launch with a tool-labelled comparator](https://x.com/Lummox_eth/status/2114014409613832221) | [@Lummox_eth](https://x.com/Lummox_eth) | comparison | Evaluation | 2026-10-24 |
+| 198 | [VoxelBench live leaderboard snapshot](https://x.com/voxelbench/status/2113994678404092215) | [@voxelbench](https://x.com/voxelbench) | comparison | Benchmark | 2026-10-24 |
+| 199 | [WorkBuddy usage-limit interruption](https://x.com/xKaka1456/status/2113908523138773437) | [@xKaka1456](https://x.com/xKaka1456) | comparison | Limit | 2026-10-24 |
+| 200 | [KingBench score and cache-read costs](https://x.com/aicodeking/status/2113853437792121165) | [@aicodeking](https://x.com/aicodeking) | comparison | Benchmark | 2026-10-24 |
+| 201 | [BuildingBench photo reconstruction](https://x.com/EnactraAI/status/2113781675427799338) | [@EnactraAI](https://x.com/EnactraAI) | comparison | Benchmark | 2026-10-23 |
+| 202 | [Code-review quota and token log](https://x.com/leo114119/status/2113773360257896748) | [@leo114119](https://x.com/leo114119) | comparison | Limit | 2026-10-23 |
+| 203 | [Induction benchmark comparison](https://x.com/s_batzoglou/status/2113756315256590768) | [@s_batzoglou](https://x.com/s_batzoglou) | comparison | Benchmark | 2026-10-23 |
+| 204 | [Bach-style chorale evaluation](https://x.com/aug5thmusic/status/2113727877955174836) | [@aug5thmusic](https://x.com/aug5thmusic) | comparison | Evaluation | 2026-10-23 |
+| 205 | [Gallery swarm interrupted by quota](https://x.com/MiaAI_lab/status/2113703310301839567) | [@MiaAI_lab](https://x.com/MiaAI_lab) | comparison | Limit | 2026-10-23 |

@@ -25,7 +25,7 @@
     },
     "intro": "Source-attributed community demos, workflows and evaluations for Kimi K3.1 and K3.1 Pro, including earlier recordings of the anonymous Kibitz checkpoint.",
     "purpose": "Explore concrete tasks, visible outputs and practical limits through their original sources.",
-    "stats": "125 independent usecases across 6 categories. Reposts and comparisons of the same work are grouped together.",
+    "stats": "205 independent usecases across 6 categories. Reposts and comparisons of the same work are grouped together.",
     "evidence": "The Kibitz–Kimi K3.1 Pro mapping remains unconfirmed. Model names, timings, costs and quality judgments are source-reported. Recordings do not establish runnable code, complete interaction or repeatable success.",
     "steps": "1. Choose a task in the Menu.\n2. Open its video or image, then follow the source-linked case title.\n3. Compare the visible result with the stated task and limitations.",
     "thanks": "Thanks to the publishers whose demonstrations make this collection possible:",
@@ -664,6 +664,406 @@
       "VulnPR-100 known-vulnerability review",
       "Compare findings, time limits and total cost on the same PR set.",
       "The evaluator reports giving Kimi K3.1 Pro 100 pull requests with known vulnerabilities and one hour per PR. It found 47 for $124.69, versus K3’s 37 and DeepSeek Flash 1017’s 54 for $7.53. Both charts are retained. These benchmark-specific counts and costs are evaluator-reported, distinct from other bug-hunt protocols."
+    ],
+    [
+      "Voxel graphics card model",
+      "Inspect the board, fans and casing in the shared image.",
+      "The publisher attributes this RTX 5090-style voxel graphics card to Kimi K3.1 Pro, quoting an earlier Opus 4.5 post. The source image shows a multi-fan card with a detailed board and casing. The earlier model is context, not a controlled rerun; source code and engineering accuracy are not established."
+    ],
+    [
+      "Two-stage spur gear reducer",
+      "Inspect the visible gear train before treating it as hardware.",
+      "Venice shares a Kimi K3.1 Pro-labelled two-stage spur gear reducer, with an animated cutaway and parts readout. The output is shown inside a promotional post. It supports inspection of the geometry and motion, but supplies no load calculation, manufacturing validation or independent execution trace."
+    ],
+    [
+      "Six-legged robot comparison",
+      "Compare leg detail and sensors in two labelled models.",
+      "The publisher compares Kimi K3.1 Pro with GPT-6 Astra on a six-legged robot. The video shows different shells, joints and sensor details. Claims about export options describe the displayed workflow; the clip does not verify locomotion, fabrication readiness, every asset’s origin or equivalent execution conditions."
+    ],
+    [
+      "Exploded turbine in a CAD workspace",
+      "Inspect an exploded assembly while keeping mechanical validation separate.",
+      "ShadeLurk discloses an invitation to try Kimi K3.1 Pro and shares a CAD workspace containing an exploded turbine assembly. The screenshot supports the displayed geometry and part separation. The post gives no complete construction trace, dimensions, stress checks or manufacturing validation."
+    ],
+    [
+      "House plan and elevation in CAD",
+      "Check room layout and dimensions against the intended brief.",
+      "The publisher attributes a 97.7-square-metre house plan and front elevation to Kimi K3.1, reporting 63 seconds of work. The recording shows walls, doors, windows and dimension annotations in CAD. Area, timing, structural suitability and compliance with building rules are not independently verified."
+    ],
+    [
+      "Eight-wheel lunar rover model",
+      "Separate visible rover geometry from mission engineering checks.",
+      "The publisher attributes a Lunokhod-inspired eight-wheel rover to Kimi K3.1 Pro and says it was built from code without imported models. The recording shows its body, lid and wheels. The source explicitly notes that mass, torque, thermal survival, dust sealing and clearance have not been demonstrated."
+    ],
+    [
+      "Printed fidget spinner experiment",
+      "Inspect a physical print alongside the model that produced it.",
+      "The creator says Kimi K3.1 Pro designed this fidget spinner in Blender and that they printed it live, under a requirement to finish printing within an hour. The clip includes the design and physical object. The claimed comparison with earlier models and print performance have not been independently reproduced."
+    ],
+    [
+      "Palm-sensing drone cutaway",
+      "Use a cutaway to inspect a proposed mechanism.",
+      "The publisher presents a palm-sensing drone made with Kimi K3.1 Pro’s 3D Make workflow. The recording shows a lifted shell, electronics and motor cutaways, accompanied by an explanation of distance sensing. It is an educational model; physical flight, control stability and the complete construction trace are not verified."
+    ],
+    [
+      "Virtual robot arms playing Jenga",
+      "Inspect simulated contact and readouts before inferring physical performance.",
+      "The publisher shares a Kimi K3.1 Pro-labelled Jenga simulation with two arms extracting blocks and pushing the tower. They report a 2:05 run, 8.14 N of force and 44 of 51 blocks coming loose. Those simulation readouts are source claims, not measurements from real robot hardware."
+    ],
+    [
+      "Boeing 747 rendered in Blender",
+      "Compare a Blender reconstruction with a separate browser model.",
+      "The creator shares a Boeing 747 scene attributed to Kimi K3.1, explicitly describing this version as made in Blender. It is retained separately from their earlier browser inspection model because the demonstrated implementation is different. The recording supports the aircraft render, not flight dynamics, aerodynamic accuracy or a complete build trace."
+    ],
+    [
+      "Day-Date watch in Three.js",
+      "Inspect watch detail within a code-built viewer.",
+      "The creator attributes this Day-Date-style watch to Kimi K3.1 Pro, reporting pure Three.js geometry without Blender or imported models, 32 minutes and $6.25. The recording shows a gold watch and controls. Code provenance, timing, cost and mechanical accuracy remain source-reported."
+    ],
+    [
+      "Twelve-operation CAD bracket comparison",
+      "Compare operation progress and normalized costs within one protocol.",
+      "The publisher records four models constructing the same CAD bracket with 12 operations and one call per operation. They report completion in 21.8 seconds for Kimi and 17.5 for Opus 5.5. Their $31,200 and $62,400 figures are normalized per million builds, not an executed million-build bill. Engineering correctness and timing are not independently rerun."
+    ],
+    [
+      "Enterprise-D exterior across three models",
+      "Compare silhouette and geometry across the supplied views.",
+      "The publisher presents Kimi K3.1 Pro, GPT-6 Astra and Opus 5.5 outputs for the exterior of the Enterprise-D. All three source images are retained. They show different interpretations of the ship; the post does not provide executable models, complete inputs or a controlled geometry evaluation."
+    ],
+    [
+      "SR-71 Blackbird with inspection views",
+      "Inspect aircraft geometry and exposed components in a browser viewer.",
+      "The publisher attributes an SR-71 Blackbird model to Kimi K3.1 using Three.js. The recording shows the aircraft and views of internal components. The claim concerns this displayed model; source code, aerodynamic behaviour and engineering correctness are not independently verified."
+    ],
+    [
+      "Exploded motor comparison",
+      "Compare internal geometry alongside the recorded cost labels.",
+      "The publisher compares Kimi K3.1 Pro and Opus 5.5 on an exploded motor assembly, with video labels of $0.71 and $12.63. The clip shows distinct housings, shafts and internal components. Mechanical correctness, source code, full inputs and the reported bills are not independently verified."
+    ],
+    [
+      "Robot-duck stage comparison",
+      "Compare the supplied scene while distinguishing labels from total bills.",
+      "AI/ML API compares Kimi K3.1 Pro and Opus 5.5 on a Jensen Huang robot-duck scene, reporting one hour versus three. The recording’s running cost counters finish at $1.57 and $5.58 respectively. Those are source-reported totals; the full task traces and bills have not been independently verified."
+    ],
+    [
+      "Coca-Cola product model in Three.js",
+      "Inspect the actual product model alongside the author’s criticism.",
+      "The creator shares a Coca-Cola-themed Three.js model attributed to Kimi K3.1 Pro and calls the result poor. The recording shows a bottle-like mechanical object with cutaway components. The complete input, intended design requirements, source code and functional behaviour are not supplied."
+    ],
+    [
+      "Sandworm modelling comparison",
+      "Compare repeated geometry and mouth detail in labelled outputs.",
+      "The publisher compares Kimi K3.1 Pro and GPT-6 Astra on a sandworm scene, pointing to body panels, mouth structures and movement beneath a transparent surface. The recording supports those visible differences. The full build, asset provenance and equivalence of the two execution environments are not established."
+    ],
+    [
+      "Iridescent bee modelling comparison",
+      "Inspect fine surface detail in two labelled models.",
+      "The publisher compares a Kimi K3.1 Pro bee with a GPT-6 Astra bee, drawing attention to leg hair, eye facets, wings and iridescent surfaces. The video shows the outputs. It does not establish each asset’s origin, the complete construction steps or a controlled model-only advantage."
+    ],
+    [
+      "Volcano eruption across four workflows",
+      "Compare eruption detail while preserving the workflow labels.",
+      "The publisher juxtaposes volcano outputs labelled Kimi K3.1, GPT-6 Astra, Blender MCP and Claude Code, reporting the same input without manual edits. Those labels mix models and tools. The recording permits visual comparison, but does not isolate the underlying model, verify the setup or establish physical accuracy."
+    ],
+    [
+      "Mont-Saint-Michel with a one-hour agent budget",
+      "Reserve time for building and browser inspection within a task budget.",
+      "The creator reports using Kimi K3.1 Pro through Hermes Agent on Nous Portal for a one-hour Mont-Saint-Michel voxel task. They say the last page edit occurred at 44 minutes, followed by browser and screenshot checks, for $3.38. The recording shows the island; the reported timing, testing coverage and bill are not independently verified."
+    ],
+    [
+      "Multi-task visual coding comparison",
+      "Inspect individual tasks within a labelled comparison compilation.",
+      "The publisher shares a four-model 3D comparison naming Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, Opus 5.5 and GPT-6 Astra. The compilation includes articulated figures and a wind-blown canopy, with different model pairings across tasks. Complete inputs, implementations and functional tests are not supplied, so it is a visual comparison rather than a verified mechanics benchmark."
+    ],
+    [
+      "Armoured character in 3D Make and Tripo",
+      "Compare the outputs without inferring an undocumented backend.",
+      "FiniYang presents an armoured character attributed to Kimi K3.1 Pro’s 3D Make mode beside a direct Tripo H3.1 output, plus the feature’s interface. They report about 2% of a ¥199 plan’s monthly quota. Similar appearance and the author’s explanation do not establish a verified routing relationship or general cost comparison."
+    ],
+    [
+      "Creature island with shared reference files",
+      "Inspect scene differences alongside the stated reference conditions.",
+      "The creator presents an Opus 5.5 and Kimi K3.1 Pro island comparison, saying the same input and 3D files were used once each without manual fixes. The recording shows creatures, structures and contrasting terrain treatments. The supplied reference files, full implementations and equivalent execution settings are not independently checked."
+    ],
+    [
+      "Sunset aircraft landing comparison",
+      "Check generation provenance before interpreting a video comparison.",
+      "The publisher presents clips labelled Kimi K3.1 Pro, Gemini 4 Argon and Fable 5.1 for a reported ten-second sunset aircraft-landing request. The video supports the displayed differences. It does not establish how each clip was generated, whether external assets or tools were used, or whether the conditions were comparable."
+    ],
+    [
+      "Blender reference reconstruction with Sol",
+      "Compare reconstructed detail with the stated effort and costs.",
+      "The creator reports giving Kimi K3.1 Pro and GPT-6.1 Sol the same Blender reference task at their highest available reasoning settings. They report about 25 minutes/$1.50 for Kimi and 17 minutes/$0.70 for Sol, preferring Sol’s lighting and textures. The recordings support visual comparison; the full inputs, settings and bills are not verified."
+    ],
+    [
+      "Impossible bottle through Blender MCP",
+      "Consider elapsed time together with the finished object.",
+      "The creator attributes this impossible-bottle scene to Kimi K3.1 Pro Max through Blender MCP and reports roughly four hours of work. The recording shows a translucent bottle, suspended particles and a display base. The full input, iteration history and exact execution time are not supplied."
+    ],
+    [
+      "Titanic sinking comparison",
+      "Keep quality judgments separate from reported time and total cost.",
+      "The publisher compares Kimi K3.1 and Opus 5.5 on sinking the Titanic, reporting 35m 05s, 1.98M tokens and about $0.88 for Kimi versus 28m 55s, 9.02M tokens and about $8.43 for Opus. They prefer Opus’s result. The recording supports visible differences; those costs and timings are source-reported."
+    ],
+    [
+      "Abstract reflective-object comparison",
+      "Compare reference interpretation and finish under stated effort settings.",
+      "The creator compares Kimi K3.1 Pro and GPT-6 Astra on a shared reference task at the highest available reasoning settings. The clip shows contrasting abstract reflective objects and layouts. They report about 45 minutes/$7.30 for Kimi and 47 minutes/$86.50 for Astra; complete inputs, bills and execution equivalence are not established."
+    ],
+    [
+      "StillWild and MossLight scene comparison",
+      "Inspect separate scene designs while retaining reported rendering issues.",
+      "The creator labels the two recordings StillWild for Kimi K3.1 Pro and MossLight for DeepSeek V4.1 Flash 1017. They prefer DeepSeek and report intermittent frame-rate drops in Kimi’s result. Both source videos are retained. Complete inputs and local performance traces are not provided."
+    ],
+    [
+      "Castle benchmark with floating corners",
+      "Inspect close views for geometric defects as well as appearance.",
+      "The evaluator shares four Kimi K3.1 Pro castle screenshots and points out exterior corners appearing detached from the ground. All views are retained to show both the scene and the alleged defect. Their speculation about training provenance is not established by visual similarity; no runnable model or numerical score is supplied."
+    ],
+    [
+      "Pixel airport comparison",
+      "Compare an airport scene with its reported task costs.",
+      "The publisher compares Kimi K3.1 Pro and GPT-6 Astra on a pixel airport, reporting $0.98 and $17.61 respectively. The recording shows different airports, planes and control panels. Weather, interaction completeness and the stated bills have not been independently tested."
+    ],
+    [
+      "Garment modelling test",
+      "Inspect unfinished surfaces against the source’s modelling request.",
+      "The evaluator shares a Kimi K3.1 Pro max garment-modelling attempt, describing the result negatively. The screenshot shows a lower-body model with shorts and a partially finished surface. This is a reported limitation on that task, not a general anatomical benchmark; the complete attempt and scoring method are not provided."
+    ],
+    [
+      "Voxel ski resort comparison",
+      "Inspect resort detail without turning task costs into a general ranking.",
+      "The publisher compares Kimi K3.1 Pro and GPT-6 Astra ski-resort scenes with labels of $0.31 and $15.57. The recording shows slopes, lifts and contrasting layouts. The author favours Kimi on value; complete inputs, functional coverage and the bills have not been independently verified."
+    ],
+    [
+      "Plant scene against Astra",
+      "Compare vegetation detail under the recorded model labels.",
+      "The evaluator juxtaposes GPT-6 Astra and Kimi K3.1 Pro max plant scenes and prefers Astra. The image shows different leaf, stem, flower and background treatments. The complete input, executable outputs and a controlled scoring procedure are not supplied."
+    ],
+    [
+      "Geyser Isle across two models",
+      "Compare scene detail with unequal elapsed time and cost.",
+      "The creator compares DeepSeek V4.1 Flash 1017 and Kimi K3.1 Pro on Geyser Isle, reporting max settings, $1.07/90 minutes for DeepSeek and $7.40/60 minutes for Kimi. They prefer DeepSeek’s output. The recording shows different island and geyser treatments; timings, costs and behaviour are not independently rerun."
+    ],
+    [
+      "Garden scene with online recording issues",
+      "Distinguish a recording defect from a claimed local result.",
+      "The creator shares a Kimi K3.1 Pro garden scene with bridges, vegetation and flowers. They report frame-rate problems in the online-generated recording while saying the HTML runs correctly locally, and prefer Opus 5.5 on the task. The supplied clip does not verify local performance or the complete comparison setup."
+    ],
+    [
+      "New York skyline and quota comparison",
+      "Compare the scene and reported resource use separately.",
+      "The creator compares Kimi K3.1 Pro with Opus 5.5 on a New York skyline flythrough and prefers the competitors’ detail. They report exhausting a five-hour quota on a $100 Kimi plan within 20 minutes. The recording shows the city outputs; quota accounting and landmark accuracy are not independently verified."
+    ],
+    [
+      "Four space scenes against Opus",
+      "Compare each scene before adopting an aggregate visual preference.",
+      "The creator compares four space scenes from Opus 5.5 and Kimi K3.1 Pro, reporting total prices of $5.63 and $1.09. The recording includes an asteroid impact and other labelled scenes. They prefer Opus’s cinematic appearance and criticise Kimi’s dark galaxies. These are task-specific judgments and reported costs, not an independent rerun."
+    ],
+    [
+      "Castle built in twenty-eight minutes",
+      "Inspect the finished environment together with reported effort.",
+      "The creator attributes this detailed castle environment to Kimi K3.1, reporting 28 minutes and $4.48. The recording shows towers, walls, courtyards and surrounding scenery. The full input, source code, asset provenance and timing are not independently verified."
+    ],
+    [
+      "Six-shot Avatar scene comparison",
+      "Keep task-level totals distinct from labels on individual shots.",
+      "Atomic Agent reports a six-shot Avatar scene in one HTML file, with 40 steps/12 minutes for Kimi and 70 steps/9 minutes for Astra, including screenshot-based repairs. The video shows labelled individual-shot timings and costs, which do not match those whole-task totals. Complete traces and asset provenance are not independently verified."
+    ],
+    [
+      "Changi Airport inside Blender",
+      "Inspect scene geometry while keeping tool and asset contributions explicit.",
+      "The creator attributes a Singapore Changi Airport scene to Kimi K3.1 Pro, describing asset creation, assembly and rendering in Blender. The recording shows the scene and wireframe geometry. The post also mentions Tripo plugin support; it does not establish whether that plugin was used here or provide a full construction trace."
+    ],
+    [
+      "Night-time sailing ship scene",
+      "Inspect the model and water in a distinct recorded scene.",
+      "The creator discloses early access and attributes this sailing-ship scene to Kimi K3.1 Pro, reporting one instruction, about an hour and $8.40. The recording shows the ship at night on reflective water. Complete code, asset provenance, timing and costs are not independently verified."
+    ],
+    [
+      "Moonlit campsite scene",
+      "Inspect lighting, fire and environment detail in a recording.",
+      "The publisher attributes a moonlit camping scene to Kimi K3.1 Pro. The clip shows a fire, rocks, terrain and sky lighting. Their favourable comparison with other models is subjective; no matched comparator, complete input or executable implementation is supplied."
+    ],
+    [
+      "Black-hole scene comparison",
+      "Compare the displayed treatment without assuming scientific accuracy.",
+      "The creator compares Kimi K3.1 and Opus 5.5 black-hole scenes, reporting 30 and 48 minutes respectively. The recording shows contrasting accretion discs, light and camera treatments. It does not establish physically correct rendering, complete input equivalence or independently measured creation times."
+    ],
+    [
+      "Creator collection of 3D generations",
+      "Use a collection to inspect variety without counting each view separately.",
+      "Peter Gostev shares a collection of Kimi K3.1 Pro generations, with further examples attributed to them by Arena. Both recordings are retained as one collection rather than separate cases for every scene. The clips show varied environments and objects, but do not supply all inputs, code or independent generation traces."
+    ],
+    [
+      "Roman ruins with an orbit camera",
+      "Compare the scene while checking the shared request.",
+      "The publisher reports giving Kimi K3.1 Pro and GPT-6.1 Sol the same Roman-ruins request with an orbit camera. The recording shows two similar architectural scenes with water, trees and stone structures. Full inputs, code and functional camera tests are not supplied."
+    ],
+    [
+      "Character image to a GLB preview",
+      "Inspect the actual preview while keeping backend claims unconfirmed.",
+      "The creator reports turning a character image into a GLB model with Kimi K3.1 Pro in about five minutes for roughly $0.60. The recording shows a clothed wolf-like character in a 3D preview. They say an installed Tripo plugin had no balance and was not used; the clip does not independently establish that execution claim or asset provenance."
+    ],
+    [
+      "Exploded tube turntable in SVG",
+      "Inspect an exploded device using layered isometric geometry.",
+      "The creator credits Kimi K3.1 and an Anatomy skill for a direct-drive tube turntable illustrated in isometric SVG. They report no external assets, with four-tone shading and painter’s-order layers. The source image supports the illustration; the full SVG, skill contribution and mechanical correctness are not independently checked."
+    ],
+    [
+      "Sticker-peeling effect across four models",
+      "Compare deformation and surface treatment in a shared effect task.",
+      "The creator compares Kimi K3.1 Pro, DeepSeek V4.1 Flash, GPT-6.1 Sol and Opus 5.5 on recreating a sticker-peeling effect. The recording retains all four labels and shows different treatments. The source’s favourable assessment does not replace executable code, a complete input or interaction testing."
+    ],
+    [
+      "Antseed launch animation in Three.js",
+      "Inspect a branded motion sequence with its reported cost.",
+      "Antseed attributes its launch animation to one Kimi K3.1 Pro request using Three.js and reports a whole-run cost of $0.1016. The recording shows a green network-themed sequence. The full input, implementation and reported cost have not been independently verified."
+    ],
+    [
+      "Lantern Hour in one HTML file",
+      "Compare style changes and controls against an explicit brief.",
+      "The creator compares Opus 5.5 and Kimi K3.1 Pro on Lantern Hour, specifying one HTML file, Canvas 2D, four art styles, a day/night cycle, lighting and interactive controls without external assets. The recording shows the outputs. It does not independently verify every control or the no-assets claim."
+    ],
+    [
+      "Mozart-style code animation remix",
+      "Record references and iterations alongside a code-animation result.",
+      "The creator attributes this Mozart-style remix of the pre-launch animation to Kimi K3.1 using Three.js, reporting max reasoning, about 40 minutes and $2. They explicitly describe multiple iterations with references rather than one instruction. The recording supports the animation; code provenance and costs are not independently verified."
+    ],
+    [
+      "Isometric motion sequence comparison",
+      "Compare the visible sequences while preserving inconsistent model naming.",
+      "The publisher compares an isometric motion sequence with Opus 5.5, discussing colour, light and spacing. The post title names K3.1 Pro while its body and the video label say Kimi K3 Pro. That discrepancy is retained; the recording does not establish the exact checkpoint, complete input or execution conditions."
+    ],
+    [
+      "Three.js launch-video recreation",
+      "Inspect a claimed launch-video build with its stated effort.",
+      "The publisher attributes this launch-video recreation to Kimi K3.1 using Three.js, reporting five minutes and $1.10. The clip shows a mascot, flowers, trees and voxel-like scenery. It does not supply the complete input, source code, asset provenance or independently verified timing and cost."
+    ],
+    [
+      "DOOM port on MemoMind glasses",
+      "Inspect a software port running on a named device.",
+      "The creator reports using a week of Kimi K3.1 quota to port DOOM to MemoMind One glasses. The recording shows the device-oriented setup and game display. Source code, build and installation steps, frame-rate measurements and quota accounting are not supplied, so complete playability and cost are not independently verified."
+    ],
+    [
+      "Interactive Egyptian temple comparison",
+      "Test requested interactions separately from scene appearance and completion time.",
+      "The creator reports the same Three.js Egyptian-temple task for Kimi K3.1 Pro and DeepSeek V4.1 Flash, including digging, brushing, a burial-chamber puzzle, weather and a day/night cycle. They report 41 and 32 minutes respectively. The recording supports visible differences, but does not verify every interaction or the reported timings."
+    ],
+    [
+      "Pelican endless-runner comparison",
+      "Compare the recorded game with reported elapsed time and cost.",
+      "The publisher compares a Subway Surfers-style pelican bicycle task, reporting Kimi at 10m 01s/$0.95 and GPT-6 Astra at 19m 52s/$6.53. The clip shows different runners and end-of-test scores. Complete gameplay, scoring methodology and the bills have not been independently verified."
+    ],
+    [
+      "Pelican cycling after a quota adjustment",
+      "Inspect a later completed output without assuming universal quota recovery.",
+      "The creator shares a Kimi K3.1 Pro pelican-cycling recording after a reported quota increase and says longer tasks can now finish in their subscription. The clip supports this scene. It does not establish other subscribers’ allowances, full gameplay or whether all earlier quota problems are resolved."
+    ],
+    [
+      "Galaxy shooter built one system at a time",
+      "Build and test movement, waves and power-ups incrementally.",
+      "The creator compares three galaxy shooters built through the same six-step sequence: movement, firing, waves, power-ups, state screens and self-review. They report $0.31 for Kimi, $2.55 for Astra and $1.93 for Opus, preferring Kimi’s feature coverage. The recording supports the outputs; every gameplay feature and the reported costs are not independently rerun."
+    ],
+    [
+      "Voxel boat through an autumn canal",
+      "Inspect controls and obstacles before treating a game as fully tested.",
+      "The creator attributes this voxel boat game to Kimi K3.1, reporting 28 minutes and $4.58. The source describes collecting riverlights and hitting pursuing coil snakes with a paddle. The recording shows the boat and canal, but full controls, collision behaviour, source code and the bill are not independently tested."
+    ],
+    [
+      "Browser block-building game comparison",
+      "Check the claimed progression against the recorded game.",
+      "The publisher compares Kimi K3.1 Pro and GPT-6 Astra on a browser block-building game, reporting $2.30 and $13.40. They describe village, mine, Nether and portal progression. The recording shows a portion of the worlds; the entire progression, open-source claim, asset provenance and bills are not independently verified."
+    ],
+    [
+      "SpongeBob scene with five-agent teams",
+      "Compare team-based outputs alongside the stated orchestration.",
+      "Atomic Chat reports teams of five agents making a SpongeBob-themed scene, with Kimi finishing in 26 minutes versus two hours for Opus 5.5. The clip labels costs of $7.31 and $76.42. Those are source-reported timings and labels; the team traces, full implementation and functional game behaviour are not independently checked."
+    ],
+    [
+      "Japanese action-game environment",
+      "Inspect a recorded environment without assuming complete gameplay.",
+      "The publisher attributes a Ghost of Tsushima-inspired scene to Kimi K3.1 Pro. The recording shows a third-person character, bridge, water and Japanese buildings. It supports the displayed environment and movement, but does not establish a complete game, original assets, public code or a reproducible build."
+    ],
+    [
+      "Mechanical pelican bicycle with a missing effect",
+      "Check omitted requested effects as well as visual detail.",
+      "FiniYang shares a mechanical pelican bicycle made with Kimi K3.1 Pro in Kimi Desktop and says it failed to add the requested nitro-acceleration effect. The recording shows the model and viewer. This preserves the reported omission; complete motion behaviour, inputs and implementation are not independently tested."
+    ],
+    [
+      "Recorded workflow for a 3D website",
+      "Follow the recorded setup while separating examples from promises.",
+      "The publisher shares a video tutorial for building 3D websites with Kimi K3.1 Pro. The recording includes reference browsing, a model session and website examples. Its broad budget comparisons are promotional claims, not verified savings; successful reproduction, all dependencies and ownership of every displayed asset are not established."
+    ],
+    [
+      "Bicycle showroom across three models",
+      "Inspect product detail and layout with the recorded cost labels.",
+      "The publisher compares bicycle-showroom pages labelled Kimi K3.1 Pro, Opus 5.5 and GPT-6 Astra, with costs of $0.05, $0.72 and $2.63. The recording shows different bicycles and interface layouts. Full functionality, source code and the stated bills are not independently verified."
+    ],
+    [
+      "Pizza interface for a folding phone",
+      "Inspect the interaction concept in a device-shaped layout.",
+      "The creator attributes this iPhone Duo-oriented app concept to Kimi K3.1 Pro. The recording shows a pizza interface with ingredients and device framing. It supports the visible layout and animation, not a shipped native app, complete interaction coverage or a publicly reproducible implementation."
+    ],
+    [
+      "Phone app interface comparison",
+      "Compare the visible screens without assuming a complete app.",
+      "The publisher presents phone interfaces labelled Fable 5.1, GPT-6 Astra and Kimi K3.1 Pro, reporting $17.30 for Kimi and $86.50 for Astra. The recording shows contrasting screens and transitions. The complete app behaviour, input equivalence and reported bills are not independently established."
+    ],
+    [
+      "FawnBench deer modelling comparison",
+      "Inspect the specific model comparison before generalising a ranking.",
+      "FawnBench presents Kimi K3.1 Pro against Opus 5.5 on a deer-modelling task. The recording shows different deer shapes and surface treatments. It is retained as a task-specific visual comparison; the post supplies no complete input, executable models or documented aggregate scoring protocol."
+    ],
+    [
+      "CUDA competition timing and submission limits",
+      "Include thinking time and submission constraints in the task outcome.",
+      "The participant reports that Kimi K3.1 and other high-reasoning models took too long to improve CUDA.FAST solutions before the frontier advanced. They also report blocked parallel submissions from three devices on one account. The leaderboard screenshot is context; model delays and competition submission limits are separate source-reported constraints."
+    ],
+    [
+      "Rocket launch with a tool-labelled comparator",
+      "Check the comparator identity before attributing a model advantage.",
+      "The publisher compares a Kimi K3.1-labelled rocket run with a Claude Code-labelled run, reporting $11/three minutes and $115/30 minutes. The recording uses running cost and time labels. Claude Code is a tool label, so the underlying comparator model and equivalent settings are not established; the totals are source-reported."
+    ],
+    [
+      "VoxelBench live leaderboard snapshot",
+      "Read a leaderboard result within its own evaluation scope.",
+      "VoxelBench reports Kimi K3.1 Pro in sixth place on its live leaderboard, tied with Gemini 4 Argon. The source screenshot preserves that dated ranking. The underlying task set, uncertainty and later leaderboard changes are not independently evaluated here; this is the evaluator’s snapshot."
+    ],
+    [
+      "WorkBuddy usage-limit interruption",
+      "Include provider quota interruptions when assessing a workflow.",
+      "The user reports Kimi K3.1 being difficult to use through WorkBuddy and shares a usage-limit message that stops further work until the allowance resets or the plan changes. The screenshot supports that interruption. The complete task, actual consumption and applicability to other plans are not established."
+    ],
+    [
+      "KingBench score and cache-read costs",
+      "Compare the task score with the full reported usage cost.",
+      "The evaluator reports Kimi K3.1 Pro at 53.7% and $31.88 on KingBench 4, criticising repeated cache reads. A related cost diagram attributes $22.11 to cache reads and $6.93 to output, which do not alone total $31.88. Both charts are retained; the full accounting and proposed explanation for the behaviour are not independently verified."
+    ],
+    [
+      "BuildingBench photo reconstruction",
+      "Compare reconstruction scores and task costs under one benchmark.",
+      "BuildingBench reports Kimi K3.1 Pro improving from K3’s 54.0 to 81.6, at an estimated median $12.58 per task. It highlights a photograph-based reconstruction of Melbourne’s Australian Centre for Contemporary Art scoring 90.8. The source chart and reconstruction are evaluator-reported, not an independent local rerun."
+    ],
+    [
+      "Code-review quota and token log",
+      "Read recorded consumption separately from extrapolated plan allowances.",
+      "The publisher relays a report that a review task with five subagents exhausted a five-hour Kimi allowance in roughly ten minutes. The screenshot lists 13,007,388 total tokens, including 11,667,200 cached input tokens. Proposed weekly and monthly totals are extrapolations, not verified limits; the full session log is not supplied."
+    ],
+    [
+      "Induction benchmark comparison",
+      "Choose a model using task-specific results and token cost.",
+      "The evaluator reports Kimi K3.1 Pro around Opus 5 on an induction benchmark, ahead of Qwen 3.8 Max and Muse Spark 1.3 but behind GPT-5.6 Sol, GPT-6.1 Sol and Opus 5.5. The supplied leaderboard is retained. These are protocol-specific reported results, including a token-usage cost tradeoff, not a general capability ranking."
+    ],
+    [
+      "Bach-style chorale evaluation",
+      "Inspect the musical output against the evaluator’s stated limitations.",
+      "The evaluator shares a Kimi K3.1 Pro max chorale in G minor on the Bach Benchmark and describes it as around Fable 5 level. They criticise the absence of non-chord tones and eighth notes. The musical recording and notation are source evidence; a full scoring protocol and independent rerun are not supplied."
+    ],
+    [
+      "Gallery swarm interrupted by quota",
+      "Inspect the failed run rather than assuming agent count means completion.",
+      "The user reports a five-hour Kimi K3.1 Pro allowance being exhausted about a minute into a gallery-generation request, with nothing built. The screenshot shows many agent entries returning 429 errors. The task failure and timing are one user’s report, not a measured failure rate across subscriptions."
     ]
   ]
 }

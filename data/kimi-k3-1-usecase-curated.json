@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "model": "Kimi K3.1",
-  "case_count": 125,
-  "source_count": 1366,
+  "case_count": 205,
+  "source_count": 1760,
   "category_counts": {
-    "mechanical": 18,
-    "worlds": 50,
-    "svg": 13,
-    "games": 16,
-    "web": 5,
-    "comparison": 23
+    "mechanical": 35,
+    "worlds": 81,
+    "svg": 20,
+    "games": 26,
+    "web": 9,
+    "comparison": 34
   },
   "attribution_policy": "Names and timings follow linked sources; anonymous Kibitz mapping remains unconfirmed.",
   "cases": [
@@ -5572,11 +5572,3230 @@
           "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973494773866496.jpg"
         }
       ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Voxel graphics card model",
+      "takeaway": "Inspect the board, fans and casing in the shared image.",
+      "body_notes": "The publisher attributes this RTX 5090-style voxel graphics card to Kimi K3.1 Pro, quoting an earlier Opus 4.5 post. The source image shows a multi-fan card with a detailed board and casing. The earlier model is context, not a controlled rerun; source code and engineering accuracy are not established.",
+      "number": 126,
+      "id": "case-126",
+      "source_id": "x:2114396769324802183",
+      "source_url": "https://x.com/adonis_singh/status/2114396769324802183",
+      "author_handle": "adonis_singh",
+      "author_url": "https://x.com/adonis_singh",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 69,
+        "view_count": 2402,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 11
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/adonis_singh/status/2114396769324802183",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114396261876969473",
+          "source_id": "x:2114396769324802183",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVfYMpeXMAEOsmM.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114396261876969473.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Two-stage spur gear reducer",
+      "takeaway": "Inspect the visible gear train before treating it as hardware.",
+      "body_notes": "Venice shares a Kimi K3.1 Pro-labelled two-stage spur gear reducer, with an animated cutaway and parts readout. The output is shown inside a promotional post. It supports inspection of the geometry and motion, but supplies no load calculation, manufacturing validation or independent execution trace.",
+      "number": 127,
+      "id": "case-127",
+      "source_id": "x:2114349790792417617",
+      "source_url": "https://x.com/AskVenice/status/2114349790792417617",
+      "author_handle": "AskVenice",
+      "author_url": "https://x.com/AskVenice",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 116,
+        "view_count": 9740,
+        "retweet_count": 10,
+        "reply_count": 19,
+        "quote_count": 0,
+        "bookmark_count": 12
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/AskVenice/status/2114349790792417617",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114349763877556224",
+          "source_id": "x:2114349790792417617",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114349763877556224/vid/avc1/1080x1080/5nH1sGPGmePtMANt.mp4?tag=16",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114349763877556224.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114349763877556224-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Evaluation",
+      "title": "Six-legged robot comparison",
+      "takeaway": "Compare leg detail and sensors in two labelled models.",
+      "body_notes": "The publisher compares Kimi K3.1 Pro with GPT-6 Astra on a six-legged robot. The video shows different shells, joints and sensor details. Claims about export options describe the displayed workflow; the clip does not verify locomotion, fabrication readiness, every asset’s origin or equivalent execution conditions.",
+      "number": 128,
+      "id": "case-128",
+      "source_id": "x:2114337407247982640",
+      "source_url": "https://x.com/0x_fokki/status/2114337407247982640",
+      "author_handle": "0x_fokki",
+      "author_url": "https://x.com/0x_fokki",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 121,
+        "view_count": 6539,
+        "retweet_count": 10,
+        "reply_count": 24,
+        "quote_count": 3,
+        "bookmark_count": 72
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/0x_fokki/status/2114337407247982640",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114337332228726784",
+          "source_id": "x:2114337407247982640",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2114337332228726784/vid/avc1/1920x2160/3d21A8h62kBaF_1Y.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114337332228726784.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114337332228726784-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Exploded turbine in a CAD workspace",
+      "takeaway": "Inspect an exploded assembly while keeping mechanical validation separate.",
+      "body_notes": "ShadeLurk discloses an invitation to try Kimi K3.1 Pro and shares a CAD workspace containing an exploded turbine assembly. The screenshot supports the displayed geometry and part separation. The post gives no complete construction trace, dimensions, stress checks or manufacturing validation.",
+      "number": 129,
+      "id": "case-129",
+      "source_id": "x:2114336636612067409",
+      "source_url": "https://x.com/ShadeLurk/status/2114336636612067409",
+      "author_handle": "ShadeLurk",
+      "author_url": "https://x.com/ShadeLurk",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 48,
+        "view_count": 691,
+        "retweet_count": 2,
+        "reply_count": 0,
+        "quote_count": 0,
+        "bookmark_count": 1
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/ShadeLurk/status/2114336636612067409",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114336165717528576",
+          "source_id": "x:2114336636612067409",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2114336165717528576/vid/avc1/1920x1080/K3cfTvYHuM4heaf3.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114336165717528576.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114336165717528576-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "House plan and elevation in CAD",
+      "takeaway": "Check room layout and dimensions against the intended brief.",
+      "body_notes": "The publisher attributes a 97.7-square-metre house plan and front elevation to Kimi K3.1, reporting 63 seconds of work. The recording shows walls, doors, windows and dimension annotations in CAD. Area, timing, structural suitability and compliance with building rules are not independently verified.",
+      "number": 130,
+      "id": "case-130",
+      "source_id": "x:2114304670063587730",
+      "source_url": "https://x.com/irinatoxi/status/2114304670063587730",
+      "author_handle": "irinatoxi",
+      "author_url": "https://x.com/irinatoxi",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 271,
+        "view_count": 15440,
+        "retweet_count": 25,
+        "reply_count": 12,
+        "quote_count": 5,
+        "bookmark_count": 245
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/irinatoxi/status/2114304670063587730",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114304076351410176",
+          "source_id": "x:2114304670063587730",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114304076351410176/vid/avc1/1722x1080/toDCiEPnx8a39mQx.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114304076351410176.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114304076351410176-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Eight-wheel lunar rover model",
+      "takeaway": "Separate visible rover geometry from mission engineering checks.",
+      "body_notes": "The publisher attributes a Lunokhod-inspired eight-wheel rover to Kimi K3.1 Pro and says it was built from code without imported models. The recording shows its body, lid and wheels. The source explicitly notes that mass, torque, thermal survival, dust sealing and clearance have not been demonstrated.",
+      "number": 131,
+      "id": "case-131",
+      "source_id": "x:2114004076325187923",
+      "source_url": "https://x.com/kiruwaaaaaa/status/2114004076325187923",
+      "author_handle": "kiruwaaaaaa",
+      "author_url": "https://x.com/kiruwaaaaaa",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 46,
+        "view_count": 994,
+        "retweet_count": 1,
+        "reply_count": 11,
+        "quote_count": 0,
+        "bookmark_count": 19
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/kiruwaaaaaa/status/2114004076325187923",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114003796871241728",
+          "source_id": "x:2114004076325187923",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2114003796871241728/vid/avc1/1440x1800/6G0MIBxRf5eraqzD.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114003796871241728.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114003796871241728-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Evaluation",
+      "title": "Printed fidget spinner experiment",
+      "takeaway": "Inspect a physical print alongside the model that produced it.",
+      "body_notes": "The creator says Kimi K3.1 Pro designed this fidget spinner in Blender and that they printed it live, under a requirement to finish printing within an hour. The clip includes the design and physical object. The claimed comparison with earlier models and print performance have not been independently reproduced.",
+      "number": 132,
+      "id": "case-132",
+      "source_id": "x:2113991534693773817",
+      "source_url": "https://x.com/_MaxBlade/status/2113991534693773817",
+      "author_handle": "_MaxBlade",
+      "author_url": "https://x.com/_MaxBlade",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 46,
+        "view_count": 2436,
+        "retweet_count": 1,
+        "reply_count": 6,
+        "quote_count": 0,
+        "bookmark_count": 1
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/_MaxBlade/status/2113991534693773817",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113990538634358784",
+          "source_id": "x:2113991534693773817",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113990538634358784/vid/avc1/1080x1920/f6_CrBnlszBqkCO6.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113990538634358784.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113990538634358784-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Palm-sensing drone cutaway",
+      "takeaway": "Use a cutaway to inspect a proposed mechanism.",
+      "body_notes": "The publisher presents a palm-sensing drone made with Kimi K3.1 Pro’s 3D Make workflow. The recording shows a lifted shell, electronics and motor cutaways, accompanied by an explanation of distance sensing. It is an educational model; physical flight, control stability and the complete construction trace are not verified.",
+      "number": 133,
+      "id": "case-133",
+      "source_id": "x:2113990648646750546",
+      "source_url": "https://x.com/elvar_official/status/2113990648646750546",
+      "author_handle": "elvar_official",
+      "author_url": "https://x.com/elvar_official",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 97,
+        "view_count": 6343,
+        "retweet_count": 7,
+        "reply_count": 23,
+        "quote_count": 0,
+        "bookmark_count": 69
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/elvar_official/status/2113990648646750546",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113989807768551424",
+          "source_id": "x:2113990648646750546",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113989807768551424/vid/avc1/1500x1104/J0w13Lklx78tEsY3.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113989807768551424.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113989807768551424-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Virtual robot arms playing Jenga",
+      "takeaway": "Inspect simulated contact and readouts before inferring physical performance.",
+      "body_notes": "The publisher shares a Kimi K3.1 Pro-labelled Jenga simulation with two arms extracting blocks and pushing the tower. They report a 2:05 run, 8.14 N of force and 44 of 51 blocks coming loose. Those simulation readouts are source claims, not measurements from real robot hardware.",
+      "number": 134,
+      "id": "case-134",
+      "source_id": "x:2113980770939183296",
+      "source_url": "https://x.com/0x_fokki/status/2113980770939183296",
+      "author_handle": "0x_fokki",
+      "author_url": "https://x.com/0x_fokki",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 129,
+        "view_count": 5583,
+        "retweet_count": 14,
+        "reply_count": 22,
+        "quote_count": 0,
+        "bookmark_count": 98
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/0x_fokki/status/2113980770939183296",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113979642818232320",
+          "source_id": "x:2113980770939183296",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113979642818232320/vid/avc1/1920x1080/T8T8uwB9FzejMpKP.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113979642818232320.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113979642818232320-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Boeing 747 rendered in Blender",
+      "takeaway": "Compare a Blender reconstruction with a separate browser model.",
+      "body_notes": "The creator shares a Boeing 747 scene attributed to Kimi K3.1, explicitly describing this version as made in Blender. It is retained separately from their earlier browser inspection model because the demonstrated implementation is different. The recording supports the aircraft render, not flight dynamics, aerodynamic accuracy or a complete build trace.",
+      "number": 135,
+      "id": "case-135",
+      "source_id": "x:2113971808554615026",
+      "source_url": "https://x.com/victormustar/status/2113971808554615026",
+      "author_handle": "victormustar",
+      "author_url": "https://x.com/victormustar",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 58,
+        "view_count": 3542,
+        "retweet_count": 6,
+        "reply_count": 3,
+        "quote_count": 0,
+        "bookmark_count": 9
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/victormustar/status/2113971808554615026",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113971690220711936",
+          "source_id": "x:2113971808554615026",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113971690220711936/vid/avc1/3840x2160/suGKOogl3QTH_F2C.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113971690220711936.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113971690220711936-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Day-Date watch in Three.js",
+      "takeaway": "Inspect watch detail within a code-built viewer.",
+      "body_notes": "The creator attributes this Day-Date-style watch to Kimi K3.1 Pro, reporting pure Three.js geometry without Blender or imported models, 32 minutes and $6.25. The recording shows a gold watch and controls. Code provenance, timing, cost and mechanical accuracy remain source-reported.",
+      "number": 136,
+      "id": "case-136",
+      "source_id": "x:2113957709582315886",
+      "source_url": "https://x.com/abhinavflac/status/2113957709582315886",
+      "author_handle": "abhinavflac",
+      "author_url": "https://x.com/abhinavflac",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 48,
+        "view_count": 1899,
+        "retweet_count": 5,
+        "reply_count": 4,
+        "quote_count": 1,
+        "bookmark_count": 3
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/abhinavflac/status/2113957709582315886",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113954039205675008",
+          "source_id": "x:2113957709582315886",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113954039205675008/vid/avc1/1920x1080/5JYMjjVkO8dPTo4f.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113954039205675008.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113954039205675008-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Evaluation",
+      "title": "Twelve-operation CAD bracket comparison",
+      "takeaway": "Compare operation progress and normalized costs within one protocol.",
+      "body_notes": "The publisher records four models constructing the same CAD bracket with 12 operations and one call per operation. They report completion in 21.8 seconds for Kimi and 17.5 for Opus 5.5. Their $31,200 and $62,400 figures are normalized per million builds, not an executed million-build bill. Engineering correctness and timing are not independently rerun.",
+      "number": 137,
+      "id": "case-137",
+      "source_id": "x:2113941454963806558",
+      "source_url": "https://x.com/leopardracer/status/2113941454963806558",
+      "author_handle": "leopardracer",
+      "author_url": "https://x.com/leopardracer",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 41,
+        "view_count": 1553,
+        "retweet_count": 2,
+        "reply_count": 12,
+        "quote_count": 0,
+        "bookmark_count": 14
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/leopardracer/status/2113941454963806558",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113940979346444288",
+          "source_id": "x:2113941454963806558",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113940979346444288/vid/avc1/2160x2160/IjGHoPGV5Lz5vd-f.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113940979346444288.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113940979346444288-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Evaluation",
+      "title": "Enterprise-D exterior across three models",
+      "takeaway": "Compare silhouette and geometry across the supplied views.",
+      "body_notes": "The publisher presents Kimi K3.1 Pro, GPT-6 Astra and Opus 5.5 outputs for the exterior of the Enterprise-D. All three source images are retained. They show different interpretations of the ship; the post does not provide executable models, complete inputs or a controlled geometry evaluation.",
+      "number": 138,
+      "id": "case-138",
+      "source_id": "x:2113709458106798347",
+      "source_url": "https://x.com/Angaisb_/status/2113709458106798347",
+      "author_handle": "Angaisb_",
+      "author_url": "https://x.com/Angaisb_",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 56,
+        "view_count": 2756,
+        "retweet_count": 2,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 3
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/Angaisb_/status/2113709458106798347",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113709427459043328",
+          "source_id": "x:2113709458106798347",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVVnhn4XMAAEvw1.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709427459043328.jpg"
+        },
+        {
+          "id": "2113709438003458049",
+          "source_id": "x:2113709458106798347",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVVniPKWMAEGe1c.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709438003458049.jpg"
+        },
+        {
+          "id": "2113709445725179904",
+          "source_id": "x:2113709458106798347",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVVnir7WUAAdF-C.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113709445725179904.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "SR-71 Blackbird with inspection views",
+      "takeaway": "Inspect aircraft geometry and exposed components in a browser viewer.",
+      "body_notes": "The publisher attributes an SR-71 Blackbird model to Kimi K3.1 using Three.js. The recording shows the aircraft and views of internal components. The claim concerns this displayed model; source code, aerodynamic behaviour and engineering correctness are not independently verified.",
+      "number": 139,
+      "id": "case-139",
+      "source_id": "x:2113691197189525853",
+      "source_url": "https://x.com/ai_for_success/status/2113691197189525853",
+      "author_handle": "ai_for_success",
+      "author_url": "https://x.com/ai_for_success",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 217,
+        "view_count": 6625,
+        "retweet_count": 4,
+        "reply_count": 16,
+        "quote_count": 3,
+        "bookmark_count": 17
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/ai_for_success/status/2113691197189525853",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113690551241547776",
+          "source_id": "x:2113691197189525853",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113690551241547776/vid/avc1/4302x2160/FxkM8yW_VkSnyS8k.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690551241547776.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690551241547776-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Evaluation",
+      "title": "Exploded motor comparison",
+      "takeaway": "Compare internal geometry alongside the recorded cost labels.",
+      "body_notes": "The publisher compares Kimi K3.1 Pro and Opus 5.5 on an exploded motor assembly, with video labels of $0.71 and $12.63. The clip shows distinct housings, shafts and internal components. Mechanical correctness, source code, full inputs and the reported bills are not independently verified.",
+      "number": 140,
+      "id": "case-140",
+      "source_id": "x:2113988189044293793",
+      "source_url": "https://x.com/rubenssoto_ai/status/2113988189044293793",
+      "author_handle": "rubenssoto_ai",
+      "author_url": "https://x.com/rubenssoto_ai",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 106,
+        "view_count": 3924,
+        "retweet_count": 4,
+        "reply_count": 54,
+        "quote_count": 1,
+        "bookmark_count": 14
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/rubenssoto_ai/status/2113988189044293793",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113987955383500800",
+          "source_id": "x:2113988189044293793",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113987955383500800/vid/avc1/1920x2160/in0sW4QwRwYYobl4.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113987955383500800.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113987955383500800-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Evaluation",
+      "title": "Robot-duck stage comparison",
+      "takeaway": "Compare the supplied scene while distinguishing labels from total bills.",
+      "body_notes": "AI/ML API compares Kimi K3.1 Pro and Opus 5.5 on a Jensen Huang robot-duck scene, reporting one hour versus three. The recording’s running cost counters finish at $1.57 and $5.58 respectively. Those are source-reported totals; the full task traces and bills have not been independently verified.",
+      "number": 141,
+      "id": "case-141",
+      "source_id": "x:2113715863207518536",
+      "source_url": "https://x.com/aimlapi/status/2113715863207518536",
+      "author_handle": "aimlapi",
+      "author_url": "https://x.com/aimlapi",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 82,
+        "view_count": 15238,
+        "retweet_count": 7,
+        "reply_count": 13,
+        "quote_count": 5,
+        "bookmark_count": 15
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/aimlapi/status/2113715863207518536",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113715199383314432",
+          "source_id": "x:2113715863207518536",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113715199383314432/vid/avc1/1920x1420/hvNn23E1UfZ6d7cj.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113715199383314432.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113715199383314432-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "mechanical",
+      "type": "Demo",
+      "title": "Coca-Cola product model in Three.js",
+      "takeaway": "Inspect the actual product model alongside the author’s criticism.",
+      "body_notes": "The creator shares a Coca-Cola-themed Three.js model attributed to Kimi K3.1 Pro and calls the result poor. The recording shows a bottle-like mechanical object with cutaway components. The complete input, intended design requirements, source code and functional behaviour are not supplied.",
+      "number": 142,
+      "id": "case-142",
+      "source_id": "x:2113686992898961535",
+      "source_url": "https://x.com/dummerspast39/status/2113686992898961535",
+      "author_handle": "dummerspast39",
+      "author_url": "https://x.com/dummerspast39",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 49,
+        "view_count": 4903,
+        "retweet_count": 0,
+        "reply_count": 8,
+        "quote_count": 1,
+        "bookmark_count": 3
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/dummerspast39/status/2113686992898961535",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113686931028525056",
+          "source_id": "x:2113686992898961535",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113686931028525056/vid/avc1/1080x1080/-lmwzhMTyYDo3leZ.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113686931028525056.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113686931028525056-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Sandworm modelling comparison",
+      "takeaway": "Compare repeated geometry and mouth detail in labelled outputs.",
+      "body_notes": "The publisher compares Kimi K3.1 Pro and GPT-6 Astra on a sandworm scene, pointing to body panels, mouth structures and movement beneath a transparent surface. The recording supports those visible differences. The full build, asset provenance and equivalence of the two execution environments are not established.",
+      "number": 143,
+      "id": "case-143",
+      "source_id": "x:2114325660248281265",
+      "source_url": "https://x.com/elvar_official/status/2114325660248281265",
+      "author_handle": "elvar_official",
+      "author_url": "https://x.com/elvar_official",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 994,
+        "view_count": 212716,
+        "retweet_count": 60,
+        "reply_count": 68,
+        "quote_count": 5,
+        "bookmark_count": 718
+      },
+      "related_sources": [
+        {
+          "source_id": "x:2114381751132844065",
+          "source_url": "https://x.com/EngMoElgaraihy/status/2114381751132844065",
+          "author_handle": "EngMoElgaraihy",
+          "author_url": "https://x.com/EngMoElgaraihy"
+        }
+      ],
+      "dedup_key": "https://x.com/elvar_official/status/2114325660248281265",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114323785587232768",
+          "source_id": "x:2114325660248281265",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114323785587232768/vid/avc1/1920x2160/ABQTqVvo-s6EI6_T.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114323785587232768.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114323785587232768-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Iridescent bee modelling comparison",
+      "takeaway": "Inspect fine surface detail in two labelled models.",
+      "body_notes": "The publisher compares a Kimi K3.1 Pro bee with a GPT-6 Astra bee, drawing attention to leg hair, eye facets, wings and iridescent surfaces. The video shows the outputs. It does not establish each asset’s origin, the complete construction steps or a controlled model-only advantage.",
+      "number": 144,
+      "id": "case-144",
+      "source_id": "x:2114315304335474786",
+      "source_url": "https://x.com/Nyxera0x/status/2114315304335474786",
+      "author_handle": "Nyxera0x",
+      "author_url": "https://x.com/Nyxera0x",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 237,
+        "view_count": 18382,
+        "retweet_count": 20,
+        "reply_count": 23,
+        "quote_count": 3,
+        "bookmark_count": 109
+      },
+      "related_sources": [
+        {
+          "source_id": "x:2114392025294389258",
+          "source_url": "https://x.com/EngMoElgaraihy/status/2114392025294389258",
+          "author_handle": "EngMoElgaraihy",
+          "author_url": "https://x.com/EngMoElgaraihy"
+        }
+      ],
+      "dedup_key": "https://x.com/Nyxera0x/status/2114315304335474786",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114315027389775872",
+          "source_id": "x:2114315304335474786",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114315027389775872/vid/avc1/1920x2160/28KcvK1HFT6M6IEw.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114315027389775872.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114315027389775872-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Volcano eruption across four workflows",
+      "takeaway": "Compare eruption detail while preserving the workflow labels.",
+      "body_notes": "The publisher juxtaposes volcano outputs labelled Kimi K3.1, GPT-6 Astra, Blender MCP and Claude Code, reporting the same input without manual edits. Those labels mix models and tools. The recording permits visual comparison, but does not isolate the underlying model, verify the setup or establish physical accuracy.",
+      "number": 145,
+      "id": "case-145",
+      "source_id": "x:2114348609109987619",
+      "source_url": "https://x.com/Lummox_eth/status/2114348609109987619",
+      "author_handle": "Lummox_eth",
+      "author_url": "https://x.com/Lummox_eth",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 83,
+        "view_count": 3229,
+        "retweet_count": 0,
+        "reply_count": 16,
+        "quote_count": 0,
+        "bookmark_count": 37
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/Lummox_eth/status/2114348609109987619",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114348392964898816",
+          "source_id": "x:2114348609109987619",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2114348392964898816/vid/avc1/1200x1200/WzXWQNEQtvzp_34U.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114348392964898816.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114348392964898816-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Mont-Saint-Michel with a one-hour agent budget",
+      "takeaway": "Reserve time for building and browser inspection within a task budget.",
+      "body_notes": "The creator reports using Kimi K3.1 Pro through Hermes Agent on Nous Portal for a one-hour Mont-Saint-Michel voxel task. They say the last page edit occurred at 44 minutes, followed by browser and screenshot checks, for $3.38. The recording shows the island; the reported timing, testing coverage and bill are not independently verified.",
+      "number": 146,
+      "id": "case-146",
+      "source_id": "x:2114295910138322988",
+      "source_url": "https://x.com/witcheer/status/2114295910138322988",
+      "author_handle": "witcheer",
+      "author_url": "https://x.com/witcheer",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 76,
+        "view_count": 3755,
+        "retweet_count": 1,
+        "reply_count": 7,
+        "quote_count": 4,
+        "bookmark_count": 19
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/witcheer/status/2114295910138322988",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114002889014153216",
+          "source_id": "x:2114295910138322988",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114002889014153216/vid/avc1/1920x1080/HTDXns3FKMt5i7Iz.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114002889014153216.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114002889014153216-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Multi-task visual coding comparison",
+      "takeaway": "Inspect individual tasks within a labelled comparison compilation.",
+      "body_notes": "The publisher shares a four-model 3D comparison naming Kimi K3.1 Pro, DeepSeek V4.1 Flash 1017, Opus 5.5 and GPT-6 Astra. The compilation includes articulated figures and a wind-blown canopy, with different model pairings across tasks. Complete inputs, implementations and functional tests are not supplied, so it is a visual comparison rather than a verified mechanics benchmark.",
+      "number": 147,
+      "id": "case-147",
+      "source_id": "x:2114292200020627902",
+      "source_url": "https://x.com/NFT_Chen/status/2114292200020627902",
+      "author_handle": "NFT_Chen",
+      "author_url": "https://x.com/NFT_Chen",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 36,
+        "view_count": 4293,
+        "retweet_count": 5,
+        "reply_count": 7,
+        "quote_count": 1,
+        "bookmark_count": 16
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/NFT_Chen/status/2114292200020627902",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114290962075877376",
+          "source_id": "x:2114292200020627902",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114290962075877376/vid/avc1/720x1280/cIoFSUsO4UD1jTbY.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114290962075877376.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114290962075877376-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Armoured character in 3D Make and Tripo",
+      "takeaway": "Compare the outputs without inferring an undocumented backend.",
+      "body_notes": "FiniYang presents an armoured character attributed to Kimi K3.1 Pro’s 3D Make mode beside a direct Tripo H3.1 output, plus the feature’s interface. They report about 2% of a ¥199 plan’s monthly quota. Similar appearance and the author’s explanation do not establish a verified routing relationship or general cost comparison.",
+      "number": 148,
+      "id": "case-148",
+      "source_id": "x:2114280069145485819",
+      "source_url": "https://x.com/FiniYang/status/2114280069145485819",
+      "author_handle": "FiniYang",
+      "author_url": "https://x.com/FiniYang",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 33,
+        "view_count": 8909,
+        "retweet_count": 1,
+        "reply_count": 16,
+        "quote_count": 1,
+        "bookmark_count": 9
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/FiniYang/status/2114280069145485819",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114276453768732672",
+          "source_id": "x:2114280069145485819",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVdrO5fboAAmR7R.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114276453768732672.jpg"
+        },
+        {
+          "id": "2114278375514857472",
+          "source_id": "x:2114280069145485819",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVds-wjaYAAqRYE.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114278375514857472.jpg"
+        },
+        {
+          "id": "2114278516590333952",
+          "source_id": "x:2114280069145485819",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVdtG-GbUAAmCOy.png",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114278516590333952.png"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Creature island with shared reference files",
+      "takeaway": "Inspect scene differences alongside the stated reference conditions.",
+      "body_notes": "The creator presents an Opus 5.5 and Kimi K3.1 Pro island comparison, saying the same input and 3D files were used once each without manual fixes. The recording shows creatures, structures and contrasting terrain treatments. The supplied reference files, full implementations and equivalent execution settings are not independently checked.",
+      "number": 149,
+      "id": "case-149",
+      "source_id": "x:2114170540391096407",
+      "source_url": "https://x.com/anxuanng/status/2114170540391096407",
+      "author_handle": "anxuanng",
+      "author_url": "https://x.com/anxuanng",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 130,
+        "view_count": 6824,
+        "retweet_count": 3,
+        "reply_count": 5,
+        "quote_count": 1,
+        "bookmark_count": 52
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/anxuanng/status/2114170540391096407",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114170463085875200",
+          "source_id": "x:2114170540391096407",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2114170463085875200/vid/avc1/1280x1440/5LIzSzf-nDElLQtI.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114170463085875200.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114170463085875200-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Sunset aircraft landing comparison",
+      "takeaway": "Check generation provenance before interpreting a video comparison.",
+      "body_notes": "The publisher presents clips labelled Kimi K3.1 Pro, Gemini 4 Argon and Fable 5.1 for a reported ten-second sunset aircraft-landing request. The video supports the displayed differences. It does not establish how each clip was generated, whether external assets or tools were used, or whether the conditions were comparable.",
+      "number": 150,
+      "id": "case-150",
+      "source_id": "x:2113981829984460925",
+      "source_url": "https://x.com/glitch_catAI/status/2113981829984460925",
+      "author_handle": "glitch_catAI",
+      "author_url": "https://x.com/glitch_catAI",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 454,
+        "view_count": 89243,
+        "retweet_count": 23,
+        "reply_count": 99,
+        "quote_count": 8,
+        "bookmark_count": 123
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/glitch_catAI/status/2113981829984460925",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113981792214753280",
+          "source_id": "x:2113981829984460925",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113981792214753280/vid/avc1/1080x1920/ldgR23m6G6s47DFp.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113981792214753280.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113981792214753280-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Blender reference reconstruction with Sol",
+      "takeaway": "Compare reconstructed detail with the stated effort and costs.",
+      "body_notes": "The creator reports giving Kimi K3.1 Pro and GPT-6.1 Sol the same Blender reference task at their highest available reasoning settings. They report about 25 minutes/$1.50 for Kimi and 17 minutes/$0.70 for Sol, preferring Sol’s lighting and textures. The recordings support visual comparison; the full inputs, settings and bills are not verified.",
+      "number": 151,
+      "id": "case-151",
+      "source_id": "x:2113979790177042916",
+      "source_url": "https://x.com/notjazii/status/2113979790177042916",
+      "author_handle": "notjazii",
+      "author_url": "https://x.com/notjazii",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 119,
+        "view_count": 6755,
+        "retweet_count": 2,
+        "reply_count": 23,
+        "quote_count": 1,
+        "bookmark_count": 14
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/notjazii/status/2113979790177042916",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113977701551972352",
+          "source_id": "x:2113979790177042916",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113977701551972352/vid/avc1/2520x1080/Jmc23wv3X2hmB8Lg.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113977701551972352.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113977701551972352-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Impossible bottle through Blender MCP",
+      "takeaway": "Consider elapsed time together with the finished object.",
+      "body_notes": "The creator attributes this impossible-bottle scene to Kimi K3.1 Pro Max through Blender MCP and reports roughly four hours of work. The recording shows a translucent bottle, suspended particles and a display base. The full input, iteration history and exact execution time are not supplied.",
+      "number": 152,
+      "id": "case-152",
+      "source_id": "x:2113979598304334017",
+      "source_url": "https://x.com/ashen_one/status/2113979598304334017",
+      "author_handle": "ashen_one",
+      "author_url": "https://x.com/ashen_one",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 59,
+        "view_count": 3451,
+        "retweet_count": 0,
+        "reply_count": 20,
+        "quote_count": 1,
+        "bookmark_count": 7
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/ashen_one/status/2113979598304334017",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113979573583126528",
+          "source_id": "x:2113979598304334017",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113979573583126528/vid/avc1/1920x1080/ytibeRkdGd9l8QR9.mp4?tag=16",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113979573583126528.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113979573583126528-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Titanic sinking comparison",
+      "takeaway": "Keep quality judgments separate from reported time and total cost.",
+      "body_notes": "The publisher compares Kimi K3.1 and Opus 5.5 on sinking the Titanic, reporting 35m 05s, 1.98M tokens and about $0.88 for Kimi versus 28m 55s, 9.02M tokens and about $8.43 for Opus. They prefer Opus’s result. The recording supports visible differences; those costs and timings are source-reported.",
+      "number": 153,
+      "id": "case-153",
+      "source_id": "x:2113974830215098859",
+      "source_url": "https://x.com/noclipepe/status/2113974830215098859",
+      "author_handle": "noclipepe",
+      "author_url": "https://x.com/noclipepe",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 72,
+        "view_count": 2688,
+        "retweet_count": 4,
+        "reply_count": 20,
+        "quote_count": 2,
+        "bookmark_count": 22
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/noclipepe/status/2113974830215098859",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113973531864186881",
+          "source_id": "x:2113974830215098859",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113973531864186881/vid/avc1/1080x1350/ptZ8L2rdLFqGkiAB.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973531864186881.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113973531864186881-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Abstract reflective-object comparison",
+      "takeaway": "Compare reference interpretation and finish under stated effort settings.",
+      "body_notes": "The creator compares Kimi K3.1 Pro and GPT-6 Astra on a shared reference task at the highest available reasoning settings. The clip shows contrasting abstract reflective objects and layouts. They report about 45 minutes/$7.30 for Kimi and 47 minutes/$86.50 for Astra; complete inputs, bills and execution equivalence are not established.",
+      "number": 154,
+      "id": "case-154",
+      "source_id": "x:2113920211728666816",
+      "source_url": "https://x.com/notjazii/status/2113920211728666816",
+      "author_handle": "notjazii",
+      "author_url": "https://x.com/notjazii",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 129,
+        "view_count": 9469,
+        "retweet_count": 3,
+        "reply_count": 47,
+        "quote_count": 3,
+        "bookmark_count": 12
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/notjazii/status/2113920211728666816",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113909680963825664",
+          "source_id": "x:2113920211728666816",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113909680963825664/vid/avc1/2520x1080/nATzmC4oaQNtBp4N.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113909680963825664.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113909680963825664-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "StillWild and MossLight scene comparison",
+      "takeaway": "Inspect separate scene designs while retaining reported rendering issues.",
+      "body_notes": "The creator labels the two recordings StillWild for Kimi K3.1 Pro and MossLight for DeepSeek V4.1 Flash 1017. They prefer DeepSeek and report intermittent frame-rate drops in Kimi’s result. Both source videos are retained. Complete inputs and local performance traces are not provided.",
+      "number": 155,
+      "id": "case-155",
+      "source_id": "x:2113890712097825112",
+      "source_url": "https://x.com/ivanfioravanti/status/2113890712097825112",
+      "author_handle": "ivanfioravanti",
+      "author_url": "https://x.com/ivanfioravanti",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 68,
+        "view_count": 5702,
+        "retweet_count": 3,
+        "reply_count": 8,
+        "quote_count": 2,
+        "bookmark_count": 17
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/ivanfioravanti/status/2113890712097825112",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113890197939085312",
+          "source_id": "x:2113890712097825112",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113890197939085312/vid/avc1/3840x2100/VvAXmwtlCBpw8AtJ.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113890197939085312.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113890197939085312-poster.jpg"
+        },
+        {
+          "id": "2113890197934944256",
+          "source_id": "x:2113890712097825112",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113890197934944256/vid/avc1/3840x2100/J_kXud891DCp2kgF.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113890197934944256.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113890197934944256-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Castle benchmark with floating corners",
+      "takeaway": "Inspect close views for geometric defects as well as appearance.",
+      "body_notes": "The evaluator shares four Kimi K3.1 Pro castle screenshots and points out exterior corners appearing detached from the ground. All views are retained to show both the scene and the alleged defect. Their speculation about training provenance is not established by visual similarity; no runnable model or numerical score is supplied.",
+      "number": 156,
+      "id": "case-156",
+      "source_id": "x:2113867472604733926",
+      "source_url": "https://x.com/nemumusitocha/status/2113867472604733926",
+      "author_handle": "nemumusitocha",
+      "author_url": "https://x.com/nemumusitocha",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 137,
+        "view_count": 8228,
+        "retweet_count": 10,
+        "reply_count": 8,
+        "quote_count": 3,
+        "bookmark_count": 14
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/nemumusitocha/status/2113867472604733926",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113866869950308352",
+          "source_id": "x:2113867472604733926",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113866869950308352/vid/avc1/1280x720/_t2RXvvRwnLyLk9U.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866869950308352.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866869950308352-poster.jpg"
+        },
+        {
+          "id": "2113866896177303552",
+          "source_id": "x:2113867472604733926",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVX2vgkbEAAdq8o.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866896177303552.jpg"
+        },
+        {
+          "id": "2113866905471877120",
+          "source_id": "x:2113867472604733926",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVX2wDMbAAAuq1u.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866905471877120.jpg"
+        },
+        {
+          "id": "2113866917748543488",
+          "source_id": "x:2113867472604733926",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVX2ww7aEAAAO4a.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113866917748543488.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Pixel airport comparison",
+      "takeaway": "Compare an airport scene with its reported task costs.",
+      "body_notes": "The publisher compares Kimi K3.1 Pro and GPT-6 Astra on a pixel airport, reporting $0.98 and $17.61 respectively. The recording shows different airports, planes and control panels. Weather, interaction completeness and the stated bills have not been independently tested.",
+      "number": 157,
+      "id": "case-157",
+      "source_id": "x:2113849897438834851",
+      "source_url": "https://x.com/vib3coded/status/2113849897438834851",
+      "author_handle": "vib3coded",
+      "author_url": "https://x.com/vib3coded",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 307,
+        "view_count": 10665,
+        "retweet_count": 29,
+        "reply_count": 23,
+        "quote_count": 1,
+        "bookmark_count": 134
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/vib3coded/status/2113849897438834851",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113849838198530049",
+          "source_id": "x:2113849897438834851",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113849838198530049/vid/avc1/1080x1468/Xuwt-LAeWrk-tC3z.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113849838198530049.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113849838198530049-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Limit",
+      "title": "Garment modelling test",
+      "takeaway": "Inspect unfinished surfaces against the source’s modelling request.",
+      "body_notes": "The evaluator shares a Kimi K3.1 Pro max garment-modelling attempt, describing the result negatively. The screenshot shows a lower-body model with shorts and a partially finished surface. This is a reported limitation on that task, not a general anatomical benchmark; the complete attempt and scoring method are not provided.",
+      "number": 158,
+      "id": "case-158",
+      "source_id": "x:2113772532809539674",
+      "source_url": "https://x.com/developedbyed/status/2113772532809539674",
+      "author_handle": "developedbyed",
+      "author_url": "https://x.com/developedbyed",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 52,
+        "view_count": 4400,
+        "retweet_count": 1,
+        "reply_count": 10,
+        "quote_count": 1,
+        "bookmark_count": 5
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/developedbyed/status/2113772532809539674",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113772461095297024",
+          "source_id": "x:2113772532809539674",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVWg2qeWoAAEWr0.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113772461095297024.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Voxel ski resort comparison",
+      "takeaway": "Inspect resort detail without turning task costs into a general ranking.",
+      "body_notes": "The publisher compares Kimi K3.1 Pro and GPT-6 Astra ski-resort scenes with labels of $0.31 and $15.57. The recording shows slopes, lifts and contrasting layouts. The author favours Kimi on value; complete inputs, functional coverage and the bills have not been independently verified.",
+      "number": 159,
+      "id": "case-159",
+      "source_id": "x:2113759398187417835",
+      "source_url": "https://x.com/N1njaCodex/status/2113759398187417835",
+      "author_handle": "N1njaCodex",
+      "author_url": "https://x.com/N1njaCodex",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 54,
+        "view_count": 3124,
+        "retweet_count": 10,
+        "reply_count": 12,
+        "quote_count": 1,
+        "bookmark_count": 22
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/N1njaCodex/status/2113759398187417835",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113759323230715904",
+          "source_id": "x:2113759398187417835",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113759323230715904/vid/avc1/1920x2400/A-MFkBtwd2m9xpsU.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113759323230715904.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113759323230715904-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Plant scene against Astra",
+      "takeaway": "Compare vegetation detail under the recorded model labels.",
+      "body_notes": "The evaluator juxtaposes GPT-6 Astra and Kimi K3.1 Pro max plant scenes and prefers Astra. The image shows different leaf, stem, flower and background treatments. The complete input, executable outputs and a controlled scoring procedure are not supplied.",
+      "number": 160,
+      "id": "case-160",
+      "source_id": "x:2113752024106115532",
+      "source_url": "https://x.com/developedbyed/status/2113752024106115532",
+      "author_handle": "developedbyed",
+      "author_url": "https://x.com/developedbyed",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 36,
+        "view_count": 6534,
+        "retweet_count": 0,
+        "reply_count": 6,
+        "quote_count": 1,
+        "bookmark_count": 7
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/developedbyed/status/2113752024106115532",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113751634811469824",
+          "source_id": "x:2113752024106115532",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113751634811469824/vid/avc1/1920x1080/jFJTyJdBOy3Au-Ax.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113751634811469824.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113751634811469824-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Geyser Isle across two models",
+      "takeaway": "Compare scene detail with unequal elapsed time and cost.",
+      "body_notes": "The creator compares DeepSeek V4.1 Flash 1017 and Kimi K3.1 Pro on Geyser Isle, reporting max settings, $1.07/90 minutes for DeepSeek and $7.40/60 minutes for Kimi. They prefer DeepSeek’s output. The recording shows different island and geyser treatments; timings, costs and behaviour are not independently rerun.",
+      "number": 161,
+      "id": "case-161",
+      "source_id": "x:2113743678166446103",
+      "source_url": "https://x.com/badboyfoxy/status/2113743678166446103",
+      "author_handle": "badboyfoxy",
+      "author_url": "https://x.com/badboyfoxy",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 70,
+        "view_count": 5058,
+        "retweet_count": 2,
+        "reply_count": 8,
+        "quote_count": 0,
+        "bookmark_count": 11
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/badboyfoxy/status/2113743678166446103",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113743596205559808",
+          "source_id": "x:2113743678166446103",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113743596205559808/vid/avc1/2160x2180/PMgNrkA-AIWRjeYF.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113743596205559808.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113743596205559808-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Garden scene with online recording issues",
+      "takeaway": "Distinguish a recording defect from a claimed local result.",
+      "body_notes": "The creator shares a Kimi K3.1 Pro garden scene with bridges, vegetation and flowers. They report frame-rate problems in the online-generated recording while saying the HTML runs correctly locally, and prefer Opus 5.5 on the task. The supplied clip does not verify local performance or the complete comparison setup.",
+      "number": 162,
+      "id": "case-162",
+      "source_id": "x:2113721778128507206",
+      "source_url": "https://x.com/ivanfioravanti/status/2113721778128507206",
+      "author_handle": "ivanfioravanti",
+      "author_url": "https://x.com/ivanfioravanti",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 42,
+        "view_count": 4253,
+        "retweet_count": 3,
+        "reply_count": 8,
+        "quote_count": 1,
+        "bookmark_count": 4
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/ivanfioravanti/status/2113721778128507206",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113721265584267264",
+          "source_id": "x:2113721778128507206",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113721265584267264/vid/avc1/1920x1080/x3Mm0OxbwczXPnop.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113721265584267264.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113721265584267264-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "New York skyline and quota comparison",
+      "takeaway": "Compare the scene and reported resource use separately.",
+      "body_notes": "The creator compares Kimi K3.1 Pro with Opus 5.5 on a New York skyline flythrough and prefers the competitors’ detail. They report exhausting a five-hour quota on a $100 Kimi plan within 20 minutes. The recording shows the city outputs; quota accounting and landmark accuracy are not independently verified.",
+      "number": 163,
+      "id": "case-163",
+      "source_id": "x:2113712396891980083",
+      "source_url": "https://x.com/aipulseda1ly/status/2113712396891980083",
+      "author_handle": "aipulseda1ly",
+      "author_url": "https://x.com/aipulseda1ly",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 50,
+        "view_count": 3414,
+        "retweet_count": 2,
+        "reply_count": 3,
+        "quote_count": 0,
+        "bookmark_count": 6
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/aipulseda1ly/status/2113712396891980083",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113712340017258496",
+          "source_id": "x:2113712396891980083",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113712340017258496/vid/avc1/1280x1264/-kkhAiZL1vr6GvSI.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113712340017258496.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113712340017258496-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Four space scenes against Opus",
+      "takeaway": "Compare each scene before adopting an aggregate visual preference.",
+      "body_notes": "The creator compares four space scenes from Opus 5.5 and Kimi K3.1 Pro, reporting total prices of $5.63 and $1.09. The recording includes an asteroid impact and other labelled scenes. They prefer Opus’s cinematic appearance and criticise Kimi’s dark galaxies. These are task-specific judgments and reported costs, not an independent rerun.",
+      "number": 164,
+      "id": "case-164",
+      "source_id": "x:2113708170132459697",
+      "source_url": "https://x.com/hug0_plat/status/2113708170132459697",
+      "author_handle": "hug0_plat",
+      "author_url": "https://x.com/hug0_plat",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 38,
+        "view_count": 5825,
+        "retweet_count": 5,
+        "reply_count": 4,
+        "quote_count": 2,
+        "bookmark_count": 13
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/hug0_plat/status/2113708170132459697",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113707264078995456",
+          "source_id": "x:2113708170132459697",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113707264078995456/vid/avc1/1920x1440/cTgvs5lS1YRvQLtc.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113707264078995456.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113707264078995456-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Castle built in twenty-eight minutes",
+      "takeaway": "Inspect the finished environment together with reported effort.",
+      "body_notes": "The creator attributes this detailed castle environment to Kimi K3.1, reporting 28 minutes and $4.48. The recording shows towers, walls, courtyards and surrounding scenery. The full input, source code, asset provenance and timing are not independently verified.",
+      "number": 165,
+      "id": "case-165",
+      "source_id": "x:2113705794554536156",
+      "source_url": "https://x.com/doe_naps/status/2113705794554536156",
+      "author_handle": "doe_naps",
+      "author_url": "https://x.com/doe_naps",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 32,
+        "view_count": 1067,
+        "retweet_count": 0,
+        "reply_count": 4,
+        "quote_count": 0,
+        "bookmark_count": 1
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/doe_naps/status/2113705794554536156",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113705240801529856",
+          "source_id": "x:2113705794554536156",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113705240801529856/vid/avc1/1920x1080/NUJFs-5TrN-lI_LW.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705240801529856.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113705240801529856-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Six-shot Avatar scene comparison",
+      "takeaway": "Keep task-level totals distinct from labels on individual shots.",
+      "body_notes": "Atomic Agent reports a six-shot Avatar scene in one HTML file, with 40 steps/12 minutes for Kimi and 70 steps/9 minutes for Astra, including screenshot-based repairs. The video shows labelled individual-shot timings and costs, which do not match those whole-task totals. Complete traces and asset provenance are not independently verified.",
+      "number": 166,
+      "id": "case-166",
+      "source_id": "x:2113702744800571769",
+      "source_url": "https://x.com/atomicagent_io/status/2113702744800571769",
+      "author_handle": "atomicagent_io",
+      "author_url": "https://x.com/atomicagent_io",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 150,
+        "view_count": 9690,
+        "retweet_count": 13,
+        "reply_count": 23,
+        "quote_count": 3,
+        "bookmark_count": 20
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/atomicagent_io/status/2113702744800571769",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113701639378833408",
+          "source_id": "x:2113702744800571769",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113701639378833408/vid/avc1/1440x1440/TOC-bvdvGKPmwdhX.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113701639378833408.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113701639378833408-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Changi Airport inside Blender",
+      "takeaway": "Inspect scene geometry while keeping tool and asset contributions explicit.",
+      "body_notes": "The creator attributes a Singapore Changi Airport scene to Kimi K3.1 Pro, describing asset creation, assembly and rendering in Blender. The recording shows the scene and wireframe geometry. The post also mentions Tripo plugin support; it does not establish whether that plugin was used here or provide a full construction trace.",
+      "number": 167,
+      "id": "case-167",
+      "source_id": "x:2113698280991580577",
+      "source_url": "https://x.com/crystalsssup/status/2113698280991580577",
+      "author_handle": "crystalsssup",
+      "author_url": "https://x.com/crystalsssup",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 579,
+        "view_count": 29367,
+        "retweet_count": 32,
+        "reply_count": 31,
+        "quote_count": 12,
+        "bookmark_count": 179
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/crystalsssup/status/2113698280991580577",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113696280035971072",
+          "source_id": "x:2113698280991580577",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113696280035971072/vid/avc1/1920x1080/lHE3A7m6DBqGtq5t.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113696280035971072.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113696280035971072-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Night-time sailing ship scene",
+      "takeaway": "Inspect the model and water in a distinct recorded scene.",
+      "body_notes": "The creator discloses early access and attributes this sailing-ship scene to Kimi K3.1 Pro, reporting one instruction, about an hour and $8.40. The recording shows the ship at night on reflective water. Complete code, asset provenance, timing and costs are not independently verified.",
+      "number": 168,
+      "id": "case-168",
+      "source_id": "x:2113697560103952826",
+      "source_url": "https://x.com/notjazii/status/2113697560103952826",
+      "author_handle": "notjazii",
+      "author_url": "https://x.com/notjazii",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 197,
+        "view_count": 13816,
+        "retweet_count": 12,
+        "reply_count": 25,
+        "quote_count": 1,
+        "bookmark_count": 18
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/notjazii/status/2113697560103952826",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113697522371936257",
+          "source_id": "x:2113697560103952826",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113697522371936257/vid/avc1/1920x1080/asGAm3EHp76jD20-.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113697522371936257.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113697522371936257-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Moonlit campsite scene",
+      "takeaway": "Inspect lighting, fire and environment detail in a recording.",
+      "body_notes": "The publisher attributes a moonlit camping scene to Kimi K3.1 Pro. The clip shows a fire, rocks, terrain and sky lighting. Their favourable comparison with other models is subjective; no matched comparator, complete input or executable implementation is supplied.",
+      "number": 169,
+      "id": "case-169",
+      "source_id": "x:2113691335739752810",
+      "source_url": "https://x.com/Mr_Salio/status/2113691335739752810",
+      "author_handle": "Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 62,
+        "view_count": 3301,
+        "retweet_count": 1,
+        "reply_count": 9,
+        "quote_count": 1,
+        "bookmark_count": 5
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/Mr_Salio/status/2113691335739752810",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113690971598643202",
+          "source_id": "x:2113691335739752810",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113690971598643202/vid/avc1/1254x720/opsMw5ZaiJeKt72r.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690971598643202.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113690971598643202-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Black-hole scene comparison",
+      "takeaway": "Compare the displayed treatment without assuming scientific accuracy.",
+      "body_notes": "The creator compares Kimi K3.1 and Opus 5.5 black-hole scenes, reporting 30 and 48 minutes respectively. The recording shows contrasting accretion discs, light and camera treatments. It does not establish physically correct rendering, complete input equivalence or independently measured creation times.",
+      "number": 170,
+      "id": "case-170",
+      "source_id": "x:2113690050538164603",
+      "source_url": "https://x.com/yohakujpn/status/2113690050538164603",
+      "author_handle": "yohakujpn",
+      "author_url": "https://x.com/yohakujpn",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 636,
+        "view_count": 70371,
+        "retweet_count": 19,
+        "reply_count": 82,
+        "quote_count": 10,
+        "bookmark_count": 144
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/yohakujpn/status/2113690050538164603",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113689607715934208",
+          "source_id": "x:2113690050538164603",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113689607715934208/vid/avc1/1280x1620/Etkw6eC-z9rTiREO.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113689607715934208.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113689607715934208-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Creator collection of 3D generations",
+      "takeaway": "Use a collection to inspect variety without counting each view separately.",
+      "body_notes": "Peter Gostev shares a collection of Kimi K3.1 Pro generations, with further examples attributed to them by Arena. Both recordings are retained as one collection rather than separate cases for every scene. The clips show varied environments and objects, but do not supply all inputs, code or independent generation traces.",
+      "number": 171,
+      "id": "case-171",
+      "source_id": "x:2113685825775075821",
+      "source_url": "https://x.com/petergostev/status/2113685825775075821",
+      "author_handle": "petergostev",
+      "author_url": "https://x.com/petergostev",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 163,
+        "view_count": 5185,
+        "retweet_count": 5,
+        "reply_count": 8,
+        "quote_count": 2,
+        "bookmark_count": 23
+      },
+      "related_sources": [
+        {
+          "source_id": "x:2113687358834946085",
+          "source_url": "https://x.com/arena/status/2113687358834946085",
+          "author_handle": "arena",
+          "author_url": "https://x.com/arena"
+        }
+      ],
+      "dedup_key": "https://x.com/petergostev/status/2113685825775075821",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113685539442331648",
+          "source_id": "x:2113685825775075821",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113685539442331648/vid/avc1/3840x1796/FKPPRDiSb5GNwaGc.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113685539442331648.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113685539442331648-poster.jpg"
+        },
+        {
+          "id": "2113684260737486848",
+          "source_id": "x:2113687358834946085",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113684260737486848/vid/avc1/1920x1080/5QCuUeCJ_DNR7rtj.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113684260737486848.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113684260737486848-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Evaluation",
+      "title": "Roman ruins with an orbit camera",
+      "takeaway": "Compare the scene while checking the shared request.",
+      "body_notes": "The publisher reports giving Kimi K3.1 Pro and GPT-6.1 Sol the same Roman-ruins request with an orbit camera. The recording shows two similar architectural scenes with water, trees and stone structures. Full inputs, code and functional camera tests are not supplied.",
+      "number": 172,
+      "id": "case-172",
+      "source_id": "x:2113683116820746556",
+      "source_url": "https://x.com/NinaLumeh_ia/status/2113683116820746556",
+      "author_handle": "NinaLumeh_ia",
+      "author_url": "https://x.com/NinaLumeh_ia",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 266,
+        "view_count": 53998,
+        "retweet_count": 9,
+        "reply_count": 5,
+        "quote_count": 1,
+        "bookmark_count": 30
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/NinaLumeh_ia/status/2113683116820746556",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113683061464281088",
+          "source_id": "x:2113683116820746556",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113683061464281088/vid/avc1/2160x930/m63hCKhbrWKPgg2A.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113683061464281088.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113683061464281088-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "worlds",
+      "type": "Demo",
+      "title": "Character image to a GLB preview",
+      "takeaway": "Inspect the actual preview while keeping backend claims unconfirmed.",
+      "body_notes": "The creator reports turning a character image into a GLB model with Kimi K3.1 Pro in about five minutes for roughly $0.60. The recording shows a clothed wolf-like character in a 3D preview. They say an installed Tripo plugin had no balance and was not used; the clip does not independently establish that execution claim or asset provenance.",
+      "number": 173,
+      "id": "case-173",
+      "source_id": "x:2113882041444094366",
+      "source_url": "https://x.com/lucianlamp/status/2113882041444094366",
+      "author_handle": "lucianlamp",
+      "author_url": "https://x.com/lucianlamp",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 1806,
+        "view_count": 165822,
+        "retweet_count": 167,
+        "reply_count": 18,
+        "quote_count": 38,
+        "bookmark_count": 1876
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/lucianlamp/status/2113882041444094366",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113881957490978816",
+          "source_id": "x:2113882041444094366",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113881957490978816/vid/avc1/1920x1080/eFAyGPv4kcYbBzjl.mp4?tag=16",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113881957490978816.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113881957490978816-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Demo",
+      "title": "Exploded tube turntable in SVG",
+      "takeaway": "Inspect an exploded device using layered isometric geometry.",
+      "body_notes": "The creator credits Kimi K3.1 and an Anatomy skill for a direct-drive tube turntable illustrated in isometric SVG. They report no external assets, with four-tone shading and painter’s-order layers. The source image supports the illustration; the full SVG, skill contribution and mechanical correctness are not independently checked.",
+      "number": 174,
+      "id": "case-174",
+      "source_id": "x:2114000799156277357",
+      "source_url": "https://x.com/Adidotdev/status/2114000799156277357",
+      "author_handle": "Adidotdev",
+      "author_url": "https://x.com/Adidotdev",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 50,
+        "view_count": 1880,
+        "retweet_count": 2,
+        "reply_count": 10,
+        "quote_count": 1,
+        "bookmark_count": 16
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/Adidotdev/status/2114000799156277357",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113999810135273472",
+          "source_id": "x:2114000799156277357",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113999810135273472/vid/avc1/1080x1350/yRaB6hZKzg55w3GY.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113999810135273472.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113999810135273472-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Evaluation",
+      "title": "Sticker-peeling effect across four models",
+      "takeaway": "Compare deformation and surface treatment in a shared effect task.",
+      "body_notes": "The creator compares Kimi K3.1 Pro, DeepSeek V4.1 Flash, GPT-6.1 Sol and Opus 5.5 on recreating a sticker-peeling effect. The recording retains all four labels and shows different treatments. The source’s favourable assessment does not replace executable code, a complete input or interaction testing.",
+      "number": 175,
+      "id": "case-175",
+      "source_id": "x:2113915835387670793",
+      "source_url": "https://x.com/ann_nnng/status/2113915835387670793",
+      "author_handle": "ann_nnng",
+      "author_url": "https://x.com/ann_nnng",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 126,
+        "view_count": 7775,
+        "retweet_count": 3,
+        "reply_count": 10,
+        "quote_count": 0,
+        "bookmark_count": 45
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/ann_nnng/status/2113915835387670793",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113915785794166784",
+          "source_id": "x:2113915835387670793",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113915785794166784/vid/avc1/1080x1350/8C96plYV62q7hS9m.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113915785794166784.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113915785794166784-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Demo",
+      "title": "Antseed launch animation in Three.js",
+      "takeaway": "Inspect a branded motion sequence with its reported cost.",
+      "body_notes": "Antseed attributes its launch animation to one Kimi K3.1 Pro request using Three.js and reports a whole-run cost of $0.1016. The recording shows a green network-themed sequence. The full input, implementation and reported cost have not been independently verified.",
+      "number": 176,
+      "id": "case-176",
+      "source_id": "x:2113717837168566696",
+      "source_url": "https://x.com/AntSeed/status/2113717837168566696",
+      "author_handle": "AntSeed",
+      "author_url": "https://x.com/AntSeed",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 65,
+        "view_count": 2313,
+        "retweet_count": 6,
+        "reply_count": 12,
+        "quote_count": 1,
+        "bookmark_count": 7
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/AntSeed/status/2113717837168566696",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113716549307547648",
+          "source_id": "x:2113717837168566696",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113716549307547648/vid/avc1/1920x1080/WKlj_k4cfo0h3r3X.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113716549307547648.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113716549307547648-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Evaluation",
+      "title": "Lantern Hour in one HTML file",
+      "takeaway": "Compare style changes and controls against an explicit brief.",
+      "body_notes": "The creator compares Opus 5.5 and Kimi K3.1 Pro on Lantern Hour, specifying one HTML file, Canvas 2D, four art styles, a day/night cycle, lighting and interactive controls without external assets. The recording shows the outputs. It does not independently verify every control or the no-assets claim.",
+      "number": 177,
+      "id": "case-177",
+      "source_id": "x:2113711071668142142",
+      "source_url": "https://x.com/adolandev/status/2113711071668142142",
+      "author_handle": "adolandev",
+      "author_url": "https://x.com/adolandev",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 43,
+        "view_count": 7638,
+        "retweet_count": 3,
+        "reply_count": 8,
+        "quote_count": 1,
+        "bookmark_count": 7
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/adolandev/status/2113711071668142142",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113710961991221249",
+          "source_id": "x:2113711071668142142",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113710961991221249/vid/avc1/1920x1080/BUNlyx3o2w1MPfc9.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113710961991221249.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113710961991221249-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Demo",
+      "title": "Mozart-style code animation remix",
+      "takeaway": "Record references and iterations alongside a code-animation result.",
+      "body_notes": "The creator attributes this Mozart-style remix of the pre-launch animation to Kimi K3.1 using Three.js, reporting max reasoning, about 40 minutes and $2. They explicitly describe multiple iterations with references rather than one instruction. The recording supports the animation; code provenance and costs are not independently verified.",
+      "number": 178,
+      "id": "case-178",
+      "source_id": "x:2113702615263359305",
+      "source_url": "https://x.com/marcthecreatorr/status/2113702615263359305",
+      "author_handle": "marcthecreatorr",
+      "author_url": "https://x.com/marcthecreatorr",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 50,
+        "view_count": 2891,
+        "retweet_count": 1,
+        "reply_count": 15,
+        "quote_count": 2,
+        "bookmark_count": 7
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/marcthecreatorr/status/2113702615263359305",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113702389110722560",
+          "source_id": "x:2113702615263359305",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113702389110722560/vid/avc1/1920x1080/4vjn_45oTGaE1wVw.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113702389110722560.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113702389110722560-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Evaluation",
+      "title": "Isometric motion sequence comparison",
+      "takeaway": "Compare the visible sequences while preserving inconsistent model naming.",
+      "body_notes": "The publisher compares an isometric motion sequence with Opus 5.5, discussing colour, light and spacing. The post title names K3.1 Pro while its body and the video label say Kimi K3 Pro. That discrepancy is retained; the recording does not establish the exact checkpoint, complete input or execution conditions.",
+      "number": 179,
+      "id": "case-179",
+      "source_id": "x:2113695497789817264",
+      "source_url": "https://x.com/OGKAIM/status/2113695497789817264",
+      "author_handle": "OGKAIM",
+      "author_url": "https://x.com/OGKAIM",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 38,
+        "view_count": 12724,
+        "retweet_count": 0,
+        "reply_count": 14,
+        "quote_count": 0,
+        "bookmark_count": 7
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/OGKAIM/status/2113695497789817264",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113695392705716225",
+          "source_id": "x:2113695497789817264",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113695392705716225/vid/avc1/3240x1080/DFCg9pPxTaIpnUWE.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113695392705716225.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113695392705716225-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "svg",
+      "type": "Demo",
+      "title": "Three.js launch-video recreation",
+      "takeaway": "Inspect a claimed launch-video build with its stated effort.",
+      "body_notes": "The publisher attributes this launch-video recreation to Kimi K3.1 using Three.js, reporting five minutes and $1.10. The clip shows a mascot, flowers, trees and voxel-like scenery. It does not supply the complete input, source code, asset provenance or independently verified timing and cost.",
+      "number": 180,
+      "id": "case-180",
+      "source_id": "x:2113683399680700591",
+      "source_url": "https://x.com/Bhavani_00007/status/2113683399680700591",
+      "author_handle": "Bhavani_00007",
+      "author_url": "https://x.com/Bhavani_00007",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 316,
+        "view_count": 20700,
+        "retweet_count": 15,
+        "reply_count": 21,
+        "quote_count": 4,
+        "bookmark_count": 49
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/Bhavani_00007/status/2113683399680700591",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113682289033084928",
+          "source_id": "x:2113683399680700591",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113682289033084928/vid/avc1/1440x1080/F_NBBj3WvT2mXAdm.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113682289033084928.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113682289033084928-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Demo",
+      "title": "DOOM port on MemoMind glasses",
+      "takeaway": "Inspect a software port running on a named device.",
+      "body_notes": "The creator reports using a week of Kimi K3.1 quota to port DOOM to MemoMind One glasses. The recording shows the device-oriented setup and game display. Source code, build and installation steps, frame-rate measurements and quota accounting are not supplied, so complete playability and cost are not independently verified.",
+      "number": 181,
+      "id": "case-181",
+      "source_id": "x:2114335057125278044",
+      "source_url": "https://x.com/nicongdev/status/2114335057125278044",
+      "author_handle": "nicongdev",
+      "author_url": "https://x.com/nicongdev",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 39,
+        "view_count": 12278,
+        "retweet_count": 1,
+        "reply_count": 7,
+        "quote_count": 0,
+        "bookmark_count": 6
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/nicongdev/status/2114335057125278044",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114299643458924544",
+          "source_id": "x:2114335057125278044",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2114299643458924544/vid/avc1/1532x704/UoB-RPLOX0SBy2_C.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114299643458924544.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114299643458924544-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Evaluation",
+      "title": "Interactive Egyptian temple comparison",
+      "takeaway": "Test requested interactions separately from scene appearance and completion time.",
+      "body_notes": "The creator reports the same Three.js Egyptian-temple task for Kimi K3.1 Pro and DeepSeek V4.1 Flash, including digging, brushing, a burial-chamber puzzle, weather and a day/night cycle. They report 41 and 32 minutes respectively. The recording supports visible differences, but does not verify every interaction or the reported timings.",
+      "number": 182,
+      "id": "case-182",
+      "source_id": "x:2114330266986799169",
+      "source_url": "https://x.com/sakatayasha/status/2114330266986799169",
+      "author_handle": "sakatayasha",
+      "author_url": "https://x.com/sakatayasha",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 72,
+        "view_count": 2610,
+        "retweet_count": 4,
+        "reply_count": 25,
+        "quote_count": 0,
+        "bookmark_count": 6
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/sakatayasha/status/2114330266986799169",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114330104117764096",
+          "source_id": "x:2114330266986799169",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114330104117764096/vid/avc1/1440x1440/RA3qE9KGGExq9LAQ.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114330104117764096.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114330104117764096-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Evaluation",
+      "title": "Pelican endless-runner comparison",
+      "takeaway": "Compare the recorded game with reported elapsed time and cost.",
+      "body_notes": "The publisher compares a Subway Surfers-style pelican bicycle task, reporting Kimi at 10m 01s/$0.95 and GPT-6 Astra at 19m 52s/$6.53. The clip shows different runners and end-of-test scores. Complete gameplay, scoring methodology and the bills have not been independently verified.",
+      "number": 183,
+      "id": "case-183",
+      "source_id": "x:2114294888523026501",
+      "source_url": "https://x.com/noclipepe/status/2114294888523026501",
+      "author_handle": "noclipepe",
+      "author_url": "https://x.com/noclipepe",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 54,
+        "view_count": 2811,
+        "retweet_count": 4,
+        "reply_count": 14,
+        "quote_count": 0,
+        "bookmark_count": 20
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/noclipepe/status/2114294888523026501",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114294727029780480",
+          "source_id": "x:2114294888523026501",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114294727029780480/vid/avc1/1080x1920/L3IkHobJNR3YQhX1.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114294727029780480.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114294727029780480-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Demo",
+      "title": "Pelican cycling after a quota adjustment",
+      "takeaway": "Inspect a later completed output without assuming universal quota recovery.",
+      "body_notes": "The creator shares a Kimi K3.1 Pro pelican-cycling recording after a reported quota increase and says longer tasks can now finish in their subscription. The clip supports this scene. It does not establish other subscribers’ allowances, full gameplay or whether all earlier quota problems are resolved.",
+      "number": 184,
+      "id": "case-184",
+      "source_id": "x:2114282056427663736",
+      "source_url": "https://x.com/xueyu1125/status/2114282056427663736",
+      "author_handle": "xueyu1125",
+      "author_url": "https://x.com/xueyu1125",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 63,
+        "view_count": 5015,
+        "retweet_count": 0,
+        "reply_count": 30,
+        "quote_count": 0,
+        "bookmark_count": 5
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/xueyu1125/status/2114282056427663736",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114280888393691136",
+          "source_id": "x:2114282056427663736",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2114280888393691136/vid/avc1/1920x1080/FP0dZjm_I3YfPIFF.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114280888393691136.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114280888393691136-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Evaluation",
+      "title": "Galaxy shooter built one system at a time",
+      "takeaway": "Build and test movement, waves and power-ups incrementally.",
+      "body_notes": "The creator compares three galaxy shooters built through the same six-step sequence: movement, firing, waves, power-ups, state screens and self-review. They report $0.31 for Kimi, $2.55 for Astra and $1.93 for Opus, preferring Kimi’s feature coverage. The recording supports the outputs; every gameplay feature and the reported costs are not independently rerun.",
+      "number": 185,
+      "id": "case-185",
+      "source_id": "x:2113995388189286653",
+      "source_url": "https://x.com/slash1sol/status/2113995388189286653",
+      "author_handle": "slash1sol",
+      "author_url": "https://x.com/slash1sol",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 100,
+        "view_count": 2901,
+        "retweet_count": 3,
+        "reply_count": 25,
+        "quote_count": 0,
+        "bookmark_count": 53
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/slash1sol/status/2113995388189286653",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113980108885090304",
+          "source_id": "x:2113995388189286653",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113980108885090304/vid/avc1/1920x1080/V1iTfP1jxi_0ee8u.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113980108885090304.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113980108885090304-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Demo",
+      "title": "Voxel boat through an autumn canal",
+      "takeaway": "Inspect controls and obstacles before treating a game as fully tested.",
+      "body_notes": "The creator attributes this voxel boat game to Kimi K3.1, reporting 28 minutes and $4.58. The source describes collecting riverlights and hitting pursuing coil snakes with a paddle. The recording shows the boat and canal, but full controls, collision behaviour, source code and the bill are not independently tested.",
+      "number": 186,
+      "id": "case-186",
+      "source_id": "x:2113970938375237770",
+      "source_url": "https://x.com/doe_naps/status/2113970938375237770",
+      "author_handle": "doe_naps",
+      "author_url": "https://x.com/doe_naps",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 41,
+        "view_count": 1402,
+        "retweet_count": 3,
+        "reply_count": 4,
+        "quote_count": 0,
+        "bookmark_count": 5
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/doe_naps/status/2113970938375237770",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113967551671881729",
+          "source_id": "x:2113970938375237770",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113967551671881729/vid/avc1/1920x1080/QJequbOtNlvy7zKo.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113967551671881729.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113967551671881729-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Evaluation",
+      "title": "Browser block-building game comparison",
+      "takeaway": "Check the claimed progression against the recorded game.",
+      "body_notes": "The publisher compares Kimi K3.1 Pro and GPT-6 Astra on a browser block-building game, reporting $2.30 and $13.40. They describe village, mine, Nether and portal progression. The recording shows a portion of the worlds; the entire progression, open-source claim, asset provenance and bills are not independently verified.",
+      "number": 187,
+      "id": "case-187",
+      "source_id": "x:2113722581610033330",
+      "source_url": "https://x.com/starmexxx/status/2113722581610033330",
+      "author_handle": "starmexxx",
+      "author_url": "https://x.com/starmexxx",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 36,
+        "view_count": 2440,
+        "retweet_count": 0,
+        "reply_count": 9,
+        "quote_count": 0,
+        "bookmark_count": 18
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/starmexxx/status/2113722581610033330",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113722412181147648",
+          "source_id": "x:2113722581610033330",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113722412181147648/vid/avc1/1920x1080/zBhTQHOQByS4lyZa.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113722412181147648.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113722412181147648-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Evaluation",
+      "title": "SpongeBob scene with five-agent teams",
+      "takeaway": "Compare team-based outputs alongside the stated orchestration.",
+      "body_notes": "Atomic Chat reports teams of five agents making a SpongeBob-themed scene, with Kimi finishing in 26 minutes versus two hours for Opus 5.5. The clip labels costs of $7.31 and $76.42. Those are source-reported timings and labels; the team traces, full implementation and functional game behaviour are not independently checked.",
+      "number": 188,
+      "id": "case-188",
+      "source_id": "x:2113700709506113948",
+      "source_url": "https://x.com/atomic_chat_hq/status/2113700709506113948",
+      "author_handle": "atomic_chat_hq",
+      "author_url": "https://x.com/atomic_chat_hq",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 2165,
+        "view_count": 261465,
+        "retweet_count": 102,
+        "reply_count": 60,
+        "quote_count": 30,
+        "bookmark_count": 842
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/atomic_chat_hq/status/2113700709506113948",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113700030813020160",
+          "source_id": "x:2113700709506113948",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113700030813020160/vid/avc1/1080x1080/F9H-JvpVC95cIQWx.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113700030813020160.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113700030813020160-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Demo",
+      "title": "Japanese action-game environment",
+      "takeaway": "Inspect a recorded environment without assuming complete gameplay.",
+      "body_notes": "The publisher attributes a Ghost of Tsushima-inspired scene to Kimi K3.1 Pro. The recording shows a third-person character, bridge, water and Japanese buildings. It supports the displayed environment and movement, but does not establish a complete game, original assets, public code or a reproducible build.",
+      "number": 189,
+      "id": "case-189",
+      "source_id": "x:2113694356939112498",
+      "source_url": "https://x.com/thebuggeddev/status/2113694356939112498",
+      "author_handle": "thebuggeddev",
+      "author_url": "https://x.com/thebuggeddev",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 487,
+        "view_count": 24852,
+        "retweet_count": 37,
+        "reply_count": 30,
+        "quote_count": 9,
+        "bookmark_count": 161
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/thebuggeddev/status/2113694356939112498",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113693956353757184",
+          "source_id": "x:2113694356939112498",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113693956353757184/vid/avc1/1730x1080/yOhBz1Ho0_rR-Zp4.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113693956353757184.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113693956353757184-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "games",
+      "type": "Demo",
+      "title": "Mechanical pelican bicycle with a missing effect",
+      "takeaway": "Check omitted requested effects as well as visual detail.",
+      "body_notes": "FiniYang shares a mechanical pelican bicycle made with Kimi K3.1 Pro in Kimi Desktop and says it failed to add the requested nitro-acceleration effect. The recording shows the model and viewer. This preserves the reported omission; complete motion behaviour, inputs and implementation are not independently tested.",
+      "number": 190,
+      "id": "case-190",
+      "source_id": "x:2113689317545795727",
+      "source_url": "https://x.com/FiniYang/status/2113689317545795727",
+      "author_handle": "FiniYang",
+      "author_url": "https://x.com/FiniYang",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 41,
+        "view_count": 7696,
+        "retweet_count": 0,
+        "reply_count": 18,
+        "quote_count": 4,
+        "bookmark_count": 4
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/FiniYang/status/2113689317545795727",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113689047298437120",
+          "source_id": "x:2113689317545795727",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113689047298437120/vid/avc1/1920x1080/7x46Yau1F3yqtvPJ.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113689047298437120.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113689047298437120-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "type": "Tutorial",
+      "title": "Recorded workflow for a 3D website",
+      "takeaway": "Follow the recorded setup while separating examples from promises.",
+      "body_notes": "The publisher shares a video tutorial for building 3D websites with Kimi K3.1 Pro. The recording includes reference browsing, a model session and website examples. Its broad budget comparisons are promotional claims, not verified savings; successful reproduction, all dependencies and ownership of every displayed asset are not established.",
+      "number": 191,
+      "id": "case-191",
+      "source_id": "x:2114311800191930880",
+      "source_url": "https://x.com/viktoroddy/status/2114311800191930880",
+      "author_handle": "viktoroddy",
+      "author_url": "https://x.com/viktoroddy",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 451,
+        "view_count": 22613,
+        "retweet_count": 50,
+        "reply_count": 13,
+        "quote_count": 0,
+        "bookmark_count": 496
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/viktoroddy/status/2114311800191930880",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114309393114406912",
+          "source_id": "x:2114311800191930880",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114309393114406912/vid/avc1/1108x720/hyoGbyiHlYtGTT56.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114309393114406912.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114309393114406912-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "type": "Evaluation",
+      "title": "Bicycle showroom across three models",
+      "takeaway": "Inspect product detail and layout with the recorded cost labels.",
+      "body_notes": "The publisher compares bicycle-showroom pages labelled Kimi K3.1 Pro, Opus 5.5 and GPT-6 Astra, with costs of $0.05, $0.72 and $2.63. The recording shows different bicycles and interface layouts. Full functionality, source code and the stated bills are not independently verified.",
+      "number": 192,
+      "id": "case-192",
+      "source_id": "x:2113727385904280034",
+      "source_url": "https://x.com/reMugi3/status/2113727385904280034",
+      "author_handle": "reMugi3",
+      "author_url": "https://x.com/reMugi3",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 40,
+        "view_count": 1504,
+        "retweet_count": 3,
+        "reply_count": 4,
+        "quote_count": 0,
+        "bookmark_count": 15
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/reMugi3/status/2113727385904280034",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113727092286189568",
+          "source_id": "x:2113727385904280034",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113727092286189568/vid/avc1/1920x1080/rL_W6Jd2t7xkSBvt.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727092286189568.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727092286189568-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "type": "Demo",
+      "title": "Pizza interface for a folding phone",
+      "takeaway": "Inspect the interaction concept in a device-shaped layout.",
+      "body_notes": "The creator attributes this iPhone Duo-oriented app concept to Kimi K3.1 Pro. The recording shows a pizza interface with ingredients and device framing. It supports the visible layout and animation, not a shipped native app, complete interaction coverage or a publicly reproducible implementation.",
+      "number": 193,
+      "id": "case-193",
+      "source_id": "x:2113715425456611738",
+      "source_url": "https://x.com/jaimintf/status/2113715425456611738",
+      "author_handle": "jaimintf",
+      "author_url": "https://x.com/jaimintf",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 94,
+        "view_count": 3781,
+        "retweet_count": 4,
+        "reply_count": 8,
+        "quote_count": 1,
+        "bookmark_count": 34
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/jaimintf/status/2113715425456611738",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113714872345370624",
+          "source_id": "x:2113715425456611738",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video.twimg.com/amplify_video/2113714872345370624/vid/avc1/1920x1920/OBk47Us98goZUUf6.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113714872345370624.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113714872345370624-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "web",
+      "type": "Evaluation",
+      "title": "Phone app interface comparison",
+      "takeaway": "Compare the visible screens without assuming a complete app.",
+      "body_notes": "The publisher presents phone interfaces labelled Fable 5.1, GPT-6 Astra and Kimi K3.1 Pro, reporting $17.30 for Kimi and $86.50 for Astra. The recording shows contrasting screens and transitions. The complete app behaviour, input equivalence and reported bills are not independently established.",
+      "number": 194,
+      "id": "case-194",
+      "source_id": "x:2113703132970799423",
+      "source_url": "https://x.com/jaimintf/status/2113703132970799423",
+      "author_handle": "jaimintf",
+      "author_url": "https://x.com/jaimintf",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 459,
+        "view_count": 28332,
+        "retweet_count": 20,
+        "reply_count": 15,
+        "quote_count": 4,
+        "bookmark_count": 308
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/jaimintf/status/2113703132970799423",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113703006298595330",
+          "source_id": "x:2113703132970799423",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113703006298595330/vid/avc1/3240x2160/MEYQuU2PfGPTRNdr.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113703006298595330.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113703006298595330-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Evaluation",
+      "title": "FawnBench deer modelling comparison",
+      "takeaway": "Inspect the specific model comparison before generalising a ranking.",
+      "body_notes": "FawnBench presents Kimi K3.1 Pro against Opus 5.5 on a deer-modelling task. The recording shows different deer shapes and surface treatments. It is retained as a task-specific visual comparison; the post supplies no complete input, executable models or documented aggregate scoring protocol.",
+      "number": 195,
+      "id": "case-195",
+      "source_id": "x:2114357112923103708",
+      "source_url": "https://x.com/fawnunwrap/status/2114357112923103708",
+      "author_handle": "fawnunwrap",
+      "author_url": "https://x.com/fawnunwrap",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 31,
+        "view_count": 1263,
+        "retweet_count": 0,
+        "reply_count": 5,
+        "quote_count": 1,
+        "bookmark_count": 3
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/fawnunwrap/status/2114357112923103708",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114356813520900096",
+          "source_id": "x:2114357112923103708",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114356813520900096/vid/avc1/1080x1350/F1D5UlLt_w50gLHz.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114356813520900096.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114356813520900096-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Limit",
+      "title": "CUDA competition timing and submission limits",
+      "takeaway": "Include thinking time and submission constraints in the task outcome.",
+      "body_notes": "The participant reports that Kimi K3.1 and other high-reasoning models took too long to improve CUDA.FAST solutions before the frontier advanced. They also report blocked parallel submissions from three devices on one account. The leaderboard screenshot is context; model delays and competition submission limits are separate source-reported constraints.",
+      "number": 196,
+      "id": "case-196",
+      "source_id": "x:2114252573553140099",
+      "source_url": "https://x.com/ivanfioravanti/status/2114252573553140099",
+      "author_handle": "ivanfioravanti",
+      "author_url": "https://x.com/ivanfioravanti",
+      "date": "2026-10-25",
+      "source_metrics": {
+        "like_count": 36,
+        "view_count": 4807,
+        "retweet_count": 1,
+        "reply_count": 12,
+        "quote_count": 0,
+        "bookmark_count": 13
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/ivanfioravanti/status/2114252573553140099",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114252564761845760",
+          "source_id": "x:2114252573553140099",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVdVgYAWoAAX2Cd.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114252564761845760.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Evaluation",
+      "title": "Rocket launch with a tool-labelled comparator",
+      "takeaway": "Check the comparator identity before attributing a model advantage.",
+      "body_notes": "The publisher compares a Kimi K3.1-labelled rocket run with a Claude Code-labelled run, reporting $11/three minutes and $115/30 minutes. The recording uses running cost and time labels. Claude Code is a tool label, so the underlying comparator model and equivalent settings are not established; the totals are source-reported.",
+      "number": 197,
+      "id": "case-197",
+      "source_id": "x:2114014409613832221",
+      "source_url": "https://x.com/Lummox_eth/status/2114014409613832221",
+      "author_handle": "Lummox_eth",
+      "author_url": "https://x.com/Lummox_eth",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 89,
+        "view_count": 3618,
+        "retweet_count": 4,
+        "reply_count": 21,
+        "quote_count": 0,
+        "bookmark_count": 29
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/Lummox_eth/status/2114014409613832221",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2114014351661182979",
+          "source_id": "x:2114014409613832221",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2114014351661182979/vid/avc1/1200x1200/TUVIdgM3aKZhEsv8.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114014351661182979.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2114014351661182979-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Benchmark",
+      "title": "VoxelBench live leaderboard snapshot",
+      "takeaway": "Read a leaderboard result within its own evaluation scope.",
+      "body_notes": "VoxelBench reports Kimi K3.1 Pro in sixth place on its live leaderboard, tied with Gemini 4 Argon. The source screenshot preserves that dated ranking. The underlying task set, uncertainty and later leaderboard changes are not independently evaluated here; this is the evaluator’s snapshot.",
+      "number": 198,
+      "id": "case-198",
+      "source_id": "x:2113994678404092215",
+      "source_url": "https://x.com/voxelbench/status/2113994678404092215",
+      "author_handle": "voxelbench",
+      "author_url": "https://x.com/voxelbench",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 70,
+        "view_count": 8166,
+        "retweet_count": 2,
+        "reply_count": 4,
+        "quote_count": 3,
+        "bookmark_count": 5
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/voxelbench/status/2113994678404092215",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113992768431230976",
+          "source_id": "x:2113994678404092215",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVZpOPQWkAAMEk9.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113992768431230976.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Limit",
+      "title": "WorkBuddy usage-limit interruption",
+      "takeaway": "Include provider quota interruptions when assessing a workflow.",
+      "body_notes": "The user reports Kimi K3.1 being difficult to use through WorkBuddy and shares a usage-limit message that stops further work until the allowance resets or the plan changes. The screenshot supports that interruption. The complete task, actual consumption and applicability to other plans are not established.",
+      "number": 199,
+      "id": "case-199",
+      "source_id": "x:2113908523138773437",
+      "source_url": "https://x.com/xKaka1456/status/2113908523138773437",
+      "author_handle": "xKaka1456",
+      "author_url": "https://x.com/xKaka1456",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 32,
+        "view_count": 2418,
+        "retweet_count": 0,
+        "reply_count": 28,
+        "quote_count": 0,
+        "bookmark_count": 0
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/xKaka1456/status/2113908523138773437",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113907640493621248",
+          "source_id": "x:2113908523138773437",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVYbzI-bQAAY1x1.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113907640493621248.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Benchmark",
+      "title": "KingBench score and cache-read costs",
+      "takeaway": "Compare the task score with the full reported usage cost.",
+      "body_notes": "The evaluator reports Kimi K3.1 Pro at 53.7% and $31.88 on KingBench 4, criticising repeated cache reads. A related cost diagram attributes $22.11 to cache reads and $6.93 to output, which do not alone total $31.88. Both charts are retained; the full accounting and proposed explanation for the behaviour are not independently verified.",
+      "number": 200,
+      "id": "case-200",
+      "source_id": "x:2113853437792121165",
+      "source_url": "https://x.com/aicodeking/status/2113853437792121165",
+      "author_handle": "aicodeking",
+      "author_url": "https://x.com/aicodeking",
+      "date": "2026-10-24",
+      "source_metrics": {
+        "like_count": 169,
+        "view_count": 17213,
+        "retweet_count": 9,
+        "reply_count": 12,
+        "quote_count": 3,
+        "bookmark_count": 12
+      },
+      "related_sources": [
+        {
+          "source_id": "x:2113849457376665866",
+          "source_url": "https://x.com/aicodeking/status/2113849457376665866",
+          "author_handle": "aicodeking",
+          "author_url": "https://x.com/aicodeking"
+        }
+      ],
+      "dedup_key": "https://x.com/aicodeking/status/2113853437792121165",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113852050232500224",
+          "source_id": "x:2113853437792121165",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVXpPXHW4AA-WnY.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113852050232500224.jpg"
+        },
+        {
+          "id": "2113849001124507648",
+          "source_id": "x:2113849457376665866",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVXmd4TXMAAKyUT.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113849001124507648.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Benchmark",
+      "title": "BuildingBench photo reconstruction",
+      "takeaway": "Compare reconstruction scores and task costs under one benchmark.",
+      "body_notes": "BuildingBench reports Kimi K3.1 Pro improving from K3’s 54.0 to 81.6, at an estimated median $12.58 per task. It highlights a photograph-based reconstruction of Melbourne’s Australian Centre for Contemporary Art scoring 90.8. The source chart and reconstruction are evaluator-reported, not an independent local rerun.",
+      "number": 201,
+      "id": "case-201",
+      "source_id": "x:2113781675427799338",
+      "source_url": "https://x.com/EnactraAI/status/2113781675427799338",
+      "author_handle": "EnactraAI",
+      "author_url": "https://x.com/EnactraAI",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 44,
+        "view_count": 4187,
+        "retweet_count": 8,
+        "reply_count": 10,
+        "quote_count": 2,
+        "bookmark_count": 9
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/EnactraAI/status/2113781675427799338",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113781636110430208",
+          "source_id": "x:2113781675427799338",
+          "source_type": "animated_gif",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/tweet_video/HVWpMuEbMAACg50.mp4",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113781636110430208.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113781636110430208-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Limit",
+      "title": "Code-review quota and token log",
+      "takeaway": "Read recorded consumption separately from extrapolated plan allowances.",
+      "body_notes": "The publisher relays a report that a review task with five subagents exhausted a five-hour Kimi allowance in roughly ten minutes. The screenshot lists 13,007,388 total tokens, including 11,667,200 cached input tokens. Proposed weekly and monthly totals are extrapolations, not verified limits; the full session log is not supplied.",
+      "number": 202,
+      "id": "case-202",
+      "source_id": "x:2113773360257896748",
+      "source_url": "https://x.com/leo114119/status/2113773360257896748",
+      "author_handle": "leo114119",
+      "author_url": "https://x.com/leo114119",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 56,
+        "view_count": 9712,
+        "retweet_count": 1,
+        "reply_count": 23,
+        "quote_count": 3,
+        "bookmark_count": 2
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/leo114119/status/2113773360257896748",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113773124248350720",
+          "source_id": "x:2113773360257896748",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVWhdQ6XMAA5o7w.png",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113773124248350720.png"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Benchmark",
+      "title": "Induction benchmark comparison",
+      "takeaway": "Choose a model using task-specific results and token cost.",
+      "body_notes": "The evaluator reports Kimi K3.1 Pro around Opus 5 on an induction benchmark, ahead of Qwen 3.8 Max and Muse Spark 1.3 but behind GPT-5.6 Sol, GPT-6.1 Sol and Opus 5.5. The supplied leaderboard is retained. These are protocol-specific reported results, including a token-usage cost tradeoff, not a general capability ranking.",
+      "number": 203,
+      "id": "case-203",
+      "source_id": "x:2113756315256590768",
+      "source_url": "https://x.com/s_batzoglou/status/2113756315256590768",
+      "author_handle": "s_batzoglou",
+      "author_url": "https://x.com/s_batzoglou",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 32,
+        "view_count": 9052,
+        "retweet_count": 1,
+        "reply_count": 8,
+        "quote_count": 3,
+        "bookmark_count": 12
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/s_batzoglou/status/2113756315256590768",
+      "kind": "benchmark",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113755113299021824",
+          "source_id": "x:2113756315256590768",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVWRE45akAAJCWR.jpg",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113755113299021824.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Evaluation",
+      "title": "Bach-style chorale evaluation",
+      "takeaway": "Inspect the musical output against the evaluator’s stated limitations.",
+      "body_notes": "The evaluator shares a Kimi K3.1 Pro max chorale in G minor on the Bach Benchmark and describes it as around Fable 5 level. They criticise the absence of non-chord tones and eighth notes. The musical recording and notation are source evidence; a full scoring protocol and independent rerun are not supplied.",
+      "number": 204,
+      "id": "case-204",
+      "source_id": "x:2113727877955174836",
+      "source_url": "https://x.com/aug5thmusic/status/2113727877955174836",
+      "author_handle": "aug5thmusic",
+      "author_url": "https://x.com/aug5thmusic",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 57,
+        "view_count": 2541,
+        "retweet_count": 5,
+        "reply_count": 2,
+        "quote_count": 1,
+        "bookmark_count": 18
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/aug5thmusic/status/2113727877955174836",
+      "kind": "comparison",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113727021671223296",
+          "source_id": "x:2113727877955174836",
+          "source_type": "video",
+          "type": "video",
+          "source_media_url": "https://video-s.twimg.com/amplify_video/2113727021671223296/vid/avc1/1920x1080/A8P1EJ-O08k0kCgJ.mp4?tag=29",
+          "playable_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727021671223296.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113727021671223296-poster.jpg"
+        }
+      ]
+    },
+    {
+      "category": "comparison",
+      "type": "Limit",
+      "title": "Gallery swarm interrupted by quota",
+      "takeaway": "Inspect the failed run rather than assuming agent count means completion.",
+      "body_notes": "The user reports a five-hour Kimi K3.1 Pro allowance being exhausted about a minute into a gallery-generation request, with nothing built. The screenshot shows many agent entries returning 429 errors. The task failure and timing are one user’s report, not a measured failure rate across subscriptions.",
+      "number": 205,
+      "id": "case-205",
+      "source_id": "x:2113703310301839567",
+      "source_url": "https://x.com/MiaAI_lab/status/2113703310301839567",
+      "author_handle": "MiaAI_lab",
+      "author_url": "https://x.com/MiaAI_lab",
+      "date": "2026-10-23",
+      "source_metrics": {
+        "like_count": 1750,
+        "view_count": 136364,
+        "retweet_count": 54,
+        "reply_count": 184,
+        "quote_count": 34,
+        "bookmark_count": 118
+      },
+      "related_sources": [],
+      "dedup_key": "https://x.com/MiaAI_lab/status/2113703310301839567",
+      "kind": "usecase",
+      "attribution_status": "source-reported; checkpoint and execution claims not independently verified",
+      "prompt_status": "not_reconstructed",
+      "prompt_boundary": "Usecase collection; exact source inputs are omitted rather than reconstructed.",
+      "media": [
+        {
+          "id": "2113701448101883904",
+          "source_id": "x:2113703310301839567",
+          "source_type": "photo",
+          "type": "image",
+          "source_media_url": "https://pbs.twimg.com/media/HVVgRKdXcAAAAQF.png",
+          "image_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/media/2113701448101883904.png"
+        }
+      ]
     }
   ],
   "banner_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/cover/banner.png",
   "banner_policy": "shared-r2; owner-supplied original shared across all 11 languages",
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-10-26",
   "batches": [
     {
       "date": "2026-10-23",
@@ -5592,6 +8811,11 @@
       "date": "2026-10-25",
       "start": 84,
       "end": 125
+    },
+    {
+      "date": "2026-10-26",
+      "start": 126,
+      "end": 205
     }
   ]
 }
