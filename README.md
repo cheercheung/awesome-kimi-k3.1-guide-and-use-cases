@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://evolink.ai?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=kimi-k3-1-usecases&amp;utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/cover/banner.png" alt="Awesome Kimi K3.1 Use Cases" width="760"></a>
+<a href="https://evolink.ai/kimi-k3-1-pro?utm_source=github&amp;utm_medium=banner&amp;utm_campaign=kimi-k3-1-usecases&amp;utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-kimi-k3-1-guide-and-use-cases/assets/cover/banner.png" alt="Awesome Kimi K3.1 Use Cases" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
